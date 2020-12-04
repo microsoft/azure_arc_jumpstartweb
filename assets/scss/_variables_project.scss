@@ -1,0 +1,25 @@
+/*
+
+Add styles or override variables from the theme here.
+
+*/
+
+//
+// Style Markdown content
+//
+
+.td-content {
+    > h3, > h4, > h5, > h6 {
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+
+    > ol ol {
+        list-style: lower-roman;
+    }
+
+    > ol ol ol {
+        list-style: lower-alpha;
+    }
+}
+

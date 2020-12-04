@@ -1,0 +1,28 @@
+{
+  "name": "tech-doc-hugo",
+  "version": "0.0.1",
+  "description": "Hugo theme for technical documentation.",
+  "main": "none.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "git submodule foreach git pull origin main && cp -a ./submodules/docs/** ./content/en/docs/ && hugo serve",
+    "build": "git submodule foreach git pull origin main && cp -a ./submodules/docs/** ./content/en/docs/ && hugo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/google/docsy-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/google/docsy-example/issues"
+  },
+  "homepage": "https://github.com/google/docsy-example#readme",
+  "dependencies": {
+    "atomic-algolia": "^0.3.19"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2"
+  }
+}

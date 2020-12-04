@@ -1,0 +1,8 @@
+public/
+resources/
+node_modules/
+tech-doc-hugo
+content/en/docs/**
+!content/en/docs/.gitkeep
+
+
