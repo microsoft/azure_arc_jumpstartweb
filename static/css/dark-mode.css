@@ -3,10 +3,36 @@ html, body {
 	color: white;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+	color: #52eaff !important;
+}
+
 .td-navbar {
   background: #1a1a1a !important;
 }
 
 .td-navbar .navbar-brand .logo-text {
 	color: white;
+}
+
+.td-main .td-sidebar {
+	border-top: 0px;
+	border-left: 1px solid black;
+}
+
+.td-main .td-sidebar .td-sidebar-nav__section-title a {
+	color: #52eaff;
+}
+.td-main .td-sidebar .td-sidebar-nav a.active {
+	color: #fec011;
+}
+
+.td-toc .td-page-meta a {
+	color: #52eaff;
+}
+.td-toc nav a {
+	color: #52eaff !important;
+}
+a {
+	color: #52eaff;
 }

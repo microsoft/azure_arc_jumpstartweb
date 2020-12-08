@@ -88,7 +88,21 @@ input::placeholder {
 .td-toc {
     top: 8rem !important;
     border-left: 0 !important;
+    .td-page-meta {
+        margin-left: 0 !important;
+        a {
+            color: #05498d;
+            font-size: 18px;
+        }
+    }
+    nav {
+        a {
+          color: #05498d !important;
+        }
+    }
+
 }
+    
 .td-content {
     > h3, > h4, > h5, > h6 {
         margin-bottom: 1rem;
