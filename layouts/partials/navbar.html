@@ -1,23 +1,15 @@
 {{ $cover := .HasShortcode "blocks/cover" }}
 <nav class="js-navbar-scroll navbar navbar-expand navbar-dark {{ if $cover}} td-navbar-cover {{ end }}flex-column flex-md-row td-navbar">
-        <a class="navbar-brand" href="{{ .Site.BaseURL }}/docs">
-		<span class="navbar-logo">{{ if .Site.Params.ui.navbar_logo }}<img src="{{.Site.BaseURL}}images/jumpstart-logo.png" alt="logo" />{{ end }}</span><span class="logo-text font-weight-bold">{{ .Site.Title }}</span>
+        <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+		<span class="navbar-logo">{{ if .Site.Params.ui.navbar_logo }}<img src="{{.Site.BaseURL}}img/jumpstart-logo.png" alt="logo" />{{ end }}</span><span class="logo-text font-weight-bold">{{ .Site.Title }}</span>
 	</a>
 	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
 		<ul class="navbar-nav mt-2 mt-lg-0">
 			{{ $p := . }}
 			
-			{{ range .Site.Menus.main }}
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-				{{ $active := or ($p.IsMenuCurrent "main" .) ($p.HasMenuCurrent "main" .) }}
-				{{ with .Page }}
-				{{ $active = or $active ( $.IsDescendant .)  }}
-				{{ end }}
-				{{ $url := urls.Parse .URL }}
-				{{ $baseurl := urls.Parse $.Site.Params.Baseurl }}
-				<a class="nav-link{{if $active }} active{{end}}" href="{{ with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end }}" {{ if ne $url.Host $baseurl.Host }}target="_blank" {{ end }}><span{{if $active }} class="active"{{end}}>{{ .Name }}</span></a>
+				<a class="nav-link" href="{{.Site.Params.github_repo}}" target="_blank">About</a>
 			</li>
-			{{ end }}
 
 			{{ if  .Site.Params.versions }}
 			<li class="nav-item dropdown d-none d-lg-block">
@@ -36,7 +28,7 @@
 		<span style="text-shadow: none;"><a class="github-button" href={{.Site.Params.github_repo}} data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
 	</div>
 	<a id="dark-mode-toggle" class="fal fa-moon-o nav-item">
-		<img src="{{.Site.BaseURL}}images/light-dark.png" alt="mode" />
+		<img src="{{.Site.BaseURL}}img/light-dark.png" alt="mode" />
 	</a>
 
 </nav>

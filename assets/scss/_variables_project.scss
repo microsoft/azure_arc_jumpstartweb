@@ -69,6 +69,7 @@ input::placeholder {
         .td-sidebar-nav {
             padding-top: 2rem;
         }
+        
         .td-sidebar-nav__section-title a {
            color: #05498d;
            font-size: 24px;
@@ -104,6 +105,10 @@ input::placeholder {
 }
     
 .td-content {
+    h1 {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
     > h3, > h4, > h5, > h6 {
         margin-bottom: 1rem;
         margin-top: 2rem;
