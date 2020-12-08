@@ -8,6 +8,87 @@ Add styles or override variables from the theme here.
 // Style Markdown content
 //
 
+input::placeholder {
+    color: #808080 !important;
+}
+
+.td-navbar {
+    background: white !important;
+    .td-search-input {
+        background: #e1e1e1;
+        color: #808080;
+        font-size: 20px;
+        border-radius: 40px;
+        width: 350px;
+        padding-left: 25px;
+    }
+    .widget {
+        margin: 8px 10px 0 -20px;
+    }
+}
+
+.td-navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    .navbar-logo {
+        img {
+            width: 110px;
+        }
+    }
+    .logo-text {
+        font-size: 48px;
+        margin-bottom: 10px;
+        color: #000000;
+    }
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #05498d !important;
+    font-size: 24px;
+}
+#dark-mode-toggle {
+    font-size: 20px;
+    margin-left: 0;
+    background: white;
+    img {
+        margin-top: 1px;
+        width: 28px;
+        height: 28px;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+.td-main {
+    .td-sidebar {
+        margin-top: 8.1rem;
+        padding-top: 0;
+        margin-top: 8.1rem;
+        border-top: 1px solid #dee2e6;
+        background: none;
+
+        .td-sidebar-nav {
+            padding-top: 2rem;
+        }
+        .td-sidebar-nav__section-title a {
+           color: #05498d;
+           font-size: 24px;
+        }
+        .td-sidebar-nav a.active {
+            color: #070707;
+        }
+        .td-sidebar__inner {
+            top: 8.1rem;
+            position: sticky;
+        }
+    }
+    main {
+        padding-top: 10rem !important;
+    }
+}
+.td-toc {
+    top: 8rem !important;
+    border-left: 0 !important;
+}
 .td-content {
     > h3, > h4, > h5, > h6 {
         margin-bottom: 1rem;

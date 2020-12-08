@@ -1,0 +1,12 @@
+html, body {
+	background: #1a1a1a;
+	color: white;
+}
+
+.td-navbar {
+  background: #1a1a1a !important;
+}
+
+.td-navbar .navbar-brand .logo-text {
+	color: white;
+}
