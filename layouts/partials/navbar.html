@@ -22,13 +22,12 @@
 			</li>
 			{{ end }}
 		</ul>
+		<div class="navbar-nav">{{ partial "search-input.html" . }}</div>
+		<div class="widget">
+			<span style="text-shadow: none;"><a class="github-button" href={{.Site.Params.github_repo}} data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
+		</div>
+		<a id="dark-mode-toggle" class="fal fa-moon-o nav-item">
+			<img src="{{.Site.BaseURL}}img/light-dark.png" alt="mode" />
+		</a>
 	</div>
-	<div class="navbar-nav d-none d-lg-block">{{ partial "search-input.html" . }}</div>
-	<div class="widget">
-		<span style="text-shadow: none;"><a class="github-button" href={{.Site.Params.github_repo}} data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
-	</div>
-	<a id="dark-mode-toggle" class="fal fa-moon-o nav-item">
-		<img src="{{.Site.BaseURL}}img/light-dark.png" alt="mode" />
-	</a>
-
 </nav>

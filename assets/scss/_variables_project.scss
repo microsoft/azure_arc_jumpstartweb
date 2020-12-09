@@ -20,6 +20,10 @@ input::placeholder {
 .td-navbar {
     background: white !important;
     border-bottom: 1px solid #dee2e6;
+    .td-navbar-nav-scroll {
+        display: flex;
+        align-items: center;
+    }
     .td-search-input {
         background: #e1e1e1;
         color: #808080;
@@ -29,7 +33,7 @@ input::placeholder {
         padding-left: 25px;
     }
     .widget {
-        margin: 8px 10px 0 -20px;
+        margin: 8px 10px 0 0px;
     }
 }
 
@@ -220,11 +224,16 @@ input::placeholder {
     .td-navbar {
         .td-search-input {
             font-size: 16px;
+            width: 220px;
         }
         .navbar-brand {
+            width: 100%;
             .logo-text {
                 font-size: 32px;
             }
+        }
+        .navbar-nav {
+            padding-bottom: 0 !important;
         }
     }
     .navbar-dark .navbar-nav .nav-link {
@@ -251,8 +260,9 @@ input::placeholder {
             font-size: 14px;
         }
         .navbar-brand {
+            width: 150px;
             .logo-text {
-                font-size: 30px;
+                display: none;
             }
         }
     }
@@ -274,9 +284,48 @@ input::placeholder {
         }
     }
 }
-@media(max-width: 599px) {
+@media(max-width: 767px) {
+    .td-navbar {
+        .td-search-input {
+            font-size: 14px;
+        }
+        .navbar-brand {
+            width: 370px;
+            .logo-text {
+                display: block;
+                font-size: 24px;
+            }
+        }
+    }
     .td-content {
         font-size: 14px;
+    }
+    .td-main {
+        main {
+            padding-top: 2rem !important;
+        }
+        .td-sidebar {
+            position: fixed !important;
+            .td-sidebar__inner {
+                top: 2rem;
+            }
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    .td-navbar {
+        .navbar-brand {
+            width: 350px;
+            .navbar-logo img {
+                width: 100px;
+            }
+        }
+    }
+    .td-navbar {
+        .widget {
+            display: none;
+        }
     }
 }
 
