@@ -34,5 +34,6 @@ html, body {
 	color: #52eaff !important;
 }
 a {
-	color: #52eaff;
+	color: #52eaff !important;
 }
+

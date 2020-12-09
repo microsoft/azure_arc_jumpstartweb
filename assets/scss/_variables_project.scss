@@ -12,8 +12,14 @@ input::placeholder {
     color: #808080 !important;
 }
 
+.section-index h5 a{
+    font-size: 20px;
+    color: #05498d;
+}
+
 .td-navbar {
     background: white !important;
+    border-bottom: 1px solid #dee2e6;
     .td-search-input {
         background: #e1e1e1;
         color: #808080;
@@ -26,6 +32,7 @@ input::placeholder {
         margin: 8px 10px 0 -20px;
     }
 }
+
 
 .td-navbar .navbar-brand {
     display: flex;
@@ -63,11 +70,13 @@ input::placeholder {
         margin-top: 8.1rem;
         padding-top: 0;
         margin-top: 8.1rem;
-        border-top: 1px solid #dee2e6;
         background: none;
 
         .td-sidebar-nav {
             padding-top: 2rem;
+            .td-sidebar-nav__section {
+                padding-left: .5rem;
+            }
         }
         
         .td-sidebar-nav__section-title a {
@@ -84,6 +93,9 @@ input::placeholder {
     }
     main {
         padding-top: 10rem !important;
+    }
+    a {
+        color: #05498d;
     }
 }
 .td-toc {
@@ -105,9 +117,23 @@ input::placeholder {
 }
     
 .td-content {
+    font-size: 20px;
     h1 {
         padding-bottom: 1rem;
         border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 32px;
+    }
+    h4 {
+        font-size: 28px;
+    }
+    h5, h6 {
+        font-size: 24px;
     }
     > h3, > h4, > h5, > h6 {
         margin-bottom: 1rem;
@@ -120,6 +146,137 @@ input::placeholder {
 
     > ol ol ol {
         list-style: lower-alpha;
+    }
+    a {
+        color: #05498d;
+    }
+}
+
+@media(max-width: 1959px) {
+    .td-navbar {
+        .td-search-input {
+            font-size: 18px;
+        }
+        .navbar-brand {
+            .logo-text {
+                font-size: 40px;
+            }
+        }
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 20px;
+    }
+    .td-main {
+        .td-sidebar {
+            .td-sidebar-nav__section-title a {
+               font-size: 20px;
+            }
+        }
+    }
+    .td-toc {
+        .td-page-meta {
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+    .td-content {
+        font-size: 18px;
+    }
+}
+@media(max-width: 1559px) {
+    .td-navbar {
+        .td-search-input {
+            font-size: 18px;
+        }
+        .navbar-brand {
+            .logo-text {
+                font-size: 36px;
+            }
+        }
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+    .td-main {
+        .td-sidebar {
+            .td-sidebar-nav__section-title a {
+               font-size: 16px;
+            }
+        }
+    }
+    .td-toc {
+        .td-page-meta {
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+    .td-content {
+        font-size: 16px;
+    }
+}
+@media(max-width: 1199px) {
+    .td-navbar {
+        .td-search-input {
+            font-size: 16px;
+        }
+        .navbar-brand {
+            .logo-text {
+                font-size: 32px;
+            }
+        }
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+    .td-main {
+        .td-sidebar {
+            .td-sidebar-nav__section-title a {
+               font-size: 16px;
+            }
+        }
+    }
+    .td-toc {
+        .td-page-meta {
+            a {
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media(max-width: 989px) {
+    .td-navbar {
+        .td-search-input {
+            font-size: 14px;
+        }
+        .navbar-brand {
+            .logo-text {
+                font-size: 30px;
+            }
+        }
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 18px;
+    }
+    .td-main {
+        .td-sidebar {
+            .td-sidebar-nav__section-title a {
+               font-size: 14px;
+            }
+        }
+    }
+    .td-toc {
+        .td-page-meta {
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media(max-width: 599px) {
+    .td-content {
+        font-size: 14px;
     }
 }
 
