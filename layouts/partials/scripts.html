@@ -46,9 +46,11 @@ function setTheme(mode) {
     if (mode === "dark") {
         darkTheme.disabled = false;
         toggle.className = "fal fa-sun-o";
+        toggle.checked = true;
     } else if (mode === "light") {
         darkTheme.disabled = true;
         toggle.className = "fal fa-moon-o";
+        toggle.checked = false;
     }
 }
 </script>
