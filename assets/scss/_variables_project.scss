@@ -31,6 +31,7 @@ input::placeholder {
         border-radius: 40px;
         width: 350px;
         padding-left: 25px;
+        outline: none;
     }
     .widget {
         margin: 8px 10px 0 0px;
@@ -48,6 +49,7 @@ input::placeholder {
     }
     .logo-text {
         font-size: 48px;
+        margin-left: 10px;
         margin-bottom: 10px;
         color: #000000;
     }
@@ -85,7 +87,10 @@ input::placeholder {
         
         .td-sidebar-nav__section-title a {
            color: #05498d;
-           font-size: 24px;
+           font-size: 20px;
+        }
+        .td-sidebar-nav a:hover {
+            color: #070707;
         }
         .td-sidebar-nav a.active {
             color: #070707;
@@ -154,6 +159,9 @@ input::placeholder {
     a {
         color: #05498d;
     }
+    strong {
+        color: #05498d;
+    }
 }
 
 @media(max-width: 1959px) {
@@ -173,7 +181,7 @@ input::placeholder {
     .td-main {
         .td-sidebar {
             .td-sidebar-nav__section-title a {
-               font-size: 20px;
+               font-size: 18px;
             }
         }
     }

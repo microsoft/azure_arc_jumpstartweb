@@ -11,6 +11,12 @@ html, body {
   background: #1a1a1a !important;
 }
 
+.td-navbar .td-search-input {
+	background: #262626 !important;
+	color: #666666;
+	outline: none !important;
+}
+
 .td-navbar .navbar-brand .logo-text {
 	color: white;
 }
@@ -23,8 +29,11 @@ html, body {
 .td-main .td-sidebar .td-sidebar-nav__section-title a {
 	color: #52eaff;
 }
+.td-main .td-sidebar .td-sidebar-nav a:hover {
+	color: #fec011 !important;
+}
 .td-main .td-sidebar .td-sidebar-nav a.active {
-	color: #fec011;
+	color: #fec011 !important;
 }
 
 .td-toc .td-page-meta a {
