@@ -1,6 +1,7 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4eca11be-70f4-4b26-a49a-9f0da1f54c64/deploy-status)](https://app.netlify.com/sites/azurearcjumpstart/deploys)
 # Azure Arc Jumpstart Documentation
 
-https://azure-arc-doc.netlify.app/
+https://azurearcjumpstart.io/
 
 ## Overview
 
@@ -42,5 +43,4 @@ You have to edit & update docs content in the production repo.
 
 [azure_arc/docs](https://github.com/microsoft/azure_arc/docs)
 
-Or you can eidt & content in website.
-
+Or you can edit & content in website.
