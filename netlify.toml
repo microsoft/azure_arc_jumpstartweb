@@ -1,2 +1,8 @@
 [context.production.environment]
   HUGO_VERSION = "0.71.0"
+[[redirects]]
+  from = "/"
+  to = "/overview"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}

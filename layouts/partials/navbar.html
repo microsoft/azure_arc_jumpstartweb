@@ -1,6 +1,6 @@
 {{ $cover := .HasShortcode "blocks/cover" }}
 <nav class="js-navbar-scroll navbar navbar-expand navbar-dark {{ if $cover}} td-navbar-cover {{ end }}flex-column flex-md-row td-navbar">
-        <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+        <a class="navbar-brand" href="{{ .Site.BaseURL }}overview">
 		<span class="navbar-logo">{{ if .Site.Params.ui.navbar_logo }}<img src="{{.Site.BaseURL}}img/jumpstart-logo.png" alt="logo" />{{ end }}</span><span class="logo-text font-weight-bold">{{ .Site.Title }}</span>
 	</a>
 	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
@@ -24,7 +24,7 @@
 		</ul>
 		<div class="navbar-nav">{{ partial "search-input.html" . }}</div>
 		<div class="widget">
-			<span style="text-shadow: none;"><a class="github-button" href={{.Site.Params.github_repo}} data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
+			<a class="github-button" href={{.Site.Params.github_repo}} data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script>
 		</div>
 		<a class="dark-mode-toggle">
 			<label class="switch">

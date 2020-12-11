@@ -13,7 +13,7 @@ html, body {
 
 .td-navbar .td-search-input {
 	background: #262626 !important;
-	color: #666666;
+	color: #ffffff;
 	outline: none !important;
 }
 
@@ -41,6 +41,10 @@ html, body {
 }
 .td-toc nav a {
 	color: #52eaff !important;
+}
+.td-content pre  {
+	background: #161b22 !important;
+	color: #c9d1d9 !important;
 }
 a {
 	color: #52eaff !important;

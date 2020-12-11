@@ -1,4 +1,4 @@
-baseURL = "https://azure-arc-doc.netlify.app/"
+baseURL = "https://azurearcjumpstart.io/"
 title = "Azure Arc Docs"
 enableRobotsTXT = true
 theme = ["docsy"]
