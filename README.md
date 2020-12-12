@@ -1,8 +1,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4eca11be-70f4-4b26-a49a-9f0da1f54c64/deploy-status)](https://app.netlify.com/sites/azurearcjumpstart/deploys)
 # Azure Arc Jumpstart Documentation
 
-https://azurearcjumpstart.io/
-
+<!-- https://azurearcjumpstart.io/ -->
+<!-- Hide until launch -->
 ## Overview
 
 This docs is built using Hugo with the Docsy theme, hosted through Netlify.
