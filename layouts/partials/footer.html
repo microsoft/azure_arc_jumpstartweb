@@ -1,5 +1,5 @@
 {{ $links := .Site.Params.links }}
-<footer class="bg-dark py-5 row d-print-none">
+<!-- <footer class="bg-dark py-5 row d-print-none">
   <div class="container-fluid mx-sm-5">
     <div class="row">
       <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
@@ -7,5 +7,34 @@
       </div>
     </div>
   </div>
-</footer>
+</footer> -->
 
+
+
+
+
+
+<footer class="bg-dark py-5 row d-print-none">
+  <div class="container-fluid mx-sm-5">
+    <div class="row">
+      <div class="col-6 col-sm-4 text-xs-center order-sm-2">
+      </div>
+      <div class="col-6 col-sm-4 text-right text-xs-center order-sm-3">
+<ul class="list-inline mb-0">
+  <li class="list-inline-item mx-2 h3" data-toggle="tooltip" data-placement="top" title="" aria-label="GitHub" data-original-title="GitHub">
+    <a class="text-white" target="_blank" rel="noopener noreferrer" href="https://github.com/microsoft/azure_arc">
+      <i class="fab fa-github"></i>
+    </a>
+  </li>
+</ul>
+      </div>
+      <div class="col-12 col-sm-4 text-center py-2 order-sm-2">
+        {{ with .Site.Params.copyright }}<small class="text-white">&copy; {{ now.Year}} {{ .}} {{ T "footer_all_rights_reserved" }}</small>{{ end }}
+		<p class="mt-2"><a href=
+      <a href="https://www.netlify.com">
+        <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
+      </a></a></p>
+      </div>
+    </div>
+  </div>
+</footer>
