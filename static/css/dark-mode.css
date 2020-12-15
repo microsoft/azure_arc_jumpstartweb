@@ -83,6 +83,7 @@ strong {
 /* Main category (eg. Getting Started) */
 .algolia-autocomplete .algolia-docsearch-suggestion--category-header {
   border-color: white !important;
+  color: white !important;
 }
 
 /* Category (eg. Downloads) */
