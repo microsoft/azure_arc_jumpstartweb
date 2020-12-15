@@ -46,7 +46,7 @@ html, body {
 .td-content .highlight {
 	background-color: inherit !important;
 }
-.td-content pre  {
+.td-content .highlight pre  {
 	background-color: inherit !important;
 	border: 1px solid #eee;
 	color: inherit !important;

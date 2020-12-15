@@ -213,8 +213,11 @@ input::placeholder {
     strong {
         color: #05498d;
     }
+    .highlight {
+        border: 0px !important;
+    }
     pre {
-        background-color: inherit !important;
+        background-color: #f8f9fa !important;
         color: inherit !important;
     }
 }
