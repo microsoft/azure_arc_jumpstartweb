@@ -74,8 +74,6 @@ strong {
 	background: #222 !important;
 }
 
-
-
 .algolia-autocomplete .algolia-docsearch-suggestion--wrapper {
 	background: #222;
 }
@@ -83,6 +81,7 @@ strong {
 /* Main category (eg. Getting Started) */
 .algolia-autocomplete .algolia-docsearch-suggestion--category-header {
   border-color: white !important;
+  font-weight: bold !important;
   color: white !important;
 }
 
@@ -109,5 +108,7 @@ strong {
 
 /* Highlighted text */
 .algolia-autocomplete .algolia-docsearch-suggestion--highlight {
-  color: blue;
+	color: #52eaff !important;
+	background: rgba(143,187,237,.1) !important;
+	padding: .1em .05em !important;
 }
