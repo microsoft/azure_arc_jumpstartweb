@@ -43,9 +43,13 @@ html, body {
 	color: #52eaff !important;
 }
 
-
+.td-content .highlight {
+	background-color: inherit !important;
+}
 .td-content pre  {
-	background-color: #002b36 !important;
+	background-color: inherit !important;
+	border: 1px solid #eee;
+	color: inherit !important;
 }
 a {
 	color: #52eaff !important;
