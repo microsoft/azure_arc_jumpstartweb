@@ -1,5 +1,5 @@
 html, body {
-	background: #1a1a1a;
+	background-color: #1a1a1a;
 	color: white;
 }
 
@@ -42,8 +42,10 @@ html, body {
 .td-toc nav a {
 	color: #52eaff !important;
 }
+
+
 .td-content pre  {
-	background: inherit;
+	background-color: #002b36 !important;
 }
 a {
 	color: #52eaff !important;
