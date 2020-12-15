@@ -213,6 +213,9 @@ input::placeholder {
     strong {
         color: #05498d;
     }
+    pre {
+        background: inherit;
+    }
 }
 
 @media(max-width: 1959px) {
