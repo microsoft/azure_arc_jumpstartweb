@@ -43,7 +43,7 @@ html, body {
 	color: #52eaff !important;
 }
 .td-content pre  {
-	background: #f8f9fa !important;
+	background: inherit;
 }
 a {
 	color: #52eaff !important;
