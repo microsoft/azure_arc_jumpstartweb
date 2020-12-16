@@ -49,8 +49,4 @@ This docs is built using Hugo with the Docsy theme, hosted through Netlify.
 ## Update docs
 
 Docs contents are imported as a submodule.
-You have to edit & update docs content in the production repo.
-
-[azure_arc/docs](https://github.com/microsoft/azure_arc/docs)
-
-Or you can edit & content in website.
+You have to edit & update docs content in the [production repository](https://github.com/microsoft/azure_arc/tree/main/docs) or edit the content in website.
