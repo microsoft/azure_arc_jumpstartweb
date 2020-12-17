@@ -50,3 +50,45 @@ This docs is built using Hugo with the Docsy theme, hosted through Netlify.
 
 Docs contents are imported as a submodule.
 You have to edit & update docs content in the [production repository](https://github.com/microsoft/azure_arc/tree/main/docs) or edit the content in website.
+
+## Algolia Docsearch 
+
+- set enable algolia docsearch in the config.toml
+
+```
+algolia_docsearch = true
+```
+
+- layouts/partials/hooks/head-end.html
+
+```
+{{ with .Site.Params.algolia_docsearch }}
+<!-- stylesheet for algolia docsearch -->
+{{ end }}
+```
+
+- layouts/partials/hooks/body-end.html
+
+```
+{{ with .Site.Params.algolia_docsearch }}
+<!-- scripts for algolia docsearch -->
+{{ end }}
+```
+
+## Header Navbar Edit
+
+In the config.toml
+
+```
+# Navbar Menu
+
+[[params.menu]]
+    name="About"
+    link="xxxx"
+    weight=1
+    
+[[params.menu]]
+    name="Test"
+    link="xxxx"
+    weight=2
+```

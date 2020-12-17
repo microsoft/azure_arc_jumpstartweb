@@ -45,8 +45,11 @@ id = "UA-00000000-0"
 title = "Azure Arc Jumpstart"
 description = "Azure Arc environments bootstrapping for everyone"
 languageName ="English"
+
 # Weight used for sorting.
 weight = 1
+
+
 
 [markup]
   [markup.goldmark]
@@ -61,7 +64,21 @@ weight = 1
 # Everything below this are Site Params
 
 [params]
+
 copyright = "Azure Arc Jumpstart."
+
+# Navbar Menu
+
+[[params.menu]]
+	name="About"
+	link="https://github.com/microsoft/azure_arc"
+	weight=1
+	
+# [[params.menu]]
+#		name="Test"
+#		link="..."
+#		weight=2
+
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.

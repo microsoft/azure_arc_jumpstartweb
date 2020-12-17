@@ -6,11 +6,11 @@
 	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
 		<ul class="navbar-nav mt-2 mt-lg-0">
 			{{ $p := . }}
-			
+			{{ range $.Site.Params.menu }}
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
-				<a class="nav-link" href="{{.Site.Params.github_repo}}" target="_blank">About</a>
+				<a class="nav-link" href="{{.link}}">{{.name}}</a>
 			</li>
-
+			{{ end }}
 			{{ if  .Site.Params.versions }}
 			<li class="nav-item dropdown d-none d-lg-block">
 				{{ partial "navbar-version-selector.html" . }}
