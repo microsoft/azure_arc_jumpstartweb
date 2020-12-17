@@ -75,20 +75,21 @@ algolia_docsearch = true
 {{ end }}
 ```
 
-## Header Navbar Edit
+## Navbar Menu
 
 In the config.toml
 
 ```
 # Navbar Menu
 
-[[params.menu]]
-    name="About"
-    link="xxxx"
-    weight=1
+[menu]
+    [[menu.main]]
+        name="About"
+        url="https://github.com/microsoft/azure_arc"
+        weight=1
     
-[[params.menu]]
-    name="Test"
-    link="xxxx"
-    weight=2
+# [[menu.main]]
+#       name="Test"
+#       url="..."
+#       weight=2
 ```
