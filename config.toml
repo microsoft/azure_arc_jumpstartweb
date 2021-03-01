@@ -80,13 +80,9 @@ copyright = "Azure Arc Jumpstart."
 version_menu = "Releases"
 
 [[menu.main]]
-    name = "Example Site"
+    name = "test"
     weight = 40
     url = "https://example.docsy.dev"
-[[menu.main]]
-    name = "GitHub"
-    weight = 50
-    url = "https://github.com/google/docsy/"
 
 # Flag used in the "version-banner" partial to decide whether to display a 
 # banner on every page indicating that this is an archived version of the docs.
