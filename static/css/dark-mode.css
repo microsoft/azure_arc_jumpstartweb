@@ -50,6 +50,9 @@ html, body {
 	background-color: #222 !important;
 	color: inherit !important;
 }
+.td-content .table {
+	color: #30ffd9
+}
 a {
 	color: #52eaff !important;
 }
