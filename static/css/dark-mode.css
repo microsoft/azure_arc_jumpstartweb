@@ -50,9 +50,6 @@ html, body {
 	background-color: #222 !important;
 	color: inherit !important;
 }
-/* .td-content .table .td-box {
-	color: #30ffd9 !important;
-} */
 
 .table, .td-content>table, .td-box .row.section>table {
     width: 100%;
