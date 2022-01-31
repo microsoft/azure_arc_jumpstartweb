@@ -3,6 +3,10 @@ html, body {
 	color: white;
 }
 
+code {
+    color: #8bd12f;
+}
+
 .navbar-dark .navbar-nav .nav-link {
 	color: #52eaff !important;
 }
