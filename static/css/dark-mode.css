@@ -50,9 +50,16 @@ html, body {
 	background-color: #222 !important;
 	color: inherit !important;
 }
-.td-content .table {
-	color: #30ffd9
+/* .td-content .table .td-box {
+	color: #30ffd9 !important;
+} */
+
+.table, .td-content>table, .td-box .row.section>table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #30ffd9;
 }
+
 a {
 	color: #52eaff !important;
 }
