@@ -1,0 +1,63 @@
+.menu-card-state-rest,
+.menu-card-state-rest * {
+  box-sizing: border-box;
+}
+.menu-card-state-rest {
+  width: 221px;
+  height: 81px;
+  position: relative;
+  box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.2);
+}
+.menu-card-state-rest-card {
+  background: var(--neutral-background-3-rest, #141414);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0.5px;
+  padding: 8px 10px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 221px;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 40.5px);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.menu-card-state-rest-header {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 199px;
+  position: relative;
+}
+.menu-card-state-rest-text {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.menu-card-state-rest-object-counting {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: left;
+  font: 600 12px/20px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.menu-card-state-rest-detect-and-count-objects-or-people {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: left;
+  font: 400 12px/18px "Segoe UI", sans-serif;
+  position: relative;
+  width: 199px;
+}

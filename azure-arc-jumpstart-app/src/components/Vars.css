@@ -1,0 +1,23 @@
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --neutral-background-1-hover: #3d3d3d;
+    --neutral-background-1-pressed: #1f1f1f;
+    --neutral-background-1-rest: #292929;
+    --neutral-background-1-selected: #383838; 
+    --neutral-background-2-hover: #333333;
+    --neutral-background-2-pressed: #242424;
+    --neutral-background-2-selected: #242424;
+    --neutral-background-3-rest: #141414;
+    --neutral-background-3-rest: #141414;
+    --neutral-background-4-rest: #0a0a0a;
+    --neutral-foreground-1-hover: #ffffff;
+    --neutral-foreground-1-rest: #ffffff;
+    --neutral-foreground-1-selected: #ffffff;
+    --neutral-text-text-white: #ffffff; 
+    --neutral-text-text-cta: #50e6ff;
+    /* Fonts */
+  
+    /* Effects */
+  }
+  

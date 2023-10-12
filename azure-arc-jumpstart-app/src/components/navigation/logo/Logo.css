@@ -1,0 +1,43 @@
+.microsoft-azure-jumpstart,
+.microsoft-azure-jumpstart * {
+  box-sizing: border-box;
+}
+.microsoft-azure-jumpstart {
+  width: 249px;
+  height: 23px;
+  position: relative;
+}
+.jumpstart-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 149px;
+  top: 3px;
+}
+.arc-jumpstart {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: left;
+  font: 600 14px/20px "Segoe UI", sans-serif;
+  position: relative;
+  width: 94px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ms-azure-logo-horizontal-c-white-rgb {
+  position: absolute;
+  left: 0px;
+  top: 4px;
+  overflow: visible;
+}
+.line-123 {
+  position: absolute;
+  left: 131px;
+  top: 0px;
+  transform: translate(-0.5px, -0.5px);
+  overflow: visible;
+}

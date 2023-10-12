@@ -1,0 +1,37 @@
+.menu-item-rest-state,
+.menu-item-rest-state * {
+  box-sizing: border-box;
+}
+.menu-item-rest-state {
+  background: var(--neutral-background-4-rest, #0a0a0a);
+  padding: 14px 10px 14px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.menu-item-rest-state-frame-59941 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.menu-item-rest-state-solutions {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: center;
+  font: 400 13px/20px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-item-rest-state-chevron {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}

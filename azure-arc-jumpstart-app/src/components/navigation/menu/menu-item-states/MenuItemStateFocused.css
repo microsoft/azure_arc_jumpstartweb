@@ -1,0 +1,40 @@
+.menu-item-state-focused,
+.menu-item-state-focused * {
+  box-sizing: border-box;
+}
+.menu-item-state-focused {
+  background: var(--neutral-background-2-hover, #333333);
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 1px;
+  padding: 14px 10px 14px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.menu-item-state-focused-frame-59941 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.menu-item-state-focused-solutions {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: center;
+  font: 400 13px/20px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-item-state-focused-chevron {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}

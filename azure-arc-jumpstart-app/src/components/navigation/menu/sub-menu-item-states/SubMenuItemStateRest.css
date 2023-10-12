@@ -1,0 +1,26 @@
+.sub-menu-item-state-rest,
+.sub-menu-item-state-rest * {
+  box-sizing: border-box;
+}
+.sub-menu-item-state-rest {
+  background: var(--neutral-background-1-rest, #292929);
+  border-radius: 4px;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 177px;
+  position: relative;
+}
+.sub-menu-item-state-rest-overview {
+  color: linear-gradient(to left, #ffffff, #ffffff),
+    linear-gradient(to left, #50e6ff, #50e6ff);
+  text-align: left;
+  font: 600 12px/20px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

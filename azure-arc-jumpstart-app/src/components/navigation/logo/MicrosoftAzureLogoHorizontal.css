@@ -1,0 +1,8 @@
+.microsoft-azure-logo-horizontal,
+.microsoft-azure-logo-horizontal * {
+  box-sizing: border-box;
+}
+.microsoft-azure-logo-horizontal {
+  position: relative;
+  overflow: visible;
+}
