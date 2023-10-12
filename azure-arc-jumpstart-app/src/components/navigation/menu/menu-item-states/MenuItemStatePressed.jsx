@@ -1,16 +1,12 @@
 import "./MenuItemStatePressed.css";
 
-const MenuItemStatePressed = ({
-  showIcon = true,
-  state = "rest",
-  action = "closed",
-  tab = "getting-started",
-  ...props
-}) => {
+const MenuItemStatePressed = ({ children }) => {
   return (
     <div className="menu-item-state-pressed">
       <div className="menu-item-state-pressed-frame-59941">
-        <div className="menu-item-state-pressed-solutions">Solutions </div>
+        <div className="menu-item-state-pressed-solutions">
+          {children}
+        </div>
         <svg
           className="menu-item-state-pressed-chevron"
           width="14"

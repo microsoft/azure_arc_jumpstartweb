@@ -24,6 +24,7 @@ const BreadcrumbItem = ({ children, index, current }) => {
 
     const handleMouseUp = () => {
         setPressed(false);
+        // handle click
     };
 
     return (
@@ -32,7 +33,6 @@ const BreadcrumbItem = ({ children, index, current }) => {
             onMouseLeave={handleMouseLeave}
             onMouseDown={handleMouseDown}
             onMouseUp={handleMouseUp}
-            onClick={() => { }}
             tabIndex={index}
         >
             {

@@ -1,16 +1,12 @@
 import "./MenuItemStateHover.css";
 
-const MenuItemStateHover = ({
-  showIcon = true,
-  state = "rest",
-  action = "closed",
-  tab = "getting-started",
-  ...props
-}) => {
+const MenuItemStateHover = ({ children }) => {
   return (
     <div className="menu-item-state-hover">
       <div className="menu-item-state-hover-frame-59941">
-        <div className="menu-item-state-hover-solutions">Solutions </div>
+        <div className="menu-item-state-hover-solutions">
+          {children}
+        </div>
         <svg
           className="menu-item-state-hover-chevron"
           width="14"

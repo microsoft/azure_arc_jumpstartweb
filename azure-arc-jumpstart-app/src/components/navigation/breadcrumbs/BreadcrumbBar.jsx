@@ -1,3 +1,4 @@
+import React from 'react';
 import BreadcrumbItem from './BreadcrumbItem';
 import './BreadcrumbBar.css';
 
@@ -10,11 +11,11 @@ const BreadcrumbBar = (props) => {
                 {
                     breadcrumbs.map((breadcrumb, index) => {
                         return (
-                            <>
+                            <React.Fragment key={index}>
                                 <BreadcrumbItem 
                                     key={index}
                                     current={index === breadcrumbs.length - 1} 
-                                    index={index+1}
+                                    index={index+10}
                                 >
                                     {breadcrumb}
                                 </BreadcrumbItem>
@@ -23,7 +24,7 @@ const BreadcrumbBar = (props) => {
                                         <span className="forwardSlash">/ </span>
                                     )
                                 }
-                            </>
+                            </React.Fragment>
                         )
                     })
                 }

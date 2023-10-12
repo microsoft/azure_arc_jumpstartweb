@@ -1,16 +1,12 @@
 import "./MenuItemStateFocused.css";
 
-const MenuItemStateFocused = ({
-  showIcon = true,
-  state = "rest",
-  action = "closed",
-  tab = "getting-started",
-  ...props
-}) => {
+const MenuItemStateFocused = ({ children }) => {
   return (
     <div className="menu-item-state-focused">
       <div className="menu-item-state-focused-frame-59941">
-        <div className="menu-item-state-focused-solutions">Solutions </div>
+        <div className="menu-item-state-focused-solutions">
+          {children}
+        </div>
         <svg
           className="menu-item-state-focused-chevron"
           width="14"

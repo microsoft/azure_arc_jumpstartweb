@@ -1,30 +1,9 @@
 import React from 'react';
-import Logo from './logo/Logo';
-import MenuItem from './menu/MenuItem';
 import './NavBar.css';
+import Menu from './menu/Menu';
 
 const NavBar = ({ ...props }) => {
-    const MENUITEMS = { GETTING_STARTED: 'Getting started', SOLUTIONS: 'Solutions', COMMUNITY: 'Community' };
-    const [selectedMenuItem, setSelectedMenuItem] = React.useState(MENUITEMS.GETTING_STARTED);
-    const menuItems = (
-        <>
-            <MenuItem
-                label={'Getting started'}
-                isSelected={selectedMenuItem === MENUITEMS.GETTING_STARTED}
-                onClick={() => setSelectedMenuItem(selectedMenuItem !== MENUITEMS.GETTING_STARTED ? MENUITEMS.GETTING_STARTED : null)}
-            />
-            <MenuItem
-                label={'Solutions'}
-                isSelected={selectedMenuItem === MENUITEMS.SOLUTIONS}
-                onClick={() => setSelectedMenuItem(selectedMenuItem !== MENUITEMS.SOLUTIONS ? MENUITEMS.SOLUTIONS : null)}
-            />
-            <MenuItem
-                label={'Community'}
-                isSelected={selectedMenuItem === MENUITEMS.COMMUNITY}
-                onClick={() => setSelectedMenuItem(selectedMenuItem !== MENUITEMS.COMMUNITY ? MENUITEMS.COMMUNITY : null)}
-            />
-        </>
-    );
+   
     return (
         <>
         <div className="nav-bar">
@@ -182,24 +161,7 @@ const NavBar = ({ ...props }) => {
                     </div>
                 </div>
                 <div className="frame-65">
-                    <MenuItem 
-                        isSelected={selectedMenuItem === MENUITEMS.GETTING_STARTED}
-                        onClick={() => setSelectedMenuItem(selectedMenuItem !== MENUITEMS.GETTING_STARTED ? MENUITEMS.GETTING_STARTED : null)}
-                    >
-                        Getting Started
-                    </MenuItem>
-                    <MenuItem 
-                        isSelected={selectedMenuItem === MENUITEMS.SOLUTIONS}
-                        onClick={() => setSelectedMenuItem(selectedMenuItem !== MENUITEMS.SOLUTIONS ? MENUITEMS.SOLUTIONS : null)}
-                    >
-                        Solutions
-                    </MenuItem>
-                    <MenuItem 
-                        isSelected={selectedMenuItem === MENUITEMS.COMMUNITY}
-                        onClick={() => setSelectedMenuItem(selectedMenuItem !== MENUITEMS.COMMUNITY ? MENUITEMS.COMMUNITY : null)}
-                    >
-                        Community
-                    </MenuItem>
+                    <Menu />
                 </div>
                 <div className="search-bar">
                     <div className="search">Search </div>

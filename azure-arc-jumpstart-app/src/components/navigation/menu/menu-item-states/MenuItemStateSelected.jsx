@@ -1,16 +1,12 @@
 import "./MenuItemStateSelected.css";
 
-const MenuItemStateSelected = ({
-  showIcon = true,
-  state = "rest",
-  action = "closed",
-  tab = "getting-started",
-  ...props
-}) => {
+const MenuItemStateSelected = ({ children }) => {
   return (
     <div className="menu-item-state-selected">
       <div className="menu-item-state-selected-frame-59941">
-        <div className="menu-item-state-selected-solutions">Solutions </div>
+        <div className="menu-item-state-selected-solutions">
+          {children}
+        </div>
         <svg
           className="menu-item-state-selected-chevron"
           width="14"
