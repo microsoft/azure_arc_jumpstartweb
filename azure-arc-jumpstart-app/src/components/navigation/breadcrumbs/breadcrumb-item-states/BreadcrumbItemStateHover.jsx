@@ -1,9 +1,11 @@
-import "./BreadCrumbItemStateHover.css";
+import "./BreadcrumbItemStateHover.css";
 
-const BreadCrumbItemStateHover = ({ state = "rest", ...props }) => {
+const BreadCrumbItemStateHover = ({ children }) => {
   return (
-    <div className="menu-item-state-hover">
-      <div className="menu-item-state-hover-breadcrumb">Breadcrumb </div>
+    <div className="breadcrumb-item-state-hover">
+      <div className="breadcrumb-item-state-hover-breadcrumb"> 
+        {children}
+      </div>
     </div>
   );
 };

@@ -1,13 +1,15 @@
-import "./BreadCrumbItemStateRest.css";
+import "./BreadcrumbItemStateRest.css";
 
-const BreadCrumbItemStateRest = ({ state = "rest", ...props }) => {
+const BreadcrumbItemStateRest = ({ children }) => {
   return (
     <div className="breadcrumb-item-state-rest">
-      <div className="breadcrumb-item-state-rest-breadcrumb">Breadcrumb </div>
+      <div className="breadcrumb-item-state-rest-breadcrumb">
+        {children}
+      </div>
     </div>
   );
 };
 
-export default BreadCrumbItemStateRest;
+export default BreadcrumbItemStateRest;
 
 

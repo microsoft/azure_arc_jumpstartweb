@@ -1,8 +1,8 @@
-.menu-item-state-hover,
-.menu-item-state-hover * {
+.breadcrumb-item-state-hover,
+.breadcrumb-item-state-hover * {
   box-sizing: border-box;
 }
-.menu-item-state-hover {
+.breadcrumb-item-state-hover {
   background: var(--neutral-background-2-hover, #333333);
   border-radius: 4px;
   padding: 10px 7px 10px 7px;
@@ -13,7 +13,7 @@
   justify-content: center;
   position: relative;
 }
-.menu-item-state-hover-breadcrumb {
+.breadcrumb-item-state-hover-breadcrumb {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 13px/24px "Segoe UI", sans-serif;

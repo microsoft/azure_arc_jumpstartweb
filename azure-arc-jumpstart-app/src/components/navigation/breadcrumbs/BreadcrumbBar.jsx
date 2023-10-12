@@ -2,7 +2,7 @@ import BreadcrumbItem from './BreadcrumbItem';
 import './BreadcrumbBar.css';
 
 const BreadcrumbBar = (props) => {
-    const breadcrumbs = ['Breadcrumb', 'Breadcrumb', 'Breadcrumb', 'Breadcrumb', 'Breadcrumb', 'Current']
+    const breadcrumbs = ['Breadcrumb1', 'Breadcrumb2', 'Breadcrumb3', 'Breadcrumb4', 'Breadcrumb5', 'Current']
     return (
         <div className="breadcrumb-bar">
             <div className="rectangle-36705"></div>
@@ -11,10 +11,16 @@ const BreadcrumbBar = (props) => {
                     breadcrumbs.map((breadcrumb, index) => {
                         return (
                             <>
-                                <BreadcrumbItem current={index === breadcrumbs.length - 1}>{breadcrumb}</BreadcrumbItem>
+                                <BreadcrumbItem 
+                                    key={index}
+                                    current={index === breadcrumbs.length - 1} 
+                                    index={index+1}
+                                >
+                                    {breadcrumb}
+                                </BreadcrumbItem>
                                 {
                                     index !== breadcrumbs.length - 1 && (
-                                        <div className="forwardSlash">/ </div>
+                                        <span className="forwardSlash">/ </span>
                                     )
                                 }
                             </>

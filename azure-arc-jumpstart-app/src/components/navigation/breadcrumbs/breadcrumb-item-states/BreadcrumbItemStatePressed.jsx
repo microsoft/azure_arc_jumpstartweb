@@ -1,9 +1,11 @@
-import "./BreadCrumbItemStatePressed.css";
+import "./BreadcrumbItemStatePressed.css";
 
-const BreadCrumbItemStatePressed = ({ state = "rest", ...props }) => {
+const BreadCrumbItemStatePressed = ({ children }) => {
   return (
     <div className="breadcrumb-item-state-pressed">
-      <div className="breadcrumb-item-state-pressed-breadcrumb">Breadcrumb </div>
+      <div className="breadcrumb-item-state-pressed-breadcrumb"> 
+        {children}
+      </div>
     </div>
   );
 };

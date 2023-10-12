@@ -1,9 +1,11 @@
-import "./BreadCrumbItemStateSelected.css";
+import "./BreadcrumbItemStateSelected.css";
 
-const BreadCrumbItemStateSelected = ({ state = "rest", ...props }) => {
+const BreadCrumbItemStateSelected = ({ children }) => {
   return (
     <div className="breadcrumb-item-state-selected">
-      <div className="breadcrumb-item-state-selected-breadcrumb">Breadcrumb </div>
+      <div className="breadcrumb-item-state-selected-breadcrumb"> 
+        {children}
+      </div>
     </div>
   );
 };
