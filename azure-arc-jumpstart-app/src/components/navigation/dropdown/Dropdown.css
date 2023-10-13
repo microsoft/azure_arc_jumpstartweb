@@ -1,43 +1,48 @@
+.drop-down-frame-2018775997 {
+  border-radius: 4px;
+  width: 234px;
+  height: 48px;
+  position: absolute;
+  right: 71px;
+  top: 48px;
+}
 
-.frame-2018775997 {
-    border-radius: 4px;
-    width: 234px;
-    height: 48px;
-    position: absolute;
-    left: 1135px;
-    top: 2.17px;
-  }
-  
-  .main-menu {
-    background: var(--neutral-background-4-rest, #0a0a0a);
-    border-radius: 4px;
-    padding: 14px 10px 14px 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-  }
-  
-  .frame-59941 {
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-  }
-  
-  .community {
-    color: var(--neutral-foreground-1-rest, #ffffff);
-    text-align: center;
-    font: 400 13px/20px "Segoe UI", sans-serif;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.drop-down-main-menu {
+  background: var(--neutral-background-4-rest, #0a0a0a);
+  border-radius: 4px;
+  padding: 14px 10px 14px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.drop-down-frame-59941 {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.drop-down-community {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: center;
+  font: 400 13px/20px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drop-down-chevron {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}

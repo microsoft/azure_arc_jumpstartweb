@@ -3,12 +3,12 @@ import "./Dropdown.css";
 
 const Dropdown = (props) => {
     return (
-        <div className="frame-2018775997">
-                <div className="main-menu">
-                    <div className="frame-59941">
-                        <div className="community">Jump to section </div>
+        <div className="drop-down-frame-2018775997">
+                <div className="drop-down-main-menu">
+                    <div className="drop-down-frame-59941">
+                        <div className="drop-down-community">Jump to section </div>
                         <svg
-                            className="chevron"
+                            className="drop-down-chevron"
                             width="15"
                             height="15"
                             viewBox="0 0 15 15"

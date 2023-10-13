@@ -6,7 +6,7 @@ import BreadcrumbItemStatePressed from './breadcrumb-item-states/BreadcrumbItemS
 import BreadcrumbItemStateSelected from './breadcrumb-item-states/BreadcrumbItemStateSelected';
 import BreadcrumbItemStateRest from './breadcrumb-item-states/BreadcrumbItemStateRest';
 
-const BreadcrumbItem = ({ children, index, current }) => {
+const BreadcrumbItem = ({ children, index, selected }) => {
     const [isHovered, setHovered] = useState(false);
     const [isPressed, setPressed] = useState(false);
 
@@ -35,18 +35,11 @@ const BreadcrumbItem = ({ children, index, current }) => {
             onMouseUp={handleMouseUp}
             tabIndex={index}
         >
-            {
-                current ? <BreadcrumbItemStateSelected>{children}</BreadcrumbItemStateSelected> :
-                    (
-                        isPressed ?                                 
-                        <BreadcrumbItemStatePressed>{children}</BreadcrumbItemStatePressed> :
-                            (
-                                isHovered ?
-                                <BreadcrumbItemStateHover>{children}</BreadcrumbItemStateHover> :
-                                <BreadcrumbItemStateRest>{children}</BreadcrumbItemStateRest>
-                            )
-                    )
-            }
+            <div className={selected === true ? "breadcrumb-item-selected" : "breadcrumb-item"}>
+                <div className={selected === true ? "breadcrumb-item-breadcrumb-selected" : "breadcrumb-item-breadcrumb"}>
+                    {children}
+                </div>
+            </div>
         </span>
     );
 };
