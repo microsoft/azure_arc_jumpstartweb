@@ -18,7 +18,9 @@ const App = () => {
         ) : (
           <>
             <BreadcrumbBar />
-            <Dropdown>Jump to section</Dropdown>
+            <span style={{ position: 'absolute', top: '48px', right: '71px'}}>
+              <Dropdown>Jump to section</Dropdown>
+            </span>
           </>
         )
       }
