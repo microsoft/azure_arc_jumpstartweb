@@ -1,0 +1,24 @@
+.breadcrumb-item-state-rest,
+.breadcrumb-item-state-rest * {
+  box-sizing: border-box;
+}
+.breadcrumb-item-state-rest {
+  background: var(--neutral-background-4-rest, #0a0a0a);
+  border-radius: 4px;
+  padding: 10px 7px 10px 7px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.breadcrumb-item-state-rest-breadcrumb {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 13px/24px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

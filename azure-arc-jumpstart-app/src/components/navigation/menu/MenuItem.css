@@ -1,0 +1,193 @@
+.menu-item,
+.menu-item * {
+  box-sizing: border-box;
+}
+
+.menu-item {
+  background: var(--neutral-background-4-rest, #0a0a0a);
+  padding: 14px 10px 14px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.menu-item-frame-59941 {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.menu-item-solutions {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: center;
+  font: 400 13px/20px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item-chevron {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+
+.menu-item:focus {
+  background: var(--neutral-background-2-hover, #333333);
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 1px;
+  padding: 14px 10px 14px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.menu-item-frame-59941:focus {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.menu-item-solutions:focus {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: center;
+  font: 400 13px/20px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item-chevron:focus {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.menu-item:hover {
+  background: var(--neutral-background-2-hover, #333333);
+  padding: 14px 10px 14px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.menu-item-frame-59941:hover {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.menu-item-solutions:hover {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: center;
+  font: 400 13px/20px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item-chevron:hover {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.menu-item:active {
+  background: var(--neutral-background-2-pressed, #242424);
+  padding: 14px 10px 14px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.menu-item-frame-59941:active {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.menu-item-solutions:active {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: center;
+  font: 400 13px/20px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item-chevron:active {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+
+.menu-item-selected {
+  background: var(--neutral-background-2-selected, #292929);
+  padding: 14px 10px 14px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.menu-item-frame-59941-selected {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.menu-item-solutions-selected {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: center;
+  font: 400 13px/20px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item-chevron-selected {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
