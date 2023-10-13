@@ -1,29 +1,6 @@
 @import '../../Vars.css';
 
 .breadcrumb-bar {
-  border-style: solid;
-  border-color: #919191;
-  border-width: 0px 0px 1px 0px;
-  width: 1440px;
-  height: 52px;
-  position: absolute;
-  left: 0px;
-  top: 48px;
-}
-
-.rectangle-36705 {
-  background: var(--neutral-background-4-rest, #0a0a0a);
-  border-style: solid;
-  border-color: transparent;
-  border-width: 1px;
-  width: 1440px;
-  height: 52px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-
-.frame-63 {
   display: flex;
   flex-direction: row;
   gap: 0px;
@@ -32,63 +9,7 @@
   height: 44px;
   position: absolute;
   left: 59px;
-  top: 4px;
-}
-
-.frame-60 {
-  display: flex;
-  flex-direction: row;
-  gap: 42px;
-  align-items: center;
-  justify-content: flex-end;
-  width: 286px;
-  height: 28px;
-  position: absolute;
-  right: 54px;
-  top: 10px;
-}
-
-.frame-2018775997 {
-  border-radius: 4px;
-  width: 234px;
-  height: 48px;
-  position: absolute;
-  left: 1135px;
-  top: 2.17px;
-}
-
-.main-menu {
-  background: var(--neutral-background-4-rest, #0a0a0a);
-  border-radius: 4px;
-  padding: 14px 10px 14px 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-
-.frame-59941 {
-  display: flex;
-  flex-direction: row;
-  gap: 100px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-
-.community {
-  color: var(--neutral-foreground-1-rest, #ffffff);
-  text-align: center;
-  font: 400 13px/20px "Segoe UI", sans-serif;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  top: 48px;
 }
 
 .forwardSlash {
