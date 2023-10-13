@@ -7,13 +7,14 @@ import Dropdown from './components/navigation/dropdown/Dropdown';
 
 const App = () => {
   const [selectedMenuItem, setSelectedMenuItem] = React.useState(null);
+  const [selectedMenuCard, setSelectedMenuCard] = React.useState(null);
 
   return (
     <>
       <NavBar selectedMenuItem={selectedMenuItem} setSelectedMenuItem={setSelectedMenuItem} />
       {
         selectedMenuItem ? (
-          <MenuDrawer selectedMenuItem={selectedMenuItem} setSelectedMenuItem={setSelectedMenuItem} />
+          <MenuDrawer selectedMenuCard={selectedMenuCard} setSelectedMenuCard={setSelectedMenuCard} />
         ) : (
           <>
             <BreadcrumbBar />

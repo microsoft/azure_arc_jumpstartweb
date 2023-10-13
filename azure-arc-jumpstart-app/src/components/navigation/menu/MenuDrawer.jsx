@@ -1,8 +1,9 @@
 import "./MenuDrawer.css";
+import MenuCard from "./MenuCard";
 
-const MenuDrawer = ({ setSelectedMenuItem }) => {
+const MenuDrawer = ({ selectedMenuCard, setSelectedMenuCard }) => {
   return (
-    <div className="frame-2018775984" onMouseLeave={() => setSelectedMenuItem(null)}>
+    <div className="frame-2018775984">
       <div className="sub-menu">
         <div className="tab-line"></div>
         <div className="sub-menu-body">
@@ -35,66 +36,21 @@ const MenuDrawer = ({ setSelectedMenuItem }) => {
         </div>
         <div className="frame-59653">
           <div className="row-1">
-            <div className="nav-bar-cards-dark-mode">
-              <div className="card">
-                <div className="header">
-                  <div className="text">
-                    <div className="object-counting">Jumpstart Solutions </div>
-                  </div>
-                </div>
-                <div className="detect-and-count-objects-or-people">
-                  Accelerate your deployment with our Jumpstart solutions.{" "}
-                </div>
-              </div>
-            </div>
-            <div className="nav-bar-cards-dark-mode">
-              <div className="card">
-                <div className="header">
-                  <div className="text">
-                    <div className="object-counting">Jumpstart Agora </div>
-                  </div>
-                </div>
-                <div className="detect-and-count-objects-or-people">
-                  Collection of industry verticals from cloud to edge scenarios.{" "}
-                </div>
-              </div>
-            </div>
-            <div className="nav-bar-cards-dark-mode">
-              <div className="card">
-                <div className="header">
-                  <div className="text">
-                    <div className="object-counting">Jumpstart ArcBox </div>
-                  </div>
-                </div>
-                <div className="detect-and-count-objects-or-people">
-                  Explore Azure Arc capabilities with Azure Sandbox.{" "}
-                </div>
-              </div>
-            </div>
-            <div className="nav-bar-cards-dark-mode">
-              <div className="card">
-                <div className="header">
-                  <div className="text">
-                    <div className="object-counting">Jumpstart HCIBox </div>
-                  </div>
-                </div>
-                <div className="detect-and-count-objects-or-people">
-                  Explore Azure Stack HCI capabilities with Azure Sandbox.{" "}
-                </div>
-              </div>
-            </div>
-            <div className="nav-bar-cards-dark-mode">
-              <div className="card">
-                <div className="header">
-                  <div className="text">
-                    <div className="object-counting">Jumpstart Lightning </div>
-                  </div>
-                </div>
-                <div className="detect-and-count-objects-or-people">
-                  Watch our show where people share their stories.{" "}
-                </div>
-              </div>
-            </div>
+            <MenuCard label="Jumpstart Solutions" selectedMenuCard={selectedMenuCard} setSelectedMenuCard={setSelectedMenuCard}>
+              Accelerate your deployment with our Jumpstart solutions.
+            </MenuCard>
+            <MenuCard label="Jumpstart Agora" selectedMenuCard={selectedMenuCard} setSelectedMenuCard={setSelectedMenuCard}>
+              Collection of industry verticals from cloud to edge scenarios.
+            </MenuCard>
+            <MenuCard label="Jumpstart ArcBox" selectedMenuCard={selectedMenuCard} setSelectedMenuCard={setSelectedMenuCard}>
+              Explore Azure Arc capabilities with Azure Sandbox.
+            </MenuCard>
+            <MenuCard label="Jumpstart HCIBox" selectedMenuCard={selectedMenuCard} setSelectedMenuCard={setSelectedMenuCard}>
+              Accelerate your deployment with our Jumpstart solutions.
+            </MenuCard>
+            <MenuCard label="Jumpstart Lightning" selectedMenuCard={selectedMenuCard} setSelectedMenuCard={setSelectedMenuCard}>
+              Watch our show where people share their stories.
+            </MenuCard>
           </div>
         </div>
       </div>
