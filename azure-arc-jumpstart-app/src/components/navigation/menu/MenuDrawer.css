@@ -2,6 +2,7 @@
 .frame-2018775984 * {
   box-sizing: border-box;
 }
+
 .frame-2018775984 {
   background: var(--neutral-background-1-rest, #292929);
   border-radius: 0px 0px 5px 5px;
@@ -15,24 +16,14 @@
   left: 0px;
   top: 48px;
 }
+
 .sub-menu {
   flex-shrink: 0;
   width: 179px;
   height: 129px;
   position: static;
 }
-.tab-line {
-  border-style: solid;
-  border-color: #50e6ff;
-  border-width: 2px 0 0 0;
-  width: 17px;
-  height: 0px;
-  position: absolute;
-  left: 27px;
-  top: 27px;
-  transform-origin: 0 0;
-  transform: rotate(90deg) scale(1, 1);
-}
+
 .sub-menu-body {
   background: var(--neutral-background-1-rest, #292929);
   border-radius: 4px;
@@ -45,39 +36,7 @@
   left: 29px;
   top: 20px;
 }
-.sub-menu-items {
-  background: var(--neutral-background-1-rest, #292929);
-  border-radius: 4px;
-  padding: 5px 10px 5px 10px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 177px;
-  position: relative;
-}
-.overview {
-  color: linear-gradient(to left, #50e6ff, #50e6ff),
-    linear-gradient(to left, #50e6ff, #50e6ff);
-  text-align: left;
-  font: 600 12px/20px "Segoe UI", sans-serif;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.overview2 {
-  color: linear-gradient(to left, #ffffff, #ffffff),
-    linear-gradient(to left, #50e6ff, #50e6ff);
-  text-align: left;
-  font: 600 12px/20px "Segoe UI", sans-serif;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+
 .frame-2018775955 {
   display: flex;
   flex-direction: column;
@@ -87,6 +46,7 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .frame-2018775954 {
   display: flex;
   flex-direction: column;
@@ -96,6 +56,7 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .frame-59895 {
   display: flex;
   flex-direction: row;
@@ -106,6 +67,7 @@
   height: 28px;
   position: relative;
 }
+
 .overview3 {
   color: var(--neutral-foreground-1-rest, #ffffff);
   text-align: left;
@@ -115,6 +77,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .view-all {
   color: var(--neutral-text-text-cta, #50e6ff);
   text-align: left;
@@ -124,6 +87,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .description {
   color: var(--neutral-foreground-1-rest, #ffffff);
   text-align: left;
@@ -134,6 +98,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .frame-59653 {
   display: flex;
   flex-direction: column;
@@ -143,6 +108,7 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .row-1 {
   display: flex;
   flex-direction: row;
@@ -151,64 +117,4 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
-}
-.nav-bar-cards-dark-mode {
-  flex-shrink: 0;
-  width: 221px;
-  height: 81px;
-  position: relative;
-  box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.2);
-}
-.card {
-  background: var(--neutral-background-3-rest, #141414);
-  border-radius: 5px;
-  border-style: solid;
-  border-color: transparent;
-  border-width: 0.5px;
-  padding: 8px 10px 15px 15px;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  align-items: flex-start;
-  justify-content: center;
-  width: 221px;
-  position: absolute;
-  left: 0px;
-  top: calc(50% - 40.5px);
-  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
-}
-.header {
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 199px;
-  position: relative;
-}
-.text {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.object-counting {
-  color: var(--neutral-foreground-1-rest, #ffffff);
-  text-align: left;
-  font: 600 12px/20px "Segoe UI", sans-serif;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.detect-and-count-objects-or-people {
-  color: var(--neutral-foreground-1-rest, #ffffff);
-  text-align: left;
-  font: 400 12px/18px "Segoe UI", sans-serif;
-  position: relative;
-  width: 199px;
 }

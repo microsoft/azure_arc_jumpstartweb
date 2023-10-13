@@ -1,24 +1,32 @@
+import React, { useState } from "react";
 import "./MenuDrawer.css";
 import MenuCard from "./MenuCard";
+import SubMenuItem from "./SubMenuItem";
+import SubMenuItems from "../../../models/SubMenuItems";
 
 const MenuDrawer = ({ selectedMenuCard, setSelectedMenuCard }) => {
+  const [selectedSubMenuItem, setSelectedSubMenuItem] = React.useState(SubMenuItems.OVERVIEW);
+
+  const handleOnClick = (subMenuItem) => {
+    setSelectedSubMenuItem(selectedSubMenuItem === subMenuItem ? null : subMenuItem);
+  };
+
   return (
     <div className="frame-2018775984">
       <div className="sub-menu">
-        <div className="tab-line"></div>
         <div className="sub-menu-body">
-          <div className="sub-menu-items">
-            <div className="overview">Overview </div>
-          </div>
-          <div className="sub-menu-items">
-            <div className="overview2">Jumpstart Scenarios </div>
-          </div>
-          <div className="sub-menu-items">
-            <div className="overview2">Additional resources </div>
-          </div>
-          <div className="sub-menu-items">
-            <div className="overview2">About </div>
-          </div>
+          <SubMenuItem isSelected={selectedSubMenuItem === SubMenuItems.OVERVIEW} onClick={() => handleOnClick(SubMenuItems.OVERVIEW)}>
+            {"Overview"}
+          </SubMenuItem>
+          <SubMenuItem isSelected={selectedSubMenuItem === SubMenuItems.JUMPSTART_SCENARIOS} onClick={() => handleOnClick(SubMenuItems.JUMPSTART_SCENARIOS)}>
+            {"Jumpstart Scenarios"}
+          </SubMenuItem>
+          <SubMenuItem isSelected={selectedSubMenuItem === SubMenuItems.ADDITIONAL_RESOURCES} onClick={() => handleOnClick(SubMenuItems.ADDITIONAL_RESOURCES)}>
+            {"Additional resources"}
+          </SubMenuItem>
+          <SubMenuItem isSelected={selectedSubMenuItem === SubMenuItems.ABOUT} onClick={() => handleOnClick(SubMenuItems.ABOUT)}>
+            {"About"}
+          </SubMenuItem>
         </div>
       </div>
       <div className="frame-2018775955">
