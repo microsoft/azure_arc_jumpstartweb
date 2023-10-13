@@ -1,8 +1,8 @@
 import "./MenuDrawer.css";
 
-const MenuDrawer = ({ ...props }) => {
+const MenuDrawer = ({ setSelectedMenuItem }) => {
   return (
-    <div className="frame-2018775984">
+    <div className="frame-2018775984" onMouseLeave={() => setSelectedMenuItem(null)}>
       <div className="sub-menu">
         <div className="tab-line"></div>
         <div className="sub-menu-body">

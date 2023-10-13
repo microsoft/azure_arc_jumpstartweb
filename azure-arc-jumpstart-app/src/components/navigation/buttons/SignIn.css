@@ -1,0 +1,27 @@
+.frame-20187759562 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: absolute;
+    right: 53px;
+    top: 13px;
+}
+
+.sign-in {
+    color: var(--neutral-foreground-1-rest, #ffffff);
+    text-align: left;
+    font: 400 13px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}

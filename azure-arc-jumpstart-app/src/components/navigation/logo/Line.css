@@ -1,9 +1,0 @@
-.line,
-.line * {
-  box-sizing: border-box;
-}
-.line {
-  position: relative;
-  transform: translate(-0.5px, -0.5px);
-  overflow: visible;
-}
