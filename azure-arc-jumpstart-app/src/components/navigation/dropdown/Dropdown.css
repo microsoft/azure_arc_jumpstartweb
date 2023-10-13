@@ -1,13 +1,9 @@
-.drop-down-frame-2018775997 {
-  border-radius: 4px;
-  width: 234px;
-  height: 48px;
-  position: absolute;
-  right: 71px;
-  top: 48px;
+.drop-down,
+.drop-down * {
+  box-sizing: border-box;
 }
 
-.drop-down-main-menu {
+.drop-down {
   background: var(--neutral-background-4-rest, #0a0a0a);
   border-radius: 4px;
   padding: 14px 10px 14px 10px;
@@ -17,8 +13,8 @@
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
-  left: 0px;
-  top: 0px;
+  top: 48px;
+  right: 0px;
 }
 
 .drop-down-frame-59941 {
@@ -46,3 +42,5 @@
   position: relative;
   overflow: visible;
 }
+
+

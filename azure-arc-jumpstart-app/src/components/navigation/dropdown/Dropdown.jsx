@@ -2,27 +2,31 @@ import React from "react";
 import "./Dropdown.css";
 
 const Dropdown = (props) => {
+    const [open, setOpen] = React.useState(false);
+
+    const handleOnClick = () => {
+        setOpen(!open);
+    };
+
     return (
-        <div className="drop-down-frame-2018775997">
-                <div className="drop-down-main-menu">
-                    <div className="drop-down-frame-59941">
-                        <div className="drop-down-community">Jump to section </div>
-                        <svg
-                            className="drop-down-chevron"
-                            width="15"
-                            height="15"
-                            viewBox="0 0 15 15"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <path
-                                d="M3.00484 5.18721C3.23265 4.95941 3.60199 4.95941 3.8298 5.18721L7.50065 8.85807L11.1715 5.18721C11.3993 4.95941 11.7687 4.95941 11.9965 5.18721C12.2243 5.41502 12.2243 5.78436 11.9965 6.01217L7.91313 10.0955C7.68533 10.3233 7.31597 10.3233 7.08818 10.0955L3.00484 6.01217C2.77703 5.78436 2.77703 5.41502 3.00484 5.18721Z"
-                                fill="white"
-                            />
-                        </svg>
-                    </div>
-                </div>
+        <div className="drop-down" onClick={handleOnClick}>
+            <div className="drop-down-frame-59941">
+                <div className="drop-down-community">Jump to section </div>
+                <svg
+                    className="drop-down-chevron"
+                    width="14"
+                    height="14"
+                    viewBox="0 0 14 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        d="M2.50484 4.83736C2.73265 4.60955 3.10199 4.60955 3.3298 4.83736L7.00065 8.50822L10.6715 4.83736C10.8993 4.60955 11.2687 4.60955 11.4965 4.83736C11.7243 5.06517 11.7243 5.43451 11.4965 5.66232L7.41313 9.74565C7.18533 9.97344 6.81597 9.97344 6.58818 9.74565L2.50484 5.66232C2.27703 5.43451 2.27703 5.06517 2.50484 4.83736Z"
+                        fill="white"
+                    />
+                </svg>
             </div>
+        </div>
     );
 };
 
