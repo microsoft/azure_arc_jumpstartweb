@@ -1,17 +1,18 @@
 import './MenuCard.css';
 
-const MenuCard = ({ ...props }) => {
+const MenuCard = ({label, children}) => {
     return (
-        <div className={"menu-card-state-hover"}>
-            <div className={"menu-card-glow"}></div>
-            <div className={"menu-card"}>
-                <div className={"menu-card-header"}>
-                    <div className={"menu-card-text"}>
-                        <div className={"menu-card-object-counting"}>Object Counting </div>
+        <div className="menu-card-state-rest">
+            <div className="menu-card-state-rest-card">
+                <div className="menu-card-state-rest-header">
+                    <div className="menu-card-state-rest-text">
+                        <div className="menu-card-state-rest-object-counting">
+                             {label}
+                        </div>
                     </div>
                 </div>
-                <div className={"menu-card-detect-and-count-objects-or-people"}>
-                    Detect and count objects or people.{" "}
+                <div className="menu-card-state-rest-detect-and-count-objects-or-people">
+                    {children}
                 </div>
             </div>
         </div>

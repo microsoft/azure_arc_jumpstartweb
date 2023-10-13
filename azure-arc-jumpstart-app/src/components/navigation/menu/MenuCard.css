@@ -2,7 +2,15 @@
 .menu-card * {
   box-sizing: border-box;
 }
+
 .menu-card {
+  width: 221px;
+  height: 81px;
+  position: relative;
+  box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.2);
+}
+
+.menu-card-card {
   background: var(--neutral-background-3-rest, #141414);
   border-radius: 5px;
   border-style: solid;
@@ -15,10 +23,13 @@
   align-items: flex-start;
   justify-content: center;
   width: 221px;
-  position: relative;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 40.5px);
   box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
 }
-.menu-card-header {
+
+.menu-card-state-rest-header {
   display: flex;
   flex-direction: row;
   gap: 6px;
@@ -28,7 +39,8 @@
   width: 199px;
   position: relative;
 }
-.menu-card-text {
+
+.menu-card-state-rest-text {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -37,6 +49,7 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .menu-card-object-counting {
   color: var(--neutral-foreground-1-rest, #ffffff);
   text-align: left;
@@ -46,6 +59,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 .menu-card-detect-and-count-objects-or-people {
   color: var(--neutral-foreground-1-rest, #ffffff);
   text-align: left;
@@ -54,22 +68,18 @@
   width: 199px;
 }
 
-.menu-card-state-hover,
-.menu-card-state-hover * {
-  box-sizing: border-box;
-}
-.menu-card-state-hover {
+
+.menu-card:hover {
   width: 221px;
   height: 81px;
   position: relative;
   box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.4);
 }
-.menu-card-glow {
-  background: linear-gradient(
-    134.83deg,
-    rgba(80, 230, 255, 1) 0%,
-    rgba(0, 120, 212, 1) 100%
-  );
+
+.menu-card-glow:hover {
+  background: linear-gradient(134.83deg,
+      rgba(80, 230, 255, 1) 0%,
+      rgba(0, 120, 212, 1) 100%);
   border-radius: 5px;
   width: 221px;
   height: 81px;
@@ -79,27 +89,93 @@
   filter: blur(7.5px);
 }
 
-.menu-card-state-selected,
-.menu-card-state-selected * {
-  box-sizing: border-box;
+.menu-card-card:hover {
+  background: var(--neutral-background-3-rest, #141414);
+  border-radius: 5px;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 0.5px;
+  padding: 8px 10px 15px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 221px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
 }
-.menu-card-state-selected {
+
+.menu-card-header:hover {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 199px;
+  position: relative;
+}
+
+.menu-card-text:hover {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.menu-card-object-counting:hover {
+  color: var(--neutral-foreground-1-hover, #ffffff);
+  text-align: left;
+  font: 600 12px/20px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menu-card-detect-and-count-objects-or-people:hover {
+  color: var(--neutral-foreground-1-hover, #ffffff);
+  text-align: left;
+  font: 400 12px/18px "Segoe UI", sans-serif;
+  position: relative;
+  width: 199px;
+}
+
+
+.menu-card-selected {
   width: 221px;
   height: 81px;
   position: relative;
   box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.4);
 }
 
-.menu-card-state-selected{
+.menu-card-glow-selected {
+  background: linear-gradient(134.83deg,
+      rgba(80, 230, 255, 1) 0%,
+      rgba(0, 120, 212, 1) 100%);
+  border-radius: 5px;
+  width: 221px;
+  height: 81px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  filter: blur(7.5px);
+}
+
+.menu-card-card-selected {
   background: var(--neutral-background-3-rest, #141414);
   border-radius: 5px;
   border-width: 0.5px;
   border-style: solid;
-  border-image: linear-gradient(
-    97.42deg,
-    rgba(80, 230, 255, 1) 0%,
-    rgba(0, 120, 212, 1) 100%
-  );
+  border-image: linear-gradient(97.42deg,
+      rgba(80, 230, 255, 1) 0%,
+      rgba(0, 120, 212, 1) 100%);
   border-image-slice: 1;
   padding: 8px 10px 15px 15px;
   display: flex;
@@ -114,4 +190,41 @@
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
+.menu-card-header-selected {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 199px;
+  position: relative;
+}
 
+.menu-card-text-selected {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.menu-card-object-counting-selected {
+  color: var(--neutral-foreground-1-selected, #ffffff);
+  text-align: left;
+  font: 600 12px/20px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.menu-card-detect-and-count-objects-or-people-selected {
+  color: var(--neutral-foreground-1-selected, #ffffff);
+  text-align: left;
+  font: 400 12px/18px "Segoe UI", sans-serif;
+  position: relative;
+  width: 199px;
+}
