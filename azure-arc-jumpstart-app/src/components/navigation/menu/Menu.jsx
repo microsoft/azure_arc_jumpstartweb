@@ -1,11 +1,10 @@
 import React from "react";
 import "./Menu.css";
 import MenuItem from "./MenuItem";
-import MenuItems from "../../../models/MenuItems";
 
-const Menu = ({ selectedMenuItem, setSelectedMenuItem }) => {
+const Menu = ({ menuItems, selectedMenuItem, setSelectedMenuItem }) => {
     const handleOnClick = (menuItem) => {
-        setSelectedMenuItem(selectedMenuItem === menuItem ? null : menuItem);
+        setSelectedMenuItem(selectedMenuItem !== menuItem ? menuItem : null);
     };
 
     return (
@@ -17,27 +16,19 @@ const Menu = ({ selectedMenuItem, setSelectedMenuItem }) => {
                 display: "flex",
             }}
         >
-            <MenuItem
-                index={1}
-                isSelected={selectedMenuItem === MenuItems.GETTING_STARTED}
-                onClick={() => handleOnClick(MenuItems.GETTING_STARTED)}
-            >
-                {'Getting Started'}
-            </MenuItem>
-            <MenuItem
-                index={2}
-                isSelected={selectedMenuItem === MenuItems.SOLUTIONS}
-                onClick={() => handleOnClick(MenuItems.SOLUTIONS)}
-            >
-                Solutions
-            </MenuItem>
-            <MenuItem
-                index={3}
-                isSelected={selectedMenuItem === MenuItems.COMMUNITY}
-                onClick={() => handleOnClick(MenuItems.COMMUNITY)}
-            >
-                Community
-            </MenuItem>
+            {
+                menuItems && menuItems.map((menuItem, index) => {
+                    return (
+                        <MenuItem
+                            index={index + 1}
+                            isSelected={selectedMenuItem === menuItem}
+                            onClick={() => handleOnClick(menuItem)}
+                        >
+                            {menuItem.Title}
+                        </MenuItem>
+                    )
+                })
+            }
         </span>
     );
 }

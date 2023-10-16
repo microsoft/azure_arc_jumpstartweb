@@ -7,16 +7,20 @@ import CoPilot from './buttons/CoPilot';
 import GitHub from './buttons/GitHub';
 import SignIn from './buttons/SignIn';
 
-const NavBar =({selectedMenuItem, setSelectedMenuItem}) => {
+const NavBar = ({ menuItems, selectedMenuItem, setSelectedMenuItem }) => {
 
     return (
         <span>
             <Logo />
-            <Menu selectedMenuItem={selectedMenuItem} setSelectedMenuItem={setSelectedMenuItem} />
+            <Menu
+                menuItems={menuItems}
+                selectedMenuItem={selectedMenuItem}
+                setSelectedMenuItem={setSelectedMenuItem}
+            />
             <Searchbar />
             <CoPilot />
             <GitHub />
-            <SignIn />  
+            <SignIn />
         </span>
     );
 };
