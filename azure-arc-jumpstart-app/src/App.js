@@ -57,7 +57,8 @@ const App = () => {
       }
       const res = await fetch(fullPath);
       const doc = await res.text();
-      setMarkdownFileContents(removeFrontmatter(doc));
+      const htmlText = removeFrontmatter(doc);
+      setMarkdownFileContents(htmlText);
     } catch (e) {
       console.log(e);
     }
