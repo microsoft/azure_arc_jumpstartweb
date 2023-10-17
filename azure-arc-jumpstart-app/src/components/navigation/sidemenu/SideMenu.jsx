@@ -1,50 +1,19 @@
 import "./SideMenu.css";
+import { SideMenuHeader } from "./SideMenuHeader";
 
-export const SideMenu = ({ sideMenuItems }) => {
+export const SideMenu = ({ sideMenuItems, handleFileFetch }) => {
   const arrow = true;
   return (
-    <div className="side-menu">
+    <div className="side-menu" style={{cursor: 'pointer'}}>
       <div className="side-menu2">
         <div className="menu-teams">
           <div className="popover-teams">
             <div className="swap-content">
               <div className="frame-2018775853">
                 {
-                  sideMenuItems && sideMenuItems.map((item, index) => {
+                  sideMenuItems && sideMenuItems.map((sideMenuItem, index) => {
                     return (
-
-                      <div className="section">
-                        <div className="section-header">
-                          <div className="menu-section-header">
-                            <div className="left-lockup">
-                              <div className="header-text">
-                                {item.frontMatter.linkTitle}
-                              </div>
-                            </div>
-                          </div>
-                          <div className="frame-2018775855">
-                            <svg
-                              className="chevron"
-                              width="7"
-                              height="4"
-                              viewBox="0 0 7 4"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M0 0L3.5 4"
-                                stroke="#D6D6D6"
-                                strokeLinecap="round"
-                              />
-                              <path
-                                d="M3.5 4L7 0"
-                                stroke="#D6D6D6"
-                                strokeLinecap="round"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>
+                      <SideMenuHeader sideMenuItem={sideMenuItem} handleFileFetch={handleFileFetch}/>
                     )
                   })
                 }
@@ -83,7 +52,7 @@ export const SideMenu = ({ sideMenuItems }) => {
                 <div className="contents">
                   <div className="icon-text-stack">
                     <div className="text">
-                      <div className="search">Search </div>
+                      <div className="search">Search</div>
                     </div>
                   </div>
                 </div>

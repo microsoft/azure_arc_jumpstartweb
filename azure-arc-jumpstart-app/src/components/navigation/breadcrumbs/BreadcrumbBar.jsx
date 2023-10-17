@@ -3,7 +3,7 @@ import BreadcrumbItem from './BreadcrumbItem';
 import './BreadcrumbBar.css';
 
 const BreadcrumbBar = (props) => {
-    const breadcrumbs = ['Breadcrumb1', 'Breadcrumb2', 'Breadcrumb3', 'Breadcrumb4', 'Breadcrumb5', 'Current'];
+    const breadcrumbs = ['Home', 'Jumpstart Scenarios'];
 
     return (
         <div className="breadcrumb-bar">
