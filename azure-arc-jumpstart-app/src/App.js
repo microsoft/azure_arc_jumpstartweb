@@ -134,7 +134,8 @@ const App = () => {
           top: '96px',
           left: '300px',
           right: '0px',
-          color: 'white'
+          color: 'white',
+          zIndex: '-1'
         }}>
         <Doc
           doc={markdownFileContents}
