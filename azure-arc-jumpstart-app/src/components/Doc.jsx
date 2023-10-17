@@ -50,6 +50,8 @@ const Doc = ({ doc, path, handleFileFetch, gatherElementIds }) => {
             if (targetElement) {
                 targetElement.scrollIntoView({ behavior: 'smooth' });
             }
+        } else {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
         gatherElementIds();
     }, [path]);

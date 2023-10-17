@@ -10,7 +10,6 @@ export const SideMenuHeader = ({ sideMenuItem, handleFileFetch }) => {
             handleFileFetch(sideMenuItem.path);
             return !prev;
         });
-        // sideMenuItem.children.length > 0 ? setOpen(!open) : handleFileFetch(sideMenuItem.path);
     };
 
     return (
@@ -59,7 +58,9 @@ export const SideMenuHeader = ({ sideMenuItem, handleFileFetch }) => {
                 open && sideMenuItem.hasOwnProperty('children') && (
                     <>
                         {
-                            sideMenuItem.children.filter((item) => item.frontMatter).map((item, index) => {
+                            sideMenuItem.children.filter((item) => {
+                                return item.frontMatter && item.frontMatter.toc_hide !== true;
+                            }).map((item, index) => {
                                 return (
                                     <SideMenuItem sideMenuItem={item} key={index} offset={10} handleFileFetch={handleFileFetch}/>
                                 )
