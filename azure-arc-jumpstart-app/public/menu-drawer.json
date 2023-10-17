@@ -1,0 +1,463 @@
+[
+    {
+        "Title": "Getting Started",
+        "Description": "",
+        "Items": [
+            {
+                "Title": "Overview",
+                "Description": "The goal of the repo is for you to have a working Azure Arc demo environment spun up in no-time so you can focus on playing, demoing, upskilling yourself and your team and see the core value of Azure Arc. Explore our different Jumpstart products.",
+                "Items": [
+                    {
+                        "Title": "Jumpstart Scenarios",
+                        "Description": "Accelerate your deployment with our jumpstart solutions.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Jumpstart Agora",
+                        "Description": "Collection of industry verticals from cloud to edge scenarios.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Jumpstart ArcBox",
+                        "Description": "Explore Azure Arc capabilities with Azure Sandbox.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Jumpstart HCIBox",
+                        "Description": "Explore Azure Stack HCI capabilities with Azure Sandbox.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Jumpstart Lightning",
+                        "Description": "Watch our show where people share their stories.",
+                        "Items": []
+                    }
+                ]
+            },
+            {
+                "Title": "Jumpstart Scenarios",
+                "Description": "All these solution types leverage Azure Arc, a management service that extends Azure services and management capabilities to any infrastructure, enabling you to effectively manage and govern resources across on-premises, multi-cloud, and edge environments through Azure portal.",
+                "Items": [
+                    {
+                        "Title": "Servers",
+                        "Description": "Onboard various Windows and Linux server distributions.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "VMware vSphere",
+                        "Description": "Manage VMware vSphere resources.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Kubernetes",
+                        "Description": "Onboard various Kubernetes distributions.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Data services",
+                        "Description": "Deploy data services on multiple infrastructure platforms.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "App services",
+                        "Description": "Deploy app services on multiple infrastructure platforms.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "ML",
+                        "Description": "Deploy machine learning on Kubernetes.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Management",
+                        "Description": "Unify Multi-Cloud Management in Hybrid Environments.",
+                        "Items": []
+                    }
+                ]
+            },
+            {
+                "Title": "Additional resources",
+                "Description": "Your all-inclusive resource destination: everything you need in one place.",
+                "Items": [
+                    {
+                        "Title": "Topics",
+                        "Description": "Description to be updated",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Libraries",
+                        "Description": "Description to be updated.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Decks",
+                        "Description": "Description to be updated.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Announcements",
+                        "Description": "Description to be updated.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Press",
+                        "Description": "Description to be updated.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Certifications",
+                        "Description": "Description to be updated.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Find a Field Sales",
+                        "Description": "Description to be updated.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Cost estimator",
+                        "Description": "Description to be updated.",
+                        "Items": []
+                    }
+                ]
+            },
+            {
+                "Title": "About",
+                "Description": "Description to be updated.",
+                "Items": [
+                    {
+                        "Title": "FAQs",
+                        "Description": "View our commonly asked questions from the community.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "TBD",
+                        "Description": "Description to be updated.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "TBD",
+                        "Description": "Description to be updated.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "TBD",
+                        "Description": "Description to be updated.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "TBD",
+                        "Description": "Description to be updated.",
+                        "Items": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Solutions",
+        "Description": "",
+        "Items": [
+            {
+                "Title": "Industry scenarios (Agora)",
+                "Description": "Pick the industry that you are in and see cloud-to-edge solutions for specific scenarios.",
+                "Items": [
+                    {
+                        "Title": "Agriculture",
+                        "Description": "Identify areas that need irrigation, fertilization, or pesticide treatment.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Construction",
+                        "Description": "Track and alert for potential safety issues, construction errors, and productivity issues.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Education",
+                        "Description": "Help students sharpen their skills and improve weak spots inside and outside of the classroom.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Energy",
+                        "Description": "Cut energy waste, lower energy costs, and accelerate clean renewable energy.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Financial Services",
+                        "Description": "Streamline and optimize processes ranging from credit decisions to quantitative trading and risk.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Government",
+                        "Description": "Save a lot of time by using AI to record or translate government documents.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Hospitality",
+                        "Description": "Improve customer service through AI chatbots and concierge robots, adapting to individuals.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Insurance",
+                        "Description": "Price policies more competitively and personalize them for each customer.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Legal",
+                        "Description": "Automate tedious tasks, reducing costs and increasing overall productivity.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Manufacturing",
+                        "Description": "Enhance overall equipment efficiency (OEE) and first-pass yield in production.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Medical",
+                        "Description": "Predict ICU transfers, improve clinical workflows, pinpoint risks of infections.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Real Estate",
+                        "Description": "Better estimate home market values and eliminate geographic limitations.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Retail",
+                        "Description": "Lower cost-to-serve and create more effective promotion and merchandising.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Sports",
+                        "Description": "Identify patterns in tactics, strategies, and weaknesses during games. Improve health and fitness.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Technology",
+                        "Description": "Enable technical systems to perceive their environment and act on the live insights.",
+                        "Items": []
+                    }
+                ]
+            },
+            {
+                "Title": "ArcBox",
+                "Description": "",
+                "Items": [
+                    {
+                        "Title": "ArcBox",
+                        "Description": "Jumpstart ArcBox is a sandbox environment that allows users to explore all the major capabilities of Azure Arc with a click of a button.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "ArcBox Full",
+                        "Description": "Deploy the full version of ArcBox.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "ArcBox for IT Pros",
+                        "Description": "Azure services curated for IT Pros including Azure Sentinel.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "ArcBox for DevOps",
+                        "Description": "Azure services curated for DevOps including GitHub, OSM, Key Vault.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "ArcBox for DataOps",
+                        "Description": "Azure services curated for DevOps including Tags and Grafana.",
+                        "Items": []
+                    }
+                ]
+            },
+            {
+                "Title": "HCIBox",
+                "Description": "",
+                "Items": [
+                    {
+                        "Title": "HCIBox",
+                        "Description": "Jumstart HCIBox is a sandbox environment that allows users to explore all the major capabilities of Azure Stack HCI with a click of a button.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Use cases",
+                        "Description": "Read use cases for Jumpstart HCIBox.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "HCIBox capabilities",
+                        "Description": "View the Azure Stack HCI capabilities in HCIBox.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Consumption Costs",
+                        "Description": "Estimate your Azure consumption costs.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Deployment options",
+                        "Description": "View deployment options and automation flows.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Prerequisites",
+                        "Description": "View the prerequisites for various deployment types.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Azure Developer CLI",
+                        "Description": "View deployment guidance for Azure Command Line Interface.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Post-Deployment",
+                        "Description": "View post-deployment automation.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Troubleshooting",
+                        "Description": "View deployment failures by auto-collecting all relevant logs.",
+                        "Items": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Title": "Community",
+        "Description": "",
+        "Items": [
+            {
+                "Title": "News",
+                "Description": "Stay connected and informed with our latest announcements, updates, and stories.",
+                "Items": [
+                    {
+                        "Title": "Featured",
+                        "Description": "Explore our latest announcements and highlights.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Arc Jumpstart",
+                        "Description": "Stay informed with the latest Arc Jumpstart news.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Azure Edge",
+                        "Description": "Catch the latest news on Azure Edge Computing.",
+                        "Items": []
+                    }
+                ]
+            },
+            {
+                "Title": "Videos",
+                "Description": "View our talk show, demos from the tech community, and tutorials.",
+                "Items": [
+                    {
+                        "Title": "Jumpstart Lightning",
+                        "Description": "Watch our YouTube show where people share their stories.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Community demos",
+                        "Description": "Watch community demos in our YouTube playlist.",
+                        "Items": []
+                    }
+                ]
+            },
+            {
+                "Title": "Blogs",
+                "Description": "Stay informed with the latest blog posts.",
+                "Items": [
+                    {
+                        "Title": "LinkedIn",
+                        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Dev.to",
+                        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Hashnode",
+                        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Medium",
+                        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "WordPress",
+                        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting.",
+                        "Items": []
+                    }
+                ]
+            },
+            {
+                "Title": "Events",
+                "Description": "Attend our upcoming tech community events and view past events.",
+                "Items": [
+                    {
+                        "Title": "Microsoft Ignite 2023",
+                        "Description": "Join us in Seattle this November to experience the latest innovations around AI.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Microsoft Inspire 2023",
+                        "Description": "View past recordings of partner-focused talks featuring the entire partnership lifecycle.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Microsoft Build 2023",
+                        "Description": "View past recordings introducing tools that will help developers build their own copilots and apps.",
+                        "Items": []
+                    }
+                ]
+            },
+            {
+                "Title": "Contribute",
+                "Description": "See the different ways to get involved with the community.",
+                "Items": [
+                    {
+                        "Title": "Guides",
+                        "Description": "Write technical guides with your expertise.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Forums",
+                        "Description": "Engage in our technical forums.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Media",
+                        "Description": "Create demos and tutorials.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "GitHub libraries",
+                        "Description": "Add to the growing collection of GitHub libraries.",
+                        "Items": []
+                    }
+                ]
+            },
+            {
+                "Title": "Open source",
+                "Description": "Whether you are a first-timer or seasoned veteran, view our guides to making open source contributions.",
+                "Items": [
+                    {
+                        "Title": "GitHub",
+                        "Description": "Lorem Ipsum is simply dummy text of the printing and typesetting.",
+                        "Items": []
+                    },
+                    {
+                        "Title": "Guidelines",
+                        "Description": "View our community best practices and guidelines.",
+                        "Items": []
+                    }
+                ]
+            }
+        ]
+    }
+]
