@@ -6,7 +6,11 @@ export const SideMenuHeader = ({ sideMenuItem, handleFileFetch }) => {
     const [open, setOpen] = useState(false);
 
     const handleClick = () => {
-        sideMenuItem.children.length > 0 ? setOpen(!open) : handleFileFetch(sideMenuItem.path);
+        setOpen((prev) => {
+            handleFileFetch(sideMenuItem.path);
+            return !prev;
+        });
+        // sideMenuItem.children.length > 0 ? setOpen(!open) : handleFileFetch(sideMenuItem.path);
     };
 
     return (

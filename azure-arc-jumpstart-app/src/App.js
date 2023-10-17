@@ -51,7 +51,7 @@ const App = () => {
 
   const getDoc = async (path) => {
     try {
-      let fullPath = path[0] === '' ? './docs/_index.md' : `./docs/${path[0]}/_index.md`;
+      let fullPath = path[0] === '' ? './docs/_index.md' : `./docs/${path[0].replace('\\', '/')}/_index.md`;
       if (path.length > 1) {
         fullPath = `${fullPath}#${path[1]}`;
       }
@@ -108,8 +108,8 @@ const App = () => {
         {
           sideMenuItems && sideMenuItems.length > 0 && (
             <SideMenu
-              sideMenuItems={sideMenuItems}
-              handleFileFetch={handleFileFetch}
+            sideMenuItems={sideMenuItems}
+            handleFileFetch={handleFileFetch}
             />
           )
         }
