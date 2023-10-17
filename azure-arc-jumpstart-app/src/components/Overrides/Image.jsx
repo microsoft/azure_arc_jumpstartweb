@@ -13,6 +13,6 @@ export const Image = (props) => {
     }
     
     return (
-        <img src={imagePath} className="custom-image" width={width}/>
+        <img src={imagePath} className="custom-image" width={width} title={""}/>
     )
 };

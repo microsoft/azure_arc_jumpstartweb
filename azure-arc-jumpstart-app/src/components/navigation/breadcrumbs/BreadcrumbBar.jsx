@@ -2,8 +2,8 @@ import React from 'react';
 import BreadcrumbItem from './BreadcrumbItem';
 import './BreadcrumbBar.css';
 
-const BreadcrumbBar = (props) => {
-    const breadcrumbs = ['Home', 'Jumpstart Scenarios'];
+const BreadcrumbBar = ({path}) => {
+    const breadcrumbs = path.length > 0 ? ['Home', ...path[0].split('\\')] : ['Home'];
 
     return (
         <div className="breadcrumb-bar">

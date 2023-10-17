@@ -120,20 +120,20 @@ const App = () => {
           />
         ) : (
           <>
-            <BreadcrumbBar />
+            <BreadcrumbBar path={markdownFilePath} />
             <span style={{ position: 'absolute', top: '48px', right: '71px' }}>
               <Dropdown>Jump to section</Dropdown>
             </span>
           </>
         )
       }
-      <span 
-        style={{ 
-          position: 'absolute', 
-          top: '96px', 
-          left: '300px', 
+      <span
+        style={{
+          position: 'absolute',
+          top: '96px',
+          left: '300px',
           right: '0px',
-          color: 'white' 
+          color: 'white'
         }}>
         <Doc
           doc={markdownFileContents}
