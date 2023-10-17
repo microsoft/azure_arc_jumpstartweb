@@ -32,6 +32,17 @@ const App = () => {
     fetchSideMenuData();
   }, []);
 
+  const removeFrontmatter = (text) => {
+    // Define a regular expression pattern to match frontmatter.
+    // This example assumes frontmatter enclosed in '---' or '---' with optional whitespace.
+    const frontmatterPattern = /^---\s*[\s\S]*?---\s*/;
+
+    // Use the replace method to remove the matched frontmatter.
+    const textWithoutFrontmatter = text.replace(frontmatterPattern, '');
+
+    return textWithoutFrontmatter;
+  }
+
   const handleFileFetch = (pagePath) => {
     const pagePathSplit = pagePath.split('#');
     setMarkdownFilePath(pagePathSplit);
@@ -46,7 +57,7 @@ const App = () => {
       }
       const res = await fetch(fullPath);
       const doc = await res.text();
-      setMarkdownFileContents(doc);
+      setMarkdownFileContents(removeFrontmatter(doc));
     } catch (e) {
       console.log(e);
     }
