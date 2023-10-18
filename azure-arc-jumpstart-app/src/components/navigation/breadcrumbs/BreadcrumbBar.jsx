@@ -3,7 +3,7 @@ import BreadcrumbItem from './BreadcrumbItem';
 import './BreadcrumbBar.css';
 
 const BreadcrumbBar = ({ path, handleFileFetch }) => {
-    const breadcrumbs = path.length > 0 ? ['Home', ...path[0].split('\\')] : ['Home'];
+    const breadcrumbs = path.length > 0 ? ['Home', ...path[0].replace(/\//g, '\\').split('\\').filter((p) => p !== '')] : ['Home'];
     const handleFileFetchClick = (breadcrumb) => {
         const breadcrumbIndex = breadcrumbs.indexOf(breadcrumb);
         const newPath = breadcrumbs.slice(1, breadcrumbIndex+1);
