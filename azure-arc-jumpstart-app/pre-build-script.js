@@ -59,7 +59,7 @@ const rootDirPath = './public/docs';
 const directoryJSON = generateDirectoryJSON(rootDirPath, rootDirPath);
 
 // Write the JSON to a file
-fs.writeFileSync('./public/directoryHierarchy.json', JSON.stringify(directoryJSON, null, 2));
+fs.writeFileSync('./public/side-menu.json', JSON.stringify(directoryJSON, null, 2));
 
 console.log('Directory hierarchy JSON has been created.');
 fs.writeFileSync('./public/yamlmatches.json', JSON.stringify(matches, null, 2));
