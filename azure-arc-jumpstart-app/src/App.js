@@ -33,11 +33,7 @@ const App = () => {
   }, []);
 
   const removeFrontmatter = (text) => {
-    // Define a regular expression pattern to match frontmatter.
-    // This example assumes frontmatter enclosed in '---' or '---' with optional whitespace.
     const frontmatterPattern = /^---\s*[\s\S]*?---\s*/;
-
-    // Use the replace method to remove the matched frontmatter.
     const textWithoutFrontmatter = text.replace(frontmatterPattern, '');
 
     return textWithoutFrontmatter;
@@ -51,7 +47,8 @@ const App = () => {
 
   const getDoc = async (path) => {
     try {
-      let fullPath = path[0] === '' ? './docs/_index.md' : `./docs/${path[0].replace('\\', '/')}/_index.md`;
+      const pathWithForwardSlashes = path[0].replace(/\\/g, '/');
+      let fullPath = path[0] === '' ? './docs/_index.md' : `./docs/${pathWithForwardSlashes}/_index.md`;
       if (path.length > 1) {
         fullPath = `${fullPath}#${path[1]}`;
       }
@@ -108,8 +105,8 @@ const App = () => {
         {
           sideMenuItems && sideMenuItems.length > 0 && (
             <SideMenu
-            sideMenuItems={sideMenuItems}
-            handleFileFetch={handleFileFetch}
+              sideMenuItems={sideMenuItems}
+              handleFileFetch={handleFileFetch}
             />
           )
         }
@@ -121,7 +118,10 @@ const App = () => {
           />
         ) : (
           <>
-            <BreadcrumbBar path={markdownFilePath} />
+            <BreadcrumbBar
+              path={markdownFilePath}
+              handleFileFetch={handleFileFetch}
+            />
             <span style={{ position: 'absolute', top: '48px', right: '71px' }}>
               <Dropdown>Jump to section</Dropdown>
             </span>

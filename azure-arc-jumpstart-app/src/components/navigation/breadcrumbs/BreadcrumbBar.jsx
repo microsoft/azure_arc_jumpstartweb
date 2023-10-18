@@ -2,8 +2,14 @@ import React from 'react';
 import BreadcrumbItem from './BreadcrumbItem';
 import './BreadcrumbBar.css';
 
-const BreadcrumbBar = ({path}) => {
+const BreadcrumbBar = ({ path, handleFileFetch }) => {
     const breadcrumbs = path.length > 0 ? ['Home', ...path[0].split('\\')] : ['Home'];
+    const handleFileFetchClick = (breadcrumb) => {
+        const breadcrumbIndex = breadcrumbs.indexOf(breadcrumb);
+        const newPath = breadcrumbs.slice(1, breadcrumbIndex+1);
+        const newPathString = newPath.join('\\');
+        handleFileFetch(newPathString);
+    };
 
     return (
         <div className="breadcrumb-bar">
@@ -14,6 +20,7 @@ const BreadcrumbBar = ({path}) => {
                             <BreadcrumbItem
                                 selected={index === breadcrumbs.length - 1}
                                 index={index + 10}
+                                handleFileFetch={() => handleFileFetchClick(breadcrumb)}
                             >
                                 {breadcrumb}
                             </BreadcrumbItem>

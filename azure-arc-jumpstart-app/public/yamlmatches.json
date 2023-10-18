@@ -1,0 +1,1561 @@
+{
+  "public/docs": {
+    "type": "docs"
+  },
+  "public/docs/azure_arc_jumpstart": {
+    "type": "docs",
+    "title": "Azure Arc Jumpstart Scenarios",
+    "linkTitle": "Jumpstart Scenarios",
+    "weight": 2
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_app_svc": {
+    "type": "docs",
+    "title": "Azure Arc-enabled app services",
+    "linkTitle": "Azure Arc-enabled app services",
+    "weight": 6,
+    "description": "The deployment scenarios in this section will guide you through deploying and working with Azure Arc-enabled app services on multiple infrastructure platforms."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_app_svc/aks": {
+    "type": "docs",
+    "title": "Azure Kubernetes Service",
+    "linkTitle": "Azure Kubernetes Service",
+    "weight": 1,
+    "description": "If you do not yet have a Kubernetes cluster, the scenarios in this section will guide on creating an AKS cluster with Azure Arc-enabled app services integration in an automated fashion using ARM templates."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_app_svc/aks/aks_app_service_arm_template": {
+    "type": "docs",
+    "title": "App Service (Container) ARM Template",
+    "linkTitle": "App Service (Container) ARM Template",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_app_svc/aks/aks_azure_apimgmt_arm_template": {
+    "type": "docs",
+    "title": "Azure API Management Gateway ARM Template",
+    "linkTitle": "Azure API Management Gateway ARM Template",
+    "weight": 5,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_app_svc/aks/aks_azure_function_arm_template": {
+    "type": "docs",
+    "title": "Azure Function ARM Template",
+    "linkTitle": "Azure Function ARM Template",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_app_svc/aks/aks_container_apps_arm_template": {
+    "type": "docs",
+    "title": "Azure Container Apps ARM Template",
+    "linkTitle": "Azure Container Apps ARM Template",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_app_svc/aks/aks_logic_app_arm_template": {
+    "type": "docs",
+    "title": "Azure Logic App ARM Template",
+    "linkTitle": "Azure Logic App ARM Template",
+    "weight": 4,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_app_svc/cluster_api": {
+    "type": "docs",
+    "title": "Kubernetes Cluster API",
+    "linkTitle": "Kubernetes Cluster API",
+    "weight": 2,
+    "description": "If you do not yet have a Kubernetes cluster, the scenarios in this section will guide on deploying Azure Arc-enabled app services on Cluster API (CAPI) Kubernetes in an automated fashion using ARM templates."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_app_svc/cluster_api/capi_azure/apimgmt_arm_template": {
+    "type": "docs",
+    "title": "Azure API Management Gateway ARM Template",
+    "linkTitle": "Azure API Management Gateway ARM Template",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_app_svc/cluster_api/capi_azure/apps_service_arm_template": {
+    "type": "docs",
+    "title": "App Service (Container) ARM Template",
+    "linkTitle": "App Service (Container) ARM Template",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_app_svc/cluster_api/capi_azure/azure_function_arm_template": {
+    "type": "docs",
+    "title": "Azure Function ARM Template",
+    "linkTitle": "Azure Function ARM Template",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data": {
+    "type": "docs",
+    "title": "Azure Arc-enabled data services",
+    "linkTitle": "Azure Arc-enabled data services",
+    "weight": 5,
+    "description": "The deployment scenarios in this section will guide you through deploying and working with Azure Arc-enabled data services on multiple infrastructure platforms."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/aks": {
+    "type": "docs",
+    "title": "Azure Kubernetes Service",
+    "linkTitle": "Azure Kubernetes Service",
+    "weight": 1,
+    "description": "If you do not yet have a Kubernetes cluster, the scenarios in this section will guide on creating an AKS cluster with Azure Arc-enabled data services integration in an automated fashion using ARM templates."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/aks/aks_dc_vanilla_arm_template": {
+    "type": "docs",
+    "title": "Data Controller ARM Template",
+    "linkTitle": "Data Controller ARM Template",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/aks/aks_mssql_mi_arm_template": {
+    "type": "docs",
+    "title": "SQL Managed Instance ARM Template",
+    "linkTitle": "SQL Managed Instance ARM Template",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/aks/aks_postgresql_arm_template": {
+    "type": "docs",
+    "title": "PostgreSQL ARM Template",
+    "linkTitle": "PostgreSQL ARM Template",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/aro": {
+    "type": "docs",
+    "title": "Azure Red Hat OpenShift",
+    "linkTitle": "Azure Red Hat OpenShift",
+    "weight": 3,
+    "description": "If you do not yet have an Azure Red Hat OpenShift cluster, the scenarios in this section will guide on creating an ARO cluster with Azure Arc-enabled data services integration in an automated fashion using ARM templates."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/aro/aro_dc_vanilla_arm_template": {
+    "type": "docs",
+    "title": "Data Controller ARM Template",
+    "linkTitle": "Data Controller ARM Template",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/aro/aro_mssql_mi_arm_template": {
+    "type": "docs",
+    "title": "SQL Managed Instance ARM Template",
+    "linkTitle": "SQL Managed Instance ARM Template",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/aro/aro_postgresql_arm_template": {
+    "type": "docs",
+    "title": "PostgreSQL ARM Template",
+    "linkTitle": "PostgreSQL ARM Template",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/cluster_api": {
+    "type": "docs",
+    "title": "Kubernetes Cluster API",
+    "linkTitle": "Kubernetes Cluster API",
+    "weight": 2,
+    "description": "If you do not yet have a Kubernetes cluster, the scenarios in this section will guide on deploying Azure Arc-enabled data services on Cluster API (CAPI) Kubernetes in an automated fashion using ARM templates."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/cluster_api/capi_azure_dc_vanilla_arm_template": {
+    "type": "docs",
+    "title": "Data Controller ARM Template",
+    "linkTitle": "Data Controller ARM Template",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/cluster_api/capi_azure_mssql_mi_arm_template": {
+    "type": "docs",
+    "title": "SQL Managed Instance ARM Template",
+    "linkTitle": "SQL Managed Instance ARM Template",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/cluster_api/capi_azure_postgresql_arm_template": {
+    "type": "docs",
+    "title": "PostgreSQL ARM Template",
+    "linkTitle": "PostgreSQL ARM Template",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/day2": {
+    "type": "docs",
+    "title": "Unified Operations Use Cases",
+    "linkTitle": "Unified Operations Use Cases",
+    "weight": 8,
+    "description": "Once you have your Azure Arc-enabled data services deployed, you can start to use native Azure tooling to manage it as well explore various architecture and deployment models."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/day2/aks": {
+    "type": "docs",
+    "title": "Azure Kubernetes Service",
+    "linkTitle": "Azure Kubernetes Service",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/day2/aks/aks_mssql_arm_template_ado": {
+    "type": "docs",
+    "title": "SQL Managed Instance Azure DevOps Release",
+    "linkTitle": "SQL Managed Instance Azure DevOps Release",
+    "weight": 5,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/day2/aks/aks_mssql_dr": {
+    "type": "docs",
+    "title": "SQL Managed Instance disaster recovery",
+    "linkTitle": "SQL Managed Instance disaster recovery",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/day2/aks/aks_mssql_ha": {
+    "type": "docs",
+    "title": "SQL Managed Instance Availability Groups Failover",
+    "linkTitle": "SQL Managed Instance Availability Groups Failover",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/day2/aks/aks_mssql_migrate": {
+    "type": "docs",
+    "title": "Migrate to Azure Arc-enabled SQL Managed Instance",
+    "linkTitle": "Migrate to Azure Arc-enabled SQL Managed Instance",
+    "weight": 4,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/day2/aks/aks_mssql_mi_ad_auth_arm_template": {
+    "type": "docs",
+    "title": "SQL Managed Instance with AD Authentication ARM Template",
+    "linkTitle": "SQL Managed Instance with AD Authentication ARM Template",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/day2/aks/aks_postgresql_arm_template_ado": {
+    "type": "docs",
+    "title": "PostgreSQL Azure DevOps Release",
+    "linkTitle": "PostgreSQL Azure DevOps Release",
+    "weight": 6,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/day2/cluster_api": {
+    "type": "docs",
+    "title": "Kubernetes Cluster API",
+    "linkTitle": "Kubernetes Cluster API",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/day2/cluster_api/capi_azure/capi_mssql_ha": {
+    "type": "docs",
+    "title": "SQL Managed Instance Availability Groups Failover",
+    "linkTitle": "SQL Managed Instance Availability Groups Failover",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/eks": {
+    "type": "docs",
+    "title": "Amazon Elastic Kubernetes Service",
+    "linkTitle": "Amazon Elastic Kubernetes Service",
+    "weight": 4,
+    "description": "If you are working in a multi-cloud environment, the scenario in this section will guide on creating an Amazon Elastic Kubernetes Service (EKS) with Azure Arc-enabled data services integration in an automated fashion using Terraform."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/eks/eks_dc_vanilla_terraform": {
+    "type": "docs",
+    "title": "Data Controller Terraform plan",
+    "linkTitle": "Data Controller Terraform plan",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/eks/eks_mssql_mi_terraform": {
+    "type": "docs",
+    "title": "SQL Managed Instance Terraform plan",
+    "linkTitle": "SQL Managed Instance Terraform plan",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/eks/eks_postgres_terraform": {
+    "type": "docs",
+    "title": "PostgreSQL Terraform Plan",
+    "linkTitle": "PostgreSQL Terraform Plan",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/gke": {
+    "type": "docs",
+    "title": "Google Kubernetes Engine",
+    "linkTitle": "Google Kubernetes Engine",
+    "weight": 5,
+    "description": "If you are working in a multi-cloud environment, the scenario in this section will guide on creating a Google Kubernetes Engine (GKE) with Azure Arc-enabled data services integration in an automated fashion using Terraform."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/gke/gke_dc_vanilla_terraform": {
+    "type": "docs",
+    "title": "Data Controller Terraform plan",
+    "linkTitle": "Data Controller Terraform plan",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/gke/gke_mssql_mi_terraform": {
+    "type": "docs",
+    "title": "SQL Managed Instance Terraform Plan",
+    "linkTitle": "SQL Managed Instance Terraform Plan",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/gke/gke_postgres_terraform": {
+    "type": "docs",
+    "title": "PostgreSQL Terraform Plan",
+    "linkTitle": "PostgreSQL Terraform Plan",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/kubeadm": {
+    "type": "docs",
+    "title": "Kubernetes Kubeadm",
+    "linkTitle": "Kubernetes Kubeadm",
+    "weight": 7,
+    "description": "If you do not have a Kubernetes cluster, the scenarios in this section will guide on how to create a Kubernetes cluster using kubeadm in Azure VMs with Azure Arc-enabled data services integration in an automated fashion using ARM template."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/kubeadm/kubeadm_azure_dc_vanilla_arm_template": {
+    "type": "docs",
+    "title": "Data Controller ARM Template",
+    "linkTitle": "Data Controller ARM Template",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/kubeadm/kubeadm_azure_mssql_mi_arm_template": {
+    "type": "docs",
+    "title": "SQL Managed Instance ARM Template",
+    "linkTitle": "SQL Managed Instance ARM Template",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/kubeadm/kubeadm_azure_postgresql_arm_template": {
+    "type": "docs",
+    "title": "PostgreSQL ARM Template",
+    "linkTitle": "PostgreSQL ARM Template",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/microk8s": {
+    "type": "docs",
+    "title": "MicroK8s",
+    "linkTitle": "MicroK8s",
+    "weight": 6,
+    "description": "If you do not yet have a Kubernetes cluster, the scenarios in this section will guide on deploying Azure Arc-enabled data services on Microk8s in an automated fashion using ARM templates."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/microk8s/azure/arm_template/dc_vanilla": {
+    "type": "docs",
+    "title": "Data Controller ARM Template",
+    "linkTitle": "Data Controller ARM Template",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/microk8s/azure/arm_template/mssql_mi": {
+    "type": "docs",
+    "title": "SQL Managed Instance ARM Template",
+    "linkTitle": "SQL Managed Instance ARM Template",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_data/microk8s/azure/arm_template/postgresql": {
+    "type": "docs",
+    "title": "PostgreSQL ARM Template",
+    "linkTitle": "PostgreSQL ARM Template",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s": {
+    "type": "docs",
+    "title": "Azure Arc-enabled Kubernetes",
+    "linkTitle": "Azure Arc-enabled Kubernetes",
+    "weight": 4,
+    "description": "The deployment scenarios in this section will guide you through onboarding various Kubernetes distributions as an Azure Arc-enabled Kubernetes clusters."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/aks": {
+    "type": "docs",
+    "title": "Azure Kubernetes Service (AKS)",
+    "linkTitle": "Azure Kubernetes Service (AKS)",
+    "weight": 2,
+    "description": "If you do not yet have a Kubernetes cluster, the scenarios in this section will guide on creating an AKS cluster in order to simulate an \"on-premises\" cluster in an automated fashion using either ARM template or Terraform."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/aks/aks_arm_template": {
+    "type": "docs",
+    "title": "AKS cluster ARM template",
+    "linkTitle": "AKS cluster ARM template",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/aks/aks_terraform": {
+    "type": "docs",
+    "title": "AKS cluster Terraform plan",
+    "linkTitle": "AKS cluster Terraform plan",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/aks_hybrid": {
+    "type": "docs",
+    "title": "Azure Kubernetes Service (AKS) hybrid",
+    "linkTitle": "Azure Kubernetes Service (AKS) hybrid",
+    "weight": 3,
+    "description": "Azure Kubernetes Service (AKS) hybrid deployment options (\"AKS hybrid\") is an on-premises implementation. The scenarios in this section will guide on creating an AKS hybrid cluster in order to simulate an \"on-premises\" cluster in an automated fashion."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/aks_hybrid/aks_edge_essentials_full": {
+    "type": "docs",
+    "title": "AKS Edge Essentials multi-node deployment",
+    "linkTitle": "AKS Edge Essentials multi-node deployment",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/aks_hybrid/aks_edge_essentials_full_akri": {
+    "type": "docs",
+    "title": "Discover ONVIF cameras with Akri on AKS Edge Essentials multi-node deployment",
+    "linkTitle": "Discover ONVIF cameras with Akri on AKS Edge Essentials multi-node deployment",
+    "weight": 4,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/aks_hybrid/aks_edge_essentials_single": {
+    "type": "docs",
+    "title": "AKS Edge Essentials single node deployment",
+    "linkTitle": "AKS Edge Essentials single node deployment",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/aks_hybrid/aks_edge_essentials_single_akri": {
+    "type": "docs",
+    "title": "Discover ONVIF cameras with Akri on AKS Edge Essentials single node deployment",
+    "linkTitle": "Discover ONVIF cameras with Akri on AKS Edge Essentials single node deployment",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/aks_stack_hci": {
+    "type": "docs",
+    "title": "AKS on Azure Stack HCI",
+    "linkTitle": "AKS on Azure Stack HCI",
+    "weight": 4,
+    "description": "If you do not yet have a Kubernetes cluster, the scenarios in this section will guide on creating an AKS cluster on Azure Stack HCI in an automated fashion."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/aks_stack_hci/aks_hci_powershell": {
+    "type": "docs",
+    "title": "AKS on Azure Stack HCI PowerShell",
+    "linkTitle": "AKS on Azure Stack HCI PowerShell",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/alibaba": {
+    "type": "docs",
+    "title": "Alibaba Cloud Container Service for Kubernetes",
+    "linkTitle": "Alibaba Cloud Container Service for Kubernetes",
+    "weight": 9,
+    "description": "If you are working in a multi-cloud environment, the scenario in this section will guide on creating a Alibaba Cloud Container Service for Kubernetes and onboard it as an Azure Arc-enabled Kubernetes cluster in an automated fashion using Terraform."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/alibaba/alibaba_terraform": {
+    "type": "docs",
+    "title": "Alibaba Cloud Container Service for Kubernetes Terraform plan",
+    "linkTitle": "Alibaba Cloud Container Service for Kubernetes Terraform plan",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/aro": {
+    "type": "docs",
+    "title": "Azure Red Hat OpenShift",
+    "linkTitle": "Azure Red Hat OpenShift",
+    "weight": 6,
+    "description": "If you do not yet have an Azure Red Hat OpenShift cluster, the scenarios in this section will guide you on how to create an Azure-managed OpenShift cluster in an automated fashion and onboard it as an Azure Arc-enabled Kubernetes cluster."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/aro/aro_arm_template": {
+    "type": "docs",
+    "title": "ARO cluster ARM template",
+    "linkTitle": "ARO cluster ARM template",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/cluster_api": {
+    "type": "docs",
+    "title": "Kubernetes Cluster API",
+    "linkTitle": "Kubernetes Cluster API",
+    "weight": 5,
+    "description": "If you are working in a multi-cloud environment, the scenarios in this section will guide on creating clusters using Kubernetes Cluster API (CAPI) and onboard it as an Azure Arc-enabled Kubernetes cluster in an automated fashion."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/cluster_api/capi_azure": {
+    "type": "docs",
+    "title": "Cluster API Azure Provider",
+    "linkTitle": "Cluster API Azure Provider",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2": {
+    "type": "docs",
+    "title": "Unified Operations Use Cases",
+    "linkTitle": "Unified Operations Use Cases",
+    "weight": 14,
+    "description": "Once you have Kubernetes clusters projected into Azure with Azure Arc, you can start to use native Azure tooling to manage the clusters as native Azure resources. The following scenarios show examples of using Cluster extensions and Azure management tools such as Azure Monitor, GitOps configurations, and Azure Policy."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/aks": {
+    "type": "docs",
+    "title": "AKS",
+    "linkTitle": "AKS",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/aks/aks_gitops_basic": {
+    "type": "docs",
+    "title": "Deploy GitOps configurations and perform basic GitOps flow on AKS as an Azure Arc Connected Cluster (Flux v2)",
+    "linkTitle": "Deploy GitOps configurations and perform basic GitOps flow on AKS as an Azure Arc Connected Cluster (Flux v2)",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/aks/aks_gitops_helm": {
+    "type": "docs",
+    "title": "Deploy GitOps configurations and perform Helm-based GitOps flow on AKS as an Azure Arc Connected Cluster (Flux v2)",
+    "linkTitle": "Deploy GitOps configurations and perform Helm-based GitOps flow on AKS as an Azure Arc Connected Cluster (Flux v2)",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/aks/aks_monitor": {
+    "type": "docs",
+    "title": "Integrate Azure Monitor for Containers with AKS as an Azure Arc Connected Cluster using a Shell script",
+    "linkTitle": "Integrate Azure Monitor for Containers with AKS as an Azure Arc Connected Cluster using a Shell script",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/aks/aks_policy": {
+    "type": "docs",
+    "title": "Apply GitOps configurations on AKS as an Azure Arc Connected Cluster using Azure Policy for Kubernetes",
+    "linkTitle": "Apply GitOps configurations on AKS as an Azure Arc Connected Cluster using Azure Policy for Kubernetes",
+    "weight": 4,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/aks_stack_hci": {
+    "type": "docs",
+    "title": "AKS on Azure Stack HCI",
+    "linkTitle": "AKS on Azure Stack HCI",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/aks_stack_hci/aks_hci_gitops_basic": {
+    "type": "docs",
+    "title": "Deploy GitOps configurations and perform basic GitOps flow on AKS on Azure Stack HCI as an Azure Arc Connected Cluster",
+    "linkTitle": "Deploy GitOps configurations and perform basic GitOps flow on AKS on Azure Stack HCI as an Azure Arc Connected Cluster",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/aks_stack_hci/aks_hci_gitops_helm": {
+    "type": "docs",
+    "title": "Deploy GitOps configurations and perform Helm-based GitOps flow on AKS on Azure Stack HCI as an Azure Arc Connected Cluster",
+    "linkTitle": "Deploy GitOps configurations and perform Helm-based GitOps flow on AKS on Azure Stack HCI as an Azure Arc Connected Cluster",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/aks_stack_hci/aks_hci_monitor/aks_hci_monitor_extension": {
+    "type": "docs",
+    "title": "Integrate Azure Monitor for Containers with AKS on Azure Stack HCI as an Azure Arc Connected Cluster using cluster extensions",
+    "linkTitle": "Integrate Azure Monitor for Containers with AKS on Azure Stack HCI as an Azure Arc Connected Cluster using cluster extensions",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/cluster_api": {
+    "type": "docs",
+    "title": "Cluster API",
+    "linkTitle": "Cluster API",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/cluster_api/cluster_api_defender_extension": {
+    "type": "docs",
+    "title": "Integrate Microsoft Defender for Cloud with Cluster API as an Azure Arc Connected Cluster using Kubernetes extensions",
+    "linkTitle": "Integrate Microsoft Defender for Cloud with Cluster API as an Azure Arc Connected Cluster using Kubernetes extensions",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/cluster_api/cluster_api_gitops_basic": {
+    "type": "docs",
+    "title": "Deploy GitOps configurations and perform basic GitOps flow on Cluster API as an Azure Arc Connected Cluster (Flux v2)",
+    "linkTitle": "Deploy GitOps configurations and perform basic GitOps flow on Cluster API as an Azure Arc Connected Cluster (Flux v2)",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/cluster_api/cluster_api_gitops_helm": {
+    "type": "docs",
+    "title": "Deploy GitOps configurations and perform Helm-based GitOps flow on Cluster API as an Azure Arc Connected Cluster (Flux v2)",
+    "linkTitle": "Deploy GitOps configurations and perform Helm-based GitOps flow on Cluster API as an Azure Arc Connected Cluster (Flux v2)",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/cluster_api/cluster_api_keyvault_extension": {
+    "type": "docs",
+    "title": "Integrate Azure Key Vault with Cluster API as an Azure Arc Connected Cluster using Kubernetes extensions",
+    "linkTitle": "Integrate Azure Key Vault with Cluster API as an Azure Arc Connected Cluster using Kubernetes extensions",
+    "weight": 4,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/cluster_api/cluster_api_osm_extension": {
+    "type": "docs",
+    "title": "Integrate Open Service Mesh (OSM) with Cluster API as an Azure Arc Connected Cluster using Kubernetes extensions",
+    "linkTitle": "Integrate Open Service Mesh with Cluster API as an Azure Arc Connected Cluster using Kubernetes extensions",
+    "weight": 5,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/gke": {
+    "type": "docs",
+    "title": "GKE",
+    "linkTitle": "GKE",
+    "weight": 4,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/gke/gke_gitops_basic": {
+    "type": "docs",
+    "title": "Deploy GitOps configurations and perform basic GitOps flow on GKE as an Azure Arc Connected Cluster (Flux v2)",
+    "linkTitle": "Deploy GitOps configurations and perform basic GitOps flow on GKE as an Azure Arc Connected Cluster (Flux v2)",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/gke/gke_gitops_helm": {
+    "type": "docs",
+    "title": "Deploy GitOps configurations and perform Helm-based GitOps flow on GKE as an Azure Arc Connected Cluster (Flux v2)",
+    "linkTitle": "Deploy GitOps configurations and perform Helm-based GitOps flow on GKE as an Azure Arc Connected Cluster (Flux v2)",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/gke/gke_monitor": {
+    "type": "docs",
+    "title": "Integrate Azure Monitor for Containers with GKE as an Azure Arc Connected Cluster using a Shell script",
+    "linkTitle": "Integrate Azure Monitor for Containers with GKE as an Azure Arc Connected Cluster using a Shell script",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/gke/gke_monitor_extension": {
+    "type": "docs",
+    "title": "Integrate Azure Monitor for Containers with GKE as an Azure Arc Connected Cluster using cluster extensions",
+    "linkTitle": "Integrate Azure Monitor for Containers with GKE as an Azure Arc Connected Cluster using cluster extensions",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/gke/gke_policy": {
+    "type": "docs",
+    "title": "Apply GitOps configurations on GKE as an Azure Arc Connected Cluster using Azure Policy for Kubernetes",
+    "linkTitle": "Apply GitOps configurations on GKE as an Azure Arc Connected Cluster using Azure Policy for Kubernetes",
+    "weight": 4,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/kind": {
+    "type": "docs",
+    "title": "Kind",
+    "linkTitle": "Kind",
+    "weight": 5,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/kind/local_kind_gitops_helm": {
+    "type": "docs",
+    "title": "Deploy GitOps configurations and perform Helm-based GitOps flow on kind as an Azure Arc Connected Cluster",
+    "linkTitle": "Deploy GitOps configurations and perform Helm-based GitOps flow on kind as an Azure Arc Connected Cluster",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/microk8s": {
+    "type": "docs",
+    "title": "Microk8s",
+    "linkTitle": "Microk8s",
+    "weight": 6,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/microk8s/local_microk8s_gitops_helm": {
+    "type": "docs",
+    "title": "Deploy GitOps configurations and perform Helm-based GitOps flow on MicroK8s as an Azure Arc Connected Cluster (Flux v2)",
+    "linkTitle": "Deploy GitOps configurations and perform Helm-based GitOps flow on MicroK8s as an Azure Arc Connected Cluster (Flux v2)",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/microk8s/local_microk8s_monitor": {
+    "type": "docs",
+    "title": "Integrate Azure Monitor for Containers with MicroK8s as an Azure Arc Connected Cluster using a Shell script",
+    "linkTitle": "Integrate Azure Monitor for Containers with MicroK8s as an Azure Arc Connected Cluster using a Shell script",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions": {
+    "type": "docs",
+    "title": "Multiple Kubernetes distributions",
+    "linkTitle": "Multiple Kubernetes distributions",
+    "weight": 7,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions/azure_policy": {
+    "type": "docs",
+    "title": "Integrate Azure Policy with an Azure Arc-enabled Kubernetes cluster using extensions",
+    "linkTitle": "Integrate Azure Policy with an Azure Arc-enabled Kubernetes cluster using extensions",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions/calico": {
+    "type": "docs",
+    "title": "Use Azure Policy Add-on to audit pods' labels for use with Calico network policy",
+    "linkTitle": "Use Azure Policy Add-on to audit pods' labels for use with Calico network policy",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions/connected_cluster": {
+    "type": "docs",
+    "title": "Using Cluster Connect to connect to an Azure Arc-enabled Kubernetes cluster via service account token authentication",
+    "linkTitle": "Using Cluster Connect to connect to an Azure Arc-enabled Kubernetes cluster via service account token authentication",
+    "weight": 5,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions/container_insights": {
+    "type": "docs",
+    "title": "Integrate Azure Monitor Container Insights and recommended alerts with an Azure Arc-enabled Kubernetes cluster using extensions",
+    "linkTitle": "Integrate Azure Monitor Container Insights and recommended alerts with an Azure Arc-enabled Kubernetes cluster using extensions",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions/gitops": {
+    "type": "docs",
+    "title": "Managing Calico Network Policy using GitOps in an Azure Arc-enabled Kubernetes cluster",
+    "linkTitle": "Managing Calico Network Policy using GitOps in an Azure Arc-enabled Kubernetes cluster",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/developer": {
+    "type": "docs",
+    "title": "Developer Use Cases",
+    "linkTitle": "Developer Use Cases",
+    "weight": 13,
+    "description": "Once you onboarded your Azure Arc-enabled Kubernetes clusters, you can start to use native Azure tooling to manage the clusters as native Azure resources. The following scenarios show examples of using developer-centric use-cases."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/developer/dapr": {
+    "type": "docs",
+    "title": "Dapr",
+    "linkTitle": "Dapr",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/developer/dapr/dapr_statestore": {
+    "type": "docs",
+    "title": "Deploy an application using the Dapr Cluster extension for Azure Arc-enabled Kubernetes cluster",
+    "linkTitle": "Deploy an application using the Dapr Cluster extension for Azure Arc-enabled Kubernetes cluster",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/eks": {
+    "type": "docs",
+    "title": "Amazon Elastic Kubernetes Service",
+    "linkTitle": "Amazon Elastic Kubernetes Service",
+    "weight": 7,
+    "description": "If you are working in a multi-cloud environment, the scenario in this section will guide on creating an Amazon Elastic Kubernetes Service (EKS) and onboard it as an Azure Arc-enabled Kubernetes cluster in an automated fashion using Terraform."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/eks/eks_terraform": {
+    "type": "docs",
+    "title": "EKS cluster Terraform plan",
+    "linkTitle": "EKS cluster Terraform plan",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/general": {
+    "type": "docs",
+    "title": "Onboarding",
+    "linkTitle": "Onboarding",
+    "weight": 1,
+    "description": "This example demonstrates how to connect an existing Kubernetes cluster to Arc. It assumes you already have a cluster ready to work with."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/general/onboard_k8s": {
+    "type": "docs",
+    "title": "Existing cluster",
+    "linkTitle": "Existing cluster",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/gke": {
+    "type": "docs",
+    "title": "Google Kubernetes Engine",
+    "linkTitle": "Google Kubernetes Engine",
+    "weight": 8,
+    "description": "If you are working in a multi-cloud environment, the scenario in this section will guide on creating a Google Kubernetes Engine (GKE) and onboard it as an Azure Arc-enabled Kubernetes cluster in an automated fashion using Terraform."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/gke/gke_terraform": {
+    "type": "docs",
+    "title": "GKE cluster Terraform plan",
+    "linkTitle": "GKE cluster Terraform plan",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/iot_uses_cases": {
+    "type": "docs",
+    "title": "IoT Uses Cases",
+    "linkTitle": "IoT Uses Cases",
+    "weight": 16,
+    "description": "If you do not yet have a Kubernetes cluster, the scenarios in this section will guide you on using AKS as an Azure Arc-enabled Kubernetes cluster and simulate Azure IoT Edge environment in an automated fashion."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/iot_uses_cases/aks": {
+    "type": "docs",
+    "title": "Azure IoT Edge integration with AKS as an Azure Arc Connected Cluster",
+    "linkTitle": "Azure IoT Edge integration with AKS as an Azure Arc Connected Cluster",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/kind": {
+    "type": "docs",
+    "title": "Kind",
+    "linkTitle": "Kind",
+    "weight": 11,
+    "description": "If you do not have a Kubernetes cluster, the scenario in this section will guide on creating a kind (kubernetes in docker) cluster on your local machine and onboard it as an Azure Arc-enabled Kubernetes cluster in an automated fashion."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/kind/local_kind": {
+    "type": "docs",
+    "title": "Kind cluster",
+    "linkTitle": "Kind cluster",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/microk8s": {
+    "type": "docs",
+    "title": "MicroK8s",
+    "linkTitle": "MicroK8s",
+    "weight": 12,
+    "description": "If you do not have a Kubernetes cluster, the scenario in this section will guide on creating a MicroK8s Kubernetes cluster on your local machine and onboard it as an Azure Arc-enabled Kubernetes cluster in an automated fashion."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/microk8s/local_microk8s": {
+    "type": "docs",
+    "title": "MicroK8s cluster",
+    "linkTitle": "MicroK8s cluster",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/pf9": {
+    "type": "docs",
+    "title": "Platform9 Managed Kubernetes",
+    "linkTitle": "Platform9 Managed Kubernetes",
+    "weight": 12,
+    "description": "The scenario in this section will guide on creating a Platform9 Managed Kubernetes (PMK) cluster on-premise or on the cloud and onboard it as an Azure Arc-enabled Kubernetes cluster in an automated fashion."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/pf9/pf9_bareos": {
+    "type": "docs",
+    "title": "Platform9 Managed BareOS Kubernetes (PMK) cluster",
+    "linkTitle": "Platform9 Managed BareOS Kubernetes (PMK) cluster",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/rancher_k3s": {
+    "type": "docs",
+    "title": "Rancher K3s",
+    "linkTitle": "Rancher K3s",
+    "weight": 10,
+    "description": "If you do not have a Kubernetes cluster, the scenarios in this section will guide on creating a Rancher K3s Kubernetes cluster on either your VMware vSphere infrastructure or on an Azure VM and onboard it as an Azure Arc-enabled Kubernetes cluster in an automated fashion using either ARM template or Terraform."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/rancher_k3s/azure_arm_template": {
+    "type": "docs",
+    "title": "k3s Azure ARM template",
+    "linkTitle": "k3s Azure ARM template",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/rancher_k3s/azure_terraform": {
+    "type": "docs",
+    "title": "k3s Azure Terraform plan",
+    "linkTitle": "k3s Azure Terraform plan",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_k8s/rancher_k3s/vmware_terraform": {
+    "type": "docs",
+    "title": "k3s on VMware Terraform plan",
+    "linkTitle": "k3s on VMware Terraform plan",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_lighthouse": {
+    "type": "docs",
+    "title": "Azure Arc and Azure Lighthouse",
+    "linkTitle": "Azure Arc and Azure Lighthouse",
+    "weight": 9,
+    "description": "This section describes how to use Azure Arc and Azure Lighthouse for unified operations."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_lighthouse/unified_operations_scale": {
+    "type": "docs",
+    "title": "Unified Operations at Scale with Azure Arc and Azure Lighthouse",
+    "linkTitle": "Unified Operations at Scale with Azure Arc and Azure Lighthouse",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_ml": {
+    "type": "docs",
+    "title": "Azure Arc-enabled machine learning",
+    "linkTitle": "Azure Arc-enabled machine learning",
+    "weight": 8,
+    "description": "The deployment scenarios in this section will guide you through deploying and working with Azure Arc-enabled machine learning on Kubernetes."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_ml/aks": {
+    "type": "docs",
+    "title": "Azure Kubernetes Service",
+    "linkTitle": "Azure Kubernetes Service",
+    "weight": 1,
+    "description": "If you do not yet have a Kubernetes cluster, the scenarios in this section will guide on creating an AKS cluster with Azure Arc-enabled machine learning in an automated fashion using ARM templates. The ML pipeline trains an image classification model on the MNIST dataset from Blob Storage, and deploys the trained model as an inference endpoint on the Kubernetes Cluster. "
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_ml/aks/aks_blob_mnist_arm_template": {
+    "type": "docs",
+    "title": "Image Classification on MNIST dataset from Blob Storage",
+    "linkTitle": "Image Classification on MNIST dataset from Blob Storage",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers": {
+    "type": "docs",
+    "title": "Azure Arc-enabled servers",
+    "linkTitle": "Azure Arc-enabled servers",
+    "weight": 1,
+    "description": "The deployment scenarios in this section will guide you through onboarding various Windows and Linux server distributions as Azure Arc-enabled servers."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/aws": {
+    "type": "docs",
+    "title": "Amazon Web Services",
+    "linkTitle": "Amazon Web Services",
+    "weight": 5,
+    "description": "If you are working in a multi-cloud environment, you can deploy new AWS EC2 instances in an automated fashion using Terraform and onboard it as Azure Arc-enabled servers."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/aws/aws_terraform_al2": {
+    "type": "docs",
+    "title": "Amazon Linux 2 EC2 instance",
+    "linkTitle": "Amazon Linux 2 EC2 instance",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/aws/aws_terraform_ubuntu": {
+    "type": "docs",
+    "title": "Ubuntu EC2 instance",
+    "linkTitle": "Ubuntu EC2 instance",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/azure": {
+    "type": "docs",
+    "title": "Microsoft Azure",
+    "linkTitle": "Microsoft Azure",
+    "weight": 2,
+    "description": "The scenarios in this section will walk you through how to project an Azure VM as an Azure Arc-enabled server in an automated fashion using either ARM templates or Terraform. These scenarios, using Azure VM as the targeted Azure Arc server are designed **for demo and testing purposes ONLY and are not supported.**\nIn each scenario, you will find a detailed, technical explanation of the mechanism and why **it is not expected to project an Azure VM as an Azure Arc-enabled server.**"
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/azure/azure_arm_template_linux": {
+    "type": "docs",
+    "title": "Linux Virtual Machine",
+    "linkTitle": "Linux Virtual Machine",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/azure/azure_arm_template_win": {
+    "type": "docs",
+    "title": "Windows Server Virtual Machine",
+    "linkTitle": "Windows Server Virtual Machine",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/azure_stack_hci": {
+    "type": "docs",
+    "title": "Microsoft Azure Stack HCI",
+    "linkTitle": "Microsoft Azure Stack HCI",
+    "weight": 3,
+    "description": "The scenarios in this section will walk you through how to project an **Azure Stack HCI Virtual Machine** as an Azure Arc-enabled server in an automated fashion. \nIn each scenario, you will find a detailed, technical explanation of the mechanism."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/azure_stack_hci/azure_stack_hci_windows": {
+    "type": "docs",
+    "title": "Windows Server Virtual Machine",
+    "linkTitle": "Windows Server Virtual Machine",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2": {
+    "type": "docs",
+    "title": "Unified Operations Use Cases",
+    "linkTitle": "Unified Operations Use Cases",
+    "weight": 8,
+    "description": "Once you have server resources projected into Azure with Azure Arc, you can start to use native Azure tooling to manage the servers as native Azure resources. The following scenarios show examples of using Azure management tools such as resource tags, Azure Policy, Log Analytics, and more with Azure Arc-enabled servers."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_automanage": {
+    "type": "docs",
+    "title": "Azure Automanage",
+    "linkTitle": "Azure Automanage",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_automanage/arc_automanage_builtin_profiles": {
+    "type": "docs",
+    "title": "Enable Azure Automanage on an Azure Arc-enabled server using built-in profiles",
+    "linkTitle": "Enable Azure Automanage on an Azure Arc-enabled server using built-in profiles",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_automanage/arc_automanage_custom_profiles": {
+    "type": "docs",
+    "title": "Enable Azure Automanage on an Azure Arc-enabled server using custom profiles",
+    "linkTitle": "Enable Azure Automanage on an Azure Arc-enabled server using custom profiles",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_automanage/arc_automanage_machine_configuration_custom_linux": {
+    "type": "docs",
+    "title": "Create Automanage Machine Configuration custom configurations for Linux",
+    "linkTitle": "Create Automanage Machine Configuration custom configurations for Linux",
+    "weight": 4,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_automanage/arc_automanage_machine_configuration_custom_windows": {
+    "type": "docs",
+    "title": "Create Automanage Machine Configuration custom configurations for Windows",
+    "linkTitle": "Create Automanage Machine Configuration custom configurations for Windows",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_azuremonitoragent": {
+    "type": "docs",
+    "title": "Azure Monitor Agent (AMA)",
+    "linkTitle": "Azure Monitor Agent (AMA)",
+    "weight": 14,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_azuresentinel": {
+    "type": "docs",
+    "title": "Microsoft Sentinel",
+    "linkTitle": "Microsoft Sentinel",
+    "weight": 7,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_datadog": {
+    "type": "docs",
+    "title": "Monitoring Azure Arc-enabled servers with Datadog",
+    "linkTitle": "Monitoring Azure Arc-enabled servers with Datadog",
+    "weight": 17,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_defender": {
+    "type": "docs",
+    "title": "Microsoft Defender for Cloud",
+    "linkTitle": "Microsoft Defender for Cloud",
+    "weight": 6,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_extended_security_updates": {
+    "type": "docs",
+    "title": "Using Azure Arc to deliver Extended Security Updates (ESU) for Windows Server 2012 and SQL Server 2012",
+    "linkTitle": "Using Azure Arc to deliver Extended Security Updates (ESU) for Windows Server and SQL Server 2012",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_grafana": {
+    "type": "docs",
+    "title": "Grafana and Azure Monitor Agent (AMA)",
+    "linkTitle": "Grafana and Azure Monitor Agent (AMA)",
+    "weight": 16,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_inventory_management": {
+    "type": "docs",
+    "title": "Inventory Management",
+    "linkTitle": "Inventory Management",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_keyvault": {
+    "type": "docs",
+    "title": "Key Vault Integration",
+    "linkTitle": "Key Vault Integration",
+    "weight": 5,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_managed_identity": {
+    "type": "docs",
+    "title": "Managed Identity",
+    "linkTitle": "Managed Identity",
+    "weight": 11,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_managed_identity/linux": {
+    "type": "docs",
+    "title": "Managed Identity with Ubuntu server",
+    "linkTitle": "Managed Identity with Ubuntu server",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_monitoring": {
+    "type": "docs",
+    "title": "Monitoring, Alerting, and Visualization",
+    "linkTitle": "Monitoring, Alerting, and Visualization",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_policies_mma": {
+    "type": "docs",
+    "title": "Azure Policy",
+    "linkTitle": "Azure Policy",
+    "weight": 4,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_privatelink": {
+    "type": "docs",
+    "title": "Azure Private Link",
+    "linkTitle": "Azure Private Link",
+    "weight": 9,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_proxy": {
+    "type": "docs",
+    "title": "Connectivity behind a proxy server",
+    "linkTitle": "Connectivity behind a proxy server",
+    "weight": 10,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_security_baseline": {
+    "type": "docs",
+    "title": "Azure Security Baseline",
+    "linkTitle": "Azure Security Baseline",
+    "weight": 12,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_ssh": {
+    "type": "docs",
+    "title": "Server SSH Access",
+    "linkTitle": "Server SSH Access",
+    "weight": 13,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_updateManagementCenter": {
+    "type": "docs",
+    "title": "Update Management Center",
+    "linkTitle": "Update Management Center",
+    "weight": 15,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/day2/arc_vm_extension_customscript_arm": {
+    "type": "docs",
+    "title": "Custom Script Extension",
+    "linkTitle": "Custom Script Extension",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/gcp": {
+    "type": "docs",
+    "title": "Google Cloud Platform",
+    "linkTitle": "Google Cloud Platform",
+    "weight": 6,
+    "description": "If you are working in a multi-cloud environment, you can deploy new GCP instances in an automated fashion using Terraform and onboard it as Azure Arc-enabled servers."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/gcp/gcp_terraform_ubuntu": {
+    "type": "docs",
+    "title": "Ubuntu GCP instance",
+    "linkTitle": "Ubuntu GCP instance",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/gcp/gcp_terraform_windows": {
+    "type": "docs",
+    "title": "Windows GCP instance",
+    "linkTitle": "Windows GCP instance",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/general": {
+    "type": "docs",
+    "title": "Onboarding",
+    "linkTitle": "Onboarding",
+    "weight": 1,
+    "description": "The scenarios in this section can be used to onboard your existing Windows or Linux servers as Azure Arc-enabled servers."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/general/onboard_server_linux": {
+    "type": "docs",
+    "title": "Existing Linux server",
+    "linkTitle": "Existing Linux server",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/general/onboard_server_win": {
+    "type": "docs",
+    "title": "Existing Windows server",
+    "linkTitle": "Existing Windows server",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/scaled_deployment": {
+    "type": "docs",
+    "title": "Scaled Deployment",
+    "linkTitle": "Scaled Deployment",
+    "weight": 9,
+    "description": "The scenarios in this section are designed to provide scaled onboarding experience to Azure Arc of virtual machines deployed in various platforms and existing environments."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/scaled_deployment/aws_scaled_ansible": {
+    "type": "docs",
+    "title": "AWS EC2 dynamic inventory with Ansible",
+    "linkTitle": "AWS EC2 dynamic inventory with Ansible",
+    "weight": 3,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/scaled_deployment/configuration_manager_scaled_runscript": {
+    "type": "docs",
+    "title": "Windows server with Configuration Manager using PowerShell",
+    "linkTitle": "Windows server with Configuration Manager using PowerShell",
+    "weight": 4,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/scaled_deployment/configuration_manager_scaled_tasksequence": {
+    "type": "docs",
+    "title": "Windows server with Configuration Manager using a Task Sequence",
+    "linkTitle": "Windows server with Configuration Manager using a Task Sequence",
+    "weight": 5,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/scaled_deployment/vmware_scaled_powercli_linux": {
+    "type": "docs",
+    "title": "VMware vSphere Linux VMs",
+    "linkTitle": "VMware vSphere Linux VMs",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/scaled_deployment/vmware_scaled_powercli_win": {
+    "type": "docs",
+    "title": "VMware vSphere Windows Server VMs",
+    "linkTitle": "VMware vSphere Windows Server VMs",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/vagrant": {
+    "type": "docs",
+    "title": "HashiCorp Vagrant",
+    "linkTitle": "HashiCorp Vagrant",
+    "weight": 4,
+    "description": "If you don't have any existing servers available, the scenarios in this section will guide you on using HashiCorp Vagrant to host a new server locally in order to simulate an \"on-premises\" server and onboard it as an Azure Arc-enabled server."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/vagrant/local_vagrant_ubuntu": {
+    "type": "docs",
+    "title": "Ubuntu Vagrant box",
+    "linkTitle": "Ubuntu Vagrant box",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/vagrant/local_vagrant_windows": {
+    "type": "docs",
+    "title": "Windows Vagrant box",
+    "linkTitle": "Windows Vagrant box",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/vmware": {
+    "type": "docs",
+    "title": "VMware vSphere",
+    "linkTitle": "VMware vSphere",
+    "weight": 7,
+    "description": "If you are working with an on-premises VMware vSphere infrastructure, you can deploy new Windows or Linux virtual machines in an automated fashion using Terraform and onboard it as Azure Arc-enabled servers."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/vmware/vmware_terraform_ubuntu": {
+    "type": "docs",
+    "title": "Ubuntu VM",
+    "linkTitle": "Ubuntu VM",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/vmware/vmware_terraform_ubuntu/vmware_ubuntu_template": {
+    "type": "docs",
+    "title": "Create Ubuntu vSphere template",
+    "linkTitle": "Create Ubuntu vSphere template",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/vmware/vmware_terraform_winsrv": {
+    "type": "docs",
+    "title": "Windows VM",
+    "linkTitle": "Windows VM",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_servers/vmware/vmware_terraform_winsrv/vmware_winsrv2k19_template": {
+    "type": "docs",
+    "title": "Create Windows vSphere template",
+    "linkTitle": "Create Windows vSphere template",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_sqlsrv": {
+    "type": "docs",
+    "title": "Azure Arc-enabled SQL Server",
+    "linkTitle": "Azure Arc-enabled SQL Server",
+    "weight": 3,
+    "description": "The deployment scenarios in this section will guide you through onboarding Microsoft SQL Server as an Azure Arc-enabled SQL server."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_sqlsrv/aws": {
+    "type": "docs",
+    "title": "Amazon Web Services",
+    "linkTitle": "Amazon Web Services",
+    "weight": 2,
+    "description": "If you are working in a multi-cloud environment, you can deploy new a AWS EC2 instance installed with SQL Server in an automated fashion using Terraform and onboard it as Azure Arc-enabled SQL Server."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_sqlsrv/aws/aws_terraform_winsrv": {
+    "type": "docs",
+    "title": "SQL Server EC2 instance",
+    "linkTitle": "SQL Server EC2 instance",
+    "weight": 1
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_sqlsrv/azure": {
+    "type": "docs",
+    "title": "Microsoft Azure",
+    "linkTitle": "Microsoft Azure",
+    "weight": 1,
+    "description": "The guides in this section will walk you through how to project an Azure VM installed with SQL Server as an Azure Arc-enabled server and Azure Arc-enabled SQL. This guide, using Azure VM as the targeted Azure Arc-enabled SQL Server, is designed **for demo and testing purposes ONLY and are not supported.** In the guide you will find a detailed technical explanation of the mechanism and why **it is not expected to project an Azure VM as an Azure Arc-enabled server.**\nIn each guide, you find a detailed, technical explanation of the mechanism and why it is not expected to project an Azure VM as an Azure Arc-enabled server."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_sqlsrv/azure/archive/azure_arm_template_winsrv": {
+    "type": "docs",
+    "title": "SQL Server on Windows Server Virtual Machine",
+    "linkTitle": "SQL Server on Windows Server Virtual Machine",
+    "weight": 1
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_sqlsrv/azure/azure_arm_template_sqlsrv_winsrv_defender": {
+    "type": "docs",
+    "title": "SQL Server Hyper-V Windows Virtual Machine",
+    "linkTitle": "SQL Server Hyper-V Windows Virtual Machine",
+    "weight": 1
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_sqlsrv/day2": {
+    "type": "docs",
+    "title": "Unified Operations Use Cases",
+    "linkTitle": "Unified Operations Use Cases",
+    "weight": 5,
+    "description": "Once you have server resources projected into Azure with Azure Arc, you can start to use native Azure tooling to manage the servers as native Azure resources. The following scenarios show examples of using Azure management tools with Azure Arc-enabled SQL Server."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_sqlsrv/day2/esu": {
+    "type": "docs",
+    "title": "Using Azure Arc to deliver Extended Security Updates (ESU) for Windows Server 2012 and SQL Server 2012",
+    "linkTitle": "Using Azure Arc to deliver Extended Security Updates (ESU) for Windows Server and SQL Server 2012",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_sqlsrv/gcp": {
+    "type": "docs",
+    "title": "Google Cloud Platform",
+    "linkTitle": "Google Cloud Platform",
+    "weight": 3,
+    "description": "If you are working in a multi-cloud environment, you can deploy new a GCP instance installed with SQL Server in an automated fashion using Terraform and onboard it as Azure Arc-enabled SQL Server."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_sqlsrv/gcp/gcp_terraform_winsrv": {
+    "type": "docs",
+    "title": "SQL Server GCP instance",
+    "linkTitle": "SQL Server GCP instance",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_sqlsrv/vmware": {
+    "type": "docs",
+    "title": "VMware vSphere",
+    "linkTitle": "VMware vSphere",
+    "weight": 4,
+    "description": "If you are working with an on-premises VMware vSphere infrastructure, you can deploy new Windows Server virtual machine installed with SQL Server in an automated fashion using Terraform and onboard it as Azure Arc-enabled SQL Server."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_sqlsrv/vmware/vmware_terraform_winsrv": {
+    "type": "docs",
+    "title": "SQL Server VM",
+    "linkTitle": "SQL Server VM",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_vsphere": {
+    "type": "docs",
+    "title": "Azure Arc-enabled VMware vSphere",
+    "linkTitle": "Azure Arc-enabled VMware vSphere",
+    "weight": 2,
+    "description": "The deployment scenarios in this section will guide you through how to manage VMware vSphere resources with Azure Arc."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_vsphere/day2": {
+    "type": "docs",
+    "title": "Azure Arc-enabled VMware vSphere lifecycle",
+    "linkTitle": "Azure Arc-enabled VMware vSphere lifecycle",
+    "weight": 2,
+    "description": "The deployment scenarios in this section will guide you through how to manage the lifecycle of VMware vSphere resources with Azure Arc."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_vsphere/day2/vmware_arm_template_win": {
+    "type": "docs",
+    "title": "Create a Windows VMware VM to an Azure Arc-enabled vSphere cluster using ARM templates",
+    "linkTitle": "Create a Windows VMware VM to an Azure Arc-enabled vSphere cluster using ARM templates",
+    "weight": 2,
+    "description": ""
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_vsphere/resource_bridge": {
+    "type": "docs",
+    "title": "Azure Arc resource bridge deployment",
+    "linkTitle": "Azure Arc resource bridge deployment",
+    "weight": 2,
+    "description": "The scenarios in this section will walk you through how to connect your VMware vCenter Server to Azure Arc using PowerShell."
+  },
+  "public/docs/azure_arc_jumpstart/azure_arc_vsphere/resource_bridge/powershell": {
+    "type": "docs",
+    "title": "Connect VMware vCenter Server to Azure Arc using PowerShell",
+    "linkTitle": "Connect VMware vCenter Server to Azure Arc using PowerShell",
+    "weight": 1,
+    "description": ""
+  },
+  "public/docs/azure_jumpstart_ag": {
+    "type": "docs",
+    "linkTitle": "Jumpstart Agora",
+    "weight": 3
+  },
+  "public/docs/azure_jumpstart_ag/contoso_supermarket": {
+    "type": "docs",
+    "linkTitle": "Contoso Supermarket",
+    "weight": 1
+  },
+  "public/docs/azure_jumpstart_ag/contoso_supermarket/ai": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_ag/contoso_supermarket/arc_defender_servers": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_ag/contoso_supermarket/arc_monitoring_servers": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_ag/contoso_supermarket/ci_cd": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_ag/contoso_supermarket/cleanup": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_ag/contoso_supermarket/data_pos": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_ag/contoso_supermarket/deployment": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_ag/contoso_supermarket/freezer_monitor": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_ag/contoso_supermarket/k8s_infra_observability": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_ag/contoso_supermarket/troubleshooting": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_ag/faq": {
+    "type": "docs",
+    "linkTitle": "Agora FAQ",
+    "weight": 2
+  },
+  "public/docs/azure_jumpstart_arcbox": {
+    "type": "docs",
+    "linkTitle": "Jumpstart ArcBox",
+    "weight": 4
+  },
+  "public/docs/azure_jumpstart_arcbox/DataOps": {
+    "type": "docs",
+    "linkTitle": "Jumpstart ArcBox for DataOps",
+    "weight": 4
+  },
+  "public/docs/azure_jumpstart_arcbox/data_ops": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_arcbox/DevOps": {
+    "type": "docs",
+    "linkTitle": "Jumpstart ArcBox for DevOps",
+    "weight": 3
+  },
+  "public/docs/azure_jumpstart_arcbox/Full": {
+    "type": "docs",
+    "linkTitle": "Jumpstart ArcBox Full",
+    "weight": 1
+  },
+  "public/docs/azure_jumpstart_arcbox/ITPro": {
+    "type": "docs",
+    "linkTitle": "Jumpstart ArcBox for IT Pros",
+    "weight": 2
+  },
+  "public/docs/azure_jumpstart_arcbox/release_notes": {
+    "type": "docs",
+    "weight": 98,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_arcbox/workbook/flavors/DataOps": {
+    "type": "docs",
+    "weight": 99,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_arcbox/workbook/flavors/DevOps": {
+    "type": "docs",
+    "weight": 99,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_arcbox/workbook/flavors/Full": {
+    "type": "docs",
+    "weight": 99,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_arcbox/workbook/flavors/ITPro": {
+    "type": "docs",
+    "weight": 99,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_hcibox": {
+    "type": "docs",
+    "linkTitle": "Jumpstart HCIBox",
+    "weight": 5
+  },
+  "public/docs/azure_jumpstart_hcibox/AKS": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_hcibox/RB": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_hcibox/SQLMI": {
+    "type": "docs",
+    "weight": 100,
+    "toc_hide": true
+  },
+  "public/docs/azure_jumpstart_hcibox/WAC": {
+    "type": "docs",
+    "weight": 200,
+    "toc_hide": true
+  },
+  "public/docs/contributing": {
+    "type": "docs",
+    "title": "Contributing",
+    "linkTitle": "Contributing",
+    "weight": 11
+  },
+  "public/docs/FAQ": {
+    "type": "docs",
+    "title": "Jumpstart FAQ",
+    "linkTitle": "Jumpstart FAQ",
+    "weight": 8
+  },
+  "public/docs/oss": {
+    "type": "docs",
+    "title": "Open-Source Commitment",
+    "linkTitle": "Open-Source Commitment",
+    "weight": 9
+  },
+  "public/docs/overview": {
+    "type": "docs",
+    "title": "Overview",
+    "linkTitle": "Overview",
+    "weight": 1
+  },
+  "public/docs/release_notes": {
+    "type": "docs",
+    "title": "Jumpstart Release Notes",
+    "linkTitle": "Jumpstart Release Notes",
+    "weight": 6
+  },
+  "public/docs/scenario_guidelines": {
+    "type": "docs",
+    "title": "Scenario Write-up Guidelines",
+    "linkTitle": "Scenario Write-up Guidelines",
+    "weight": 7
+  }
+}
