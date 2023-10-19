@@ -104,7 +104,7 @@ const App = () => {
 
   // sideMenuItems is a node tree.  each node has a path property.  a function to find the node with the path.
   const findNode = (node, path) => {
-    if (node.path === path) {
+    if (node.path.replace('\\', '/') === path.replace('\\', '/')) {
       return node;
     } else if (node.children) {
       let result = null;
