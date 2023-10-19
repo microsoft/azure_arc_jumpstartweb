@@ -10,7 +10,13 @@ export const Anchor = (props) => {
             title={anchorPath}
             className="custom-anchor"
             onClick={() => {
-                onClick(anchorPath)
+                // if anchorPath is pointing to an external website, open in new tab
+                if (href.includes('http' || 'https')) {
+                    window.open(href, '_blank');
+                    return;
+                } else {
+                    onClick(anchorPath)
+                }
             }}
         >
             {children}
