@@ -27,7 +27,7 @@ const MenuDrawer = ({ menuItem, handleFileFetch }) => {
 
   const handleOnClickMenuCard = (menuItem) => {
     setSelectedMenuCard((prev) => {
-      if (prev !== menuItem) {
+      if (prev !== menuItem && menuItem.hasOwnProperty("Link")) {
         handleFileFetch(menuItem.Link);
         return menuItem;
       }
@@ -74,7 +74,7 @@ const MenuDrawer = ({ menuItem, handleFileFetch }) => {
         <div className="frame-59653">
           <div className="row-1">
             {
-              selectedSubMenuItem && selectedSubMenuItem.Items.map((item, index) => {
+              selectedSubMenuItem && selectedSubMenuItem.Items.filter((item)=>item.hasOwnProperty('Link')).map((item, index) => {
                 return (
                   <MenuCard
                     item={item}
