@@ -1,0 +1,13 @@
+/* styles for large text in Contoso Supermarket cards */
+
+.contoso-supermarket-deployment-guide,
+.contoso-supermarket-deployment-guide * {
+  box-sizing: border-box;
+}
+.contoso-supermarket-deployment-guide {
+  color: linear-gradient(to left, #ffffff, #ffffff);
+  text-align: left;
+  font: 600 23px/29.11px "Segoe UI", sans-serif;
+  position: relative;
+  width: 695px;
+}

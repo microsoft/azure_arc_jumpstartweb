@@ -1,0 +1,25 @@
+/* styles for a div with links and text following link. */
+.link,
+.link
+  * {
+  box-sizing: border-box;
+}
+.link {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+  position: relative;
+  width: 854.23px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link-span {
+  color: #ffffff;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+  text-decoration: underline;
+}
+.link-span2 {
+  color: #ffffff;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+}

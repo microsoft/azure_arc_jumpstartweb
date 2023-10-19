@@ -1,0 +1,16 @@
+/* Styles for "Feedback" text that appears top left of 
+all Contoso Supermarket Pages under "Edit in Github" text */
+
+.feedback,
+.feedback * {
+  box-sizing: border-box;
+}
+.feedback {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16.7px/24.49px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

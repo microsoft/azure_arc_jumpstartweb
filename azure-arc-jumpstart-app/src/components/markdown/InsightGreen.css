@@ -1,0 +1,29 @@
+/* styles for rounded, green colored buttons at the bottom of some 
+Contoso Supermarket cards */
+
+.insight-green,
+.insight-green * {
+  box-sizing: border-box;
+}
+.insight-green {
+  background: #284b49;
+  border-radius: 20px;
+  padding: 0px 15px 0px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 21px;
+  position: relative;
+}
+.door-movement {
+  color: #52fff5;
+  text-align: left;
+  font: 700 9px/30px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

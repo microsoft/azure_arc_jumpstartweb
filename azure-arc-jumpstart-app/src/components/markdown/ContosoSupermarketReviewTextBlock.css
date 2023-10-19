@@ -1,0 +1,17 @@
+/* Styles for Contoso Supermarket Review text block at top of second page. 
+This style is mainly here for the dimensions of the text block,*/
+.contoso-supermarket-review-text-block,
+.contoso-supermarket-review-text-block
+  * {
+  box-sizing: border-box;
+}
+.contoso-supermarket-review-text-block {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+  position: relative;
+  width: 854.23px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

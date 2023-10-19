@@ -1,0 +1,17 @@
+/* Styles for the blue "Note" text block in Contoso Supermarket pages*/
+.frame-2018775848,
+.frame-2018775848 * {
+  box-sizing: border-box;
+}
+.frame-2018775848 {
+  background: rgba(0, 63, 90, 0.8);
+  padding: 22.64px 61.82px 22.64px 61.82px;
+  display: flex;
+  flex-direction: row;
+  gap: 8.71px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 976.14px;
+  position: relative;
+}

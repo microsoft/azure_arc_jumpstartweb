@@ -1,0 +1,98 @@
+/* Styles for compact sized card at bottom of Contoso Supermarket Pages.
+This style is mainly here for the card size. All other card content is the same.*/
+
+.long-card-view-compact,
+.long-card-view-compact * {
+  box-sizing: border-box;
+}
+.long-card-view-compact {
+  background: var(--neutrals-grey-6, #212121);
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  padding: 25px 30px 25px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 809px;
+  position: relative;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.frame-2018775810 {
+  display: flex;
+  flex-direction: column;
+  gap: 22.74px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 754px;
+  position: relative;
+}
+.frame-44 {
+  display: flex;
+  flex-direction: row;
+  gap: 46.39px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 746px;
+  position: relative;
+}
+.general-object-detection {
+  flex-shrink: 0;
+  width: 724.25px;
+  height: 64.45px;
+  position: static;
+}
+.frame-2018775799 {
+  display: flex;
+  flex-direction: column;
+  gap: 28.2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 10.87px;
+  top: 0px;
+}
+.frame-2018775798 {
+  display: flex;
+  flex-direction: column;
+  gap: 9.1px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-2018775832 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 724px;
+  position: relative;
+}
+.contoso-supermarket-deployment-guide {
+  color: linear-gradient(to left, #ffffff, #ffffff);
+  text-align: left;
+  font: 600 23px/29.11px "Segoe UI", sans-serif;
+  position: relative;
+  width: 695px;
+}
+.jumpstart-agora-provides-a-simple-deployment-process-using-azure-bicep-and-power-shell-that-minimizes-user-interaction-this-automation-automatically-configures-the-contoso-supermarket-scenario-environment-including-the-infrastructure-the-contoso-supermarket-applications-ci-cd-artifacts-and-observability-components-the-diagram-below-details-the-high-level-architecture-that-is-deployed-and-configured-as-part-of-the-automation {
+  color: var(--text-text-white, #ffffff);
+  text-align: left;
+  font: 400 16px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 724.21px;
+  transform-origin: 0 0;
+  transform: rotate(0.107deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
