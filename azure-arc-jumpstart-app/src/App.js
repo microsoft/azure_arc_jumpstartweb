@@ -11,6 +11,7 @@ const App = () => {
   const [menuItems, setMenuItems] = useState([]);
   const [selectedMenuItem, setSelectedMenuItem] = useState(null);
   const [sideMenuItems, setSideMenuItems] = useState([]);
+  const [selectedSideMenuItem, setSelectedSideMenuItem] = useState(null);
   const [markdownFileContents, setMarkdownFileContents] = useState('');
   const [markdownFilePath, setMarkdownFilePath] = useState('');
   const [bookmarks, setBookmarks] = useState([]);
@@ -57,15 +58,63 @@ const App = () => {
       const doc = await res.text();
       const htmlText = removeFrontmatter(doc);
       if (fullPath.includes('azure_arc_jumpstart/')) {
-        console.log('fullPath', fullPath);
+        const node = findNode(sideMenuItems[0], path[0]);
+        setSelectedSideMenuItem((prev) => {
+          if (node && node.children && node.children.length > 0) {
+            console.log(node.children.length);
+            let htmlContent = '';
+            // for each child
+            node.children.forEach((child) => {
+              htmlContent = `${htmlContent}${createHtml(child)}`;
+            });
+
+            console.log(htmlContent);
+            setMarkdownFileContents(htmlContent);
+          } else {
+            setMarkdownFileContents(htmlText);
+          }
+
+          return node;
+        });
+      } else {
+        setMarkdownFileContents(htmlText);
       }
-      setMarkdownFileContents(htmlText);
     } catch (e) {
       console.log(e);
     }
   }
 
-  // find the node in sideMenuItems that 
+  // function to create html using frontmatter in node, include title or linkTitle and description
+  const createHtml = (node) => {
+    let html = '';
+    if (node.frontMatter) {
+      if (node.frontMatter.title) {
+        html = `<a href='${node.path}'>${node.frontMatter.title}</a>`;
+      } else if (node.frontMatter.linkTitle) {
+        html = `<a href='${node.path}'>${node.frontMatter.linkTitle}</a>`;
+      }
+      if (node.frontMatter.description) {
+        html = `${html}<p>${node.frontMatter.description}</p>`;
+      } else {
+        html = `${html}<p></p>`;
+      }
+    }
+    return html;
+  }
+
+  // sideMenuItems is a node tree.  each node has a path property.  a function to find the node with the path.
+  const findNode = (node, path) => {
+    if (node.path === path) {
+      return node;
+    } else if (node.children) {
+      let result = null;
+      for (let i = 0; result == null && i < node.children.length; i++) {
+        result = findNode(node.children[i], path);
+      }
+      return result;
+    }
+    return null;
+  }
 
   const onChange = (e) => {
     const hash = e.target.value;
@@ -91,40 +140,12 @@ const App = () => {
 
   return (
     <>
-      <NavBar
-        menuItems={menuItems}
-        selectedMenuItem={selectedMenuItem}
-        setSelectedMenuItem={setSelectedMenuItem}
-      />
-      {
-        selectedMenuItem ? (
-          <MenuDrawer
-            menuItem={selectedMenuItem}
-            handleFileFetch={handleFileFetch}
-          />
-        ) : (
-          <>
-            <BreadcrumbBar
-              path={markdownFilePath}
-              handleFileFetch={handleFileFetch}
-            />
-            <span style={{ position: 'absolute', top: '48px', right: '71px' }}>
-              <Dropdown
-                bookmarks={bookmarks}
-                markdownFilePath={markdownFilePath}
-                handleFileFetch={handleFileFetch}
-              >
-                Jump to section
-              </Dropdown>
-            </span>
-          </>
-        )
-      }
       <div
         style={{
           display: 'grid',
           gridTemplateColumns: '300px auto',
-          justifyContent: 'space-between'
+          justifyContent: 'space-between',
+          zIndex: '-1'
         }}
       >
         <span
@@ -161,7 +182,6 @@ const App = () => {
             right: '10px',
             bottom: '0px',
             color: 'white',
-            zIndex: '-1',
             overflowY: 'scroll',
             // hide scroll bars
             msOverflowStyle: 'none',
@@ -178,6 +198,35 @@ const App = () => {
           />
         </span>
       </div>
+      <NavBar
+        menuItems={menuItems}
+        selectedMenuItem={selectedMenuItem}
+        setSelectedMenuItem={setSelectedMenuItem}
+      />
+      {
+        selectedMenuItem ? (
+          <MenuDrawer
+            menuItem={selectedMenuItem}
+            handleFileFetch={handleFileFetch}
+          />
+        ) : (
+          <>
+            <BreadcrumbBar
+              path={markdownFilePath}
+              handleFileFetch={handleFileFetch}
+            />
+            <span style={{ position: 'absolute', top: '48px', right: '71px' }}>
+              <Dropdown
+                bookmarks={bookmarks}
+                markdownFilePath={markdownFilePath}
+                handleFileFetch={handleFileFetch}
+              >
+                Jump to section
+              </Dropdown>
+            </span>
+          </>
+        )
+      }
     </>
   );
 }
