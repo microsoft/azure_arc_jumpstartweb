@@ -7,7 +7,7 @@ const Dropdown = ({ bookmarks, children, handleFileFetch, markdownFilePath }) =>
 
     const handleOnClick = (label) => {
         setSelected((prev) => {
-            handleFileFetch(`${markdownFilePath}#${label}`);
+            handleFileFetch(`${markdownFilePath[0]}#${label}`);
             return selected === label ? null : label;
         });
     };

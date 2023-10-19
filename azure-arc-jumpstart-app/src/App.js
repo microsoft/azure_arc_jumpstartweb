@@ -167,7 +167,7 @@ const App = () => {
           {
             sideMenuItems && sideMenuItems.length > 0 && (
               <SideMenu
-                sideMenuItems={sideMenuItems}
+                sideMenuItems={selectedSideMenuItem ? selectedSideMenuItem.children : sideMenuItems}
                 handleFileFetch={handleFileFetch}
               />
             )
