@@ -10,14 +10,12 @@
                     {
                         "Title": "Jumpstart Scenarios",
                         "Description": "Accelerate your deployment with our jumpstart solutions.",
-                        "Items": [],
-                        "Link": "azure_arc_jumpstart"
+                        "Items": []
                     },
                     {
                         "Title": "Jumpstart Agora",
                         "Description": "Collection of industry verticals from cloud to edge scenarios.",
-                        "Items": [],
-                        "Link": "azure_jumpstart_ag"
+                        "Items": []
                     },
                     {
                         "Title": "Jumpstart ArcBox",

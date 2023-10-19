@@ -104,7 +104,8 @@ const App = () => {
       {
         selectedMenuItem ? (
           <MenuDrawer
-            menuItem={selectedMenuItem}
+            menuItem={selectedMenuItem}              
+            handleFileFetch={handleFileFetch}
           />
         ) : (
           <>
