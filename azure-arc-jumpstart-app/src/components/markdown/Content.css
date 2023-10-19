@@ -1,0 +1,78 @@
+/* styles for code block */
+.content,
+.content * {
+  box-sizing: border-box;
+}
+.content {
+  background: var(--neutral-code-block-background, #002b4e);
+  border-radius: 15px;
+  padding: 10px 22px 33px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icons {
+  padding: 0px 0px 0px 760px;
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.icons2 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.icon2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.line {
+  background: var(--neutral-code-block-background, #002b4e);
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 810px;
+  position: relative;
+}
+._2 {
+  color: var(--neutral-code-block-punctuation, #ffffff);
+  text-align: center;
+  font: 400 16px/24px "Source Code Pro", sans-serif;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.classifier-input {
+  color: var(--neutral-code-block-punctuation, #ffffff);
+  text-align: left;
+  font: 500 16px/24px "Source Code Pro", sans-serif;
+  position: relative;
+  width: 796px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

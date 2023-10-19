@@ -1,4 +1,3 @@
-/* large text in Contoso Supermarket cards */
 import "./ContosoSupermarketDeploymentGuide.css";
 
 const ContosoSupermarketDeploymentGuide = ({ ...props }) => {

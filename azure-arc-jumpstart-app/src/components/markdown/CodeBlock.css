@@ -1,0 +1,11 @@
+/* styles for code blocks with ordered list */
+.code-block,
+.code-block * {
+  box-sizing: border-box;
+}
+.code-block {
+  flex-shrink: 0;
+  width: 854px;
+  height: 128px;
+  position: relative;
+}
