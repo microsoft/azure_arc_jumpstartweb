@@ -13,6 +13,7 @@ const App = () => {
   const [sideMenuItems, setSideMenuItems] = useState([]);
   const [markdownFileContents, setMarkdownFileContents] = useState('');
   const [markdownFilePath, setMarkdownFilePath] = useState('');
+  const [bookmarks, setBookmarks] = useState([]);
 
   useEffect(() => {
     const fetchMenuDrawerData = async () => {
@@ -73,25 +74,14 @@ const App = () => {
   const gatherElementIds = () => {
     const elementIds = [];
 
-    // Use querySelectorAll to select elements with IDs
-    const elementsWithIds = document.querySelectorAll('[id]');
+    const docElement = document.getElementById('doc');
+    const elementsWithIds = docElement.querySelectorAll('[id]');
 
     elementsWithIds.forEach((element) => {
-      if (element.id !== 'root') {
         elementIds.push(element.id);
-      }
     });
 
-    // if (this.selectRef.current) {
-    //   const select = this.selectRef.current;
-    //   select.innerHTML = '';
-    //   elementIds.forEach((id) => {
-    //     const option = document.createElement('option');
-    //     option.value = id;
-    //     option.text = id;
-    //     select.appendChild(option);
-    //   });
-    // }
+    setBookmarks(elementIds);
   };
 
   return (
@@ -123,12 +113,19 @@ const App = () => {
               handleFileFetch={handleFileFetch}
             />
             <span style={{ position: 'absolute', top: '48px', right: '71px' }}>
-              <Dropdown>Jump to section</Dropdown>
+              <Dropdown 
+                bookmarks={bookmarks} 
+                markdownFilePath={markdownFilePath}
+                handleFileFetch={handleFileFetch}
+              >
+                Jump to section
+              </Dropdown>
             </span>
           </>
         )
       }
       <span
+        id="doc"
         style={{
           position: 'absolute',
           top: '96px',

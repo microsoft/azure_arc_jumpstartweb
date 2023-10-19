@@ -3,3 +3,33 @@
 body {
   background-color: var(--neutral-background-4-rest);
 }
+
+/* Hide the scrollbar track */
+::-webkit-scrollbar {
+  width: 0.01rem; /* Set a very thin scrollbar width */
+}
+
+/* Hide the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Hide the scrollbar track on hover */
+::-webkit-scrollbar-track:hover {
+  background: transparent;
+}
+
+/* Hide the scrollbar track */
+scrollbar {
+  width: 0.01rem; /* Set a very thin scrollbar width */
+}
+
+/* Hide the scrollbar thumb (the draggable part) */
+scrollbar-thumb {
+  background: transparent;
+}
+
+/* Hide the scrollbar track on hover */
+scrollbar-track {
+  background: transparent;
+}
