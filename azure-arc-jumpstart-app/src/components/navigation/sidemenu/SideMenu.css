@@ -8,9 +8,8 @@
   border-radius: 0px 4px 4px 0px;
   flex-shrink: 0;
   width: 287px;
-  height: 694px;
+  /* height: 694px; */
   position: relative;
-  overflow-y: auto;
 }
 .side-menu2 {
   background: var(--neutral-background-4-rest, #0a0a0a);

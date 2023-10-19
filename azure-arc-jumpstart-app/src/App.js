@@ -56,11 +56,16 @@ const App = () => {
       const res = await fetch(fullPath);
       const doc = await res.text();
       const htmlText = removeFrontmatter(doc);
+      if (fullPath.includes('azure_arc_jumpstart/')) {
+        console.log('fullPath', fullPath);
+      }
       setMarkdownFileContents(htmlText);
     } catch (e) {
       console.log(e);
     }
   }
+
+  // find the node in sideMenuItems that 
 
   const onChange = (e) => {
     const hash = e.target.value;
@@ -78,7 +83,7 @@ const App = () => {
     const elementsWithIds = docElement.querySelectorAll('[id]');
 
     elementsWithIds.forEach((element) => {
-        elementIds.push(element.id);
+      elementIds.push(element.id);
     });
 
     setBookmarks(elementIds);
@@ -91,20 +96,10 @@ const App = () => {
         selectedMenuItem={selectedMenuItem}
         setSelectedMenuItem={setSelectedMenuItem}
       />
-      <span style={{ position: 'absolute', top: '96px', left: '0px' }}>
-        {
-          sideMenuItems && sideMenuItems.length > 0 && (
-            <SideMenu
-              sideMenuItems={sideMenuItems}
-              handleFileFetch={handleFileFetch}
-            />
-          )
-        }
-      </span>
       {
         selectedMenuItem ? (
           <MenuDrawer
-            menuItem={selectedMenuItem}              
+            menuItem={selectedMenuItem}
             handleFileFetch={handleFileFetch}
           />
         ) : (
@@ -114,8 +109,8 @@ const App = () => {
               handleFileFetch={handleFileFetch}
             />
             <span style={{ position: 'absolute', top: '48px', right: '71px' }}>
-              <Dropdown 
-                bookmarks={bookmarks} 
+              <Dropdown
+                bookmarks={bookmarks}
                 markdownFilePath={markdownFilePath}
                 handleFileFetch={handleFileFetch}
               >
@@ -125,23 +120,64 @@ const App = () => {
           </>
         )
       }
-      <span
-        id="doc"
+      <div
         style={{
-          position: 'absolute',
-          top: '96px',
-          left: '300px',
-          right: '0px',
-          color: 'white',
-          zIndex: '-1'
-        }}>
-        <Doc
-          doc={markdownFileContents}
-          path={markdownFilePath}
-          handleFileFetch={handleFileFetch}
-          gatherElementIds={gatherElementIds}
-        />
-      </span>
+          display: 'grid',
+          gridTemplateColumns: '300px auto',
+          justifyContent: 'space-between'
+        }}
+      >
+        <span
+          style={{
+            position: 'absolute',
+            top: '96px',
+            left: '0px',
+            bottom: '0px',
+            // scroll without visible scroll bars
+            overflowY: 'scroll',
+            // hide scroll bars
+            msOverflowStyle: 'none',
+            scrollbarWidth: 'none',
+            '&::-webkit-scrollbar': {
+              display: 'none'
+            }
+          }}
+        >
+          {
+            sideMenuItems && sideMenuItems.length > 0 && (
+              <SideMenu
+                sideMenuItems={sideMenuItems}
+                handleFileFetch={handleFileFetch}
+              />
+            )
+          }
+        </span>
+        <span
+          id="doc"
+          style={{
+            position: 'absolute',
+            top: '96px',
+            left: '300px',
+            right: '10px',
+            bottom: '0px',
+            color: 'white',
+            zIndex: '-1',
+            overflowY: 'scroll',
+            // hide scroll bars
+            msOverflowStyle: 'none',
+            scrollbarWidth: 'none',
+            '&::-webkit-scrollbar': {
+              display: 'none'
+            }
+          }}>
+          <Doc
+            doc={markdownFileContents}
+            path={markdownFilePath}
+            handleFileFetch={handleFileFetch}
+            gatherElementIds={gatherElementIds}
+          />
+        </span>
+      </div>
     </>
   );
 }
