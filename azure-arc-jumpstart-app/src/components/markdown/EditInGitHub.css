@@ -1,0 +1,14 @@
+/* Styles for "Edit in Github" text at top right of all Contoso Supermarket pages */
+.edit-in-git-hub,
+.edit-in-git-hub * {
+  box-sizing: border-box;
+}
+.edit-in-git-hub {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16.7px/24.49px "Segoe UI", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

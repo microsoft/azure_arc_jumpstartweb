@@ -1,0 +1,11 @@
+/* styles for images, specifically the first image on the third page */
+.contoso-architecture-1,
+.contoso-architecture-1 * {
+  box-sizing: border-box;
+}
+.contoso-architecture-1 {
+  flex-shrink: 0;
+  width: 812.43px;
+  height: 456.29px;
+  position: relative;
+}

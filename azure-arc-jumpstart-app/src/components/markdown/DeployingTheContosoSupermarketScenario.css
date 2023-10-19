@@ -1,0 +1,28 @@
+/* styles for div with ordered list on Contoso Supermarket page 3 */
+.deploying-the-contoso-supermarket-scenario,
+.deploying-the-contoso-supermarket-scenario
+  * {
+  box-sizing: border-box;
+}
+.deploying-the-contoso-supermarket-scenario {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+  position: relative;
+  width: 854.23px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.deploying-the-contoso-supermarket-scenario-span {
+  color: #ffffff;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+}
+.deploying-the-contoso-supermarket-scenario-span2 {
+  color: #ffffff;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+}
+.deploying-the-contoso-supermarket-scenario-span3 {
+  color: #ffffff;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+}

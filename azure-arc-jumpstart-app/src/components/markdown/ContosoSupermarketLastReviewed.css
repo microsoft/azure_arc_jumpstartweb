@@ -1,0 +1,23 @@
+/* Style of Div with Contoso Supermarket Main heading on all Contoso Supermarket pages*/
+
+.contoso-supermarket-last-reviewed,
+.contoso-supermarket-last-reviewed * {
+  box-sizing: border-box;
+}
+.contoso-supermarket-last-reviewed {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  width: 854.23px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contoso-supermarket-last-reviewed-span {
+  color: #ffffff;
+  font: 700 30.48px/24.49px "Segoe UI", sans-serif;
+}
+.contoso-supermarket-last-reviewed-span2 {
+  color: #ffffff;
+  font: 400 16.7px/24.49px "Segoe UI", sans-serif;
+}

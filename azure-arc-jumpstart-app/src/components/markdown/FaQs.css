@@ -1,0 +1,167 @@
+/* styles for the entire FaQ Div */
+.fa-qs,
+.fa-qs * {
+  box-sizing: border-box;
+}
+.fa-qs {
+  background: #212121;
+  padding: 0px 0px 81px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  height: 702px;
+  position: relative;
+}
+.frame-2018775947 {
+  padding: 22px 0px 22px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.fa-qs2 {
+  color: #ffffff;
+  text-align: left;
+  font: 700 23px/24.49px "Segoe UI", sans-serif;
+  position: relative;
+  width: 854.23px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-2018775948 {
+  background: #212121;
+  border-radius: 4px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-text-stack {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 810px;
+  position: relative;
+}
+.text {
+  padding: 5px 2px 7px 2px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.what-is-jumpstart-agora {
+  color: #ffffff;
+  text-align: left;
+  font: 600 20px/20px "Segoe UI", sans-serif;
+  position: relative;
+  width: 808px;
+}
+.chevron {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-2018775949 {
+  background: #212121;
+  border-radius: 4px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.chevron2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-2018775950 {
+  background: #212121;
+  border-radius: 4px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.chevron3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-2018775951 {
+  background: #212121;
+  border-radius: 4px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.chevron4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-2018775952 {
+  background: #212121;
+  border-radius: 4px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.chevron5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.frame-2018775953 {
+  background: #212121;
+  border-radius: 4px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.chevron6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}

@@ -1,0 +1,15 @@
+/* Styles for second tier headings on Contoso Supermarket pages above cards */
+.overview,
+.overview * {
+  box-sizing: border-box;
+}
+.overview {
+  color: #ffffff;
+  text-align: left;
+  font: 700 23px/24.49px "Segoe UI", sans-serif;
+  position: relative;
+  width: 825px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

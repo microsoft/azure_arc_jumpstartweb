@@ -1,0 +1,54 @@
+/* styles for div with bullet points */
+.prerequisites,
+.prerequisites
+  * {
+  box-sizing: border-box;
+}
+.prerequisites {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+  width: 854.23px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.prerequisites-span {
+  color: #ffffff;
+  font: 700 23px/24.49px "Segoe UI", sans-serif;
+}
+.prerequisites-span2 {
+  color: #ffffff;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+}
+.prerequisites-span3 {
+  color: #ffffff;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+  text-decoration: underline;
+}
+.prerequisites-span4 {
+  color: #ffffff;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+}
+.prerequisites-span5 {
+  color: #ffffff;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+  text-decoration: underline;
+}
+.prerequisites-span6 {
+  color: #ffffff;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+}
+.prerequisites-span7 {
+  color: #ffffff;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+}
+.prerequisites-span8 {
+  color: #ffffff;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+  text-decoration: underline;
+}
+.prerequisites-span9 {
+  color: #ffffff;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+}

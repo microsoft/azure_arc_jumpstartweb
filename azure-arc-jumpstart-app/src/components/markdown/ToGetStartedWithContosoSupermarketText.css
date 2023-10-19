@@ -1,0 +1,17 @@
+/* styles for div with text "To get started..."on first Contoso Supermarket page.
+Note the text in all cards is the same size/style */
+.to-get-started-with-contoso-supermarket-text,
+.to-get-started-with-contoso-supermarket-text
+  * {
+  box-sizing: border-box;
+}
+.to-get-started-with-contoso-supermarket-text {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px/24.49px "Segoe UI", sans-serif;
+  position: relative;
+  width: 854.23px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
