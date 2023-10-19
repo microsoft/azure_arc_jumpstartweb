@@ -26,8 +26,10 @@ const App = () => {
     const fetchSideMenuData = async () => {
       const response = await fetch('./side-menu.json');
       const data = await response.json();
-      const sideMenuItems = data.hasOwnProperty('children') && data.children.length > 0 ? data.children : [];
-      setSideMenuItems(sideMenuItems);
+      if(data.hasOwnProperty('children') && data.children.length > 0) {
+        sortNodeTree(data);
+        setSideMenuItems(data.children);
+      }
     };
 
     fetchMenuDrawerData();
@@ -84,7 +86,6 @@ const App = () => {
     }
   }
 
-  // function to create html using frontmatter in node, include title or linkTitle and description
   const createHtml = (node) => {
     let html = '';
     if (node.frontMatter) {
@@ -102,7 +103,6 @@ const App = () => {
     return html;
   }
 
-  // sideMenuItems is a node tree.  each node has a path property.  a function to find the node with the path.
   const findNode = (node, path) => {
     if (node.path.replace('\\', '/') === path.replace('\\', '/')) {
       return node;
@@ -114,6 +114,25 @@ const App = () => {
       return result;
     }
     return null;
+  }
+
+  const sortNodeTree = (node) => {
+    if (node.children) {
+      node.children.sort((a, b) => {
+        const aWeight = a.frontMatter && a.frontMatter.weight ? a.frontMatter.weight : 0;
+        const bWeight = b.frontMatter && b.frontMatter.weight ? b.frontMatter.weight : 0;
+        if (aWeight < bWeight) { 
+          return -1; 
+        } else if (aWeight > bWeight) { 
+          return 1; 
+        } else { 
+          return 0; 
+        }
+      });
+      node.children.forEach((child) => {
+        sortNodeTree(child);
+      });
+    }
   }
 
   const onChange = (e) => {
@@ -167,7 +186,7 @@ const App = () => {
           {
             sideMenuItems && sideMenuItems.length > 0 && (
               <SideMenu
-                sideMenuItems={selectedSideMenuItem ? selectedSideMenuItem.children : sideMenuItems}
+                sideMenuItems={sideMenuItems}
                 handleFileFetch={handleFileFetch}
               />
             )
