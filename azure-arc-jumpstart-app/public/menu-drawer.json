@@ -22,12 +22,14 @@
                     {
                         "Title": "Jumpstart ArcBox",
                         "Description": "Explore Azure Arc capabilities with Azure Sandbox.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_jumpstart_arcbox"
                     },
                     {
                         "Title": "Jumpstart HCIBox",
                         "Description": "Explore Azure Stack HCI capabilities with Azure Sandbox.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_jumpstart_hcibox"
                     },
                     {
                         "Title": "Jumpstart Lightning",
@@ -43,32 +45,38 @@
                     {
                         "Title": "Servers",
                         "Description": "Onboard various Windows and Linux server distributions.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_arc_jumpstart/azure_arc_servers"
                     },
                     {
                         "Title": "VMware vSphere",
                         "Description": "Manage VMware vSphere resources.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_arc_jumpstart/azure_arc_vsphere"
                     },
                     {
                         "Title": "Kubernetes",
                         "Description": "Onboard various Kubernetes distributions.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_arc_jumpstart/azure_arc_k8s"
                     },
                     {
                         "Title": "Data services",
                         "Description": "Deploy data services on multiple infrastructure platforms.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_arc_jumpstart/azure_arc_data"
                     },
                     {
                         "Title": "App services",
                         "Description": "Deploy app services on multiple infrastructure platforms.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_arc_jumpstart/azure_arc_app_svc"
                     },
                     {
                         "Title": "ML",
                         "Description": "Deploy machine learning on Kubernetes.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_arc_jumpstart/azure_arc_ml"
                     },
                     {
                         "Title": "Management",
@@ -165,79 +173,10 @@
                 "Description": "Pick the industry that you are in and see cloud-to-edge solutions for specific scenarios.",
                 "Items": [
                     {
-                        "Title": "Agriculture",
-                        "Description": "Identify areas that need irrigation, fertilization, or pesticide treatment.",
-                        "Items": []
-                    },
-                    {
-                        "Title": "Construction",
-                        "Description": "Track and alert for potential safety issues, construction errors, and productivity issues.",
-                        "Items": []
-                    },
-                    {
-                        "Title": "Education",
-                        "Description": "Help students sharpen their skills and improve weak spots inside and outside of the classroom.",
-                        "Items": []
-                    },
-                    {
-                        "Title": "Energy",
-                        "Description": "Cut energy waste, lower energy costs, and accelerate clean renewable energy.",
-                        "Items": []
-                    },
-                    {
-                        "Title": "Financial Services",
-                        "Description": "Streamline and optimize processes ranging from credit decisions to quantitative trading and risk.",
-                        "Items": []
-                    },
-                    {
-                        "Title": "Government",
-                        "Description": "Save a lot of time by using AI to record or translate government documents.",
-                        "Items": []
-                    },
-                    {
-                        "Title": "Hospitality",
-                        "Description": "Improve customer service through AI chatbots and concierge robots, adapting to individuals.",
-                        "Items": []
-                    },
-                    {
-                        "Title": "Insurance",
-                        "Description": "Price policies more competitively and personalize them for each customer.",
-                        "Items": []
-                    },
-                    {
-                        "Title": "Legal",
-                        "Description": "Automate tedious tasks, reducing costs and increasing overall productivity.",
-                        "Items": []
-                    },
-                    {
-                        "Title": "Manufacturing",
-                        "Description": "Enhance overall equipment efficiency (OEE) and first-pass yield in production.",
-                        "Items": []
-                    },
-                    {
-                        "Title": "Medical",
-                        "Description": "Predict ICU transfers, improve clinical workflows, pinpoint risks of infections.",
-                        "Items": []
-                    },
-                    {
-                        "Title": "Real Estate",
-                        "Description": "Better estimate home market values and eliminate geographic limitations.",
-                        "Items": []
-                    },
-                    {
                         "Title": "Retail",
                         "Description": "Lower cost-to-serve and create more effective promotion and merchandising.",
-                        "Items": []
-                    },
-                    {
-                        "Title": "Sports",
-                        "Description": "Identify patterns in tactics, strategies, and weaknesses during games. Improve health and fitness.",
-                        "Items": []
-                    },
-                    {
-                        "Title": "Technology",
-                        "Description": "Enable technical systems to perceive their environment and act on the live insights.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_jumpstart_ag/contoso_supermarket"
                     }
                 ]
             },
@@ -248,27 +187,32 @@
                     {
                         "Title": "ArcBox",
                         "Description": "Jumpstart ArcBox is a sandbox environment that allows users to explore all the major capabilities of Azure Arc with a click of a button.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_jumpstart_arcbox"
                     },
                     {
                         "Title": "ArcBox Full",
                         "Description": "Deploy the full version of ArcBox.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_jumpstart_arcbox/Full"
                     },
                     {
                         "Title": "ArcBox for IT Pros",
                         "Description": "Azure services curated for IT Pros including Azure Sentinel.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_jumpstart_arcbox/ITPro"
                     },
                     {
                         "Title": "ArcBox for DevOps",
                         "Description": "Azure services curated for DevOps including GitHub, OSM, Key Vault.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_jumpstart_arcbox/DevOps"
                     },
                     {
                         "Title": "ArcBox for DataOps",
                         "Description": "Azure services curated for DevOps including Tags and Grafana.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_jumpstart_arcbox/DataOps"
                     }
                 ]
             },
@@ -279,7 +223,8 @@
                     {
                         "Title": "HCIBox",
                         "Description": "Jumstart HCIBox is a sandbox environment that allows users to explore all the major capabilities of Azure Stack HCI with a click of a button.",
-                        "Items": []
+                        "Items": [],
+                        "Link": "azure_jumpstart_hcibox"
                     },
                     {
                         "Title": "Use cases",
