@@ -18,9 +18,9 @@ const NavBar = ({ menuItems, selectedMenuItem, setSelectedMenuItem }) => {
                 setSelectedMenuItem={setSelectedMenuItem}
             />
             <Searchbar />
-            <CoPilot />
+            {/* <CoPilot /> */}
             <GitHub />
-            <SignIn />
+            {/* <SignIn /> */}
         </span>
     );
 };
