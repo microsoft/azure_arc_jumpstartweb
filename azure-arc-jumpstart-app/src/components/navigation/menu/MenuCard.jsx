@@ -1,17 +1,17 @@
 import './MenuCard.css';
 
-const MenuCard = ({label, children, selectedMenuCard, setSelectedMenuCard}) => {
+const MenuCard = ({item, children, selectedMenuCard, setSelectedMenuCard}) => {
     return (
-        <div className={selectedMenuCard === label ? "menu-card-selected" : "menu-card"} onClick={() => setSelectedMenuCard(label)}>
-            <div className={selectedMenuCard === label ? "menu-card-card-selected" : "menu-card-card"}>
-                <div className={selectedMenuCard === label ? "menu-card-header-selected" : "menu-card-header"}>
-                    <div className={selectedMenuCard === label ? "menu-card-text-selected" : "menu-card-text"}>
-                        <div className={selectedMenuCard === label ? "menu-card-object-counting-selected" : "menu-card-object-counting"}>
-                             {label}
+        <div className={selectedMenuCard === item ? "menu-card-selected" : "menu-card"} onClick={() => setSelectedMenuCard(item)}>
+            <div className={selectedMenuCard === item ? "menu-card-card-selected" : "menu-card-card"}>
+                <div className={selectedMenuCard === item ? "menu-card-header-selected" : "menu-card-header"}>
+                    <div className={selectedMenuCard === item ? "menu-card-text-selected" : "menu-card-text"}>
+                        <div className={selectedMenuCard === item ? "menu-card-object-counting-selected" : "menu-card-object-counting"}>
+                             {item.Title}
                         </div>
                     </div>
                 </div>
-                <div className={selectedMenuCard === label ? "menu-card-detect-and-count-objects-or-people-selected" : "menu-card-detect-and-count-objects-or-people"}>
+                <div className={selectedMenuCard === item ? "menu-card-detect-and-count-objects-or-people-selected" : "menu-card-detect-and-count-objects-or-people"}>
                     {children}
                 </div>
             </div>

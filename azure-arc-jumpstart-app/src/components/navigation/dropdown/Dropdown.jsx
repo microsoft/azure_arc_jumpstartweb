@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import "./Dropdown.css";
 
-const Dropdown = ({ children }) => {
+const Dropdown = ({ bookmarks, children, handleFileFetch, markdownFilePath }) => {
     const [open, setOpen] = useState(false);
     const [selected, setSelected] = useState(null);
 
     const handleOnClick = (label) => {
-        setSelected(selected === label ? null : label);
+        setSelected((prev) => {
+            handleFileFetch(`${markdownFilePath}#${label}`);
+            return selected === label ? null : label;
+        });
     };
 
     const Section = ({ children, onClick }) => {
@@ -79,19 +82,12 @@ const Dropdown = ({ children }) => {
         {
                 open && (
                     <div className="dropdownbody-frame-2018775997">
-                        <Section onClick={() => handleOnClick("Section 1")}>Section 1</Section>
-                        <SubSection onClick={() => handleOnClick("Sub Section 1")}>Sub Section 1</SubSection>
-                        <SubSection onClick={() => handleOnClick("Sub Section 2")}>Sub Section 2</SubSection>
-                        <SubSection onClick={() => handleOnClick("Sub Section 3")}>Sub Section 3</SubSection>
-                        <Section onClick={() => handleOnClick("Section 2")}>Section 2</Section>
-                        <SubSection onClick={() => handleOnClick("Sub Section 4")}>Sub Section 4</SubSection>
-                        <SubSection onClick={() => handleOnClick("Sub Section 5")}>Sub Section 5</SubSection>
-                        <Section onClick={() => handleOnClick("Section 3")}>Section 3</Section>
-                        <SubSection onClick={() => handleOnClick("Sub Section 6")}>Sub Section 6</SubSection>
-                        <SubSection onClick={() => handleOnClick("Sub Section 7")}>Sub Section 7</SubSection>
-                        <SubSection onClick={() => handleOnClick("Sub Section 8")}>Sub Section 8</SubSection>
-                        <SubSection onClick={() => handleOnClick("Sub Section 9")}>Sub Section 9</SubSection>
-                        <SubSection onClick={() => handleOnClick("Sub Section 10")}>Sub Section 10</SubSection>
+                        {/* <Section onClick={() => handleOnClick("Section 1")}>Section 1</Section> */}
+                        {
+                            bookmarks.map((bookmark) => (
+                                <SubSection onClick={() => handleOnClick(bookmark)}>{bookmark}</SubSection>
+                            ))
+                        }
                     </div>
                 )
             }

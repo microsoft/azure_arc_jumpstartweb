@@ -28,7 +28,6 @@ import { Italics } from './Overrides/Italics';
 const Doc = ({ doc, path, handleFileFetch, gatherElementIds }) => {
     // doc = preprocessMarkdown(doc);
     useEffect(() => {
-        console.log(path);
         if(path.length > 1) {
             const hash = path[1]; // Remove the '#'
             console.log(hash);
@@ -41,7 +40,6 @@ const Doc = ({ doc, path, handleFileFetch, gatherElementIds }) => {
         gatherElementIds();
     }, []);
     useEffect(() => {
-        console.log(path);
         if(path.length > 1) {
             const hash = path[1]; // Remove the '#'
             const targetElement = document.getElementById(hash);
@@ -53,7 +51,7 @@ const Doc = ({ doc, path, handleFileFetch, gatherElementIds }) => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
         gatherElementIds();
-    }, [path]);
+    }, [doc, path]);
 
     return (
         <Markdown

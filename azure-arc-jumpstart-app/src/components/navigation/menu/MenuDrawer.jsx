@@ -3,7 +3,7 @@ import "./MenuDrawer.css";
 import MenuCard from "./MenuCard";
 import SubMenuItem from "./SubMenuItem";
 
-const MenuDrawer = ({ menuItem }) => {
+const MenuDrawer = ({ menuItem, handleFileFetch }) => {
   const [subMenuItems, setSubMenuItems] = useState([]);
   const [selectedSubMenuItem, setSelectedSubMenuItem] = useState(null);
   const [selectedMenuCard, setSelectedMenuCard] = useState(null);
@@ -23,6 +23,16 @@ const MenuDrawer = ({ menuItem }) => {
   const handleOnClick = (menuItem) => {
     setSelectedSubMenuItem(menuItem);
     setSelectedMenuCard(null);
+  };
+
+  const handleOnClickMenuCard = (menuItem) => {
+    setSelectedMenuCard((prev) => {
+      if (prev !== menuItem) {
+        handleFileFetch(menuItem.Link);
+        return menuItem;
+      }
+      return null;
+    });
   };
 
   return (
@@ -67,9 +77,9 @@ const MenuDrawer = ({ menuItem }) => {
               selectedSubMenuItem && selectedSubMenuItem.Items.map((item, index) => {
                 return (
                   <MenuCard
-                    label={item.Title}
+                    item={item}
                     selectedMenuCard={selectedMenuCard}
-                    setSelectedMenuCard={setSelectedMenuCard}
+                    setSelectedMenuCard={handleOnClickMenuCard}
                   >
                     {item.Description}
                   </MenuCard>
