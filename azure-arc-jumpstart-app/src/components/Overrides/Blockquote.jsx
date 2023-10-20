@@ -4,6 +4,8 @@ import './Blockquote.css';
 // Override Blockquote
 export const Blockquote = (props) => {
     return (
-        <blockquote {...props} className="custom-blockquote" />
+        <blockquote className="custom-blockquote">
+            {props.children}
+        </blockquote>
     )
 };

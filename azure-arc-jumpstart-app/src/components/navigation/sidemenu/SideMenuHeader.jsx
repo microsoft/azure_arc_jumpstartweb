@@ -7,7 +7,7 @@ export const SideMenuHeader = ({ sideMenuItem, handleFileFetch }) => {
 
     const handleClick = () => {
         setOpen((prev) => {
-            handleFileFetch(sideMenuItem.path);
+            // handleFileFetch(sideMenuItem.path);
             return !prev;
         });
     };
