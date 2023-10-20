@@ -1,7 +1,7 @@
 import "./SideMenu.css";
 import { SideMenuHeader } from "./SideMenuHeader";
 
-export const SideMenu = ({ sideMenuItems, handleFileFetch }) => {
+export const SideMenu = ({ sideMenuItem, handleFileFetch }) => {
   const arrow = true;
   return (
     <div 
@@ -16,9 +16,9 @@ export const SideMenu = ({ sideMenuItems, handleFileFetch }) => {
             <div className="swap-content">
               <div className="frame-2018775853"> */}
                 {
-                  sideMenuItems && sideMenuItems.map((sideMenuItem, index) => {
+                  sideMenuItem && sideMenuItem.children && sideMenuItem.children.map((child, index) => {
                     return (
-                      <SideMenuHeader sideMenuItem={sideMenuItem} handleFileFetch={handleFileFetch}/>
+                      <SideMenuHeader sideMenuItem={child} handleFileFetch={handleFileFetch}/>
                     )
                   })
                 }

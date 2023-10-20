@@ -10,7 +10,7 @@ import Doc from './components/Doc';
 const App = () => {
   const [menuItems, setMenuItems] = useState([]);
   const [selectedMenuItem, setSelectedMenuItem] = useState(null);
-  const [sideMenuItems, setSideMenuItems] = useState([]);
+  const [sideMenuItem, setSideMenuItem] = useState(null);
   const [selectedSideMenuItem, setSelectedSideMenuItem] = useState(null);
   const [markdownFileContents, setMarkdownFileContents] = useState('');
   const [markdownFilePath, setMarkdownFilePath] = useState('');
@@ -26,10 +26,8 @@ const App = () => {
     const fetchSideMenuData = async () => {
       const response = await fetch('./side-menu.json');
       const data = await response.json();
-      if(data.hasOwnProperty('children') && data.children.length > 0) {
-        sortNodeTree(data);
-        setSideMenuItems(data.children);
-      }
+      sortNodeTree(data);
+      setSideMenuItem(data);
     };
 
     fetchMenuDrawerData();
@@ -60,7 +58,7 @@ const App = () => {
       const doc = await res.text();
       const htmlText = removeFrontmatter(doc);
       if (fullPath.includes('azure_arc_jumpstart/')) {
-        const node = findNode(sideMenuItems[0], path[0]);
+        const node = findNode(sideMenuItem, path[0]);
         setSelectedSideMenuItem((prev) => {
           if (node && node.children && node.children.length > 0) {
             console.log(node.children.length);
@@ -121,12 +119,12 @@ const App = () => {
       node.children.sort((a, b) => {
         const aWeight = a.frontMatter && a.frontMatter.weight ? a.frontMatter.weight : 0;
         const bWeight = b.frontMatter && b.frontMatter.weight ? b.frontMatter.weight : 0;
-        if (aWeight < bWeight) { 
-          return -1; 
-        } else if (aWeight > bWeight) { 
-          return 1; 
-        } else { 
-          return 0; 
+        if (aWeight < bWeight) {
+          return -1;
+        } else if (aWeight > bWeight) {
+          return 1;
+        } else {
+          return 0;
         }
       });
       node.children.forEach((child) => {
@@ -184,9 +182,9 @@ const App = () => {
           }}
         >
           {
-            sideMenuItems && sideMenuItems.length > 0 && (
+            sideMenuItem && (
               <SideMenu
-                sideMenuItems={sideMenuItems}
+                sideMenuItem={sideMenuItem}
                 handleFileFetch={handleFileFetch}
               />
             )
