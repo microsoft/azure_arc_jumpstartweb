@@ -50,7 +50,8 @@ const App = () => {
   const getDoc = async (path) => {
     try {
       const pathWithForwardSlashes = path[0].replace(/\\/g, '/');
-      let fullPath = path[0] === '' ? './docs/_index.md' : `./docs/${pathWithForwardSlashes}/_index.md`;
+      const baseUrl = 'https://raw.githubusercontent.com/Azure/arc_jumpstart_docs/main';
+      let fullPath = path[0] === '' ? `${baseUrl}/docs/_index.md` : `${baseUrl}/docs/${pathWithForwardSlashes}/_index.md`;
       if (path.length > 1) {
         fullPath = `${fullPath}#${path[1]}`;
       }
