@@ -36,7 +36,7 @@ function MarkdownPage({ path, updateSections }) {
     return <Markdown>{markdown}</Markdown>;
 }
 
-function Breadcrumbs() {
+function Breadcrumbs(setSelectedNode) {
     const location = useLocation();
 
     // Split the path
@@ -49,7 +49,7 @@ function Breadcrumbs() {
 
     return (
         <div>
-            <Link to="/">Home</Link>
+            <Link to={''} onClick={() => setSelectedNode({})}>Home</Link>
             {pathnames.map((value, index) => {
                 const routeTo = `/${pathnames.slice(0, index + 1).join('/')}`;
                 return (
@@ -90,10 +90,10 @@ function TreeView({ node, level = 0 }) {
     const hasChildren = node.children && node.children.length > 0;
 
     const parseTitle = (node) => {
-        if(node.frontMatter) {
-            if(node.frontMatter.title) {
+        if (node.frontMatter) {
+            if (node.frontMatter.title) {
                 return node.frontMatter.title;
-            } else if(node.frontMatter.linkTitle) {
+            } else if (node.frontMatter.linkTitle) {
                 return node.frontMatter.linkTitle;
             }
         }
@@ -103,12 +103,14 @@ function TreeView({ node, level = 0 }) {
     return (
         <ul style={{ marginLeft: level }}>
             <li key={node.path}>
-                {hasChildren && (
+                {hasChildren ? (
                     <span onClick={() => setIsOpen(!isOpen)}>
-                        {isOpen ? '-' : '+'}
+                        {isOpen ? '-' : '+'} {parseTitle(node)}
                     </span>
-                )}
-                <Link to={node.path}>{parseTitle(node)}</Link>
+                ) : (
+                    <Link to={node.path}>{parseTitle(node)}</Link>
+                )
+                }
 
                 {hasChildren && isOpen && (
                     <ul>
@@ -124,6 +126,7 @@ function TreeView({ node, level = 0 }) {
 
 function App() {
     const [node, setNode] = useState({});
+    const [selectedNode, setSelectedNode] = useState({});
     const [dynamicRoutes, setDynamicRoutes] = useState([]);
     const [sections, setSections] = useState([]);
     const pageRef = useRef(null);
@@ -148,9 +151,11 @@ function App() {
             const response = await fetch('./side-menu.json');
             const data = await response.json();
             const extractedRoutes = extractRoutes(data);
-            console.log(extractedRoutes);
             setDynamicRoutes(extractedRoutes);
-            setNode(data);
+            setSelectedNode((prev) => {
+                setNode(data);
+                return node;
+            });
         };
 
         fetchSideMenu();
@@ -168,31 +173,58 @@ function App() {
         }
     }
 
+    const findNode = (node, path) => {
+        if (node.path === path) {
+            return node;
+        }
+
+        if (node.children && node.children.length > 0) {
+            for (let i = 0; i < node.children.length; i++) {
+                const child = node.children[i];
+                const found = findNode(child, path);
+                if (found) {
+                    return found;
+                }
+            }
+        }
+
+        return null;
+    }
+
     return (
         <BrowserRouter>
             <div ref={pageRef}>
-
                 <hr />
-
                 <div
                     style={{
                         display: 'flex',
                         justifyContent: 'space-between'
                     }}
                 >
-                    <Breadcrumbs />
+                    <Link to={''} onClick={() => setSelectedNode({})}>Home</Link>
+                    <Link to={'azure_arc_jumpstart'} onClick={() => setSelectedNode(findNode(node, 'azure_arc_jumpstart'))}>Jumpstart Scenarios</Link>
+                    <Link to={'azure_jumpstart_ag'} onClick={() => setSelectedNode(findNode(node, 'azure_jumpstart_ag'))}>Jumpstart Agora</Link>
+                    <Link to={'azure_jumpstart_arcbox'} onClick={() => setSelectedNode(findNode(node, 'azure_jumpstart_arcbox'))}>Jumpstart ArcBox</Link>
+                    <Link to={'azure_jumpstart_hcibox'} onClick={() => setSelectedNode(findNode(node, 'azure_jumpstart_hcibox'))}>Jumpstart HCIBox</Link>
+                </div>
+                <hr />
+                <div
+                    style={{
+                        display: 'flex',
+                        justifyContent: 'space-between'
+                    }}
+                >
+                    <Breadcrumbs setSelectedNode={setSelectedNode} />
                     <Dropdown items={sections} />
                 </div>
-
                 <hr />
-
                 <div
                     style={{
                         display: 'grid',
                         gridTemplateColumns: '300px auto',
                     }}
                 >
-                    <TreeView node={node} />
+                    <TreeView node={selectedNode} />
                     <Routes>
                         <Route path="/" element={<Home updateSections={updateSections} />} />
                         {dynamicRoutes.map(route => (
