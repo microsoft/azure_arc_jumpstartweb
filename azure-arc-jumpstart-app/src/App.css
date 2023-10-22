@@ -1,7 +1,7 @@
 @import './components/Vars.css';
 
 body {
-  background-color: var(--neutral-background-4-rest);
+  /* background-color: var(--neutral-background-4-rest); */
 }
 
 /* Hide the scrollbar track */
@@ -32,4 +32,46 @@ scrollbar-thumb {
 /* Hide the scrollbar track on hover */
 scrollbar-track {
   background: transparent;
+}
+
+
+
+/* TEMP DROP DOWN STYLES */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border: 1px solid #ccc;
+  width: 200px;
+  background-color: #fff;
+  z-index: 1000;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-item {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 3px;
 }
