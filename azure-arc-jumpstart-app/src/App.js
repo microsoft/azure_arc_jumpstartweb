@@ -5,6 +5,63 @@ import Markdown from 'markdown-to-jsx';
 import './App.css';
 
 
+// utitlity functions
+
+function findNode(node, path) {
+    if (node.path === path) {
+        return node;
+    }
+
+    if (node.children && node.children.length > 0) {
+        for (let i = 0; i < node.children.length; i++) {
+            const child = node.children[i];
+            const found = findNode(child, path);
+            if (found) {
+                return found;
+            }
+        }
+    }
+
+    return null;
+}
+
+function parseNodeTitle(node) {
+    if (node.frontMatter) {
+        if (node.frontMatter.linkTitle) {
+            return node.frontMatter.linkTitle;
+        } else if (node.frontMatter.title) {
+            return node.frontMatter.title;
+        }
+    }
+    return node.path;
+}
+
+function showNode(node) {
+    if (node.name === 'img') {
+        return false;
+    }
+    if (node.hasOwnProperty('frontMatter')) {
+        if (node.frontMatter.hasOwnProperty('linkTitle')) {
+            return true;
+        }
+    }
+    return false;
+}
+
+function extractRoutes(node, arr = []) {
+    arr.push({
+        path: node.path.replace(/\\/g, '/'),
+        title: parseNodeTitle(node)
+    });
+
+    if (node.hasOwnProperty('children') && node.children.length > 0) {
+        node.children.forEach(child => extractRoutes(child, arr));
+    }
+    return arr;
+};
+
+// components
+
 function Home({ updateSections }) {
     useEffect(() => {
         updateSections();
@@ -13,12 +70,13 @@ function Home({ updateSections }) {
 }
 
 function MarkdownPage({ path, updateSections }) {
+    const viewBasePath = 'https://raw.githubusercontent.com/Azure/arc_jumpstart_docs/main/docs/';
+    const editBasePath = 'https://github.com/Azure/arc_jumpstart_docs/blob/main/docs/';
     const [markdown, setMarkdown] = useState('');
 
     useEffect(() => {
         async function getMarkdown() {
-            const basePath = 'https://raw.githubusercontent.com/Azure/arc_jumpstart_docs/main/docs/';
-            const fullPath = `${basePath}${path}/_index.md`;
+            const fullPath = `${viewBasePath}${path}/_index.md`;
             const response = await fetch(fullPath);
             const text = await response.text();
             setMarkdown((text));
@@ -33,7 +91,17 @@ function MarkdownPage({ path, updateSections }) {
         }
     }, [markdown]);
 
-    return <Markdown>{markdown}</Markdown>;
+    return (
+        <div
+            style={{
+                width: '100%',
+            }}
+        >
+            <a style={{float: 'right'}} href={`${editBasePath}${path}/_index.md`} target="_blank">Edit this page</a>
+            <br/>
+            <Markdown>{markdown}</Markdown>
+        </div>
+    );
 }
 
 function Breadcrumbs(setSelectedNode) {
@@ -87,32 +155,23 @@ function Dropdown({ items }) {
 function TreeView({ node, level = 0 }) {
     const [isOpen, setIsOpen] = useState(false);
 
-    const hasChildren = node.children && node.children.length > 0;
-
-    const parseTitle = (node) => {
-        if (node.frontMatter) {
-            if (node.frontMatter.title) {
-                return node.frontMatter.title;
-            } else if (node.frontMatter.linkTitle) {
-                return node.frontMatter.linkTitle;
-            }
-        }
-        return node.path;
-    }
+    const hasChildren = node.hasOwnProperty('children') && node.children.length > 0;
+    const hide = !showNode(node);
 
     return (
         <ul style={{ marginLeft: level }}>
             <li key={node.path}>
-                {hasChildren ? (
-                    <span onClick={() => setIsOpen(!isOpen)}>
-                        {isOpen ? '-' : '+'} {parseTitle(node)}
-                    </span>
-                ) : (
-                    <Link to={node.path}>{parseTitle(node)}</Link>
-                )
+                {
+                    !hide && hasChildren ? (
+                        <span onClick={() => setIsOpen(!isOpen)}>
+                            {isOpen ? '-' : '+'} {parseNodeTitle(node)}
+                        </span>
+                    ) : !hide && (
+                        <Link to={node.path}>{parseNodeTitle(node)}</Link>
+                    )
                 }
 
-                {hasChildren && isOpen && (
+                {!hide && hasChildren && isOpen && (
                     <ul>
                         {node.children.map(child => (
                             <TreeView node={child} key={child.path} level={level + 1} />
@@ -130,21 +189,6 @@ function App() {
     const [dynamicRoutes, setDynamicRoutes] = useState([]);
     const [sections, setSections] = useState([]);
     const pageRef = useRef(null);
-
-    const extractRoutes = (node, arr = []) => {
-        if (!node.path.endsWith('\\img') && !node.path.endsWith('\\docs')) {
-            arr.push({
-                path: node.path.replace(/\\/g, '/'),
-                title: node.path
-            });
-        }
-
-        if (node.children && node.children.length > 0) {
-            node.children.forEach(child => extractRoutes(child, arr));
-        }
-
-        return arr;
-    };
 
     useEffect(() => {
         const fetchSideMenu = async () => {
@@ -173,24 +217,6 @@ function App() {
         }
     }
 
-    const findNode = (node, path) => {
-        if (node.path === path) {
-            return node;
-        }
-
-        if (node.children && node.children.length > 0) {
-            for (let i = 0; i < node.children.length; i++) {
-                const child = node.children[i];
-                const found = findNode(child, path);
-                if (found) {
-                    return found;
-                }
-            }
-        }
-
-        return null;
-    }
-
     return (
         <BrowserRouter>
             <div ref={pageRef}>
@@ -206,6 +232,7 @@ function App() {
                     <Link to={'azure_jumpstart_ag'} onClick={() => setSelectedNode(findNode(node, 'azure_jumpstart_ag'))}>Jumpstart Agora</Link>
                     <Link to={'azure_jumpstart_arcbox'} onClick={() => setSelectedNode(findNode(node, 'azure_jumpstart_arcbox'))}>Jumpstart ArcBox</Link>
                     <Link to={'azure_jumpstart_hcibox'} onClick={() => setSelectedNode(findNode(node, 'azure_jumpstart_hcibox'))}>Jumpstart HCIBox</Link>
+                    <Link to={'release_notes'} onClick={() => setSelectedNode(findNode(node, 'release_notes'))}>Release Notes</Link>
                 </div>
                 <hr />
                 <div
@@ -221,7 +248,8 @@ function App() {
                 <div
                     style={{
                         display: 'grid',
-                        gridTemplateColumns: '300px auto',
+                        gridTemplateColumns: '20% 80%',
+                        justifyContent: 'space-between'
                     }}
                 >
                     <TreeView node={selectedNode} />
