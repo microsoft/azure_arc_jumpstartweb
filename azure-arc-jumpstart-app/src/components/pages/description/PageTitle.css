@@ -1,0 +1,18 @@
+.page-title,
+.page-title * {
+  box-sizing: border-box;
+}
+.page-title {
+  text-align: left;
+  font: 700 32px/150% "Segoe UI", sans-serif;
+  position: relative;
+  width: 421px;
+}
+.page-title-span {
+  color: #ffffff;
+  font: 700 32px/150% "Segoe UI", sans-serif;
+}
+.page-title-span2 {
+  color: #ffa38b;
+  font: 700 32px/150% "Segoe UI", sans-serif;
+}

@@ -1,0 +1,361 @@
+.footer,
+.footer * {
+  box-sizing: border-box;
+}
+.footer {
+  background: var(--neutral-background-5-rest, #000000);
+  width: 1440px;
+  height: 522px;
+  position: relative;
+  overflow: hidden;
+}
+.frame-59877 {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 77px;
+  top: 55px;
+}
+.group-1797 {
+  flex-shrink: 0;
+  width: 175px;
+  height: 259px;
+  position: static;
+}
+.frame-59879 {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.what-s-new {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 600 12px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 175px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.jumpstart-v-next-jumpstart-agora {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 123.72px;
+  height: 229px;
+}
+.group-1796 {
+  flex-shrink: 0;
+  width: 193px;
+  height: 259px;
+  position: static;
+}
+.frame-59880 {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 230px;
+  top: 0px;
+}
+.products-and-pricing {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 600 12px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 193px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.products-pricing-free-azure-services-optimize-your-costs-roi-estimator {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 125.37px;
+  height: 229px;
+}
+.group-1795 {
+  flex-shrink: 0;
+  width: 175px;
+  height: 202px;
+  position: static;
+}
+.frame-59881 {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 478px;
+  top: 0px;
+}
+.solutions-and-support {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 600 12px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 175px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cloud-to-edge-solutions-solution-architectures-account-profile-support-feedback {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+}
+.frame-59882 {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.partners {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 600 12px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 175px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.jumpstart-community-azure-marketplace-find-a-partner {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 123.72px;
+}
+.frame-59883 {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.resources {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 600 12px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 175px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.documentation-training-and-certifications-blogs-you-tube-microsoft-tech-community-git-hub {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 175px;
+  height: 229px;
+}
+.group-1793 {
+  flex-shrink: 0;
+  width: 175px;
+  height: 259px;
+  position: static;
+}
+.frame-59878 {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 259px;
+  position: absolute;
+  left: 1168px;
+  top: 0px;
+}
+.company {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 600 12px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 175px;
+  height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.microsoft-about-us-careers-contact-us-privacy-at-microsoft-accessibility-sustainability {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 124px;
+}
+.frame-2018776011 {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 152px;
+  position: absolute;
+  left: 77px;
+  top: 432px;
+}
+.frame {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.english-united-states {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+}
+.frame-2018776009 {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 473px;
+  top: 432px;
+}
+.diversity-and-inclusion {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+}
+.privacy-cookies {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+}
+.data-protection-notice {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+}
+.trademarks {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+}
+.terms-of-use {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+}
+.privacy-data-management {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+}
+.sitemap {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+}
+.frame-2018776010 {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.microsoft-2023 {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+}
+.frame-2018776012 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 251px;
+  top: 432px;
+}
+.group-1010107237 {
+  flex-shrink: 0;
+  width: 34px;
+  height: 16px;
+  position: static;
+}
+.rectangle-34656644 {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #50e6ff;
+  border-width: 1px;
+  width: 34px;
+  height: 16px;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+}
+.frame2 {
+  position: absolute;
+  left: 5px;
+  top: 7px;
+  overflow: visible;
+}
+.frame3 {
+  position: absolute;
+  left: 5px;
+  top: 7px;
+  overflow: visible;
+}
+.vector-3764 {
+  border-radius: 0px;
+  position: absolute;
+  left: 15.5px;
+  top: 5px;
+  overflow: visible;
+}
+.frame4 {
+  position: absolute;
+  left: 20px;
+  top: 7px;
+  overflow: visible;
+}
+.your-privacy-choices {
+  color: var(--neutral-text-text-white, #ffffff);
+  text-align: left;
+  font: 400 11px/24px "Segoe UI", sans-serif;
+  position: relative;
+}

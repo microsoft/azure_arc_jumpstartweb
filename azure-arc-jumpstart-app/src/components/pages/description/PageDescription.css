@@ -1,0 +1,11 @@
+.page-description,
+.page-description * {
+  box-sizing: border-box;
+}
+.page-description {
+  color: #ffffff;
+  text-align: left;
+  font: 400 20px/150% "Segoe UI", sans-serif;
+  position: relative;
+  width: 421px;
+}

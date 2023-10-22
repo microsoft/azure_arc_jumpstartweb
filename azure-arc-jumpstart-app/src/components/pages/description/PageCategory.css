@@ -1,0 +1,10 @@
+.page-category,
+.page-category * {
+  box-sizing: border-box;
+}
+.page-category {
+  color: #50e6ff;
+  text-align: left;
+  font: 400 15px/150% "Segoe UI", sans-serif;
+  position: relative;
+}
