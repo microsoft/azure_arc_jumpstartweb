@@ -173,6 +173,7 @@ function TreeView({ node, level = 0 }) {
 
                 {!hide && hasChildren && isOpen && (
                     <ul>
+                        <Link to={node.path}>Overview</Link>
                         {node.children.map(child => (
                             <TreeView node={child} key={child.path} level={level + 1} />
                         ))}
@@ -192,6 +193,7 @@ function App() {
 
     useEffect(() => {
         const fetchSideMenu = async () => {
+            console.log("Fetching side menu");
             const response = await fetch('./side-menu.json');
             const data = await response.json();
             const extractedRoutes = extractRoutes(data);
@@ -216,6 +218,8 @@ function App() {
             setSections(discoveredSections);
         }
     }
+    
+    console.log("Dynamic Routes", dynamicRoutes);
 
     return (
         <BrowserRouter>
