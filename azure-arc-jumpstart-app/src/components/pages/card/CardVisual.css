@@ -1,0 +1,144 @@
+.card-visual,
+.card-visual * {
+  box-sizing: border-box;
+}
+.card-visual {
+  background: var(--neutrals-grey-2, #131313);
+  border-radius: 9px 9px 0px 0px;
+  flex-shrink: 0;
+  width: 365px;
+  height: 480px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.card-image {
+  width: 363px;
+  height: 236px;
+  position: absolute;
+  left: 1px;
+  top: 1px;
+}
+.rectangle-34656627 {
+  background: linear-gradient(to left, #d7d7d7, #d7d7d7);
+  border-radius: 9px 9px 0px 0px;
+  width: 363px;
+  height: 236px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.group-1010107219 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-38708 {
+  border-radius: 10px 10px 0px 0px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 365px;
+  height: 238px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-2018775824 {
+  background: var(--neutrals-grey-2, #131313);
+  border-radius: 0px 0px 10px 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  padding: 25px 31px 25px 31px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 365px;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 3.2px);
+}
+.frame-2018775810 {
+  padding: 0px 0px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 22.74px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-44 {
+  display: flex;
+  flex-direction: row;
+  gap: 46.39px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.general-object-detection {
+  flex-shrink: 0;
+  width: 302.71px;
+  height: 135.66px;
+  position: static;
+}
+.frame-2018775799 {
+  display: flex;
+  flex-direction: column;
+  gap: 28.2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-2018775798 {
+  display: flex;
+  flex-direction: column;
+  gap: 9.1px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.industry {
+  color: var(--text-text-white, #ffffff);
+  text-align: left;
+  font: 600 21.83px/29.11px "Segoe UI", sans-serif;
+  position: relative;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod {
+  color: var(--text-text-white, #ffffff);
+  text-align: left;
+  font: 400 12px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 302.53px;
+  transform-origin: 0 0;
+  transform: rotate(0.107deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-2018775809 {
+  display: flex;
+  flex-direction: row;
+  gap: 4.55px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.view-applications {
+  color: var(--text-text-cta, #50e6ff);
+  text-align: left;
+  font: 600 16.37px/18.19px "Segoe UI", sans-serif;
+  position: relative;
+}
+.chevron-close {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
