@@ -22,6 +22,7 @@ import { TableCell } from './components/Overrides//TableCell';
 import { ThematicBreak } from './components/Overrides//ThematicBreak';
 import { Bold } from './components/Overrides//Bold';
 import { Italics } from './components/Overrides//Italics';
+import EditInGitHub from './components/markdown/EditInGitHub';
 
 export function MarkdownPage({ path, updateSections }) {
     const viewBasePath = 'https://raw.githubusercontent.com/Azure/arc_jumpstart_docs/main/docs/';
@@ -52,11 +53,13 @@ export function MarkdownPage({ path, updateSections }) {
     return (
         <div
             style={{
-                width: '100%',
+                width: '90%',
+                zIndex: -1,
             }}
         >
-            <a style={{ float: 'right' }} href={`${editBasePath}${path}/_index.md`} target="_blank">Edit this page</a>
-            <br />
+            <span style={{ float: 'right' }}>
+                <EditInGitHub href={`${editBasePath}${path}/_index.md`}></EditInGitHub>
+            </span>
             <Markdown
                 options={{
                     overrides: {

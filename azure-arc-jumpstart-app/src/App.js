@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { BrowserRouter, Routes, Route, Link, useRoutesMatch } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Home } from './Home';
 import NavBar from './components/navigation/NavBar';
 import MenuDrawer from './components/navigation/menu/MenuDrawer';
@@ -7,7 +7,7 @@ import { MarkdownPage } from './MarkdownPage';
 import { TreeView } from './TreeView';
 import { Dropdown } from './Dropdown';
 import { Breadcrumbs } from './Breadcrumbs';
-import { extractRoutes, findNode, parseNodeTitle, showNode } from './Utility';
+import { extractRoutes } from './Utility';
 import './App.css';
 import sideMenuData from './data/side-menu.json';
 import menuDrawerData from './data/menu-drawer.json';
@@ -78,7 +78,11 @@ function App() {
                         scrollbarWidth: 'none',
                         '&::-webkit-scrollbar': {
                             display: 'none'
-                        }
+                        },
+                        position: 'absolute',
+                        top: '96px',
+                        left: '0px',
+                        zIndex: -1
                     }}
                 >
                     <TreeView node={node} />

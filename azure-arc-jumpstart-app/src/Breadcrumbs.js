@@ -12,7 +12,7 @@ export function Breadcrumbs(setNode) {
 
     return (
         <div className='breadcrumb-bar'>
-            <Link to={''} onClick={() => setNode({})}>
+            <Link to={''}>
                 <div className={pathnames.length === 0 ? "breadcrumb-item-selected" : "breadcrumb-item"}>
                     <div className={pathnames.length === 0 ? "breadcrumb-item-breadcrumb-selected" : "breadcrumb-item-breadcrumb"}>
                         Home

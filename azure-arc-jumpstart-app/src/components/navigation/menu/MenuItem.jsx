@@ -4,6 +4,7 @@ import "./MenuItem.css";
 const MenuItem = ({ children, index, isSelected, onClick }) => {
     return (
         <span
+            style={{ cursor: "pointer" }}
             onClick={onClick}
             tabIndex={index}
         >

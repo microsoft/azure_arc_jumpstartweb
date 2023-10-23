@@ -6,7 +6,7 @@ export function Dropdown({ items }) {
     return (
         <div className="dropdown">
             <button className="dropdown-toggle" onClick={() => setIsOpen(!isOpen)}>
-                Select a section
+                Jump to section
             </button>
             {isOpen && (
                 <div className="dropdown-menu">
