@@ -39,7 +39,21 @@ function App() {
 
     return (
         <BrowserRouter>
-            <div>
+            <div ref={pageRef}>
+                <Routes>
+                    <Route path="/" element={() => {
+                        setCurrentPathNode({});
+                        return <Home updateSections={updateSections} />
+                    }} />
+                    {dynamicRoutes.map(route => (
+                        <Route
+                            key={route.path}
+                            path={route.path}
+                            element={<MarkdownPage path={route.path} updateSections={updateSections} />}
+                        />
+                    ))}
+                </Routes>
+                <SideMenu pathNode={currentPathNode}></SideMenu>
                 <NavBar
                     menuItems={menuItems}
                     selectedMenuItem={selectedMenuItem}
@@ -66,40 +80,6 @@ function App() {
                         <MenuDrawer menuItem={selectedMenuItem} />
                     )
                 }
-                <div
-                    ref={pageRef}
-                    style={{
-                        display: 'grid',
-                        gridTemplateColumns: '20% 80%',
-                        justifyContent: 'space-between',
-                        height: '100vh',
-                        overflow: 'auto',
-                        msOverflowStyle: 'none',
-                        scrollbarWidth: 'none',
-                        '&::-webkit-scrollbar': {
-                            display: 'none'
-                        },
-                        position: 'absolute',
-                        top: '96px',
-                        left: '0px',
-                        zIndex: -1
-                    }}
-                >
-                    <SideMenu pathNode={currentPathNode}></SideMenu>
-                    <Routes>
-                        <Route path="/" element={() => {
-                            setCurrentPathNode({});
-                            return <Home updateSections={updateSections} />
-                        }} />
-                        {dynamicRoutes.map(route => (
-                            <Route
-                                key={route.path}
-                                path={route.path}
-                                element={<MarkdownPage path={route.path} updateSections={updateSections} />}
-                            />
-                        ))}
-                    </Routes>
-                </div>
             </div>
         </BrowserRouter>
     );

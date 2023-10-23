@@ -23,6 +23,7 @@ import { ThematicBreak } from './components/Overrides//ThematicBreak';
 import { Bold } from './components/Overrides//Bold';
 import { Italics } from './components/Overrides//Italics';
 import EditInGitHub from './components/markdown/EditInGitHub';
+import './MarkdownPage.css';
 
 export function MarkdownPage({ path, updateSections }) {
     const viewBasePath = 'https://raw.githubusercontent.com/Azure/arc_jumpstart_docs/main/docs/';
@@ -51,45 +52,46 @@ export function MarkdownPage({ path, updateSections }) {
     }, [markdown]);
 
     return (
-        <div
-            style={{
-                width: '90%',
-                zIndex: -1,
-            }}
-        >
-            <span style={{ float: 'right' }}>
-                <EditInGitHub href={`${editBasePath}${path}/_index.md`}></EditInGitHub>
-            </span>
-            <Markdown
-                options={{
-                    overrides: {
-                        a: (props) => <Anchor {...props} path={path} />,
-                        blockquote: Blockquote,
-                        code: InlineCode,
-                        em: Italics,
-                        h1: Heading1,
-                        h2: Heading2,
-                        h3: Heading3,
-                        h4: Heading4,
-                        h5: Heading5,
-                        h6: Heading6,
-                        hr: ThematicBreak,
-                        img: (props) => <Image {...props} basePath={viewBasePath} path={path} />,
-                        li: ListItem,
-                        ol: OrderedList,
-                        p: Paragraph,
-                        pre: CodeBlock,
-                        strong: Bold,
-                        table: Table,
-                        td: TableCell,
-                        th: TableHeader,
-                        tr: TableRow,
-                        ul: List
-                    }
-                }}
-            >
-                {markdown}
-            </Markdown>
+        <div className='markdown-page-container'>
+            <div className='markdown-page'>
+                <span style={{
+                    position: 'absolute',
+                    top: '20px',
+                    right: '50px',
+                }}>
+                    <EditInGitHub href={`${editBasePath}${path}/_index.md`}></EditInGitHub>
+                </span>
+                <Markdown
+                    options={{
+                        overrides: {
+                            a: (props) => <Anchor {...props} path={path} />,
+                            blockquote: Blockquote,
+                            code: InlineCode,
+                            em: Italics,
+                            h1: Heading1,
+                            h2: Heading2,
+                            h3: Heading3,
+                            h4: Heading4,
+                            h5: Heading5,
+                            h6: Heading6,
+                            hr: ThematicBreak,
+                            img: (props) => <Image {...props} basePath={viewBasePath} path={path} />,
+                            li: ListItem,
+                            ol: OrderedList,
+                            p: Paragraph,
+                            pre: CodeBlock,
+                            strong: Bold,
+                            table: Table,
+                            td: TableCell,
+                            th: TableHeader,
+                            tr: TableRow,
+                            ul: List
+                        }
+                    }}
+                >
+                    {markdown}
+                </Markdown>
+            </div>
         </div>
     );
 }

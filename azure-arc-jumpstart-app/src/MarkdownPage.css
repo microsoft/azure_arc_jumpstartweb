@@ -1,0 +1,16 @@
+.markdown-page-container {
+    position: absolute;
+    top: 96px;
+    left: 300px;
+    right: 20px;
+    height: 100%;
+    z-index: -1;
+    overflow: auto;
+}
+
+.markdown-page {
+    border-radius: 10px;
+    border: 1px solid #BBB;
+    background: #242424;
+    padding: 10px;
+}
