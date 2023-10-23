@@ -2,8 +2,6 @@
 
 body {
   background-color: var(--neutral-background-4-rest);
-  /* temp for debug */
-  color: white;
 }
 
 /* Hide the scrollbar track */
