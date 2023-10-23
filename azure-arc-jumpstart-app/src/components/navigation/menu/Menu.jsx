@@ -10,9 +10,6 @@ const Menu = ({ menuItems, selectedMenuItem, setSelectedMenuItem }) => {
     return (
         <span
             style={{
-                position: "absolute",
-                top: 0,
-                left: 324,
                 display: "flex",
             }}
         >

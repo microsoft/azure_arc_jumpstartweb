@@ -3,22 +3,23 @@
     border-style: solid;
     border-color: #ffffff;
     border-width: 1px;
-    width: 119px;
+    width: 150px;
     height: 30px;
-    position: absolute;
-    right: 162px;
-    top: 9px;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
-.search {
+.search-input {
     background: none;
     color: var(--neutral-foreground-1-rest, #ffffff);
     text-align: left;
     font: 400 13px/20px "Segoe UI", sans-serif;
-    position: absolute;
-    left: 13px;
-    top: 2px; /* Figma shows 4px from the top */
-    width: 42px;
+    width: 95%;
     height: 22px;
     display: flex;
     align-items: center;
@@ -26,14 +27,6 @@
     border: none;
 }
 
-.search:focus {
+.search-input:focus {
     outline: none;
-}
-
-.icon-search {
-    position: absolute;
-    left: 90.36px;
-    top: 7.5px;
-    transform: translate(0px, -1.57px);
-    overflow: visible;
 }

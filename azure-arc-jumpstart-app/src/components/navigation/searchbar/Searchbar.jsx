@@ -4,9 +4,8 @@ import './Searchbar.css';
 const Searchbar = () => {
     return (
         <div className="search-bar">
-            <input type="text" className="search"  placeholder="Search" tabIndex={4}/>
+            <input type="text" className="search-input"  placeholder="Search" tabIndex={4}/>
             <svg
-                className="icon-search"
                 width="18"
                 height="15"
                 viewBox="0 0 18 15"

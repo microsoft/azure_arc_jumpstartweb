@@ -179,14 +179,14 @@ const App = () => {
             }
           }}
         >
-          {
+          {/* {
             sideMenuItem && (
               <SideMenu
                 sideMenuItem={sideMenuItem}
                 handleFileFetch={handleFileFetch}
               />
             )
-          }
+          } */}
         </span>
         <span
           id="doc"
@@ -218,7 +218,7 @@ const App = () => {
         selectedMenuItem={selectedMenuItem}
         setSelectedMenuItem={setSelectedMenuItem}
       />
-      {
+      {/* {
         selectedMenuItem ? (
           <MenuDrawer
             menuItem={selectedMenuItem}
@@ -241,7 +241,7 @@ const App = () => {
             </span>
           </>
         )
-      }
+      } */}
     </>
   );
 }
