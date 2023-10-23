@@ -3,10 +3,10 @@ import './GitHub.css';
 
 const GitHub = () => {
     return (
-        <div className="frame-2018775957" tabIndex={6}>
-            <div className="git-hub">GitHub </div>
+        <div className="git-hub-button" tabIndex={6}>
+            <label>GitHub </label>
             <svg
-                className="git-hub-1"
+                className="git-hub-svg"
                 width="17"
                 height="17"
                 viewBox="0 0 17 17"

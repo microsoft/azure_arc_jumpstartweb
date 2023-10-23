@@ -5,11 +5,15 @@ const Logo = (props) => {
     return (
         <div
             style={{
-                position: 'relative'
+                width: 300,
+                gap: 20,
+                display: 'grid',
+                gridTemplateColumns: 'auto auto auto',
+                alignItems: 'center',
+                justifyContent: 'center'
             }}
         >
             <svg
-                className="ms-azure-logo-horizontal-c-white-rgb"
                 width="114"
                 height="17"
                 viewBox="0 0 114 17"
@@ -78,7 +82,7 @@ const Logo = (props) => {
                 />
             </svg>
             <svg
-                className="line-123"
+                className="vertical-line"
                 height="23"
                 width="1"
                 viewBox="0 0 1 23"
@@ -87,9 +91,7 @@ const Logo = (props) => {
             >
                 <path d="M0 0L0 23" stroke="white" strokeLinecap="round" />
             </svg>
-            <div className="jumpstart-logo">
-                <div className="arc-jumpstart2">Arc Jumpstart </div>
-            </div>
+            <div className="arc-jumpstart-logo">Arc Jumpstart</div>
         </div>
     )
 }
