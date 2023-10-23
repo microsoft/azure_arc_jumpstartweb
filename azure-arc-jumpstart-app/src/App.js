@@ -58,7 +58,7 @@ function App() {
                         paddingRight: '10px'
                     }}
                 >
-                    <Breadcrumbs setNode={setNode} />
+                    <Breadcrumbs node={sideMenu} />
                     <Dropdown items={sections} />
                 </div>
                 {
