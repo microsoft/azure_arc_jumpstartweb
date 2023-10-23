@@ -3,7 +3,13 @@ import './GitHub.css';
 
 const GitHub = () => {
     return (
-        <div className="git-hub-button" tabIndex={6}>
+        <div
+            className="git-hub-button"
+            tabIndex={6}
+            onClick={() => {
+                window.open('https://github.com/Azure/arc_jumpstart_docs', '_black');
+            }}
+        >
             <label>GitHub </label>
             <svg
                 className="git-hub-svg"

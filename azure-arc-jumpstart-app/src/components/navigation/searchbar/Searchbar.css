@@ -19,7 +19,7 @@
     color: var(--neutral-foreground-1-rest, #ffffff);
     text-align: left;
     font: 400 13px/20px "Segoe UI", sans-serif;
-    width: 42px;
+    width: 95%;
     height: 22px;
     display: flex;
     align-items: center;
