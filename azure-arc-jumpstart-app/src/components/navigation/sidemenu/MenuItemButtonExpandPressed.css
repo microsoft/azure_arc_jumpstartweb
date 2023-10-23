@@ -1,0 +1,25 @@
+.menu-item-button-expand-pressed,
+.menu-item-button-expand-pressed * {
+  box-sizing: border-box;
+}
+.menu-item-button-expand-pressed {
+  width: 53px;
+  height: 53px;
+  position: relative;
+}
+.menu-item-button-expand-pressed-rectangle-34656628 {
+  background: var(--neutral-background-6-pressed, #333333);
+  border-radius: 10px 200px 200px 10px;
+  width: 53px;
+  height: 41px;
+  position: absolute;
+  left: 0px;
+  top: 6px;
+}
+.menu-item-button-expand-pressed-chevron {
+  position: absolute;
+  left: 21px;
+  top: 39px;
+  transform: translate(0px, -24px);
+  overflow: visible;
+}
