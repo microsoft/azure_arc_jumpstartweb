@@ -3,19 +3,27 @@ import './Image.css';
 
 // Override Image
 export const Image = (props) => {
-    let { path, src, width } = props;
+    let { basePath, path, src } = props;
     let imagePath = '';
-    if (src.startsWith('.')) {
-        src = src.substring(1);
-        const baseUrl = 'https://raw.githubusercontent.com/Azure/arc_jumpstart_docs/main';
-        imagePath = `${baseUrl}/docs/${path[0]}/${src}`;
+    if (!src.includes('http' || 'https')) {
+        src = src.replace('./', '/');
+        imagePath = `${basePath}${path}${src}`;
     } else {
         imagePath = src;
     }
 
+    const covertSrcToAltText = (src) => {
+        let altText = src.substring(src.lastIndexOf('/') + 1, src.lastIndexOf('.'));
+        altText = altText.replace(/_/g, ' ');
+        altText = altText.replace(/\w\S*/g, (w) => (w.replace(/^\w/, (c) => c.toUpperCase())));
+        return altText;
+    };
+
+    const altText = covertSrcToAltText(src);
+
     return (
         <div align="center">
-            <img src={imagePath} className="custom-image" width={width} title={""} />
+            <img src={imagePath} className="custom-image" alt={altText} title={altText} />
         </div>
     )
 };

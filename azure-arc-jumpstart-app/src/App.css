@@ -1,7 +1,8 @@
 @import './components/Vars.css';
 
 body {
-  /* background-color: var(--neutral-background-4-rest); */
+  background-color: var(--neutral-background-4-rest);
+  color: white;
 }
 
 /* Hide the scrollbar track */
