@@ -2,7 +2,8 @@
 
 .side-menu-container {
   border-radius: 0px;
-  background: #0a0a0a;
+  background: #0a0a0a; 
+  /* background: var(--page-surface-surface-quaternary, #131313); */
   height: 100%;
   position: fixed;
   top: 85px;

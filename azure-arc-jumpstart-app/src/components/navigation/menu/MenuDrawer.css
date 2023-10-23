@@ -15,12 +15,13 @@
   position: absolute;
   left: 0px;
   top: 48px;
+  z-index: 2;
 }
 
 .sub-menu {
   flex-shrink: 0;
   width: 179px;
-  height: 129px;
+  height: 159px;
   position: static;
 }
 
