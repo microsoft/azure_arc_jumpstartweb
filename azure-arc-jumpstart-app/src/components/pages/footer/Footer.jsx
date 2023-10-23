@@ -3,11 +3,11 @@ import "./Footer.css";
 const Footer = ({ ...props }) => {
   return (
     <div className="footer">
-      <div className="frame-59877">
-        <div className="group-1797">
-          <div className="frame-59879">
-            <div className="what-s-new">What’s new </div>
-            <div className="jumpstart-v-next-jumpstart-agora">
+      <div className="footer-frame-59877">
+        <div className="footer-group-1797">
+          <div className="footer-frame-59879">
+            <div className="footer-what-s-new">What’s new </div>
+            <div className="footer-jumpstart-v-next-jumpstart-agora">
               Jumpstart vNext
               <br />
               Jumpstart Agora
@@ -17,10 +17,10 @@ const Footer = ({ ...props }) => {
             </div>
           </div>
         </div>
-        <div className="group-1796">
-          <div className="frame-59880">
-            <div className="products-and-pricing">Products and pricing </div>
-            <div className="products-pricing-free-azure-services-optimize-your-costs-roi-estimator">
+        <div className="footer-group-1796">
+          <div className="footer-frame-59880">
+            <div className="footer-products-and-pricing">Products and pricing </div>
+            <div className="footer-products-pricing-free-azure-services-optimize-your-costs-roi-estimator">
               Products
               <br />
               Pricing
@@ -33,10 +33,10 @@ const Footer = ({ ...props }) => {
             </div>
           </div>
         </div>
-        <div className="group-1795">
-          <div className="frame-59881">
-            <div className="solutions-and-support">Solutions and support </div>
-            <div className="cloud-to-edge-solutions-solution-architectures-account-profile-support-feedback">
+        <div className="footer-group-1795">
+          <div className="footer-frame-59881">
+            <div className="footer-solutions-and-support">Solutions and support </div>
+            <div className="footer-cloud-to-edge-solutions-solution-architectures-account-profile-support-feedback">
               Cloud-to-edge solutions
               <br />
               Solution architectures
@@ -49,9 +49,9 @@ const Footer = ({ ...props }) => {
             </div>
           </div>
         </div>
-        <div className="frame-59882">
-          <div className="partners">Partners </div>
-          <div className="jumpstart-community-azure-marketplace-find-a-partner">
+        <div className="footer-frame-59882">
+          <div className="footer-partners">Partners </div>
+          <div className="footer-jumpstart-community-azure-marketplace-find-a-partner">
             Jumpstart community
             <br />
             Azure Marketplace
@@ -59,9 +59,9 @@ const Footer = ({ ...props }) => {
             Find a partner{" "}
           </div>
         </div>
-        <div className="frame-59883">
-          <div className="resources">Resources </div>
-          <div className="documentation-training-and-certifications-blogs-you-tube-microsoft-tech-community-git-hub">
+        <div className="footer-frame-59883">
+          <div className="footer-resources">Resources </div>
+          <div className="footer-documentation-training-and-certifications-blogs-you-tube-microsoft-tech-community-git-hub">
             Documentation
             <br />
             Training and certifications
@@ -77,10 +77,10 @@ const Footer = ({ ...props }) => {
             <br />{" "}
           </div>
         </div>
-        <div className="group-1793">
-          <div className="frame-59878">
-            <div className="company">Company </div>
-            <div className="microsoft-about-us-careers-contact-us-privacy-at-microsoft-accessibility-sustainability">
+        <div className="footer-group-1793">
+          <div className="footer-frame-59878">
+            <div className="footer-company">Company </div>
+            <div className="footer-microsoft-about-us-careers-contact-us-privacy-at-microsoft-accessibility-sustainability">
               Microsoft
               <br />
               About us
@@ -99,9 +99,9 @@ const Footer = ({ ...props }) => {
           </div>
         </div>
       </div>
-      <div className="frame-2018776011">
+      <div className="footer-frame-2018776011">
         <svg
-          className="frame"
+          className="footer-frame"
           width="20"
           height="21"
           viewBox="0 0 20 21"
@@ -126,25 +126,25 @@ const Footer = ({ ...props }) => {
           </defs>
         </svg>
 
-        <div className="english-united-states">English (United States) </div>
+        <div className="footer-english-united-states">English (United States) </div>
       </div>
-      <div className="frame-2018776009">
-        <div className="diversity-and-inclusion">Diversity and Inclusion </div>
-        <div className="privacy-cookies">Privacy &amp; Cookies </div>
-        <div className="data-protection-notice">Data Protection Notice </div>
-        <div className="trademarks">Trademarks </div>
-        <div className="terms-of-use">Terms of use </div>
-        <div className="privacy-data-management">Privacy Data Management </div>
-        <div className="sitemap">Sitemap </div>
-        <div className="frame-2018776010">
-          <div className="microsoft-2023">© Microsoft 2023 </div>
+      <div className="footer-frame-2018776009">
+        <div className="footer-diversity-and-inclusion">Diversity and Inclusion </div>
+        <div className="footer-privacy-cookies">Privacy &amp; Cookies </div>
+        <div className="footer-data-protection-notice">Data Protection Notice </div>
+        <div className="footer-trademarks">Trademarks </div>
+        <div className="footer-terms-of-use">Terms of use </div>
+        <div className="footer-privacy-data-management">Privacy Data Management </div>
+        <div className="footer-sitemap">Sitemap </div>
+        <div className="footer-frame-2018776010">
+          <div className="footer-microsoft-2023">© Microsoft 2023 </div>
         </div>
       </div>
-      <div className="frame-2018776012">
-        <div className="group-1010107237">
-          <div className="rectangle-34656644"></div>
+      <div className="footer-frame-2018776012">
+        <div className="footer-group-1010107237">
+          <div className="footer-rectangle-34656644"></div>
           <svg
-            className="frame2"
+            className="footer-frame2"
             width="10"
             height="11"
             viewBox="0 0 10 11"
@@ -158,7 +158,7 @@ const Footer = ({ ...props }) => {
           </svg>
 
           <svg
-            className="frame3"
+            className="footer-frame3"
             width="10"
             height="11"
             viewBox="0 0 10 11"
@@ -172,7 +172,7 @@ const Footer = ({ ...props }) => {
           </svg>
 
           <svg
-            className="vector-3764"
+            className="footer-vector-3764"
             width="19"
             height="15"
             viewBox="0 0 19 15"
@@ -186,7 +186,7 @@ const Footer = ({ ...props }) => {
           </svg>
 
           <svg
-            className="frame4"
+            className="footer-frame4"
             width="10"
             height="11"
             viewBox="0 0 10 11"
@@ -199,7 +199,7 @@ const Footer = ({ ...props }) => {
             />
           </svg>
         </div>
-        <div className="your-privacy-choices">Your Privacy Choices </div>
+        <div className="footer-your-privacy-choices">Your Privacy Choices </div>
       </div>
     </div>
   );

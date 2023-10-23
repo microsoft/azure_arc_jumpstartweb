@@ -1,207 +1,207 @@
-.hero,
-.hero * {
+.hero-1-and-2,
+.hero-1-and-2 * {
   box-sizing: border-box;
 }
-.hero {
+.hero-1-and-2 {
   background: #000000;
   width: 1920px;
   height: 1080px;
   position: relative;
   overflow: hidden;
 }
-.hero-colored {
+.hero-1-and-2-hero-colored {
   color: #ffffff;
   text-align: left;
   font: 600 36px "Segoe UI", sans-serif;
   position: absolute;
-  left: 79.75px;
-  top: 66.89px;
+  left: 79.hero-1-and-2-75px;
+  top: 66.hero-1-and-2-89px;
 }
-.group-1321317009 {
+.hero-1-and-2-group-1321317009 {
   position: absolute;
   inset: 0;
 }
-.group-1321316985 {
+.hero-1-and-2-group-1321316985 {
   position: absolute;
   left: 282px;
-  top: 487.37px;
+  top: 487.hero-1-and-2-37px;
   overflow: visible;
 }
-.group-1321316986 {
-  width: 458.54px;
-  height: 462.73px;
+.hero-1-and-2-group-1321316986 {
+  width: 458.hero-1-and-2-54px;
+  height: 462.hero-1-and-2-73px;
   position: static;
 }
-.vector6 {
-  opacity: 0.25;
+.hero-1-and-2-vector6 {
+  opacity: 0.hero-1-and-2-25;
   position: absolute;
-  left: 424.95px;
-  top: 259.42px;
+  left: 424.hero-1-and-2-95px;
+  top: 259.hero-1-and-2-42px;
   overflow: visible;
 }
-.vector7 {
+.hero-1-and-2-vector7 {
   position: absolute;
-  left: 447.97px;
-  top: 408.47px;
+  left: 447.hero-1-and-2-97px;
+  top: 408.hero-1-and-2-47px;
   overflow: visible;
 }
-.vector8 {
+.hero-1-and-2-vector8 {
   position: absolute;
-  left: 531.96px;
-  top: 308.34px;
+  left: 531.hero-1-and-2-96px;
+  top: 308.hero-1-and-2-34px;
   overflow: visible;
 }
-.group {
-  opacity: 0.30000001192092896;
+.hero-1-and-2-group {
+  opacity: 0.hero-1-and-2-30000001192092896;
   position: absolute;
-  left: 436.07px;
-  top: 311.84px;
+  left: 436.hero-1-and-2-07px;
+  top: 311.hero-1-and-2-84px;
   overflow: visible;
 }
-.vector10 {
+.hero-1-and-2-vector10 {
   position: absolute;
-  left: 435.56px;
-  top: 312.39px;
+  left: 435.hero-1-and-2-56px;
+  top: 312.hero-1-and-2-39px;
   overflow: visible;
 }
-.group-1321316987 {
+.hero-1-and-2-group-1321316987 {
   position: absolute;
-  left: 398.12px;
-  top: 470.89px;
+  left: 398.hero-1-and-2-12px;
+  top: 470.hero-1-and-2-89px;
   overflow: visible;
 }
-.layer-1 {
+.hero-1-and-2-layer-1 {
   position: absolute;
-  left: 506.18px;
-  top: 602.58px;
+  left: 506.hero-1-and-2-18px;
+  top: 602.hero-1-and-2-58px;
   overflow: visible;
 }
-.vector13 {
+.hero-1-and-2-vector13 {
   position: absolute;
-  left: 452.14px;
-  top: 628.89px;
+  left: 452.hero-1-and-2-14px;
+  top: 628.hero-1-and-2-89px;
   overflow: visible;
 }
-.group-1321317000 {
+.hero-1-and-2-group-1321317000 {
   width: 140px;
-  height: 230.47px;
+  height: 230.hero-1-and-2-47px;
   position: static;
 }
-.isolation-mode {
+.hero-1-and-2-isolation-mode {
   position: absolute;
-  left: 333.74px;
-  top: 322.88px;
+  left: 333.hero-1-and-2-74px;
+  top: 322.hero-1-and-2-88px;
   overflow: visible;
 }
-.vector16 {
+.hero-1-and-2-vector16 {
   border-radius: 0px;
   position: absolute;
-  left: 312.14px;
-  top: 335.48px;
+  left: 312.hero-1-and-2-14px;
+  top: 335.hero-1-and-2-48px;
   overflow: visible;
 }
-.layer-12 {
+.hero-1-and-2-layer-12 {
   position: absolute;
   left: 617px;
   top: 434px;
   overflow: visible;
 }
-.layer-13 {
+.hero-1-and-2-layer-13 {
   position: absolute;
   left: 710px;
   top: 458px;
   overflow: visible;
 }
-.group-1321317008 {
+.hero-1-and-2-group-1321317008 {
   position: absolute;
   inset: 0;
 }
-.group-1321317002 {
+.hero-1-and-2-group-1321317002 {
   position: absolute;
   left: 1108px;
-  top: 487.37px;
+  top: 487.hero-1-and-2-37px;
   overflow: visible;
 }
-.group-1321317003 {
-  width: 458.54px;
-  height: 462.73px;
+.hero-1-and-2-group-1321317003 {
+  width: 458.hero-1-and-2-54px;
+  height: 462.hero-1-and-2-73px;
   position: static;
 }
-.vector26 {
-  opacity: 0.25;
+.hero-1-and-2-vector26 {
+  opacity: 0.hero-1-and-2-25;
   position: absolute;
-  left: 1250.95px;
-  top: 259.42px;
+  left: 1250.hero-1-and-2-95px;
+  top: 259.hero-1-and-2-42px;
   overflow: visible;
 }
-.vector27 {
+.hero-1-and-2-vector27 {
   position: absolute;
-  left: 1273.97px;
-  top: 408.47px;
+  left: 1273.hero-1-and-2-97px;
+  top: 408.hero-1-and-2-47px;
   overflow: visible;
 }
-.vector28 {
+.hero-1-and-2-vector28 {
   position: absolute;
-  left: 1357.96px;
-  top: 308.34px;
+  left: 1357.hero-1-and-2-96px;
+  top: 308.hero-1-and-2-34px;
   overflow: visible;
 }
-.group2 {
-  opacity: 0.30000001192092896;
+.hero-1-and-2-group2 {
+  opacity: 0.hero-1-and-2-30000001192092896;
   position: absolute;
-  left: 1262.07px;
-  top: 311.84px;
+  left: 1262.hero-1-and-2-07px;
+  top: 311.hero-1-and-2-84px;
   overflow: visible;
 }
-.vector30 {
+.hero-1-and-2-vector30 {
   position: absolute;
-  left: 1261.56px;
-  top: 312.39px;
+  left: 1261.hero-1-and-2-56px;
+  top: 312.hero-1-and-2-39px;
   overflow: visible;
 }
-.group-1321317004 {
+.hero-1-and-2-group-1321317004 {
   position: absolute;
-  left: 1224.12px;
-  top: 470.89px;
+  left: 1224.hero-1-and-2-12px;
+  top: 470.hero-1-and-2-89px;
   overflow: visible;
 }
-.layer-14 {
+.hero-1-and-2-layer-14 {
   position: absolute;
-  left: 1332.18px;
-  top: 602.58px;
+  left: 1332.hero-1-and-2-18px;
+  top: 602.hero-1-and-2-58px;
   overflow: visible;
 }
-.vector33 {
+.hero-1-and-2-vector33 {
   position: absolute;
-  left: 1278.14px;
-  top: 628.89px;
+  left: 1278.hero-1-and-2-14px;
+  top: 628.hero-1-and-2-89px;
   overflow: visible;
 }
-.group-1321317005 {
+.hero-1-and-2-group-1321317005 {
   width: 140px;
   height: 231px;
   position: static;
 }
-.isolation-mode2 {
+.hero-1-and-2-isolation-mode2 {
   position: absolute;
-  left: 1159.14px;
-  top: 322.62px;
+  left: 1159.hero-1-and-2-14px;
+  top: 322.hero-1-and-2-62px;
   overflow: visible;
 }
-.vector36 {
+.hero-1-and-2-vector36 {
   border-radius: 0px;
   position: absolute;
-  left: 1138.14px;
-  top: 334.62px;
+  left: 1138.hero-1-and-2-14px;
+  top: 334.hero-1-and-2-62px;
   overflow: visible;
 }
-.layer-15 {
+.hero-1-and-2-layer-15 {
   position: absolute;
   left: 1443px;
   top: 434px;
   overflow: visible;
 }
-.layer-16 {
+.hero-1-and-2-layer-16 {
   position: absolute;
   left: 1536px;
   top: 458px;

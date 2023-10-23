@@ -2,9 +2,9 @@ import "./Hero1and2.css";
 
 const Hero1 = ({ ...props }) => {
     return (
-        <div className="group-1321317009">
+        <div className="hero-1-and-2-group-1321317009">
             <svg
-                className="group-1321316985"
+                className="hero-1-and-2-group-1321316985"
                 width="585"
                 height="334"
                 viewBox="0 0 585 334"
@@ -104,9 +104,9 @@ const Hero1 = ({ ...props }) => {
                 </defs>
             </svg>
 
-            <div className="group-1321316986">
+            <div className="hero-1-and-2-group-1321316986">
                 <svg
-                    className="vector6"
+                    className="hero-1-and-2-vector6"
                     width="460"
                     height="462"
                     viewBox="0 0 460 462"
@@ -136,7 +136,7 @@ const Hero1 = ({ ...props }) => {
                 </svg>
 
                 <svg
-                    className="vector7"
+                    className="hero-1-and-2-vector7"
                     width="57"
                     height="25"
                     viewBox="0 0 57 25"
@@ -163,7 +163,7 @@ const Hero1 = ({ ...props }) => {
                 </svg>
 
                 <svg
-                    className="vector8"
+                    className="hero-1-and-2-vector8"
                     width="335"
                     height="412"
                     viewBox="0 0 335 412"
@@ -235,7 +235,7 @@ const Hero1 = ({ ...props }) => {
                 </svg>
 
                 <svg
-                    className="group"
+                    className="hero-1-and-2-group"
                     width="424"
                     height="411"
                     viewBox="0 0 424 411"
@@ -265,7 +265,7 @@ const Hero1 = ({ ...props }) => {
                 </svg>
 
                 <svg
-                    className="vector10"
+                    className="hero-1-and-2-vector10"
                     width="424"
                     height="411"
                     viewBox="0 0 424 411"
@@ -292,7 +292,7 @@ const Hero1 = ({ ...props }) => {
                 </svg>
             </div>
             <svg
-                className="group-1321316987"
+                className="hero-1-and-2-group-1321316987"
                 width="312"
                 height="272"
                 viewBox="0 0 312 272"
@@ -436,7 +436,7 @@ const Hero1 = ({ ...props }) => {
             </svg>
 
             <svg
-                className="layer-1"
+                className="hero-1-and-2-layer-1"
                 width="87"
                 height="54"
                 viewBox="0 0 87 54"
@@ -541,7 +541,7 @@ const Hero1 = ({ ...props }) => {
             </svg>
 
             <svg
-                className="vector13"
+                className="hero-1-and-2-vector13"
                 width="80"
                 height="51"
                 viewBox="0 0 80 51"
@@ -605,9 +605,9 @@ const Hero1 = ({ ...props }) => {
                 </defs>
             </svg>
 
-            <div className="group-1321317000">
+            <div className="hero-1-and-2-group-1321317000">
                 <svg
-                    className="isolation-mode"
+                    className="hero-1-and-2-isolation-mode"
                     width="120"
                     height="227"
                     viewBox="0 0 120 227"
@@ -759,7 +759,7 @@ const Hero1 = ({ ...props }) => {
                 </svg>
 
                 <svg
-                    className="vector16"
+                    className="hero-1-and-2-vector16"
                     width="108"
                     height="219"
                     viewBox="0 0 108 219"
@@ -827,7 +827,7 @@ const Hero1 = ({ ...props }) => {
                 </svg>
             </div>
             <svg
-                className="layer-12"
+                className="hero-1-and-2-layer-12"
                 width="79"
                 height="76"
                 viewBox="0 0 79 76"
@@ -925,7 +925,7 @@ const Hero1 = ({ ...props }) => {
             </svg>
 
             <svg
-                className="layer-13"
+                className="hero-1-and-2-layer-13"
                 width="45"
                 height="42"
                 viewBox="0 0 45 42"

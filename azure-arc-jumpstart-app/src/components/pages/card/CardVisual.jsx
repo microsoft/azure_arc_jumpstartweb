@@ -10,13 +10,13 @@ const CardVisual = ({ mode = "light", state = "rest", ...props }) => {
         <div className="rectangle-38708"></div>
       </div>
       <div className="frame-2018775824">
-        <div className="frame-2018775810">
-          <div className="frame-44">
-            <div className="general-object-detection">
-              <div className="frame-2018775799">
-                <div className="frame-2018775798">
+        <div className="card-visual-frame-2018775810">
+          <div className="card-visual-frame-44">
+            <div className="card-visual-general-object-detection">
+              <div className="card-visual-frame-2018775799">
+                <div className="card-visual-frame-2018775798">
                   <div className="industry">Manufacturing </div>
-                  <div className="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod">
+                  <div className="card-visual-description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing

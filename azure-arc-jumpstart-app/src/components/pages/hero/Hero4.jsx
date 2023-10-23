@@ -2,9 +2,9 @@ import "./Hero3and4.css";
 
 const Hero4 = ({ ...props }) => {
   return (
-    <div className="group-1321317006">
+    <div className="hero-3-and-4-group-1321317006">
       <svg
-        className="group-1321317001"
+        className="hero-3-and-4-group-1321317001"
         width="585"
         height="334"
         viewBox="0 0 585 334"
@@ -104,9 +104,9 @@ const Hero4 = ({ ...props }) => {
         </defs>
       </svg>
 
-      <div className="group-1321317002">
+      <div className="hero-3-and-4-group-1321317002">
         <svg
-          className="vector26"
+          className="hero-3-and-4-vector26"
           width="460"
           height="462"
           viewBox="0 0 460 462"
@@ -136,7 +136,7 @@ const Hero4 = ({ ...props }) => {
         </svg>
 
         <svg
-          className="vector27"
+          className="hero-3-and-4-vector27"
           width="57"
           height="25"
           viewBox="0 0 57 25"
@@ -163,7 +163,7 @@ const Hero4 = ({ ...props }) => {
         </svg>
 
         <svg
-          className="vector28"
+          className="hero-3-and-4-vector28"
           width="335"
           height="412"
           viewBox="0 0 335 412"
@@ -235,7 +235,7 @@ const Hero4 = ({ ...props }) => {
         </svg>
 
         <svg
-          className="group2"
+          className="hero-3-and-4-group2"
           width="424"
           height="411"
           viewBox="0 0 424 411"
@@ -265,7 +265,7 @@ const Hero4 = ({ ...props }) => {
         </svg>
 
         <svg
-          className="vector30"
+          className="hero-3-and-4-vector30"
           width="424"
           height="411"
           viewBox="0 0 424 411"
@@ -292,7 +292,7 @@ const Hero4 = ({ ...props }) => {
         </svg>
       </div>
       <svg
-        className="group-1321317003"
+        className="hero-3-and-4-group-1321317003"
         width="312"
         height="272"
         viewBox="0 0 312 272"
@@ -436,7 +436,7 @@ const Hero4 = ({ ...props }) => {
       </svg>
 
       <svg
-        className="layer-14"
+        className="hero-3-and-4-layer-14"
         width="87"
         height="54"
         viewBox="0 0 87 54"
@@ -540,7 +540,7 @@ const Hero4 = ({ ...props }) => {
       </svg>
 
       <svg
-        className="vector33"
+        className="hero-3-and-4-vector33"
         width="80"
         height="51"
         viewBox="0 0 80 51"
@@ -604,9 +604,9 @@ const Hero4 = ({ ...props }) => {
         </defs>
       </svg>
 
-      <div className="group-1321317004">
+      <div className="hero-3-and-4-group-1321317004">
         <svg
-          className="isolation-mode2"
+          className="hero-3-and-4-isolation-mode2"
           width="120"
           height="227"
           viewBox="0 0 120 227"
@@ -759,7 +759,7 @@ const Hero4 = ({ ...props }) => {
         </svg>
 
         <svg
-          className="vector36"
+          className="hero-3-and-4-vector36"
           width="108"
           height="219"
           viewBox="0 0 108 219"
@@ -827,7 +827,7 @@ const Hero4 = ({ ...props }) => {
         </svg>
       </div>
       <svg
-        className="layer-15"
+        className="hero-3-and-4-layer-15"
         width="79"
         height="76"
         viewBox="0 0 79 76"
@@ -924,7 +924,7 @@ const Hero4 = ({ ...props }) => {
       </svg>
 
       <svg
-        className="layer-16"
+        className="hero-3-and-4-layer-16"
         width="45"
         height="42"
         viewBox="0 0 45 42"

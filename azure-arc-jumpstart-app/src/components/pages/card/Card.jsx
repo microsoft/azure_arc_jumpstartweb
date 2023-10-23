@@ -35,7 +35,7 @@ const Card = ({
                   </div>
                   <div className="card-frame-2018775825-title">Servers </div>
                 </div>
-                <div className="card-frame-2018775825-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore">
+                <div className="card-frame-2018775825-description">
                   Onboard various Windows and Linux server distributions.{" "}
                 </div>
               </div>

@@ -9,7 +9,7 @@
   position: relative;
   overflow: hidden;
 }
-.frame-59877 {
+.footer-frame-59877 {
   display: flex;
   flex-direction: row;
   gap: 55px;
@@ -19,13 +19,13 @@
   left: 77px;
   top: 55px;
 }
-.group-1797 {
+.footer-group-1797 {
   flex-shrink: 0;
   width: 175px;
   height: 259px;
   position: static;
 }
-.frame-59879 {
+.footer-frame-59879 {
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -35,7 +35,7 @@
   left: 0px;
   top: 0px;
 }
-.what-s-new {
+.footer-what-s-new {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 600 12px/24px "Segoe UI", sans-serif;
@@ -46,21 +46,21 @@
   align-items: center;
   justify-content: flex-start;
 }
-.jumpstart-v-next-jumpstart-agora {
+.footer-jumpstart-v-next-jumpstart-agora {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
-  width: 123.72px;
+  width: 123.footer-72px;
   height: 229px;
 }
-.group-1796 {
+.footer-group-1796 {
   flex-shrink: 0;
   width: 193px;
   height: 259px;
   position: static;
 }
-.frame-59880 {
+.footer-frame-59880 {
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -70,7 +70,7 @@
   left: 230px;
   top: 0px;
 }
-.products-and-pricing {
+.footer-products-and-pricing {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 600 12px/24px "Segoe UI", sans-serif;
@@ -81,21 +81,21 @@
   align-items: center;
   justify-content: flex-start;
 }
-.products-pricing-free-azure-services-optimize-your-costs-roi-estimator {
+.footer-products-pricing-free-azure-services-optimize-your-costs-roi-estimator {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
-  width: 125.37px;
+  width: 125.footer-37px;
   height: 229px;
 }
-.group-1795 {
+.footer-group-1795 {
   flex-shrink: 0;
   width: 175px;
   height: 202px;
   position: static;
 }
-.frame-59881 {
+.footer-frame-59881 {
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -105,7 +105,7 @@
   left: 478px;
   top: 0px;
 }
-.solutions-and-support {
+.footer-solutions-and-support {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 600 12px/24px "Segoe UI", sans-serif;
@@ -116,13 +116,13 @@
   align-items: center;
   justify-content: flex-start;
 }
-.cloud-to-edge-solutions-solution-architectures-account-profile-support-feedback {
+.footer-cloud-to-edge-solutions-solution-architectures-account-profile-support-feedback {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
 }
-.frame-59882 {
+.footer-frame-59882 {
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -131,7 +131,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.partners {
+.footer-partners {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 600 12px/24px "Segoe UI", sans-serif;
@@ -142,14 +142,14 @@
   align-items: center;
   justify-content: flex-start;
 }
-.jumpstart-community-azure-marketplace-find-a-partner {
+.footer-jumpstart-community-azure-marketplace-find-a-partner {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
-  width: 123.72px;
+  width: 123.footer-72px;
 }
-.frame-59883 {
+.footer-frame-59883 {
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -158,7 +158,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.resources {
+.footer-resources {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 600 12px/24px "Segoe UI", sans-serif;
@@ -169,7 +169,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.documentation-training-and-certifications-blogs-you-tube-microsoft-tech-community-git-hub {
+.footer-documentation-training-and-certifications-blogs-you-tube-microsoft-tech-community-git-hub {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
@@ -177,13 +177,13 @@
   width: 175px;
   height: 229px;
 }
-.group-1793 {
+.footer-group-1793 {
   flex-shrink: 0;
   width: 175px;
   height: 259px;
   position: static;
 }
-.frame-59878 {
+.footer-frame-59878 {
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -194,7 +194,7 @@
   left: 1168px;
   top: 0px;
 }
-.company {
+.footer-company {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 600 12px/24px "Segoe UI", sans-serif;
@@ -205,14 +205,14 @@
   align-items: center;
   justify-content: flex-start;
 }
-.microsoft-about-us-careers-contact-us-privacy-at-microsoft-accessibility-sustainability {
+.footer-microsoft-about-us-careers-contact-us-privacy-at-microsoft-accessibility-sustainability {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
   width: 124px;
 }
-.frame-2018776011 {
+.footer-frame-2018776011 {
   display: flex;
   flex-direction: row;
   gap: 7px;
@@ -223,18 +223,18 @@
   left: 77px;
   top: 432px;
 }
-.frame {
+.footer-frame {
   flex-shrink: 0;
   position: relative;
   overflow: visible;
 }
-.english-united-states {
+.footer-english-united-states {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
 }
-.frame-2018776009 {
+.footer-frame-2018776009 {
   display: flex;
   flex-direction: row;
   gap: 19px;
@@ -244,49 +244,49 @@
   left: 473px;
   top: 432px;
 }
-.diversity-and-inclusion {
+.footer-diversity-and-inclusion {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
 }
-.privacy-cookies {
+.footer-privacy-cookies {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
 }
-.data-protection-notice {
+.footer-data-protection-notice {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
 }
-.trademarks {
+.footer-trademarks {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
 }
-.terms-of-use {
+.footer-terms-of-use {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
 }
-.privacy-data-management {
+.footer-privacy-data-management {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
 }
-.sitemap {
+.footer-sitemap {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
 }
-.frame-2018776010 {
+.footer-frame-2018776010 {
   display: flex;
   flex-direction: row;
   gap: 3px;
@@ -295,13 +295,13 @@
   flex-shrink: 0;
   position: relative;
 }
-.microsoft-2023 {
+.footer-microsoft-2023 {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
   position: relative;
 }
-.frame-2018776012 {
+.footer-frame-2018776012 {
   display: flex;
   flex-direction: row;
   gap: 8px;
@@ -311,13 +311,13 @@
   left: 251px;
   top: 432px;
 }
-.group-1010107237 {
+.footer-group-1010107237 {
   flex-shrink: 0;
   width: 34px;
   height: 16px;
   position: static;
 }
-.rectangle-34656644 {
+.footer-rectangle-34656644 {
   border-radius: 20px;
   border-style: solid;
   border-color: #50e6ff;
@@ -328,32 +328,32 @@
   left: 0px;
   top: 4px;
 }
-.frame2 {
+.footer-frame2 {
   position: absolute;
   left: 5px;
   top: 7px;
   overflow: visible;
 }
-.frame3 {
+.footer-frame3 {
   position: absolute;
   left: 5px;
   top: 7px;
   overflow: visible;
 }
-.vector-3764 {
+.footer-vector-3764 {
   border-radius: 0px;
   position: absolute;
-  left: 15.5px;
+  left: 15.footer-5px;
   top: 5px;
   overflow: visible;
 }
-.frame4 {
+.footer-frame4 {
   position: absolute;
   left: 20px;
   top: 7px;
   overflow: visible;
 }
-.your-privacy-choices {
+.footer-your-privacy-choices {
   color: var(--neutral-text-text-white, #ffffff);
   text-align: left;
   font: 400 11px/24px "Segoe UI", sans-serif;
