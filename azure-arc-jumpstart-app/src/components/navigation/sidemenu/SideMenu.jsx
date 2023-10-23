@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import "./SideMenu.css";
 
 const SideMenu = ({ pathNode }) => {
@@ -107,13 +107,13 @@ const SideMenuItem = ({ node, margin = 0 }) => {
     <>
       <div className="side-menu-item">
         {
-          // !hasChildren ? (
-          //   <Link to={node.path}>
-          //     {content}
-          //   </Link>
-          // ) : (
+          !hasChildren ? (
+            <Link to={node.path}>
+              {content}
+            </Link>
+          ) : (
             content
-          // )
+          )
         }
       </div>
       {

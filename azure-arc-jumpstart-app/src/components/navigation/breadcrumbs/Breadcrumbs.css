@@ -1,4 +1,4 @@
-@import './components/Vars.css';
+@import '../../Vars.css';
 
 .breadcrumb-bar {
   display: flex;
