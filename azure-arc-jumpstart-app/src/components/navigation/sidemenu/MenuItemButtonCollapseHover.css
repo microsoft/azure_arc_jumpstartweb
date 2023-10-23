@@ -1,0 +1,25 @@
+.menu-button-collapse-hover,
+.menu-button-collapse-hover * {
+  box-sizing: border-box;
+}
+.menu-button-collapse-hover {
+  width: 53px;
+  height: 53px;
+  position: relative;
+}
+.menu-button-collapse-hover-rectangle-34656628 {
+  background: var(--neutral-background-6-hover, #525252);
+  border-radius: 200px;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.menu-button-collapse-hover-chevron {
+  position: absolute;
+  left: 43px;
+  top: 15px;
+  transform: translate(-32px, 0px);
+  overflow: visible;
+}

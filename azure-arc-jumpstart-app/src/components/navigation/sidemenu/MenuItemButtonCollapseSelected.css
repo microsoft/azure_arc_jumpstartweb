@@ -1,0 +1,25 @@
+.menu-item-button-collapse-selected,
+.menu-item-button-collapse-selected * {
+  box-sizing: border-box;
+}
+.menu-item-button-collapse-selected {
+  width: 53px;
+  height: 53px;
+  position: relative;
+}
+.menu-item-button-collapse-selected-rectangle-34656628 {
+  background: var(--neutral-background-6-selected, #4c4c4c);
+  border-radius: 200px;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.menu-item-button-collapse-selected-chevron {
+  position: absolute;
+  left: 43px;
+  top: 15px;
+  transform: translate(-32px, 0px);
+  overflow: visible;
+}
