@@ -72,9 +72,9 @@ export function MarkdownPage({ node, path, updateBreadcrumbs, updateSections }) 
         let html = '';
         if (node.frontMatter) {
             if (node.frontMatter.title) {
-                html = `<a href='${node.path}'>${node.frontMatter.title}</a>`;
+                html = `<h3><a href='${node.path}'>${node.frontMatter.title}</a></h3>`;
             } else if (node.frontMatter.linkTitle) {
-                html = `<a href='${node.path}'>${node.frontMatter.linkTitle}</a>`;
+                html = `<h3><a href='${node.path}'>${node.frontMatter.linkTitle}</a></h3>`;
             }
             if (node.frontMatter.description) {
                 html = `${html}<p>${node.frontMatter.description}</p>`;
