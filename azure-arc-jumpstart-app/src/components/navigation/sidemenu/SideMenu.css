@@ -5,10 +5,10 @@
   /* background: #0a0a0a;  */
   background: var(--page-surface-surface-quaternary, #131313);
   height: 100%;
-  position: fixed;
+  /* position: fixed;
   top: 100px;
   left: 0;
-  width: 287px;
+  width: 287px; */
   height: 694px;
   flex-shrink: 0;
   z-index: 1;

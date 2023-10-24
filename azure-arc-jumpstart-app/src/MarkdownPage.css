@@ -1,11 +1,11 @@
 .markdown-page-container {
-    position: absolute;
+    /* position: absolute;
     top: 96px;
     left: 300px;
     right: 20px;
     height: 100%;
     z-index: -1;
-    overflow: auto;
+    overflow: auto; */
 }
 
 .markdown-page {

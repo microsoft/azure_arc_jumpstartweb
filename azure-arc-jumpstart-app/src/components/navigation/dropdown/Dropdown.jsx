@@ -19,7 +19,7 @@ const Dropdown = ({ items }) => {
     return (
         <>
             <div className="dropdown-dropdown-body">
-                <div className="dropdown-dropdown-body2" onClick={() => setOpen(!open)}>
+                <div className="dropdown-dropdown-body2" style={{cursor: 'pointer'}} onClick={() => setOpen(!open)}>
                     <div className="dropdown-main-menu">
                         <div className="dropdown-frame-59941">
                             <div className="dropdown-community">Jump to section </div>

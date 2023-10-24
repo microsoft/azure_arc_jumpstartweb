@@ -1,14 +1,29 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Breadcrumbs.css';
-import { findNode } from '../../Utility';
 
 export function Breadcrumbs(node) {
     const location = useLocation();
     const pathnames = location.pathname.split('/').filter(x => x);
-    // console.log('pathnames', pathnames);
-    // let currentNode = findNode(node, pathnames.join('\\'));
-    // console.log('node', currentNode);
+
+    function findNodeByPath(root, path) {
+        if (root.path === path) {
+            return root;
+        }
+
+        if (root.type === "directory" && root.children) {
+            for (const child of root.children) {
+                const result = findNodeByPath(child, path);
+                if (result) {
+                    return result;
+                }
+            }
+        }
+
+        return null;
+    }
+
+    console.log(findNodeByPath(node, pathnames.join('\\')))
 
     const capitalize = (s) => {
         return s.charAt(0).toUpperCase() + s.slice(1);
@@ -35,7 +50,7 @@ export function Breadcrumbs(node) {
                         <span key={index}>
                             <Link to={routeTo}>
                                 <div className={index === pathnames.length - 1 ? "breadcrumb-item-selected" : "breadcrumb-item"}>
-                                    <div className={index === pathnames.length -1 ? "breadcrumb-item-breadcrumb-selected" : "breadcrumb-item-breadcrumb"}>
+                                    <div className={index === pathnames.length - 1 ? "breadcrumb-item-breadcrumb-selected" : "breadcrumb-item-breadcrumb"}>
                                         {capitalize(value)}
                                     </div>
                                 </div>
