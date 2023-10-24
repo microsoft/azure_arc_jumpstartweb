@@ -29,7 +29,7 @@ function App() {
     };
     const toggleMenuDrawer = (menuItem) => {
         setSelectedMenuItem(menuItem);
-        setIsMenuDrawerOpen(!isMenuDrawerOpen);
+        setIsMenuDrawerOpen(menuItem ? true : false);
     };
     const sideMenuLeft = isSideMenuOpen ? 0 : -300;
     const mainContentWidth = isSideMenuOpen ? 'calc(100% - 300px)' : '100%';
@@ -65,7 +65,7 @@ function App() {
                         justifyContent: 'space-between',
                         alignItems: 'center',
                         padding: '0 20px',
-                        zIndex: 3
+                        zIndex: 4
                     }}
                 >
                     <NavBar
@@ -73,25 +73,26 @@ function App() {
                         selectedMenuItem={selectedMenuItem}
                         setSelectedMenuItem={toggleMenuDrawer}
                     />
-                    <div
+                </div>
+                <div
                         style={{                
                             background: '#0a0a0a',
                             display: 'grid',
                             gridTemplateColumns: 'auto auto',
                             justifyContent: 'space-between',
-                            position: 'absolute',
+                            position: 'fixed',
                             top: '48px',
                             left: '0px',
                             right: '0px',
                             height: '52px',
                             paddingLeft: '10px',
-                            paddingRight: '10px'
+                            paddingRight: '10px',
+                            zIndex: 1,
                         }}
                     >
                         <Breadcrumbs node={pathNode} />
                         <Dropdown items={sections} />
                     </div>
-                </div>
                 <div
                     style={{
                         position: 'fixed',
@@ -100,7 +101,7 @@ function App() {
                         right: 0,
                         height: 300,
                         opacity: isMenuDrawerOpen ? 1 : 0,
-                        zIndex: 2,
+                        zIndex: 3,
                         transition: 'all 0.5s'
                     }}
                 >
