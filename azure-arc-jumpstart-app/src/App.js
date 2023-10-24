@@ -38,7 +38,7 @@ function App() {
 
     useEffect(() => {
         sortNodeTree(pathNode);
-        setCurrentPathNode(pathNode.children[0]);
+        setCurrentPathNode(pathNode.children[1]);
         setDynamicRoutes(extractRoutes(pathNode));
     }, []);
 
