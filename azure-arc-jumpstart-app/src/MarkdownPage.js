@@ -100,6 +100,7 @@ export function MarkdownPage({ node, path, updateBreadcrumbs, updateSections }) 
         }
         return null;
     }
+    
     const editInGitHub = `${editBasePath}${path}/_index.md`;
     const createChildPage = `https://github.com/Azure/arc_jumpstart_docs/new/${branch}/docs/${path}`;
     const createAnIssue = `https://github.com/Azure/arc_jumpstart_docs/issues/new?assignees=&labels=bug&template=bug_report.md&title=${path}`;
