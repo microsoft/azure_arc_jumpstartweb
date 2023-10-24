@@ -1,6 +1,6 @@
 import "./EditInGitHub.css";
 
-const EditInGitHub = ({ href }) => {
+const EditInGitHub = ({ href, children }) => {
   return <div
     className="edit-in-git-hub"
     onClick={() => {
@@ -20,7 +20,7 @@ const EditInGitHub = ({ href }) => {
         fill="white"
       />
     </svg>
-    Edit in GitHub
+    {children}
   </div>;
 };
 

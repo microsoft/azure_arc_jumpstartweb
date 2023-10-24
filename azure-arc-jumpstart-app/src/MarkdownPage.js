@@ -25,9 +25,12 @@ import { Italics } from './components/Overrides//Italics';
 import EditInGitHub from './components/markdown/EditInGitHub';
 import './MarkdownPage.css';
 
+// TODO: replace with env variable
+const branch = 'main';
+
 export function MarkdownPage({ node, path, updateBreadcrumbs, updateSections }) {
-    const viewBasePath = 'https://raw.githubusercontent.com/Azure/arc_jumpstart_docs/main/docs/';
-    const editBasePath = 'https://github.com/Azure/arc_jumpstart_docs/blob/main/docs/';
+    const viewBasePath = `https://raw.githubusercontent.com/Azure/arc_jumpstart_docs/${branch}/docs/`;
+    const editBasePath = `https://github.com/Azure/arc_jumpstart_docs/blob/${branch}/docs/`;
     const [markdown, setMarkdown] = useState('');
 
     const removeFrontmatter = (text) => {
@@ -97,17 +100,20 @@ export function MarkdownPage({ node, path, updateBreadcrumbs, updateSections }) 
         }
         return null;
     }
+    const editInGitHub = `${editBasePath}${path}/_index.md`;
+    const createChildPage = `https://github.com/Azure/arc_jumpstart_docs/new/${branch}/docs/${path}`;
+    const createAnIssue = `https://github.com/Azure/arc_jumpstart_docs/issues/new?assignees=&labels=bug&template=bug_report.md&title=${path}`;
+    const createAFeatureRequest = `https://github.com/Azure/arc_jumpstart_docs/issues/new?assignees=&labels=&template=feature_request.md&title=`;
 
     return (
         <div className='markdown-page-container'>
             <div className='markdown-page'>
-                <span style={{
-                    position: 'absolute',
-                    top: '20px',
-                    right: '50px',
-                }}>
-                    <EditInGitHub href={`${editBasePath}${path}/_index.md`}></EditInGitHub>
-                </span>
+                <div>
+                    <EditInGitHub href={editInGitHub}>Edit in GitHub</EditInGitHub>
+                    <EditInGitHub href={createChildPage}>Create child page</EditInGitHub>
+                    <EditInGitHub href={createAnIssue}>Create an issue</EditInGitHub>
+                    <EditInGitHub href={createAFeatureRequest}>Create a feature request</EditInGitHub>
+                </div>
                 <Markdown
                     options={{
                         overrides: {
