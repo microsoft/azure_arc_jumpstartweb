@@ -11,7 +11,7 @@ const Dropdown = ({ items }) => {
             const sectionElement = document.getElementById(section);
             sectionElement.scrollIntoView({
                 behavior: 'smooth',
-                // top: section.offsetTop - nav height
+                top: sectionElement.offsetTop - 150
             });
         }
     }

@@ -36,8 +36,28 @@ function App() {
     const menuDrawerTop = isMenuDrawerOpen ? 0 : -300;
 
     useEffect(() => {
+        sortNodeTree(pathNode);
         setDynamicRoutes(extractRoutes(pathNode));
     }, []);
+
+    const sortNodeTree = (node) => {
+        if (node.children) {
+          node.children.sort((a, b) => {
+            const aWeight = a.frontMatter && a.frontMatter.weight ? a.frontMatter.weight : 0;
+            const bWeight = b.frontMatter && b.frontMatter.weight ? b.frontMatter.weight : 0;
+            if (aWeight < bWeight) {
+              return -1;
+            } else if (aWeight > bWeight) {
+              return 1;
+            } else {
+              return 0;
+            }
+          });
+          node.children.forEach((child) => {
+            sortNodeTree(child);
+          });
+        }
+      }
 
     const updateSections = () => {
         if (pageRef.current) {
