@@ -1,0 +1,100 @@
+/* style rules and vars for jusmpstart label left of hero image in overview pages  */
+
+.jumpstart-label,
+.jumpstart-label * {
+  box-sizing: border-box;
+}
+.jumpstart-label {
+  color: #ffffff;
+  text-align: left;
+  font: 600 32px "Segoe UI", sans-serif;
+  position: relative;
+}
+
+/* vars */
+:root {
+    
+    /* Colors */
+    --radio-1: radial-gradient(
+      closest-side,
+      rgba(255, 227, 153, 1) 0%,
+      rgba(255, 163, 139, 1) 28.125%,
+      rgba(0, 120, 212, 1) 84.89583134651184%,
+      rgba(68, 162, 235, 1) 100%
+    );
+    --gradient-2: linear-gradient(
+      270deg,
+      rgba(192, 59, 196, 1) 0%,
+      rgba(255, 163, 139, 1) 40.625%,
+      rgba(255, 227, 153, 1) 100%
+    );
+    --colorful: linear-gradient(
+      -82.02deg,
+      rgba(0, 120, 212, 1) 0%,
+      rgba(73, 197, 177, 1) 34.375%,
+      rgba(255, 163, 139, 1) 67.1875%,
+      rgba(192, 59, 196, 1) 100%
+    );
+    --gradientblue: linear-gradient(
+      180deg,
+      rgba(141, 200, 232, 1) 0%,
+      rgba(0, 120, 212, 1) 100%
+    );
+    --gradientblue-2: linear-gradient(
+      10.61deg,
+      rgba(42, 68, 111, 1) 0%,
+      rgba(0, 120, 212, 1) 35.41666567325592%,
+      rgba(141, 200, 232, 1) 100%
+    );
+    --greengradient: linear-gradient(
+      3.95deg,
+      rgba(35, 135, 119, 1) 0%,
+      rgba(73, 197, 177, 1) 47.39583432674408%,
+      rgba(212, 236, 142, 1) 100%
+    );
+    --orangegradient: linear-gradient(
+      4.71deg,
+      rgba(255, 163, 139, 1) 0%,
+      rgba(255, 227, 153, 1) 100%
+    );
+    --magentagradient: linear-gradient(
+      12.16deg,
+      rgba(192, 59, 196, 1) 56.25%,
+      rgba(255, 163, 139, 1) 94.79166865348816%
+    );
+    --blackgradient-1: linear-gradient(
+      237.24deg,
+      rgba(102, 102, 102, 1) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    --blackgradient-2: linear-gradient(
+      180deg,
+      rgba(102, 102, 102, 1) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    --blackgradien-3: linear-gradient(
+      162.56deg,
+      rgba(98, 98, 98, 1) 0%,
+      rgba(38, 38, 38, 1) 25%,
+      rgba(73, 73, 73, 1) 27.60416567325592%,
+      rgba(0, 0, 0, 1) 69.79166865348816%
+    );
+    --gradientcolorful-2: conic-gradient(
+      from -78.97deg at 50% 50%,
+      rgba(192, 59, 196, 1) 0%,
+      rgba(0, 120, 212, 1) 27.08333432674408%,
+      rgba(73, 197, 177, 1) 51.04166865348816%,
+      rgba(255, 163, 139, 1) 76.04166865348816%,
+      rgba(192, 59, 196, 1) 100%
+    );
+  
+    /* Fonts */
+  
+    /* Effects */
+    --innershadow-box-shadow: inset 4.7px 4.7px 9.41px 0px
+      rgba(255, 255, 255, 0.5);
+    --innershadow-backdrop-filter: blur(23.51px);
+    --dropshadow-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.12),
+      0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+  }
+  

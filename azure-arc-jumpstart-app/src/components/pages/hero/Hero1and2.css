@@ -1,3 +1,5 @@
+/* style rules and vars for hero images 1 & 2 */
+
 .hero-1-and-2,
 .hero-1-and-2 * {
   box-sizing: border-box;
@@ -207,3 +209,6 @@
   top: 458px;
   overflow: visible;
 }
+
+/* vars */
+
