@@ -1,15 +1,111 @@
 @import "../../Vars.css";
 
-.dropdown,
-.dropdown * {
+.dropdown-dropdown-body,
+.dropdown-dropdown-body * {
   box-sizing: border-box;
 }
 
-.dropdown {
+.dropdown-dropdown-body {
+  border-radius: 4px;
+  flex-shrink: 0;
+  width: 234px;
+  height: 536px;
+  position: relative;
+}
+
+.dropdown-frame-2018775997 {
+  background: var(--neutral-background-4-rest, #0a0a0a);
+  border-radius: 0px 0px 4px 4px;
+  padding: 0px 8px 20px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 234px;
+  position: absolute;
+  left: 0px;
+  top: 44px;
+}
+
+.dropdown-dropdown-item {
+  background: var(--neutral-background-4-rest, #0a0a0a);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 214px;
+  min-height: 32px;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-dropdown-item:hover {
+  background: var(--neutral-background-2-hover, #333333);
+}
+
+.dropdown-dropdown-item:active {
+  background: var(--neutral-background-2-pressed, #242424);
+}
+
+.dropdown-dropdown-item:focus {
+  background: var(--neutral-background-2-selected, #292929);
+}
+
+.dropdown-list-container {
+  padding: 6px 6px 6px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+
+.dropdown-list-item-text {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: left;
+  font: var(--web-caption-1-strong, 600 12px/16px "Segoe UI", sans-serif);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.dropdown-checkmark-control {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+
+.dropdown-list-item-text2 {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: left;
+  font: 400 14px/16px "Segoe UI", sans-serif;
+  position: relative;
+  width: 143px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.dropdown-dropdown-body2 {
   border-radius: 4px;
   width: 234px;
   height: 48px;
-  position: relative;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
 
 .dropdown-main-menu {
@@ -49,139 +145,7 @@
 .dropdown-chevron {
   flex-shrink: 0;
   position: relative;
+  /* transform: translate(-14px, -14px); */
   overflow: visible;
-}
-
-.dropdown-main-menu:hover {
-  background: var(--neutral-background-2-hover, #333333);
-}
-
-.dropdown-main-menu:active {
-  background: var(--neutral-background-2-pressed, #242424);
-}
-
-.dropdown-main-menu:focus {
-  background: var(--neutral-background-2-selected, #292929);
-}
-
-.dropdown-main-menu-selected {
-  background: var(--neutral-background-2-selected, #292929);
-  border-radius: 4px;
-  padding: 14px 10px 14px 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-
-
-
-.dropdownbody-frame-2018775997,
-.dropdownbody-frame-2018775997 * {
-  box-sizing: border-box;
-}
-
-.dropdownbody-frame-2018775997 {
-  background: var(--neutral-background-4-rest, #0a0a0a);
-  border-radius: 0px 0px 4px 4px;
-  padding: 0px 8px 20px 8px;
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 234px;
-  position: absolute;
-  right: 0px;
-  top: 48px;
-}
-
-.dropdownbody-item {
-  background: var(--neutral-background-4-rest, #0a0a0a);
-  border-radius: 4px;
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 214px;
-  height: 32px;
-  position: relative;
-}
-
-.dropdownbody-list-container {
-  padding: 6px 6px 6px 8px;
-  display: flex;
-  flex-direction: row;
-  gap: 6px;
-  align-items: center;
-  justify-content: flex-start;
-  flex: 1;
-  position: relative;
-}
-
-.dropdownbody-list-item-text {
-  color: var(--neutral-foreground-1-rest, #ffffff);
-  text-align: left;
-  font: var(--web-caption-1-strong, 600 12px/16px "Segoe UI", sans-serif);
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.dropdownbody-checkmark-control {
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 16px;
-  height: 16px;
-  position: relative;
-}
-
-.dropdownbody-list-item-text2 {
-  color: var(--neutral-foreground-1-rest, #ffffff);
-  text-align: left;
-  font: 400 14px/16px "Segoe UI", sans-serif;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.dropdownbody-item:hover {
-  background: var(--neutral-background-2-hover, #333333);
-}
-
-.dropdownbody-item:active {
-  background: var(--neutral-background-2-pressed, #242424);
-}
-
-.dropdownbody-item:focus {
-  background: var(--neutral-background-2-selected, #292929);
-}
-
-.dropdownbody-item-selected {
-  background: var(--neutral-background-2-selected, #292929);
-  border-radius: 4px;
-  border-style: solid;
-  border-color: #e6e6e6;
-  border-width: 1px;
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 214px;
-  height: 32px;
-  position: relative;
+  transition: all 0.dropdown-2s ease-in-out 0s;
 }

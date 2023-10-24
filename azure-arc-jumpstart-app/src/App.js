@@ -4,7 +4,7 @@ import { Home } from './Home';
 import NavBar from './components/navigation/NavBar';
 import MenuDrawer from './components/navigation/menu/MenuDrawer';
 import { MarkdownPage } from './MarkdownPage';
-import { Dropdown } from './Dropdown';
+import Dropdown from './components/navigation/dropdown/Dropdown';
 import { Breadcrumbs } from './components/navigation/breadcrumbs/Breadcrumbs';
 import { extractRoutes } from './components/Utility';
 import './App.css';
@@ -30,7 +30,7 @@ function App() {
             const elementsWithId = pageRef.current.querySelectorAll('[id]');
             const discoveredSections = Array.from(elementsWithId).map(el => ({
                 id: el.id,
-                name: el.getAttribute('data-name') || el.id,
+                name: el.innerText,
                 href: `#${el.id}`
             }));
             setSections(discoveredSections);

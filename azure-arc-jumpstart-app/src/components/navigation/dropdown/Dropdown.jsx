@@ -1,68 +1,31 @@
 import React, { useState } from "react";
 import "./Dropdown.css";
 
-const Dropdown = ({ bookmarks, children, handleFileFetch, markdownFilePath }) => {
+const Dropdown = ({ items }) => {
     const [open, setOpen] = useState(false);
-    const [selected, setSelected] = useState(null);
 
-    const handleOnClick = (label) => {
-        setSelected((prev) => {
-            handleFileFetch(`${markdownFilePath[0]}#${label}`);
-            return selected === label ? null : label;
-        });
-    };
-
-    const Section = ({ children, onClick }) => {
-        return (
-            <div className={selected === children ? "dropdownbody-item-selected": "dropdownbody-item"} onClick={onClick}>
-                <div className="dropdownbody-list-container">
-                    <div className="dropdownbody-list-item-text">
-                        {children}
-                    </div>
-                </div>
-            </div>
-        );
-    };
-
-    const SubSection = ({ children, onClick }) => {  
-        return (
-            <div className={selected === children ? "dropdownbody-item-selected": "dropdownbody-item"} onClick={onClick}>
-                <div className="dropdownbody-list-container">
-                    <div className="dropdownbody-checkmark-control"></div>
-                    <div className="dropdownbody-list-item-text2">
-                        {children}
-                    </div>
-                </div>
-            </div>
-        );
-    };
+    function scrollToSection(href) {
+        const elements = href.split('#');
+        if (elements.length > 0) {
+            const section = elements[1];
+            const sectionElement = document.getElementById(section);
+            sectionElement.scrollIntoView({
+                behavior: 'smooth',
+                // top: section.offsetTop - nav height
+            });
+        }
+    }
 
     return (
         <>
-        <div className="dropdown" onClick={() => setOpen(!open)}>
-            <div className={open ? "dropdown-main-menu-selected" : "dropdown-main-menu"}>
-                <div className="dropdown-frame-59941">
-                    <div className="dropdown-community">
-                        {children}
-                    </div>
-                    {
-                        open ? (
+            <div className="dropdown-dropdown-body">
+                <div className="dropdown-dropdown-body2" onClick={() => setOpen(!open)}>
+                    <div className="dropdown-main-menu">
+                        <div className="dropdown-frame-59941">
+                            <div className="dropdown-community">Jump to section </div>
                             <svg
                                 className="dropdown-chevron"
-                                width="14"
-                                height="14"
-                                viewBox="0 0 14 14"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M11.4952 9.16264C11.2674 9.39045 10.898 9.39045 10.6702 9.16264L6.99935 5.49178L3.32849 9.16264C3.1007 9.39045 2.73133 9.39045 2.50354 9.16264C2.27575 8.93483 2.27575 8.56549 2.50354 8.33768L6.58687 4.25435C6.81467 4.02656 7.18403 4.02656 7.41182 4.25435L11.4952 8.33768C11.723 8.56549 11.723 8.93483 11.4952 9.16264Z"
-                                    fill="white"
-                                />
-                            </svg>
-                        ) : (
-                            <svg
-                                className="dropodown-chevron"
+                                transform={open ? "rotate(180)" : "rotate(0)"}
                                 width="14"
                                 height="14"
                                 viewBox="0 0 14 14"
@@ -74,23 +37,25 @@ const Dropdown = ({ bookmarks, children, handleFileFetch, markdownFilePath }) =>
                                     fill="white"
                                 />
                             </svg>
-                        )
-                    }
-                </div>
-            </div>
-        </div>
-        {
-                open && (
-                    <div className="dropdownbody-frame-2018775997">
-                        {/* <Section onClick={() => handleOnClick("Section 1")}>Section 1</Section> */}
-                        {
-                            bookmarks.map((bookmark) => (
-                                <SubSection onClick={() => handleOnClick(bookmark)}>{bookmark}</SubSection>
-                            ))
-                        }
+                        </div>
                     </div>
-                )
-            }
+                </div>
+                {
+                    open && (
+                        <div className="dropdown-frame-2018775997">
+                            {
+                                items.map((item, index) => (
+                                    <div className="dropdown-dropdown-item" onClick={() => scrollToSection(item.href)}>
+                                        <div className="dropdown-list-container">
+                                            <div className="dropdown-list-item-text">{item.name} </div>
+                                        </div>
+                                    </div>
+                                ))
+                            }
+                        </div>
+                    )
+                }
+            </div>
         </>
     );
 };
