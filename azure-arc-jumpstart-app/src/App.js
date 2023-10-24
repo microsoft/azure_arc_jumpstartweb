@@ -74,7 +74,8 @@ function App() {
                         setSelectedMenuItem={toggleMenuDrawer}
                     />
                     <div
-                        style={{
+                        style={{                
+                            background: '#0a0a0a',
                             display: 'grid',
                             gridTemplateColumns: 'auto auto',
                             justifyContent: 'space-between',

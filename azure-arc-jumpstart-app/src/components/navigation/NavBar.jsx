@@ -10,6 +10,7 @@ const NavBar = ({ menuItems, selectedMenuItem, setSelectedMenuItem }) => {
     return (
         <span
             style={{
+                background: '#0a0a0a',
                 position: 'absolute',
                 top: 0,
                 left: 0,
