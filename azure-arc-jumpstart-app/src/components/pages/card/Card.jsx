@@ -6,18 +6,18 @@ const Card = ({
   ...props
 }) => {
   return (
-    <div className="frame-2018775825">
-      <div className="card-frame-2018775825-frame-2018775810">
-        <div className="card-frame-2018775825-frame-44">
-          <div className="card-frame-2018775825-general-object-detection">
-            <div className="card-frame-2018775825-frame-2018775799">
-              <div className="card-frame-2018775825-frame-2018775798">
-                <div className="card-frame-2018775825-frame-2018775832">
-                  <div className="card-frame-2018775825-icon-container">
-                    <div className="card-frame-2018775825-icon-content">
-                      <div className="card-frame-2018775825-icon-mask">
+    <div className="card">
+      <div className="card-frame-2018775810">
+        <div className="card-frame-44">
+          <div className="card-general-object-detection">
+            <div className="card-frame-2018775799">
+              <div className="card-frame-2018775798">
+                <div className="card-frame-2018775832">
+                  <div className="card-icon-container">
+                    <div className="card-icon-content">
+                      <div className="card-icon-mask">
                         <svg
-                          className="card-frame-2018775825-server"
+                          className="card-virtual-network"
                           width="24"
                           height="24"
                           viewBox="0 0 24 24"
@@ -25,27 +25,28 @@ const Card = ({
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M9.25 6C8.83579 6 8.5 6.33579 8.5 6.75C8.5 7.16421 8.83579 7.5 9.25 7.5H14.75C15.1642 7.5 15.5 7.16421 15.5 6.75C15.5 6.33579 15.1642 6 14.75 6H9.25ZM8.5 17.75C8.5 17.3358 8.83579 17 9.25 17H14.75C15.1642 17 15.5 17.3358 15.5 17.75C15.5 18.1642 15.1642 18.5 14.75 18.5H9.25C8.83579 18.5 8.5 18.1642 8.5 17.75ZM9.25 14C8.83579 14 8.5 14.3358 8.5 14.75C8.5 15.1642 8.83579 15.5 9.25 15.5H14.75C15.1642 15.5 15.5 15.1642 15.5 14.75C15.5 14.3358 15.1642 14 14.75 14H9.25ZM6 5C6 3.34315 7.34315 2 9 2H15C16.6569 2 18 3.34315 18 5V19C18 20.6569 16.6569 22 15 22H9C7.34315 22 6 20.6569 6 19V5ZM9 3.5C8.17157 3.5 7.5 4.17157 7.5 5V19C7.5 19.8284 8.17157 20.5 9 20.5H15C15.8284 20.5 16.5 19.8284 16.5 19V5C16.5 4.17157 15.8284 3.5 15 3.5H9Z"
+                            d="M6.8254 8.12038C7.03506 8.30009 7.05934 8.61574 6.87963 8.8254L4.15854 12L6.87963 15.1746C7.05934 15.3843 7.03506 15.6999 6.8254 15.8796C6.61573 16.0593 6.30008 16.0351 6.12037 15.8254L3.12037 12.3254C2.95988 12.1382 2.95988 11.8619 3.12037 11.6746L6.12037 8.17461C6.30008 7.96495 6.61573 7.94067 6.8254 8.12038ZM17.1204 15.1746C16.9407 15.3843 16.965 15.6999 17.1746 15.8796C17.3843 16.0593 17.6999 16.0351 17.8796 15.8254L20.8796 12.3254C21.0401 12.1382 21.0401 11.8619 20.8796 11.6746L17.8796 8.17461C17.6999 7.96495 17.3843 7.94067 17.1746 8.12038C16.965 8.30009 16.9407 8.61574 17.1204 8.8254L19.8415 12L17.1204 15.1746ZM8 13C8.55228 13 9 12.5523 9 12C9 11.4477 8.55228 11 8 11C7.44772 11 7 11.4477 7 12C7 12.5523 7.44772 13 8 13ZM13 12C13 12.5523 12.5523 13 12 13C11.4477 13 11 12.5523 11 12C11 11.4477 11.4477 11 12 11C12.5523 11 13 11.4477 13 12ZM16 13C16.5523 13 17 12.5523 17 12C17 11.4477 16.5523 11 16 11C15.4477 11 15 11.4477 15 12C15 12.5523 15.4477 13 16 13Z"
                             fill="#242424"
                           />
                         </svg>
                       </div>
-                      <div className="card-frame-2018775825-vector-icon-fill"></div>
+                      <div className="card-vector-icon-fill"></div>
                     </div>
                   </div>
-                  <div className="card-frame-2018775825-title">Servers </div>
+                  <div className="card-title">VMware vSphere </div>
                 </div>
-                <div className="card-frame-2018775825-description">
-                  Onboard various Windows and Linux server distributions.{" "}
+                <div className="card-description">
+                  Manage VMware vSphere resources.
+                  <br />{" "}
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="card-frame-2018775825-frame-2018775809">
-          <div className="card-frame-2018775825-view-scenario">View scenario </div>
+        <div className="card-frame-2018775809">
+          <div className="card-view-scenario">View scenario </div>
           <svg
-            className="card-frame-2018775825-chevron-close"
+            className="card-chevron-close"
             width="18"
             height="19"
             viewBox="0 0 18 19"
@@ -64,3 +65,4 @@ const Card = ({
 };
 
 export default Card;
+

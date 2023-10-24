@@ -20,150 +20,7 @@
   position: relative;
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
 }
-.card-frame-2018775825-frame-2018775810 {
-  display: flex;
-  flex-direction: column;
-  gap: 22.card-frame-2018775825-74px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.card-frame-2018775825-frame-44 {
-  display: flex;
-  flex-direction: row;
-  gap: 46.card-frame-2018775825-39px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-}
-.card-frame-2018775825-general-object-detection {
-  flex-shrink: 0;
-  width: 302.card-frame-2018775825-62px;
-  height: 87.card-frame-2018775825-66px;
-  position: static;
-}
-.card-frame-2018775825-frame-2018775799 {
-  display: flex;
-  flex-direction: column;
-  gap: 28.card-frame-2018775825-2px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.card-frame-2018775825-frame-2018775798 {
-  display: flex;
-  flex-direction: column;
-  gap: 9.card-frame-2018775825-1px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.card-frame-2018775825-frame-2018775832 {
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.card-frame-2018775825-icon-container {
-  flex-shrink: 0;
-  width: 24px;
-  height: 24px;
-  position: relative;
-}
-.card-frame-2018775825-icon-content {
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.card-frame-2018775825-icon-mask {
-  position: absolute;
-  inset: 0;
-}
-.card-frame-2018775825-server {
-  position: absolute;
-  left: calc(50% - 12px);
-  top: calc(50% - 12px);
-  overflow: visible;
-}
-.card-frame-2018775825-vector-icon-fill {
-  background: #ffffff;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.card-frame-2018775825-title {
-  color: #ffffff;
-  text-align: left;
-  font: 600 21.card-frame-2018775825-83px/29.card-frame-2018775825-11px "Segoe UI", sans-serif;
-  position: relative;
-}
-.card-frame-2018775825-description {
-  color: #ffffff;
-  text-align: left;
-  font: 400 12px/24px "Segoe UI", sans-serif;
-  position: relative;
-  width: 302.card-frame-2018775825-53px;
-  transform-origin: 0 0;
-  transform: rotate(0.card-frame-2018775825-107deg) scale(1, 1);
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.card-frame-2018775825-frame-2018775809 {
-  display: flex;
-  flex-direction: row;
-  gap: 4.card-frame-2018775825-55px;
-  align-items: center;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  position: relative;
-}
-.card-frame-2018775825-view-scenario {
-  color: #0078d4;
-  text-align: left;
-  font: 600 16.card-frame-2018775825-37px/18.card-frame-2018775825-19px "Segoe UI", sans-serif;
-  position: relative;
-}
-.card-frame-2018775825-chevron-close {
-  flex-shrink: 0;
-  position: relative;
-  overflow: visible;
-}
-
-
-.frame-2018775831,
-.frame-2018775831 * {
-  box-sizing: border-box;
-}
-.frame-2018775831 {
-  border-radius: 10px;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 1px;
-  padding: 25px 49px 25px 49px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 402px;
-  position: relative;
-  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
-}
-.frame-2018775810 {
+.card-frame-2018775810 {
   display: flex;
   flex-direction: column;
   gap: 22.74px;
@@ -172,7 +29,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.frame-44 {
+.card-frame-frame-44 {
   display: flex;
   flex-direction: row;
   gap: 46.39px;
@@ -181,13 +38,13 @@
   flex-shrink: 0;
   position: relative;
 }
-.general-object-detection {
+.card-general-object-detection {
   flex-shrink: 0;
   width: 302.62px;
   height: 87.66px;
   position: static;
 }
-.frame-2018775799 {
+.card-frame-2018775799 {
   display: flex;
   flex-direction: column;
   gap: 28.2px;
@@ -197,7 +54,7 @@
   left: 0px;
   top: 0px;
 }
-.frame-2018775798 {
+.card-fframe-2018775798 {
   display: flex;
   flex-direction: column;
   gap: 9.1px;
@@ -206,7 +63,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.frame-2018775832 {
+.card-frame-2018775832 {
   display: flex;
   flex-direction: row;
   gap: 5px;
@@ -215,30 +72,32 @@
   flex-shrink: 0;
   position: relative;
 }
-.icon-container {
+.card-icon-container {
   flex-shrink: 0;
   width: 24px;
   height: 24px;
   position: relative;
 }
-.icon-content {
+.card-icon-content {
   width: 24px;
   height: 24px;
   position: absolute;
   left: 0px;
   top: 0px;
 }
-.icon-mask {
+.card-icon-mask {
   position: absolute;
   inset: 0;
 }
-.virtual-network {
+
+.card-virtual-network {
   position: absolute;
   left: calc(50% - 12px);
   top: calc(50% - 12px);
   overflow: visible;
 }
-.vector-icon-fill {
+
+.card-vector-icon-fill {
   background: #ffffff;
   width: 24px;
   height: 24px;
@@ -246,13 +105,13 @@
   left: 0px;
   top: 0px;
 }
-.title {
+.card-title {
   color: #ffffff;
   text-align: left;
   font: 600 21.83px/29.11px "Segoe UI", sans-serif;
   position: relative;
 }
-.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore {
+.card-description {
   color: #ffffff;
   text-align: left;
   font: 400 12px/24px "Segoe UI", sans-serif;
@@ -264,7 +123,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.frame-2018775809 {
+.card-frame-2018775809 {
   display: flex;
   flex-direction: row;
   gap: 4.55px;
@@ -273,13 +132,13 @@
   flex-shrink: 0;
   position: relative;
 }
-.view-scenario {
+.card-view-scenario {
   color: #0078d4;
   text-align: left;
   font: 600 16.37px/18.19px "Segoe UI", sans-serif;
   position: relative;
 }
-.chevron-close {
+.card-chevron-close {
   flex-shrink: 0;
   position: relative;
   overflow: visible;
