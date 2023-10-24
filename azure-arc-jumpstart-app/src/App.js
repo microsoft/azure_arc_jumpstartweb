@@ -1,87 +1,144 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Home } from './Home';
-import NavBar from './components/navigation/NavBar';
-import MenuDrawer from './components/navigation/menu/MenuDrawer';
-import { MarkdownPage } from './MarkdownPage';
-import { Dropdown } from './Dropdown';
-import { Breadcrumbs } from './components/navigation/breadcrumbs/Breadcrumbs';
-import { extractRoutes } from './components/Utility';
+import React, { useState } from 'react';
 import './App.css';
-import sideMenuData from './data/side-menu.json';
-import menuDrawerData from './data/menu-drawer.json';
-import SideMenu from './components/navigation/sidemenu/SideMenu';
 
 function App() {
-    const [pathNode, setPathNode] = useState(sideMenuData);
-    const [currentPathNode, setCurrentPathNode] = useState(sideMenuData.children[0]);
-    const [dynamicRoutes, setDynamicRoutes] = useState([]);
-    const [menuItems, setMenuItems] = useState(menuDrawerData);
-    const [selectedMenuItem, setSelectedMenuItem] = useState(null);
-    const [sections, setSections] = useState([]);
-    const pageRef = useRef(null);
+    const [isSideMenuOpen, setIsSideMenuOpen] = useState(true);
+    const [isMenuDrawerOpen, setIsMenuDrawerOpen] = useState(false);
 
-    useEffect(() => {
-        setDynamicRoutes(extractRoutes(pathNode));
-    }, []);
+    const toggleSideMenu = () => {
+        setIsSideMenuOpen(!isSideMenuOpen);
+    };
 
-    const updateSections = () => {
-        if (pageRef.current) {
-            const elementsWithId = pageRef.current.querySelectorAll('[id]');
-            const discoveredSections = Array.from(elementsWithId).map(el => ({
-                id: el.id,
-                name: el.getAttribute('data-name') || el.id,
-                href: `#${el.id}`
-            }));
-            setSections(discoveredSections);
-        }
-    }
+    const toggleMenuDrawer = () => {
+        setIsMenuDrawerOpen(!isMenuDrawerOpen);
+    };
+
+    const sideMenuLeft = isSideMenuOpen ? 0 : -300;
+    const mainContentWidth = isSideMenuOpen ? 'calc(100% - 300px)' : '100%';
+
+    const menuDrawerTop = isMenuDrawerOpen ? 0 : -300;
 
     return (
-        <BrowserRouter>
-            <div ref={pageRef}>
-                <Routes>
-                    <Route path="/" element={() => {
-                        setCurrentPathNode({});
-                        return <Home updateSections={updateSections} />
-                    }} />
-                    {dynamicRoutes.map(route => (
-                        <Route
-                            key={route.path}
-                            path={route.path}
-                            element={<MarkdownPage path={route.path} updateSections={updateSections} />}
+        <>
+            <div
+                style={{
+                    position: 'fixed',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    height: '5vh',
+                    backgroundColor: '#aaa',
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    padding: '0 20px',
+                    zIndex: 3
+                }}
+            >
+                <div>Logo</div>
+                <button onClick={toggleMenuDrawer}>
+                    Toggle Menu Drawer
+                </button>
+            </div>
+            <div
+                style={{
+                    position: 'fixed',
+                    top: isMenuDrawerOpen ? 0 : -300,
+                    left: 0,
+                    right: 0,
+                    height: 300,
+                    backgroundColor: '#bbb',
+                    opacity: isMenuDrawerOpen ? 1 : 0,
+                    zIndex: 2,
+                    transition: 'all 0.5s'
+                }}
+            >
+
+            </div>
+            <div
+                style={{
+                    position: 'fixed',
+                    top: 100,
+                    left: sideMenuLeft,
+                    backgroundColor: 'darkgray',
+                    width: 300,
+                    height: '50vh',
+                    zIndex: 1,
+                    transition: 'all 0.5s',
+                }}
+            >
+                <button
+                    style={{
+                        position: 'absolute',
+                        bottom: 0,
+                        right: isSideMenuOpen ? 0 : -65,
+                        zIndex: 1,
+                        transition: 'right 0.5s',
+                    }}
+                    onClick={toggleSideMenu}
+                >
+                    <svg
+                        style={{
+                            transform: isSideMenuOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+                            transition: 'all 0.5s',
+                        }}
+                        width="50"
+                        height="50"
+                        viewBox="0 0 50 50"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <circle cx="25" cy="25" r="24" stroke="#C4C4C4" strokeWidth="2" />
+                        <path
+                            d="M20.5 15L31.5 25L20.5 35"
+                            stroke="#C4C4C4"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                         />
-                    ))}
-                </Routes>
-                <SideMenu pathNode={currentPathNode}></SideMenu>
-                <NavBar
-                    menuItems={menuItems}
-                    selectedMenuItem={selectedMenuItem}
-                    setSelectedMenuItem={setSelectedMenuItem}
-                />
+                    </svg>
+                </button>
+            </div>
+            <div
+                style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    marginTop: '100px',
+                    zIndex: -1
+                }}
+            >
                 <div
                     style={{
-                        display: 'grid',
-                        gridTemplateColumns: 'auto auto',
-                        justifyContent: 'space-between',
-                        position: 'absolute',
-                        top: '48px',
-                        left: '0px',
-                        right: '0px',
-                        paddingLeft: '10px',
-                        paddingRight: '10px'
+                        display: 'flex',
+                        position: 'relative'
                     }}
                 >
-                    <Breadcrumbs node={pathNode} />
-                    <Dropdown items={sections} />
+                    <div
+                        style={{
+                            position: 'absolute',
+                            left: isSideMenuOpen ? 300 : 0,
+                            right: 0,
+                            overflow: 'auto',
+                            // don't show scrollbars
+                            scrollbarWidth: 'none',
+                            msOverflowStyle: 'none',
+
+                            transition: 'all 0.5s'
+                        }}
+                    >
+                        <div
+                            style={{
+                                backgroundColor: 'lightgray',
+                                margin: '0 20px',
+                                height: '100vh',
+                            }}
+                        >
+                            Main Content
+                        </div>
+                    </div>
                 </div>
-                {
-                    selectedMenuItem && (
-                        <MenuDrawer menuItem={selectedMenuItem} />
-                    )
-                }
             </div>
-        </BrowserRouter>
+        </>
     );
 }
 

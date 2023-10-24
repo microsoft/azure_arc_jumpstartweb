@@ -2,8 +2,8 @@
 
 .side-menu-container {
   border-radius: 0px;
-  background: #0a0a0a; 
-  /* background: var(--page-surface-surface-quaternary, #131313); */
+  /* background: #0a0a0a;  */
+  background: var(--page-surface-surface-quaternary, #131313);
   height: 100%;
   position: fixed;
   top: 85px;
@@ -77,7 +77,7 @@
 }
 
 .side-menu-menu-section-header {
-  background: var(--neutral-background-4-rest, #0a0a0a);
+  background: var(--page-surface-surface-quaternary, #131313);
   border-radius: 4px;
   padding: 8px 0px 8px 0px;
   display: flex;
