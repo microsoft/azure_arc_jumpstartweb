@@ -21,6 +21,7 @@ const NavBar = ({ menuItems, selectedMenuItem, setSelectedMenuItem }) => {
                 gridTemplateColumns: 'auto auto',
                 alignItems: 'center',
                 justifyContent: 'space-between',
+                zIndex: 2
             }}
         >
             <div

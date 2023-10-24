@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./MenuDrawer.css";
 import MenuCard from "./MenuCard";
 import SubMenuItem from "./SubMenuItem";
+import { Link } from "react-router-dom";
 
-const MenuDrawer = ({ menuItem, handleFileFetch }) => {
+const MenuDrawer = ({ menuItem }) => {
   const [subMenuItems, setSubMenuItems] = useState([]);
   const [selectedSubMenuItem, setSelectedSubMenuItem] = useState(null);
   const [selectedMenuCard, setSelectedMenuCard] = useState(null);
@@ -28,7 +29,6 @@ const MenuDrawer = ({ menuItem, handleFileFetch }) => {
   const handleOnClickMenuCard = (menuItem) => {
     setSelectedMenuCard((prev) => {
       if (prev !== menuItem && menuItem.hasOwnProperty("Link")) {
-        handleFileFetch(menuItem.Link);
         return menuItem;
       }
       return null;
@@ -74,17 +74,21 @@ const MenuDrawer = ({ menuItem, handleFileFetch }) => {
         <div className="frame-59653">
           <div className="row-1">
             {
-              selectedSubMenuItem && selectedSubMenuItem.Items.filter((item)=>item.hasOwnProperty('Link')).map((item, index) => {
-                return (
-                  <MenuCard
-                    item={item}
-                    selectedMenuCard={selectedMenuCard}
-                    setSelectedMenuCard={handleOnClickMenuCard}
-                  >
-                    {item.Description}
-                  </MenuCard>
-                )
-              })
+              selectedSubMenuItem && selectedSubMenuItem.Items
+                .filter((item) => item.hasOwnProperty('Link'))
+                .map((item, index) => {
+                  return (
+                    <Link to={item.Link}>
+                      <MenuCard
+                        item={item}
+                        selectedMenuCard={selectedMenuCard}
+                        setSelectedMenuCard={handleOnClickMenuCard}
+                      >
+                        {item.Description}
+                      </MenuCard>
+                    </Link>
+                  )
+                })
             }
           </div>
         </div>

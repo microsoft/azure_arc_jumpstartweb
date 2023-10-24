@@ -2,7 +2,6 @@
 
 body {
   background-color: var(--neutral-background-4-rest);
-  color: white;
 }
 
 /* Hide the scrollbar track */
@@ -35,6 +34,16 @@ scrollbar-track {
   background: transparent;
 }
 
+/* used to hide purple underlines using React Router Links */
+
+a {
+  text-decoration: none;
+  color: transparent;
+}
+
+a:visited {
+  color: transparent;
+}
 
 
 /* TEMP DROP DOWN STYLES */

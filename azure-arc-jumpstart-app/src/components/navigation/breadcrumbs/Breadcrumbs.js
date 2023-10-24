@@ -1,0 +1,54 @@
+import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import './Breadcrumbs.css';
+import { findNode } from '../../Utility';
+
+export function Breadcrumbs(node) {
+    const location = useLocation();
+    const pathnames = location.pathname.split('/').filter(x => x);
+    // console.log('pathnames', pathnames);
+    // let currentNode = findNode(node, pathnames.join('\\'));
+    // console.log('node', currentNode);
+
+    const capitalize = (s) => {
+        return s.charAt(0).toUpperCase() + s.slice(1);
+    };
+
+    return (
+        <div className='breadcrumb-bar'>
+            <Link to={''}>
+                <div className={pathnames.length === 0 ? "breadcrumb-item-selected" : "breadcrumb-item"}>
+                    <div className={pathnames.length === 0 ? "breadcrumb-item-breadcrumb-selected" : "breadcrumb-item-breadcrumb"}>
+                        Home
+                    </div>
+                </div>
+            </Link>
+            {
+                pathnames.length > 0 && (
+                    <span className="forwardSlash">/ </span>
+                )
+            }
+            {pathnames.map((value, index) => {
+                const routeTo = `/${pathnames.slice(0, index + 1).join('/')}`;
+                return (
+                    <>
+                        <span key={index}>
+                            <Link to={routeTo}>
+                                <div className={index === pathnames.length - 1 ? "breadcrumb-item-selected" : "breadcrumb-item"}>
+                                    <div className={index === pathnames.length -1 ? "breadcrumb-item-breadcrumb-selected" : "breadcrumb-item-breadcrumb"}>
+                                        {capitalize(value)}
+                                    </div>
+                                </div>
+                            </Link>
+                        </span>
+                        {
+                            index !== pathnames.length - 1 && (
+                                <span className="forwardSlash">/ </span>
+                            )
+                        }
+                    </>
+                );
+            })}
+        </div>
+    );
+}

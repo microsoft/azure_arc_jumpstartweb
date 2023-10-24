@@ -2,7 +2,11 @@ import "./SubMenuItem.css";
 
 const SubMenuItem = ({ children, isSelected, onClick }) => {
     return (
-        <div className={isSelected ? "sub-menu-item-selected" : "sub-menu-item"} onClick={onClick}>
+        <div
+            className={isSelected ? "sub-menu-item-selected" : "sub-menu-item"}
+            onClick={onClick}
+            style={{ cursor: "pointer" }}
+        >
             {
                 isSelected && <div className="sub-menu-tab-line"></div>
             }

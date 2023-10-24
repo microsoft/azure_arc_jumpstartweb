@@ -1,3 +1,26 @@
+@import '../../Vars.css';
+
+.breadcrumb-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+}
+
+.forwardSlash {
+  color: var(--neutral-foreground-1-rest, #ffffff);
+  text-align: center;
+  font: 400 14px/24px "Segoe UI", sans-serif;
+  position: relative;
+  width: 18px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .breadcrumb-item-state-rest,
 .breadcrumb-item-state-rest * {
   box-sizing: border-box;
