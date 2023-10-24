@@ -2,28 +2,9 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Breadcrumbs.css';
 
-export function Breadcrumbs(node) {
+export function Breadcrumbs(breadcrumbs) {
     const location = useLocation();
     const pathnames = location.pathname.split('/').filter(x => x);
-
-    function findNodeByPath(root, path) {
-        if (root.path === path) {
-            return root;
-        }
-
-        if (root.type === "directory" && root.children) {
-            for (const child of root.children) {
-                const result = findNodeByPath(child, path);
-                if (result) {
-                    return result;
-                }
-            }
-        }
-
-        return null;
-    }
-
-    console.log(findNodeByPath(node, pathnames.join('\\')))
 
     const capitalize = (s) => {
         return s.charAt(0).toUpperCase() + s.slice(1);

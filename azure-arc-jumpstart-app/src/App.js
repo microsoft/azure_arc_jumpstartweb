@@ -18,6 +18,7 @@ function App() {
     const [dynamicRoutes, setDynamicRoutes] = useState([]);
     const [menuItems, setMenuItems] = useState(menuDrawerData);
     const [selectedMenuItem, setSelectedMenuItem] = useState(null);
+    const [breadcrumbs, setBreadcrumbs] = useState([]);
     const [sections, setSections] = useState([]);
     const pageRef = useRef(null);
 
@@ -42,22 +43,53 @@ function App() {
 
     const sortNodeTree = (node) => {
         if (node.children) {
-          node.children.sort((a, b) => {
-            const aWeight = a.frontMatter && a.frontMatter.weight ? a.frontMatter.weight : 0;
-            const bWeight = b.frontMatter && b.frontMatter.weight ? b.frontMatter.weight : 0;
-            if (aWeight < bWeight) {
-              return -1;
-            } else if (aWeight > bWeight) {
-              return 1;
-            } else {
-              return 0;
-            }
-          });
-          node.children.forEach((child) => {
-            sortNodeTree(child);
-          });
+            node.children.sort((a, b) => {
+                const aWeight = a.frontMatter && a.frontMatter.weight ? a.frontMatter.weight : 0;
+                const bWeight = b.frontMatter && b.frontMatter.weight ? b.frontMatter.weight : 0;
+                if (aWeight < bWeight) {
+                    return -1;
+                } else if (aWeight > bWeight) {
+                    return 1;
+                } else {
+                    return 0;
+                }
+            });
+            node.children.forEach((child) => {
+                sortNodeTree(child);
+            });
         }
-      }
+    }
+
+    const updateBreadcrumbs = (node) => {
+        const breadcrumbs = [];
+    
+        let currentNode = node;
+        while (currentNode) {
+            if (currentNode.frontMatter) {
+                if (currentNode.frontMatter.linkTitle) {
+                    breadcrumbs.push({
+                        name: currentNode.frontMatter.linkTitle,
+                        href: currentNode.path
+                    });
+                } else if (currentNode.frontMatter.title) {
+                    breadcrumbs.push({
+                        name: currentNode.frontMatter.title,
+                        href: currentNode.path
+                    });
+                } else {
+                    breadcrumbs.push({
+                        name: currentNode.path,
+                        href: currentNode.path
+                    });
+                }
+            }
+            currentNode = currentNode.parent;
+        }
+
+        console.log(breadcrumbs);
+
+        setBreadcrumbs(breadcrumbs);
+    }
 
     const updateSections = () => {
         if (pageRef.current) {
@@ -95,24 +127,24 @@ function App() {
                     />
                 </div>
                 <div
-                        style={{                
-                            background: '#0a0a0a',
-                            display: 'grid',
-                            gridTemplateColumns: 'auto auto',
-                            justifyContent: 'space-between',
-                            position: 'fixed',
-                            top: '48px',
-                            left: '0px',
-                            right: '0px',
-                            height: '52px',
-                            paddingLeft: '10px',
-                            paddingRight: '10px',
-                            zIndex: 1,
-                        }}
-                    >
-                        <Breadcrumbs node={pathNode} />
-                        <Dropdown items={sections} />
-                    </div>
+                    style={{
+                        background: '#0a0a0a',
+                        display: 'grid',
+                        gridTemplateColumns: 'auto auto',
+                        justifyContent: 'space-between',
+                        position: 'fixed',
+                        top: '48px',
+                        left: '0px',
+                        right: '0px',
+                        height: '52px',
+                        paddingLeft: '10px',
+                        paddingRight: '10px',
+                        zIndex: 1,
+                    }}
+                >
+                    <Breadcrumbs breadcrumbs={breadcrumbs}/>
+                    <Dropdown items={sections} />
+                </div>
                 <div
                     style={{
                         position: 'fixed',
@@ -208,7 +240,7 @@ function App() {
                                         <Route
                                             key={route.path}
                                             path={route.path}
-                                            element={<MarkdownPage path={route.path} updateSections={updateSections} />}
+                                            element={<MarkdownPage node={pathNode} path={route.path} updateBreadcrumbs={updateBreadcrumbs} updateSections={updateSections} />}
                                         />
                                     ))}
                                 </Routes>
