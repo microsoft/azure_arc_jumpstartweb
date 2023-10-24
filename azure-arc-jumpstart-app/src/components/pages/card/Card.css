@@ -1,4 +1,5 @@
-/* style rules for overview page cards without images */
+/* style rules and vars for overview page cards without images */
+
 .card,
 .card * {
   box-sizing: border-box;
@@ -19,50 +20,50 @@
   position: relative;
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.1);
 }
-.card-frame-2018775825-frame-2018775810 {
+.card-frame-2018775810 {
   display: flex;
   flex-direction: column;
-  gap: 22.card-frame-2018775825-74px;
+  gap: 22.74px;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
 }
-.card-frame-2018775825-frame-44 {
+.card-frame-frame-44 {
   display: flex;
   flex-direction: row;
-  gap: 46.card-frame-2018775825-39px;
+  gap: 46.39px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
   position: relative;
 }
-.card-frame-2018775825-general-object-detection {
+.card-general-object-detection {
   flex-shrink: 0;
-  width: 302.card-frame-2018775825-62px;
-  height: 87.card-frame-2018775825-66px;
+  width: 302.62px;
+  height: 87.66px;
   position: static;
 }
-.card-frame-2018775825-frame-2018775799 {
+.card-frame-2018775799 {
   display: flex;
   flex-direction: column;
-  gap: 28.card-frame-2018775825-2px;
+  gap: 28.2px;
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
   left: 0px;
   top: 0px;
 }
-.card-frame-2018775825-frame-2018775798 {
+.card-fframe-2018775798 {
   display: flex;
   flex-direction: column;
-  gap: 9.card-frame-2018775825-1px;
+  gap: 9.1px;
   align-items: flex-start;
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
 }
-.card-frame-2018775825-frame-2018775832 {
+.card-frame-2018775832 {
   display: flex;
   flex-direction: row;
   gap: 5px;
@@ -71,30 +72,32 @@
   flex-shrink: 0;
   position: relative;
 }
-.card-frame-2018775825-icon-container {
+.card-icon-container {
   flex-shrink: 0;
   width: 24px;
   height: 24px;
   position: relative;
 }
-.card-frame-2018775825-icon-content {
+.card-icon-content {
   width: 24px;
   height: 24px;
   position: absolute;
   left: 0px;
   top: 0px;
 }
-.card-frame-2018775825-icon-mask {
+.card-icon-mask {
   position: absolute;
   inset: 0;
 }
-.card-frame-2018775825-server {
+
+.card-virtual-network {
   position: absolute;
   left: calc(50% - 12px);
   top: calc(50% - 12px);
   overflow: visible;
 }
-.card-frame-2018775825-vector-icon-fill {
+
+.card-vector-icon-fill {
   background: #ffffff;
   width: 24px;
   height: 24px;
@@ -102,44 +105,129 @@
   left: 0px;
   top: 0px;
 }
-.card-frame-2018775825-title {
+.card-title {
   color: #ffffff;
   text-align: left;
-  font: 600 21.card-frame-2018775825-83px/29.card-frame-2018775825-11px "Segoe UI", sans-serif;
+  font: 600 21.83px/29.11px "Segoe UI", sans-serif;
   position: relative;
 }
-.card-frame-2018775825-description {
+.card-description {
   color: #ffffff;
   text-align: left;
   font: 400 12px/24px "Segoe UI", sans-serif;
   position: relative;
-  width: 302.card-frame-2018775825-53px;
+  width: 302.53px;
   transform-origin: 0 0;
-  transform: rotate(0.card-frame-2018775825-107deg) scale(1, 1);
+  transform: rotate(0.107deg) scale(1, 1);
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.card-frame-2018775825-frame-2018775809 {
+.card-frame-2018775809 {
   display: flex;
   flex-direction: row;
-  gap: 4.card-frame-2018775825-55px;
+  gap: 4.55px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
 }
-.card-frame-2018775825-view-scenario {
+.card-view-scenario {
   color: #0078d4;
   text-align: left;
-  font: 600 16.card-frame-2018775825-37px/18.card-frame-2018775825-19px "Segoe UI", sans-serif;
+  font: 600 16.37px/18.19px "Segoe UI", sans-serif;
   position: relative;
 }
-.card-frame-2018775825-chevron-close {
+.card-chevron-close {
   flex-shrink: 0;
   position: relative;
   overflow: visible;
 }
 
-
 /* vars */
+:root {
+
+  /* Colors */
+
+  --radio-1: radial-gradient(
+    closest-side,
+    rgba(255, 227, 153, 1) 0%,
+    rgba(255, 163, 139, 1) 28.125%,
+    rgba(0, 120, 212, 1) 84.89583134651184%,
+    rgba(68, 162, 235, 1) 100%
+  );
+  --gradient-2: linear-gradient(
+    270deg,
+    rgba(192, 59, 196, 1) 0%,
+    rgba(255, 163, 139, 1) 40.625%,
+    rgba(255, 227, 153, 1) 100%
+  );
+  --colorful: linear-gradient(
+    -82.02deg,
+    rgba(0, 120, 212, 1) 0%,
+    rgba(73, 197, 177, 1) 34.375%,
+    rgba(255, 163, 139, 1) 67.1875%,
+    rgba(192, 59, 196, 1) 100%
+  );
+  --gradientblue: linear-gradient(
+    180deg,
+    rgba(141, 200, 232, 1) 0%,
+    rgba(0, 120, 212, 1) 100%
+  );
+  --gradientblue-2: linear-gradient(
+    10.61deg,
+    rgba(42, 68, 111, 1) 0%,
+    rgba(0, 120, 212, 1) 35.41666567325592%,
+    rgba(141, 200, 232, 1) 100%
+  );
+  --greengradient: linear-gradient(
+    3.95deg,
+    rgba(35, 135, 119, 1) 0%,
+    rgba(73, 197, 177, 1) 47.39583432674408%,
+    rgba(212, 236, 142, 1) 100%
+  );
+  --orangegradient: linear-gradient(
+    4.71deg,
+    rgba(255, 163, 139, 1) 0%,
+    rgba(255, 227, 153, 1) 100%
+  );
+  --magentagradient: linear-gradient(
+    12.16deg,
+    rgba(192, 59, 196, 1) 56.25%,
+    rgba(255, 163, 139, 1) 94.79166865348816%
+  );
+  --blackgradient-1: linear-gradient(
+    237.24deg,
+    rgba(102, 102, 102, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  --blackgradient-2: linear-gradient(
+    180deg,
+    rgba(102, 102, 102, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  --blackgradien-3: linear-gradient(
+    162.56deg,
+    rgba(98, 98, 98, 1) 0%,
+    rgba(38, 38, 38, 1) 25%,
+    rgba(73, 73, 73, 1) 27.60416567325592%,
+    rgba(0, 0, 0, 1) 69.79166865348816%
+  );
+  --gradientcolorful-2: conic-gradient(
+    from -78.97deg at 50% 50%,
+    rgba(192, 59, 196, 1) 0%,
+    rgba(0, 120, 212, 1) 27.08333432674408%,
+    rgba(73, 197, 177, 1) 51.04166865348816%,
+    rgba(255, 163, 139, 1) 76.04166865348816%,
+    rgba(192, 59, 196, 1) 100%
+  );
+
+  /* Fonts */
+
+  /* Effects */
+  --innershadow-box-shadow: inset 4.7px 4.7px 9.41px 0px
+    rgba(255, 255, 255, 0.5);
+  --innershadow-backdrop-filter: blur(23.51px);
+  --dropshadow-box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.12),
+    0px 0px 12px 0px rgba(0, 0, 0, 0.12);
+}

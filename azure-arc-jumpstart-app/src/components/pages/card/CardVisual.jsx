@@ -3,33 +3,28 @@ import "./CardVisual.css";
 const CardVisual = ({ mode = "light", state = "rest", ...props }) => {
   return (
     <div className="card-visual">
-      <div className="card-image">
-        <img className="rectangle-34656627" src="rectangle-34656627.png" />
+      <div className="card-visual-image">
+        <img className="card-visual-rectangle-34656627" src="rectangle-34656627.png" />
       </div>
-      <div className="group-1010107219">
-        <div className="rectangle-38708"></div>
+      <div className="card-visual-group-1010107219">
+        <div className="card-visual-rectangle-38708"></div>
       </div>
-      <div className="frame-2018775824">
+      <div className="card-visual-frame-2018775824">
         <div className="card-visual-frame-2018775810">
           <div className="card-visual-frame-44">
             <div className="card-visual-general-object-detection">
               <div className="card-visual-frame-2018775799">
                 <div className="card-visual-frame-2018775798">
-                  <div className="industry">Manufacturing </div>
-                  <div className="card-visual-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod...{" "}
-                  </div>
+                  <div className="card-visual-industry">Manufacturing </div>
+                  <div className="card-visual-description"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div className="frame-2018775809">
-            <div className="view-applications">View applications </div>
+          <div className="card-visual-frame-2018775809">
+            <div className="card-visual-view-applications"></div>
             <svg
-              className="chevron-close"
+              className="card-visual-chevron-close"
               width="18"
               height="19"
               viewBox="0 0 18 19"
