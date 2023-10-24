@@ -6,7 +6,7 @@
   background: var(--page-surface-surface-quaternary, #131313);
   height: 100%;
   position: fixed;
-  top: 85px;
+  top: 100px;
   left: 0;
   width: 287px;
   height: 694px;
@@ -124,11 +124,7 @@
   flex-shrink: 0;
   position: relative;
   overflow: visible;
-  transition: transform 0.2s ease-in-out;
-}
-
-.side-menu-chevron-open {
-  transform: rotate(-180deg);
+  transition: all 0.2s ease-in-out;
 }
 
 .side-menu-item,
@@ -185,11 +181,7 @@
   position: relative;
   transform: translate(0px, 0px);
   overflow: visible;
-  transition: transform 0.2s ease-in-out;
-}
-
-.side-menu-regular-icon-open {
-  transform: rotate(90deg);
+  transition: all 0.2s ease-in-out;
 }
 
 .side-menu-regular-icon-hidden {

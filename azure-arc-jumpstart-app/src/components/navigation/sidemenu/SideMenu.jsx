@@ -4,10 +4,12 @@ import "./SideMenu.css";
 
 const SideMenu = ({ pathNode }) => {
   return (
-    <div className="side-menu-container">
-      <div className="side-menu-search-container">
-        <input className="side-menu-search-input" type="text" placeholder="Search" />
-      </div>
+    <div
+      className="side-menu-container"
+      style={{
+        paddingBottom: 20
+      }}
+    >
       <div className="side-menu-contents">
         {
           pathNode.children && pathNode.children.map((childNode) => {
@@ -38,7 +40,10 @@ const SideMenuHeader = ({ node, margin = 0 }) => {
         </div>
         <div className="side-menu-frame-2018775855">
           <svg
-            className={`side-menu-chevron${showChildren ? " side-menu-chevron-open" : ""}`}
+            className="side-menu-chevron"
+            style={{
+              transform: `rotate(${showChildren ? '-180deg' : '0deg'})`
+            }}
             width="8"
             height="4"
             viewBox="0 0 8 4"
@@ -80,11 +85,18 @@ const SideMenuItem = ({ node, margin = 0 }) => {
   const content = (
     <div
       className="side-menu-start-content"
-      style={{ marginLeft: margin, cursor: 'pointer' }}
+      style={{
+        marginLeft: margin,
+        cursor: 'pointer'
+      }}
       onClick={() => setShowChildren(!showChildren)}
     >
       <svg
-        className={`side-menu-regular-icon${showChildren ? " side-menu-regular-icon-open" : ""} ${!hasChildren && 'side-menu-regular-icon-hidden'}`}
+        className="side-menu-regular-icon"
+        style={{
+          transform: `rotate(${showChildren ? '90deg' : '0deg'})`,
+          opacity: hasChildren ? 1 : 0
+        }}
         width="16"
         height="21"
         viewBox="0 0 16 21"
