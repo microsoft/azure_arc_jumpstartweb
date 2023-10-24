@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { Home } from './Home';
 import NavBar from './components/navigation/NavBar';
 import MenuDrawer from './components/navigation/menu/MenuDrawer';
@@ -14,7 +14,7 @@ import SideMenu from './components/navigation/sidemenu/SideMenu';
 
 function App() {
     const [pathNode, setPathNode] = useState(sideMenuData);
-    const [currentPathNode, setCurrentPathNode] = useState(sideMenuData.children[0]);
+    const [currentPathNode, setCurrentPathNode] = useState({});
     const [dynamicRoutes, setDynamicRoutes] = useState([]);
     const [menuItems, setMenuItems] = useState(menuDrawerData);
     const [selectedMenuItem, setSelectedMenuItem] = useState(null);
@@ -38,6 +38,7 @@ function App() {
 
     useEffect(() => {
         sortNodeTree(pathNode);
+        setCurrentPathNode(pathNode.children[0]);
         setDynamicRoutes(extractRoutes(pathNode));
     }, []);
 

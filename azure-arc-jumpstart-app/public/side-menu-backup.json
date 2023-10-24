@@ -4,18 +4,6 @@
   "path": "",
   "children": [
     {
-      "name": "FAQ",
-      "type": "directory",
-      "path": "FAQ",
-      "children": [],
-      "frontMatter": {
-        "type": "docs",
-        "title": "Jumpstart FAQ",
-        "linkTitle": "Jumpstart FAQ",
-        "weight": 8
-      }
-    },
-    {
       "name": "azure_arc_jumpstart",
       "type": "directory",
       "path": "azure_arc_jumpstart",
@@ -23,17 +11,17 @@
         {
           "name": "azure_arc_app_svc",
           "type": "directory",
-          "path": "azure_arc_jumpstart/azure_arc_app_svc",
+          "path": "azure_arc_jumpstart\\azure_arc_app_svc",
           "children": [
             {
               "name": "aks",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_app_svc/aks",
+              "path": "azure_arc_jumpstart\\azure_arc_app_svc\\aks",
               "children": [
                 {
                   "name": "aks_app_service_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_app_svc/aks/aks_app_service_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_app_svc\\aks\\aks_app_service_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -46,7 +34,7 @@
                 {
                   "name": "aks_azure_apimgmt_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_app_svc/aks/aks_azure_apimgmt_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_app_svc\\aks\\aks_azure_apimgmt_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -59,7 +47,7 @@
                 {
                   "name": "aks_azure_function_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_app_svc/aks/aks_azure_function_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_app_svc\\aks\\aks_azure_function_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -72,7 +60,7 @@
                 {
                   "name": "aks_container_apps_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_app_svc/aks/aks_container_apps_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_app_svc\\aks\\aks_container_apps_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -85,7 +73,7 @@
                 {
                   "name": "aks_logic_app_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_app_svc/aks/aks_logic_app_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_app_svc\\aks\\aks_logic_app_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -107,17 +95,17 @@
             {
               "name": "cluster_api",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_app_svc/cluster_api",
+              "path": "azure_arc_jumpstart\\azure_arc_app_svc\\cluster_api",
               "children": [
                 {
                   "name": "capi_azure",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_app_svc/cluster_api/capi_azure",
+                  "path": "azure_arc_jumpstart\\azure_arc_app_svc\\cluster_api\\capi_azure",
                   "children": [
                     {
                       "name": "apimgmt_arm_template",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_app_svc/cluster_api/capi_azure/apimgmt_arm_template",
+                      "path": "azure_arc_jumpstart\\azure_arc_app_svc\\cluster_api\\capi_azure\\apimgmt_arm_template",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -130,7 +118,7 @@
                     {
                       "name": "apps_service_arm_template",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_app_svc/cluster_api/capi_azure/apps_service_arm_template",
+                      "path": "azure_arc_jumpstart\\azure_arc_app_svc\\cluster_api\\capi_azure\\apps_service_arm_template",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -143,7 +131,7 @@
                     {
                       "name": "azure_function_arm_template",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_app_svc/cluster_api/capi_azure/azure_function_arm_template",
+                      "path": "azure_arc_jumpstart\\azure_arc_app_svc\\cluster_api\\capi_azure\\azure_function_arm_template",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -177,17 +165,17 @@
         {
           "name": "azure_arc_data",
           "type": "directory",
-          "path": "azure_arc_jumpstart/azure_arc_data",
+          "path": "azure_arc_jumpstart\\azure_arc_data",
           "children": [
             {
               "name": "aks",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_data/aks",
+              "path": "azure_arc_jumpstart\\azure_arc_data\\aks",
               "children": [
                 {
                   "name": "aks_dc_vanilla_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/aks/aks_dc_vanilla_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\aks\\aks_dc_vanilla_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -200,7 +188,7 @@
                 {
                   "name": "aks_mssql_mi_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/aks/aks_mssql_mi_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\aks\\aks_mssql_mi_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -213,7 +201,7 @@
                 {
                   "name": "aks_postgresql_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/aks/aks_postgresql_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\aks\\aks_postgresql_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -235,12 +223,12 @@
             {
               "name": "aro",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_data/aro",
+              "path": "azure_arc_jumpstart\\azure_arc_data\\aro",
               "children": [
                 {
                   "name": "aro_dc_vanilla_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/aro/aro_dc_vanilla_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\aro\\aro_dc_vanilla_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -253,7 +241,7 @@
                 {
                   "name": "aro_mssql_mi_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/aro/aro_mssql_mi_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\aro\\aro_mssql_mi_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -266,7 +254,7 @@
                 {
                   "name": "aro_postgresql_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/aro/aro_postgresql_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\aro\\aro_postgresql_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -288,12 +276,12 @@
             {
               "name": "cluster_api",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_data/cluster_api",
+              "path": "azure_arc_jumpstart\\azure_arc_data\\cluster_api",
               "children": [
                 {
                   "name": "capi_azure_dc_vanilla_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/cluster_api/capi_azure_dc_vanilla_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\cluster_api\\capi_azure_dc_vanilla_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -306,7 +294,7 @@
                 {
                   "name": "capi_azure_mssql_mi_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/cluster_api/capi_azure_mssql_mi_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\cluster_api\\capi_azure_mssql_mi_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -319,7 +307,7 @@
                 {
                   "name": "capi_azure_postgresql_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/cluster_api/capi_azure_postgresql_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\cluster_api\\capi_azure_postgresql_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -341,17 +329,17 @@
             {
               "name": "day2",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_data/day2",
+              "path": "azure_arc_jumpstart\\azure_arc_data\\day2",
               "children": [
                 {
                   "name": "aks",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/day2/aks",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\day2\\aks",
                   "children": [
                     {
                       "name": "aks_mssql_arm_template_ado",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_data/day2/aks/aks_mssql_arm_template_ado",
+                      "path": "azure_arc_jumpstart\\azure_arc_data\\day2\\aks\\aks_mssql_arm_template_ado",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -364,7 +352,7 @@
                     {
                       "name": "aks_mssql_dr",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_data/day2/aks/aks_mssql_dr",
+                      "path": "azure_arc_jumpstart\\azure_arc_data\\day2\\aks\\aks_mssql_dr",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -377,7 +365,7 @@
                     {
                       "name": "aks_mssql_ha",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_data/day2/aks/aks_mssql_ha",
+                      "path": "azure_arc_jumpstart\\azure_arc_data\\day2\\aks\\aks_mssql_ha",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -388,22 +376,9 @@
                       }
                     },
                     {
-                      "name": "aks_mssql_mi_ad_auth_arm_template",
-                      "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_data/day2/aks/aks_mssql_mi_ad_auth_arm_template",
-                      "children": [],
-                      "frontMatter": {
-                        "type": "docs",
-                        "title": "SQL Managed Instance with AD Authentication ARM Template",
-                        "linkTitle": "SQL Managed Instance with AD Authentication ARM Template",
-                        "weight": 2,
-                        "description": ""
-                      }
-                    },
-                    {
                       "name": "aks_mssql_migrate",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_data/day2/aks/aks_mssql_migrate",
+                      "path": "azure_arc_jumpstart\\azure_arc_data\\day2\\aks\\aks_mssql_migrate",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -414,9 +389,22 @@
                       }
                     },
                     {
+                      "name": "aks_mssql_mi_ad_auth_arm_template",
+                      "type": "directory",
+                      "path": "azure_arc_jumpstart\\azure_arc_data\\day2\\aks\\aks_mssql_mi_ad_auth_arm_template",
+                      "children": [],
+                      "frontMatter": {
+                        "type": "docs",
+                        "title": "SQL Managed Instance with AD Authentication ARM Template",
+                        "linkTitle": "SQL Managed Instance with AD Authentication ARM Template",
+                        "weight": 2,
+                        "description": ""
+                      }
+                    },
+                    {
                       "name": "aks_postgresql_arm_template_ado",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_data/day2/aks/aks_postgresql_arm_template_ado",
+                      "path": "azure_arc_jumpstart\\azure_arc_data\\day2\\aks\\aks_postgresql_arm_template_ado",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -438,17 +426,17 @@
                 {
                   "name": "cluster_api",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/day2/cluster_api",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\day2\\cluster_api",
                   "children": [
                     {
                       "name": "capi_azure",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_data/day2/cluster_api/capi_azure",
+                      "path": "azure_arc_jumpstart\\azure_arc_data\\day2\\cluster_api\\capi_azure",
                       "children": [
                         {
                           "name": "capi_mssql_ha",
                           "type": "directory",
-                          "path": "azure_arc_jumpstart/azure_arc_data/day2/cluster_api/capi_azure/capi_mssql_ha",
+                          "path": "azure_arc_jumpstart\\azure_arc_data\\day2\\cluster_api\\capi_azure\\capi_mssql_ha",
                           "children": [],
                           "frontMatter": {
                             "type": "docs",
@@ -482,12 +470,12 @@
             {
               "name": "eks",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_data/eks",
+              "path": "azure_arc_jumpstart\\azure_arc_data\\eks",
               "children": [
                 {
                   "name": "eks_dc_vanilla_terraform",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/eks/eks_dc_vanilla_terraform",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\eks\\eks_dc_vanilla_terraform",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -500,7 +488,7 @@
                 {
                   "name": "eks_mssql_mi_terraform",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/eks/eks_mssql_mi_terraform",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\eks\\eks_mssql_mi_terraform",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -513,7 +501,7 @@
                 {
                   "name": "eks_postgres_terraform",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/eks/eks_postgres_terraform",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\eks\\eks_postgres_terraform",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -535,12 +523,12 @@
             {
               "name": "gke",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_data/gke",
+              "path": "azure_arc_jumpstart\\azure_arc_data\\gke",
               "children": [
                 {
                   "name": "gke_dc_vanilla_terraform",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/gke/gke_dc_vanilla_terraform",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\gke\\gke_dc_vanilla_terraform",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -553,7 +541,7 @@
                 {
                   "name": "gke_mssql_mi_terraform",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/gke/gke_mssql_mi_terraform",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\gke\\gke_mssql_mi_terraform",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -566,7 +554,7 @@
                 {
                   "name": "gke_postgres_terraform",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/gke/gke_postgres_terraform",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\gke\\gke_postgres_terraform",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -588,12 +576,12 @@
             {
               "name": "kubeadm",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_data/kubeadm",
+              "path": "azure_arc_jumpstart\\azure_arc_data\\kubeadm",
               "children": [
                 {
                   "name": "kubeadm_azure_dc_vanilla_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/kubeadm/kubeadm_azure_dc_vanilla_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\kubeadm\\kubeadm_azure_dc_vanilla_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -606,7 +594,7 @@
                 {
                   "name": "kubeadm_azure_mssql_mi_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/kubeadm/kubeadm_azure_mssql_mi_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\kubeadm\\kubeadm_azure_mssql_mi_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -619,7 +607,7 @@
                 {
                   "name": "kubeadm_azure_postgresql_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/kubeadm/kubeadm_azure_postgresql_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\kubeadm\\kubeadm_azure_postgresql_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -641,22 +629,22 @@
             {
               "name": "microk8s",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_data/microk8s",
+              "path": "azure_arc_jumpstart\\azure_arc_data\\microk8s",
               "children": [
                 {
                   "name": "azure",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_data/microk8s/azure",
+                  "path": "azure_arc_jumpstart\\azure_arc_data\\microk8s\\azure",
                   "children": [
                     {
                       "name": "arm_template",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_data/microk8s/azure/arm_template",
+                      "path": "azure_arc_jumpstart\\azure_arc_data\\microk8s\\azure\\arm_template",
                       "children": [
                         {
                           "name": "dc_vanilla",
                           "type": "directory",
-                          "path": "azure_arc_jumpstart/azure_arc_data/microk8s/azure/arm_template/dc_vanilla",
+                          "path": "azure_arc_jumpstart\\azure_arc_data\\microk8s\\azure\\arm_template\\dc_vanilla",
                           "children": [],
                           "frontMatter": {
                             "type": "docs",
@@ -669,7 +657,7 @@
                         {
                           "name": "mssql_mi",
                           "type": "directory",
-                          "path": "azure_arc_jumpstart/azure_arc_data/microk8s/azure/arm_template/mssql_mi",
+                          "path": "azure_arc_jumpstart\\azure_arc_data\\microk8s\\azure\\arm_template\\mssql_mi",
                           "children": [],
                           "frontMatter": {
                             "type": "docs",
@@ -682,7 +670,7 @@
                         {
                           "name": "postgresql",
                           "type": "directory",
-                          "path": "azure_arc_jumpstart/azure_arc_data/microk8s/azure/arm_template/postgresql",
+                          "path": "azure_arc_jumpstart\\azure_arc_data\\microk8s\\azure\\arm_template\\postgresql",
                           "children": [],
                           "frontMatter": {
                             "type": "docs",
@@ -719,17 +707,17 @@
         {
           "name": "azure_arc_k8s",
           "type": "directory",
-          "path": "azure_arc_jumpstart/azure_arc_k8s",
+          "path": "azure_arc_jumpstart\\azure_arc_k8s",
           "children": [
             {
               "name": "aks",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/aks",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\aks",
               "children": [
                 {
                   "name": "aks_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/aks/aks_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\aks\\aks_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -742,7 +730,7 @@
                 {
                   "name": "aks_terraform",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/aks/aks_terraform",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\aks\\aks_terraform",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -764,12 +752,12 @@
             {
               "name": "aks_hybrid",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/aks_hybrid",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\aks_hybrid",
               "children": [
                 {
                   "name": "aks_edge_essentials_full",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/aks_hybrid/aks_edge_essentials_full",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\aks_hybrid\\aks_edge_essentials_full",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -782,7 +770,7 @@
                 {
                   "name": "aks_edge_essentials_full_akri",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/aks_hybrid/aks_edge_essentials_full_akri",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\aks_hybrid\\aks_edge_essentials_full_akri",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -795,7 +783,7 @@
                 {
                   "name": "aks_edge_essentials_single",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/aks_hybrid/aks_edge_essentials_single",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\aks_hybrid\\aks_edge_essentials_single",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -808,7 +796,7 @@
                 {
                   "name": "aks_edge_essentials_single_akri",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/aks_hybrid/aks_edge_essentials_single_akri",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\aks_hybrid\\aks_edge_essentials_single_akri",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -830,12 +818,12 @@
             {
               "name": "aks_stack_hci",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/aks_stack_hci",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\aks_stack_hci",
               "children": [
                 {
                   "name": "aks_hci_powershell",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/aks_stack_hci/aks_hci_powershell",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\aks_stack_hci\\aks_hci_powershell",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -857,12 +845,12 @@
             {
               "name": "alibaba",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/alibaba",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\alibaba",
               "children": [
                 {
                   "name": "alibaba_terraform",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/alibaba/alibaba_terraform",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\alibaba\\alibaba_terraform",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -884,12 +872,12 @@
             {
               "name": "aro",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/aro",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\aro",
               "children": [
                 {
                   "name": "aro_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/aro/aro_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\aro\\aro_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -911,12 +899,12 @@
             {
               "name": "cluster_api",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/cluster_api",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\cluster_api",
               "children": [
                 {
                   "name": "capi_azure",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/cluster_api/capi_azure",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\cluster_api\\capi_azure",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -938,17 +926,17 @@
             {
               "name": "day2",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/day2",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2",
               "children": [
                 {
                   "name": "aks",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/day2/aks",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\aks",
                   "children": [
                     {
                       "name": "aks_gitops_basic",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/aks/aks_gitops_basic",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\aks\\aks_gitops_basic",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -961,7 +949,7 @@
                     {
                       "name": "aks_gitops_helm",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/aks/aks_gitops_helm",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\aks\\aks_gitops_helm",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -974,7 +962,7 @@
                     {
                       "name": "aks_monitor",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/aks/aks_monitor",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\aks\\aks_monitor",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -987,7 +975,7 @@
                     {
                       "name": "aks_policy",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/aks/aks_policy",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\aks\\aks_policy",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1009,12 +997,12 @@
                 {
                   "name": "aks_stack_hci",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/day2/aks_stack_hci",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\aks_stack_hci",
                   "children": [
                     {
                       "name": "aks_hci_gitops_basic",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/aks_stack_hci/aks_hci_gitops_basic",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\aks_stack_hci\\aks_hci_gitops_basic",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1027,7 +1015,7 @@
                     {
                       "name": "aks_hci_gitops_helm",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/aks_stack_hci/aks_hci_gitops_helm",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\aks_stack_hci\\aks_hci_gitops_helm",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1040,12 +1028,12 @@
                     {
                       "name": "aks_hci_monitor",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/aks_stack_hci/aks_hci_monitor",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\aks_stack_hci\\aks_hci_monitor",
                       "children": [
                         {
                           "name": "aks_hci_monitor_extension",
                           "type": "directory",
-                          "path": "azure_arc_jumpstart/azure_arc_k8s/day2/aks_stack_hci/aks_hci_monitor/aks_hci_monitor_extension",
+                          "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\aks_stack_hci\\aks_hci_monitor\\aks_hci_monitor_extension",
                           "children": [],
                           "frontMatter": {
                             "type": "docs",
@@ -1070,12 +1058,12 @@
                 {
                   "name": "cluster_api",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/day2/cluster_api",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\cluster_api",
                   "children": [
                     {
                       "name": "cluster_api_defender_extension",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/cluster_api/cluster_api_defender_extension",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\cluster_api\\cluster_api_defender_extension",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1088,7 +1076,7 @@
                     {
                       "name": "cluster_api_gitops_basic",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/cluster_api/cluster_api_gitops_basic",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\cluster_api\\cluster_api_gitops_basic",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1101,7 +1089,7 @@
                     {
                       "name": "cluster_api_gitops_helm",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/cluster_api/cluster_api_gitops_helm",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\cluster_api\\cluster_api_gitops_helm",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1114,7 +1102,7 @@
                     {
                       "name": "cluster_api_keyvault_extension",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/cluster_api/cluster_api_keyvault_extension",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\cluster_api\\cluster_api_keyvault_extension",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1127,7 +1115,7 @@
                     {
                       "name": "cluster_api_osm_extension",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/cluster_api/cluster_api_osm_extension",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\cluster_api\\cluster_api_osm_extension",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1149,12 +1137,12 @@
                 {
                   "name": "gke",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/day2/gke",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\gke",
                   "children": [
                     {
                       "name": "gke_gitops_basic",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/gke/gke_gitops_basic",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\gke\\gke_gitops_basic",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1167,7 +1155,7 @@
                     {
                       "name": "gke_gitops_helm",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/gke/gke_gitops_helm",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\gke\\gke_gitops_helm",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1180,7 +1168,7 @@
                     {
                       "name": "gke_monitor",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/gke/gke_monitor",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\gke\\gke_monitor",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1193,7 +1181,7 @@
                     {
                       "name": "gke_monitor_extension",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/gke/gke_monitor_extension",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\gke\\gke_monitor_extension",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1206,7 +1194,7 @@
                     {
                       "name": "gke_policy",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/gke/gke_policy",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\gke\\gke_policy",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1228,12 +1216,12 @@
                 {
                   "name": "kind",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/day2/kind",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\kind",
                   "children": [
                     {
                       "name": "local_kind_gitops_helm",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/kind/local_kind_gitops_helm",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\kind\\local_kind_gitops_helm",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1255,12 +1243,12 @@
                 {
                   "name": "microk8s",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/day2/microk8s",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\microk8s",
                   "children": [
                     {
                       "name": "local_microk8s_gitops_helm",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/microk8s/local_microk8s_gitops_helm",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\microk8s\\local_microk8s_gitops_helm",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1273,7 +1261,7 @@
                     {
                       "name": "local_microk8s_monitor",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/microk8s/local_microk8s_monitor",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\microk8s\\local_microk8s_monitor",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1295,12 +1283,12 @@
                 {
                   "name": "multi_distributions",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\multi_distributions",
                   "children": [
                     {
                       "name": "azure_policy",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions/azure_policy",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\multi_distributions\\azure_policy",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1313,7 +1301,7 @@
                     {
                       "name": "calico",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions/calico",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\multi_distributions\\calico",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1326,7 +1314,7 @@
                     {
                       "name": "connected_cluster",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions/connected_cluster",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\multi_distributions\\connected_cluster",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1339,7 +1327,7 @@
                     {
                       "name": "container_insights",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions/container_insights",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\multi_distributions\\container_insights",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1352,7 +1340,7 @@
                     {
                       "name": "gitops",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/day2/multi_distributions/gitops",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\day2\\multi_distributions\\gitops",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1383,17 +1371,17 @@
             {
               "name": "developer",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/developer",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\developer",
               "children": [
                 {
                   "name": "dapr",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/developer/dapr",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\developer\\dapr",
                   "children": [
                     {
                       "name": "dapr_statestore",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_k8s/developer/dapr/dapr_statestore",
+                      "path": "azure_arc_jumpstart\\azure_arc_k8s\\developer\\dapr\\dapr_statestore",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1424,12 +1412,12 @@
             {
               "name": "eks",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/eks",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\eks",
               "children": [
                 {
                   "name": "eks_terraform",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/eks/eks_terraform",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\eks\\eks_terraform",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1451,12 +1439,12 @@
             {
               "name": "general",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/general",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\general",
               "children": [
                 {
                   "name": "onboard_k8s",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/general/onboard_k8s",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\general\\onboard_k8s",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1478,12 +1466,12 @@
             {
               "name": "gke",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/gke",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\gke",
               "children": [
                 {
                   "name": "gke_terraform",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/gke/gke_terraform",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\gke\\gke_terraform",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1505,12 +1493,12 @@
             {
               "name": "iot_uses_cases",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/iot_uses_cases",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\iot_uses_cases",
               "children": [
                 {
                   "name": "aks",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/iot_uses_cases/aks",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\iot_uses_cases\\aks",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1532,12 +1520,12 @@
             {
               "name": "kind",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/kind",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\kind",
               "children": [
                 {
                   "name": "local_kind",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/kind/local_kind",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\kind\\local_kind",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1559,12 +1547,12 @@
             {
               "name": "microk8s",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/microk8s",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\microk8s",
               "children": [
                 {
                   "name": "local_microk8s",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/microk8s/local_microk8s",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\microk8s\\local_microk8s",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1586,12 +1574,12 @@
             {
               "name": "pf9",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/pf9",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\pf9",
               "children": [
                 {
                   "name": "pf9_bareos",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/pf9/pf9_bareos",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\pf9\\pf9_bareos",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1613,12 +1601,12 @@
             {
               "name": "rancher_k3s",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_k8s/rancher_k3s",
+              "path": "azure_arc_jumpstart\\azure_arc_k8s\\rancher_k3s",
               "children": [
                 {
                   "name": "azure_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/rancher_k3s/azure_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\rancher_k3s\\azure_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1631,7 +1619,7 @@
                 {
                   "name": "azure_terraform",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/rancher_k3s/azure_terraform",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\rancher_k3s\\azure_terraform",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1644,7 +1632,7 @@
                 {
                   "name": "vmware_terraform",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_k8s/rancher_k3s/vmware_terraform",
+                  "path": "azure_arc_jumpstart\\azure_arc_k8s\\rancher_k3s\\vmware_terraform",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1675,12 +1663,12 @@
         {
           "name": "azure_arc_lighthouse",
           "type": "directory",
-          "path": "azure_arc_jumpstart/azure_arc_lighthouse",
+          "path": "azure_arc_jumpstart\\azure_arc_lighthouse",
           "children": [
             {
               "name": "unified_operations_scale",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_lighthouse/unified_operations_scale",
+              "path": "azure_arc_jumpstart\\azure_arc_lighthouse\\unified_operations_scale",
               "children": [],
               "frontMatter": {
                 "type": "docs",
@@ -1702,17 +1690,17 @@
         {
           "name": "azure_arc_ml",
           "type": "directory",
-          "path": "azure_arc_jumpstart/azure_arc_ml",
+          "path": "azure_arc_jumpstart\\azure_arc_ml",
           "children": [
             {
               "name": "aks",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_ml/aks",
+              "path": "azure_arc_jumpstart\\azure_arc_ml\\aks",
               "children": [
                 {
                   "name": "aks_blob_mnist_arm_template",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_ml/aks/aks_blob_mnist_arm_template",
+                  "path": "azure_arc_jumpstart\\azure_arc_ml\\aks\\aks_blob_mnist_arm_template",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1743,17 +1731,17 @@
         {
           "name": "azure_arc_servers",
           "type": "directory",
-          "path": "azure_arc_jumpstart/azure_arc_servers",
+          "path": "azure_arc_jumpstart\\azure_arc_servers",
           "children": [
             {
               "name": "aws",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_servers/aws",
+              "path": "azure_arc_jumpstart\\azure_arc_servers\\aws",
               "children": [
                 {
                   "name": "aws_terraform_al2",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/aws/aws_terraform_al2",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\aws\\aws_terraform_al2",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1766,7 +1754,7 @@
                 {
                   "name": "aws_terraform_ubuntu",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/aws/aws_terraform_ubuntu",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\aws\\aws_terraform_ubuntu",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1788,12 +1776,12 @@
             {
               "name": "azure",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_servers/azure",
+              "path": "azure_arc_jumpstart\\azure_arc_servers\\azure",
               "children": [
                 {
                   "name": "azure_arm_template_linux",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/azure/azure_arm_template_linux",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\azure\\azure_arm_template_linux",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1806,7 +1794,7 @@
                 {
                   "name": "azure_arm_template_win",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/azure/azure_arm_template_win",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\azure\\azure_arm_template_win",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1828,12 +1816,12 @@
             {
               "name": "azure_stack_hci",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_servers/azure_stack_hci",
+              "path": "azure_arc_jumpstart\\azure_arc_servers\\azure_stack_hci",
               "children": [
                 {
                   "name": "azure_stack_hci_windows",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/azure_stack_hci/azure_stack_hci_windows",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\azure_stack_hci\\azure_stack_hci_windows",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1855,17 +1843,17 @@
             {
               "name": "day2",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_servers/day2",
+              "path": "azure_arc_jumpstart\\azure_arc_servers\\day2",
               "children": [
                 {
                   "name": "arc_automanage",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_automanage",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_automanage",
                   "children": [
                     {
                       "name": "arc_automanage_builtin_profiles",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_automanage/arc_automanage_builtin_profiles",
+                      "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_automanage\\arc_automanage_builtin_profiles",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1878,7 +1866,7 @@
                     {
                       "name": "arc_automanage_custom_profiles",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_automanage/arc_automanage_custom_profiles",
+                      "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_automanage\\arc_automanage_custom_profiles",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1891,7 +1879,7 @@
                     {
                       "name": "arc_automanage_machine_configuration_custom_linux",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_automanage/arc_automanage_machine_configuration_custom_linux",
+                      "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_automanage\\arc_automanage_machine_configuration_custom_linux",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1904,7 +1892,7 @@
                     {
                       "name": "arc_automanage_machine_configuration_custom_windows",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_automanage/arc_automanage_machine_configuration_custom_windows",
+                      "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_automanage\\arc_automanage_machine_configuration_custom_windows",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -1926,7 +1914,7 @@
                 {
                   "name": "arc_azuremonitoragent",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_azuremonitoragent",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_azuremonitoragent",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1939,7 +1927,7 @@
                 {
                   "name": "arc_azuresentinel",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_azuresentinel",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_azuresentinel",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1952,7 +1940,7 @@
                 {
                   "name": "arc_datadog",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_datadog",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_datadog",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1965,7 +1953,7 @@
                 {
                   "name": "arc_defender",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_defender",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_defender",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -1976,22 +1964,9 @@
                   }
                 },
                 {
-                  "name": "arc_extended_security_updates",
-                  "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_extended_security_updates",
-                  "children": [],
-                  "frontMatter": {
-                    "type": "docs",
-                    "title": "Using Azure Arc to deliver Extended Security Updates (ESU) for Windows Server 2012 and SQL Server 2012",
-                    "linkTitle": "Using Azure Arc to deliver Extended Security Updates (ESU) for Windows Server and SQL Server 2012",
-                    "weight": 1,
-                    "description": ""
-                  }
-                },
-                {
                   "name": "arc_grafana",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_grafana",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_grafana",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2004,7 +1979,7 @@
                 {
                   "name": "arc_inventory_management",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_inventory_management",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_inventory_management",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2017,7 +1992,7 @@
                 {
                   "name": "arc_keyvault",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_keyvault",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_keyvault",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2030,12 +2005,12 @@
                 {
                   "name": "arc_managed_identity",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_managed_identity",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_managed_identity",
                   "children": [
                     {
                       "name": "linux",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_managed_identity/linux",
+                      "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_managed_identity\\linux",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -2057,7 +2032,7 @@
                 {
                   "name": "arc_monitoring",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_monitoring",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_monitoring",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2070,7 +2045,7 @@
                 {
                   "name": "arc_policies_mma",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_policies_mma",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_policies_mma",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2083,7 +2058,7 @@
                 {
                   "name": "arc_privatelink",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_privatelink",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_privatelink",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2096,7 +2071,7 @@
                 {
                   "name": "arc_proxy",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_proxy",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_proxy",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2109,7 +2084,7 @@
                 {
                   "name": "arc_security_baseline",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_security_baseline",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_security_baseline",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2122,7 +2097,7 @@
                 {
                   "name": "arc_ssh",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_ssh",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_ssh",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2135,7 +2110,7 @@
                 {
                   "name": "arc_updateManagementCenter",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_updateManagementCenter",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_updateManagementCenter",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2148,7 +2123,7 @@
                 {
                   "name": "arc_vm_extension_customscript_arm",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/day2/arc_vm_extension_customscript_arm",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\day2\\arc_vm_extension_customscript_arm",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2170,12 +2145,12 @@
             {
               "name": "gcp",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_servers/gcp",
+              "path": "azure_arc_jumpstart\\azure_arc_servers\\gcp",
               "children": [
                 {
                   "name": "gcp_terraform_ubuntu",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/gcp/gcp_terraform_ubuntu",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\gcp\\gcp_terraform_ubuntu",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2188,7 +2163,7 @@
                 {
                   "name": "gcp_terraform_windows",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/gcp/gcp_terraform_windows",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\gcp\\gcp_terraform_windows",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2210,12 +2185,12 @@
             {
               "name": "general",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_servers/general",
+              "path": "azure_arc_jumpstart\\azure_arc_servers\\general",
               "children": [
                 {
                   "name": "onboard_server_linux",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/general/onboard_server_linux",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\general\\onboard_server_linux",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2228,7 +2203,7 @@
                 {
                   "name": "onboard_server_win",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/general/onboard_server_win",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\general\\onboard_server_win",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2250,12 +2225,12 @@
             {
               "name": "scaled_deployment",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_servers/scaled_deployment",
+              "path": "azure_arc_jumpstart\\azure_arc_servers\\scaled_deployment",
               "children": [
                 {
                   "name": "aws_scaled_ansible",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/scaled_deployment/aws_scaled_ansible",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\scaled_deployment\\aws_scaled_ansible",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2268,7 +2243,7 @@
                 {
                   "name": "configuration_manager_scaled_runscript",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/scaled_deployment/configuration_manager_scaled_runscript",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\scaled_deployment\\configuration_manager_scaled_runscript",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2281,7 +2256,7 @@
                 {
                   "name": "configuration_manager_scaled_tasksequence",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/scaled_deployment/configuration_manager_scaled_tasksequence",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\scaled_deployment\\configuration_manager_scaled_tasksequence",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2294,7 +2269,7 @@
                 {
                   "name": "vmware_scaled_powercli_linux",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/scaled_deployment/vmware_scaled_powercli_linux",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\scaled_deployment\\vmware_scaled_powercli_linux",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2307,7 +2282,7 @@
                 {
                   "name": "vmware_scaled_powercli_win",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/scaled_deployment/vmware_scaled_powercli_win",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\scaled_deployment\\vmware_scaled_powercli_win",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2329,12 +2304,12 @@
             {
               "name": "vagrant",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_servers/vagrant",
+              "path": "azure_arc_jumpstart\\azure_arc_servers\\vagrant",
               "children": [
                 {
                   "name": "local_vagrant_ubuntu",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/vagrant/local_vagrant_ubuntu",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\vagrant\\local_vagrant_ubuntu",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2347,7 +2322,7 @@
                 {
                   "name": "local_vagrant_windows",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/vagrant/local_vagrant_windows",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\vagrant\\local_vagrant_windows",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2369,17 +2344,17 @@
             {
               "name": "vmware",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_servers/vmware",
+              "path": "azure_arc_jumpstart\\azure_arc_servers\\vmware",
               "children": [
                 {
                   "name": "vmware_terraform_ubuntu",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/vmware/vmware_terraform_ubuntu",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\vmware\\vmware_terraform_ubuntu",
                   "children": [
                     {
                       "name": "vmware_ubuntu_template",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_servers/vmware/vmware_terraform_ubuntu/vmware_ubuntu_template",
+                      "path": "azure_arc_jumpstart\\azure_arc_servers\\vmware\\vmware_terraform_ubuntu\\vmware_ubuntu_template",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -2401,12 +2376,12 @@
                 {
                   "name": "vmware_terraform_winsrv",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_servers/vmware/vmware_terraform_winsrv",
+                  "path": "azure_arc_jumpstart\\azure_arc_servers\\vmware\\vmware_terraform_winsrv",
                   "children": [
                     {
                       "name": "vmware_winsrv2k19_template",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_servers/vmware/vmware_terraform_winsrv/vmware_winsrv2k19_template",
+                      "path": "azure_arc_jumpstart\\azure_arc_servers\\vmware\\vmware_terraform_winsrv\\vmware_winsrv2k19_template",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -2446,17 +2421,17 @@
         {
           "name": "azure_arc_sqlsrv",
           "type": "directory",
-          "path": "azure_arc_jumpstart/azure_arc_sqlsrv",
+          "path": "azure_arc_jumpstart\\azure_arc_sqlsrv",
           "children": [
             {
               "name": "aws",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_sqlsrv/aws",
+              "path": "azure_arc_jumpstart\\azure_arc_sqlsrv\\aws",
               "children": [
                 {
                   "name": "aws_terraform_winsrv",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_sqlsrv/aws/aws_terraform_winsrv",
+                  "path": "azure_arc_jumpstart\\azure_arc_sqlsrv\\aws\\aws_terraform_winsrv",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2477,17 +2452,17 @@
             {
               "name": "azure",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_sqlsrv/azure",
+              "path": "azure_arc_jumpstart\\azure_arc_sqlsrv\\azure",
               "children": [
                 {
                   "name": "archive",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_sqlsrv/azure/archive",
+                  "path": "azure_arc_jumpstart\\azure_arc_sqlsrv\\azure\\archive",
                   "children": [
                     {
                       "name": "azure_arm_template_winsrv",
                       "type": "directory",
-                      "path": "azure_arc_jumpstart/azure_arc_sqlsrv/azure/archive/azure_arm_template_winsrv",
+                      "path": "azure_arc_jumpstart\\azure_arc_sqlsrv\\azure\\archive\\azure_arm_template_winsrv",
                       "children": [],
                       "frontMatter": {
                         "type": "docs",
@@ -2502,7 +2477,7 @@
                 {
                   "name": "azure_arm_template_sqlsrv_winsrv_defender",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_sqlsrv/azure/azure_arm_template_sqlsrv_winsrv_defender",
+                  "path": "azure_arc_jumpstart\\azure_arc_sqlsrv\\azure\\azure_arm_template_sqlsrv_winsrv_defender",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2521,41 +2496,14 @@
               }
             },
             {
-              "name": "day2",
-              "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_sqlsrv/day2",
-              "children": [
-                {
-                  "name": "esu",
-                  "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_sqlsrv/day2/esu",
-                  "children": [],
-                  "frontMatter": {
-                    "type": "docs",
-                    "title": "Using Azure Arc to deliver Extended Security Updates (ESU) for Windows Server 2012 and SQL Server 2012",
-                    "linkTitle": "Using Azure Arc to deliver Extended Security Updates (ESU) for Windows Server and SQL Server 2012",
-                    "weight": 1,
-                    "description": ""
-                  }
-                }
-              ],
-              "frontMatter": {
-                "type": "docs",
-                "title": "Unified Operations Use Cases",
-                "linkTitle": "Unified Operations Use Cases",
-                "weight": 5,
-                "description": "Once you have server resources projected into Azure with Azure Arc, you can start to use native Azure tooling to manage the servers as native Azure resources. The following scenarios show examples of using Azure management tools with Azure Arc-enabled SQL Server."
-              }
-            },
-            {
               "name": "gcp",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_sqlsrv/gcp",
+              "path": "azure_arc_jumpstart\\azure_arc_sqlsrv\\gcp",
               "children": [
                 {
                   "name": "gcp_terraform_winsrv",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_sqlsrv/gcp/gcp_terraform_winsrv",
+                  "path": "azure_arc_jumpstart\\azure_arc_sqlsrv\\gcp\\gcp_terraform_winsrv",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2577,12 +2525,12 @@
             {
               "name": "vmware",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_sqlsrv/vmware",
+              "path": "azure_arc_jumpstart\\azure_arc_sqlsrv\\vmware",
               "children": [
                 {
                   "name": "vmware_terraform_winsrv",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_sqlsrv/vmware/vmware_terraform_winsrv",
+                  "path": "azure_arc_jumpstart\\azure_arc_sqlsrv\\vmware\\vmware_terraform_winsrv",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2613,17 +2561,17 @@
         {
           "name": "azure_arc_vsphere",
           "type": "directory",
-          "path": "azure_arc_jumpstart/azure_arc_vsphere",
+          "path": "azure_arc_jumpstart\\azure_arc_vsphere",
           "children": [
             {
               "name": "day2",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_vsphere/day2",
+              "path": "azure_arc_jumpstart\\azure_arc_vsphere\\day2",
               "children": [
                 {
                   "name": "vmware_arm_template_win",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_vsphere/day2/vmware_arm_template_win",
+                  "path": "azure_arc_jumpstart\\azure_arc_vsphere\\day2\\vmware_arm_template_win",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2645,12 +2593,12 @@
             {
               "name": "resource_bridge",
               "type": "directory",
-              "path": "azure_arc_jumpstart/azure_arc_vsphere/resource_bridge",
+              "path": "azure_arc_jumpstart\\azure_arc_vsphere\\resource_bridge",
               "children": [
                 {
                   "name": "powershell",
                   "type": "directory",
-                  "path": "azure_arc_jumpstart/azure_arc_vsphere/resource_bridge/powershell",
+                  "path": "azure_arc_jumpstart\\azure_arc_vsphere\\resource_bridge\\powershell",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -2694,17 +2642,17 @@
         {
           "name": "contoso_supermarket",
           "type": "directory",
-          "path": "azure_jumpstart_ag/contoso_supermarket",
+          "path": "azure_jumpstart_ag\\contoso_supermarket",
           "children": [
             {
               "name": "ai",
               "type": "directory",
-              "path": "azure_jumpstart_ag/contoso_supermarket/ai",
+              "path": "azure_jumpstart_ag\\contoso_supermarket\\ai",
               "children": [
                 {
                   "name": "img",
                   "type": "directory",
-                  "path": "azure_jumpstart_ag/contoso_supermarket/ai/img",
+                  "path": "azure_jumpstart_ag\\contoso_supermarket\\ai\\img",
                   "children": [],
                   "frontMatter": {}
                 }
@@ -2718,12 +2666,12 @@
             {
               "name": "arc_defender_servers",
               "type": "directory",
-              "path": "azure_jumpstart_ag/contoso_supermarket/arc_defender_servers",
+              "path": "azure_jumpstart_ag\\contoso_supermarket\\arc_defender_servers",
               "children": [
                 {
                   "name": "img",
                   "type": "directory",
-                  "path": "azure_jumpstart_ag/contoso_supermarket/arc_defender_servers/img",
+                  "path": "azure_jumpstart_ag\\contoso_supermarket\\arc_defender_servers\\img",
                   "children": [],
                   "frontMatter": {}
                 }
@@ -2737,12 +2685,12 @@
             {
               "name": "arc_monitoring_servers",
               "type": "directory",
-              "path": "azure_jumpstart_ag/contoso_supermarket/arc_monitoring_servers",
+              "path": "azure_jumpstart_ag\\contoso_supermarket\\arc_monitoring_servers",
               "children": [
                 {
                   "name": "img",
                   "type": "directory",
-                  "path": "azure_jumpstart_ag/contoso_supermarket/arc_monitoring_servers/img",
+                  "path": "azure_jumpstart_ag\\contoso_supermarket\\arc_monitoring_servers\\img",
                   "children": [],
                   "frontMatter": {}
                 }
@@ -2756,12 +2704,12 @@
             {
               "name": "ci_cd",
               "type": "directory",
-              "path": "azure_jumpstart_ag/contoso_supermarket/ci_cd",
+              "path": "azure_jumpstart_ag\\contoso_supermarket\\ci_cd",
               "children": [
                 {
                   "name": "img",
                   "type": "directory",
-                  "path": "azure_jumpstart_ag/contoso_supermarket/ci_cd/img",
+                  "path": "azure_jumpstart_ag\\contoso_supermarket\\ci_cd\\img",
                   "children": [],
                   "frontMatter": {}
                 }
@@ -2775,12 +2723,12 @@
             {
               "name": "cleanup",
               "type": "directory",
-              "path": "azure_jumpstart_ag/contoso_supermarket/cleanup",
+              "path": "azure_jumpstart_ag\\contoso_supermarket\\cleanup",
               "children": [
                 {
                   "name": "img",
                   "type": "directory",
-                  "path": "azure_jumpstart_ag/contoso_supermarket/cleanup/img",
+                  "path": "azure_jumpstart_ag\\contoso_supermarket\\cleanup\\img",
                   "children": [],
                   "frontMatter": {}
                 }
@@ -2794,12 +2742,12 @@
             {
               "name": "data_pos",
               "type": "directory",
-              "path": "azure_jumpstart_ag/contoso_supermarket/data_pos",
+              "path": "azure_jumpstart_ag\\contoso_supermarket\\data_pos",
               "children": [
                 {
                   "name": "img",
                   "type": "directory",
-                  "path": "azure_jumpstart_ag/contoso_supermarket/data_pos/img",
+                  "path": "azure_jumpstart_ag\\contoso_supermarket\\data_pos\\img",
                   "children": [],
                   "frontMatter": {}
                 }
@@ -2813,12 +2761,12 @@
             {
               "name": "deployment",
               "type": "directory",
-              "path": "azure_jumpstart_ag/contoso_supermarket/deployment",
+              "path": "azure_jumpstart_ag\\contoso_supermarket\\deployment",
               "children": [
                 {
                   "name": "img",
                   "type": "directory",
-                  "path": "azure_jumpstart_ag/contoso_supermarket/deployment/img",
+                  "path": "azure_jumpstart_ag\\contoso_supermarket\\deployment\\img",
                   "children": [],
                   "frontMatter": {}
                 }
@@ -2832,12 +2780,12 @@
             {
               "name": "freezer_monitor",
               "type": "directory",
-              "path": "azure_jumpstart_ag/contoso_supermarket/freezer_monitor",
+              "path": "azure_jumpstart_ag\\contoso_supermarket\\freezer_monitor",
               "children": [
                 {
                   "name": "img",
                   "type": "directory",
-                  "path": "azure_jumpstart_ag/contoso_supermarket/freezer_monitor/img",
+                  "path": "azure_jumpstart_ag\\contoso_supermarket\\freezer_monitor\\img",
                   "children": [],
                   "frontMatter": {}
                 }
@@ -2851,19 +2799,19 @@
             {
               "name": "img",
               "type": "directory",
-              "path": "azure_jumpstart_ag/contoso_supermarket/img",
+              "path": "azure_jumpstart_ag\\contoso_supermarket\\img",
               "children": [],
               "frontMatter": {}
             },
             {
               "name": "k8s_infra_observability",
               "type": "directory",
-              "path": "azure_jumpstart_ag/contoso_supermarket/k8s_infra_observability",
+              "path": "azure_jumpstart_ag\\contoso_supermarket\\k8s_infra_observability",
               "children": [
                 {
                   "name": "img",
                   "type": "directory",
-                  "path": "azure_jumpstart_ag/contoso_supermarket/k8s_infra_observability/img",
+                  "path": "azure_jumpstart_ag\\contoso_supermarket\\k8s_infra_observability\\img",
                   "children": [],
                   "frontMatter": {}
                 }
@@ -2877,12 +2825,12 @@
             {
               "name": "troubleshooting",
               "type": "directory",
-              "path": "azure_jumpstart_ag/contoso_supermarket/troubleshooting",
+              "path": "azure_jumpstart_ag\\contoso_supermarket\\troubleshooting",
               "children": [
                 {
                   "name": "img",
                   "type": "directory",
-                  "path": "azure_jumpstart_ag/contoso_supermarket/troubleshooting/img",
+                  "path": "azure_jumpstart_ag\\contoso_supermarket\\troubleshooting\\img",
                   "children": [],
                   "frontMatter": {}
                 }
@@ -2903,7 +2851,7 @@
         {
           "name": "faq",
           "type": "directory",
-          "path": "azure_jumpstart_ag/faq",
+          "path": "azure_jumpstart_ag\\faq",
           "children": [],
           "frontMatter": {
             "type": "docs",
@@ -2926,7 +2874,7 @@
         {
           "name": "DataOps",
           "type": "directory",
-          "path": "azure_jumpstart_arcbox/DataOps",
+          "path": "azure_jumpstart_arcbox\\DataOps",
           "children": [],
           "frontMatter": {
             "type": "docs",
@@ -2935,9 +2883,20 @@
           }
         },
         {
+          "name": "data_ops",
+          "type": "directory",
+          "path": "azure_jumpstart_arcbox\\data_ops",
+          "children": [],
+          "frontMatter": {
+            "type": "docs",
+            "weight": 100,
+            "toc_hide": true
+          }
+        },
+        {
           "name": "DevOps",
           "type": "directory",
-          "path": "azure_jumpstart_arcbox/DevOps",
+          "path": "azure_jumpstart_arcbox\\DevOps",
           "children": [],
           "frontMatter": {
             "type": "docs",
@@ -2948,7 +2907,7 @@
         {
           "name": "Full",
           "type": "directory",
-          "path": "azure_jumpstart_arcbox/Full",
+          "path": "azure_jumpstart_arcbox\\Full",
           "children": [],
           "frontMatter": {
             "type": "docs",
@@ -2959,7 +2918,7 @@
         {
           "name": "ITPro",
           "type": "directory",
-          "path": "azure_jumpstart_arcbox/ITPro",
+          "path": "azure_jumpstart_arcbox\\ITPro",
           "children": [],
           "frontMatter": {
             "type": "docs",
@@ -2968,20 +2927,9 @@
           }
         },
         {
-          "name": "data_ops",
-          "type": "directory",
-          "path": "azure_jumpstart_arcbox/data_ops",
-          "children": [],
-          "frontMatter": {
-            "type": "docs",
-            "weight": 100,
-            "toc_hide": true
-          }
-        },
-        {
           "name": "release_notes",
           "type": "directory",
-          "path": "azure_jumpstart_arcbox/release_notes",
+          "path": "azure_jumpstart_arcbox\\release_notes",
           "children": [],
           "frontMatter": {
             "type": "docs",
@@ -2992,17 +2940,17 @@
         {
           "name": "workbook",
           "type": "directory",
-          "path": "azure_jumpstart_arcbox/workbook",
+          "path": "azure_jumpstart_arcbox\\workbook",
           "children": [
             {
               "name": "flavors",
               "type": "directory",
-              "path": "azure_jumpstart_arcbox/workbook/flavors",
+              "path": "azure_jumpstart_arcbox\\workbook\\flavors",
               "children": [
                 {
                   "name": "DataOps",
                   "type": "directory",
-                  "path": "azure_jumpstart_arcbox/workbook/flavors/DataOps",
+                  "path": "azure_jumpstart_arcbox\\workbook\\flavors\\DataOps",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -3013,7 +2961,7 @@
                 {
                   "name": "DevOps",
                   "type": "directory",
-                  "path": "azure_jumpstart_arcbox/workbook/flavors/DevOps",
+                  "path": "azure_jumpstart_arcbox\\workbook\\flavors\\DevOps",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -3024,7 +2972,7 @@
                 {
                   "name": "Full",
                   "type": "directory",
-                  "path": "azure_jumpstart_arcbox/workbook/flavors/Full",
+                  "path": "azure_jumpstart_arcbox\\workbook\\flavors\\Full",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -3035,7 +2983,7 @@
                 {
                   "name": "ITPro",
                   "type": "directory",
-                  "path": "azure_jumpstart_arcbox/workbook/flavors/ITPro",
+                  "path": "azure_jumpstart_arcbox\\workbook\\flavors\\ITPro",
                   "children": [],
                   "frontMatter": {
                     "type": "docs",
@@ -3064,7 +3012,7 @@
         {
           "name": "AKS",
           "type": "directory",
-          "path": "azure_jumpstart_hcibox/AKS",
+          "path": "azure_jumpstart_hcibox\\AKS",
           "children": [],
           "frontMatter": {
             "type": "docs",
@@ -3075,7 +3023,7 @@
         {
           "name": "RB",
           "type": "directory",
-          "path": "azure_jumpstart_hcibox/RB",
+          "path": "azure_jumpstart_hcibox\\RB",
           "children": [],
           "frontMatter": {
             "type": "docs",
@@ -3086,7 +3034,7 @@
         {
           "name": "SQLMI",
           "type": "directory",
-          "path": "azure_jumpstart_hcibox/SQLMI",
+          "path": "azure_jumpstart_hcibox\\SQLMI",
           "children": [],
           "frontMatter": {
             "type": "docs",
@@ -3097,7 +3045,7 @@
         {
           "name": "WAC",
           "type": "directory",
-          "path": "azure_jumpstart_hcibox/WAC",
+          "path": "azure_jumpstart_hcibox\\WAC",
           "children": [],
           "frontMatter": {
             "type": "docs",
@@ -3122,6 +3070,18 @@
         "title": "Contributing",
         "linkTitle": "Contributing",
         "weight": 11
+      }
+    },
+    {
+      "name": "FAQ",
+      "type": "directory",
+      "path": "FAQ",
+      "children": [],
+      "frontMatter": {
+        "type": "docs",
+        "title": "Jumpstart FAQ",
+        "linkTitle": "Jumpstart FAQ",
+        "weight": 8
       }
     },
     {
