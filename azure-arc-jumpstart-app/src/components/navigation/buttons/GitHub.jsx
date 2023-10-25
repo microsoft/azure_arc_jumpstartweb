@@ -3,14 +3,18 @@ import './GitHub.css';
 
 const GitHub = () => {
     return (
-        <div
+        <a
             className="git-hub-button"
-            tabIndex={6}
-            onClick={() => {
-                window.open('https://github.com/Azure/arc_jumpstart_docs', '_black');
+            style={{
+                cursor: 'pointer',
+                color: 'white',
+                textDecoration: 'none'
             }}
+            tabIndex={6}
+            href='https://github.com/Azure/arc_jumpstart_docs'
+            target="_blank"
         >
-            <label>GitHub </label>
+            GitHub
             <svg
                 className="git-hub-svg"
                 width="17"
@@ -38,7 +42,7 @@ const GitHub = () => {
                     </clipPath>
                 </defs>
             </svg>
-        </div>
+        </a>
     )
 }
 

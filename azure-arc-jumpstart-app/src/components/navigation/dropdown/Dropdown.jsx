@@ -18,7 +18,7 @@ const Dropdown = ({ items }) => {
 
     return (
         <>
-            <div className="dropdown-dropdown-body">
+            <div className="dropdown-dropdown-body" onMouseLeave={() => setOpen(false)}>
                 <div className="dropdown-dropdown-body2" style={{cursor: 'pointer'}} onClick={() => setOpen(!open)}>
                     <div className="dropdown-main-menu">
                         <div className="dropdown-frame-59941">
@@ -45,7 +45,10 @@ const Dropdown = ({ items }) => {
                         <div className="dropdown-frame-2018775997">
                             {
                                 items.map((item, index) => (
-                                    <div className="dropdown-dropdown-item" onClick={() => scrollToSection(item.href)}>
+                                    <div className="dropdown-dropdown-item" onClick={() => { 
+                                        setOpen(false);
+                                        scrollToSection(item.href)
+                                    }}>
                                         <div className="dropdown-list-container">
                                             <div className="dropdown-list-item-text">{item.name} </div>
                                         </div>

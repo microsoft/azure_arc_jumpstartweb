@@ -4,7 +4,7 @@ import MenuCard from "./MenuCard";
 import SubMenuItem from "./SubMenuItem";
 import { Link } from "react-router-dom";
 
-const MenuDrawer = ({ menuItem }) => {
+const MenuDrawer = ({ menuItem, setSelectedMenuItem }) => {
   const [subMenuItems, setSubMenuItems] = useState([]);
   const [selectedSubMenuItem, setSelectedSubMenuItem] = useState(null);
   const [selectedMenuCard, setSelectedMenuCard] = useState(null);
@@ -36,7 +36,7 @@ const MenuDrawer = ({ menuItem }) => {
   };
 
   return (
-    <div className="frame-2018775984">
+    <div className="frame-2018775984" onMouseLeave={()=> setSelectedMenuItem(null)}>
       <div className="sub-menu">
         <div className="sub-menu-body">
           {
@@ -78,7 +78,7 @@ const MenuDrawer = ({ menuItem }) => {
                 .filter((item) => item.hasOwnProperty('Link'))
                 .map((item, index) => {
                   return (
-                    <Link to={item.Link}>
+                    <Link to={item.Link} onClick={() => setSelectedMenuItem(null)}>
                       <MenuCard
                         item={item}
                         selectedMenuCard={selectedMenuCard}

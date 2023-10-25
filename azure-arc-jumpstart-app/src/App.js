@@ -94,7 +94,7 @@ function App() {
 
     const updateSections = () => {
         if (pageRef.current) {
-            const elementsWithId = pageRef.current.querySelectorAll('[id]');
+            const elementsWithId = pageRef.current.querySelectorAll('h2[id]');
             const discoveredSections = Array.from(elementsWithId).map(el => ({
                 id: el.id,
                 name: el.innerText,
@@ -140,6 +140,7 @@ function App() {
 
     return (
             <div ref={pageRef}>
+                {/* Nav Bar */}
                 <div
                     style={{
                         position: 'fixed',
@@ -160,6 +161,7 @@ function App() {
                         setSelectedMenuItem={toggleMenuDrawer}
                     />
                 </div>
+                {/* Breadcrumbs and Jump to section dropdown */}
                 <div
                     style={{
                         background: '#0a0a0a',
@@ -179,6 +181,7 @@ function App() {
                     <Breadcrumbs breadcrumbs={breadcrumbs}/>
                     <Dropdown items={sections} />
                 </div>
+                {/* Menu Drawer */}
                 <div
                     style={{
                         position: 'fixed',
@@ -187,12 +190,13 @@ function App() {
                         right: 0,
                         height: 300,
                         opacity: isMenuDrawerOpen ? 1 : 0,
-                        zIndex: 3,
+                        zIndex: isMenuDrawerOpen ? 3 : -3,
                         transition: 'all 0.5s'
                     }}
                 >
-                    {selectedMenuItem && <MenuDrawer menuItem={selectedMenuItem} />}
+                    {selectedMenuItem && <MenuDrawer menuItem={selectedMenuItem} setSelectedMenuItem={setSelectedMenuItem} />}
                 </div>
+                {/* Side Menu */}
                 <div
                     style={{
                         position: 'fixed',
@@ -237,6 +241,7 @@ function App() {
                         </svg>
                     </span>
                 </div>
+                {/* Markdown Pages */}
                 <div
                     style={{
                         display: 'flex',
