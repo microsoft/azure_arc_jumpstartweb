@@ -1,11 +1,12 @@
 .markdown-page-container {
-    /* position: absolute;
-    top: 96px;
-    left: 300px;
-    right: 20px;
-    height: 100%;
-    z-index: -1;
-    overflow: auto; */
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.49px;
+    /* 153.06% */
+    letter-spacing: 0.48px;
 }
 
 .markdown-page {
@@ -14,4 +15,13 @@
     background: #242424;
     padding: 10px;
     min-height: 80%;
+}
+
+.github-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-end;
+    flex-wrap: wrap;
 }

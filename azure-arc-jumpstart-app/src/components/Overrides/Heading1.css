@@ -1,3 +1,9 @@
 .custom-h1 {
-    
+    color: #FFF;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.49px; /* 153.06% */
+    letter-spacing: 0.48px;
 }
