@@ -1,3 +1,12 @@
 .custom-list-item { 
-
+    .frame,
+    .frame * {
+      box-sizing: border-box;
+    }
+    .frame {
+      flex-shrink: 0;
+      position: relative;
+      overflow: visible;
+    }
+    
 }                                               
