@@ -11,6 +11,11 @@
   width: 234px;
   height: 536px;
   position: relative;
+  overflow: auto;
+  transition: 'all 0.5s';
+  overflow: 'auto';
+  scrollbar-width: 'none';
+  -ms-overflow-style: 'none';
 }
 
 .dropdown-frame-2018775997 {
