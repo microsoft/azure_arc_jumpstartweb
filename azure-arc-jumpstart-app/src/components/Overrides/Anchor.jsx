@@ -18,7 +18,7 @@ export const Anchor = ({ children, path, href }) => {
             {children}
         </a>
     ) : (
-        <Link to={path}>
+        <Link to={href}>
             <span 
                 style={{
                     textDecoration: 'underline',
