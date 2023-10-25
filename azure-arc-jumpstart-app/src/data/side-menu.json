@@ -2992,10 +2992,18 @@
                   }
                 }
               ],
-              "frontMatter": {}
+              "frontMatter": {
+                "type": "docs",
+                "weight": 99,
+                "toc_hide": true
+              }
             }
           ],
-          "frontMatter": {}
+          "frontMatter": {
+            "type": "docs",
+            "weight": 99,
+            "toc_hide": true
+          }
         }
       ],
       "frontMatter": {
