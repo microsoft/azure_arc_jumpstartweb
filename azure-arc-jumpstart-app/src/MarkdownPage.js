@@ -103,8 +103,8 @@ export function MarkdownPage({ node, path, updateBreadcrumbs, updateSections }) 
     
     const editInGitHub = `${editBasePath}${path}/_index.md`;
     const createChildPage = `https://github.com/Azure/arc_jumpstart_docs/new/${branch}/docs/${path}`;
-    const createAnIssue = `https://github.com/Azure/arc_jumpstart_docs/issues/new?assignees=&labels=bug&template=bug_report.md&title=${path}`;
-    const createAFeatureRequest = `https://github.com/Azure/arc_jumpstart_docs/issues/new?assignees=&labels=&template=feature_request.md&title=`;
+    const createAnIssue = `https://github.com/microsoft/azure_arc/issues/new?assignees=&labels=triage&projects=&template=bug_report.md&title=${path}`;
+    const createAFeatureRequest = `https://github.com/microsoft/azure_arc/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=`;
 
     return (
         <div className='markdown-page-container'>
