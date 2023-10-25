@@ -7,26 +7,14 @@ export const Anchor = ({ children, path, href }) => {
     const externalLink = href.includes('http' || 'https');
 
     return externalLink ? (
-        <a 
-            style={{
-                textDecoration: 'underline',
-                color: 'white'
-            }} 
-            href={href}
-            target='_blank'
-        >
+        <a className='custom-anchor' href={href} target='_blank'>
             {children}
         </a>
     ) : (
         <Link to={href}>
-            <span 
-                style={{
-                    textDecoration: 'underline',
-                    color: 'white'
-                }}
-            >
+            <a className='custom-anchor'>
                 {children}
-            </span>
+            </a>
         </Link>
     )
 };

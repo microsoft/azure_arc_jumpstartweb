@@ -1,4 +1,9 @@
-.custom-anchor a {
-  text-decoration: underline;
+.custom-anchor {
+  text-decoration: none;
   cursor: pointer;
+  color: 'var(--neutral-text-text-cta, #50e6ff)'
+}
+
+strong a.custom-anchor {
+  color: #11b3fb;
 }

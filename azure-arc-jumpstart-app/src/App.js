@@ -194,7 +194,7 @@ function App() {
                         transition: 'all 0.5s'
                     }}
                 >
-                    {selectedMenuItem && <MenuDrawer menuItem={selectedMenuItem} setSelectedMenuItem={setSelectedMenuItem} />}
+                    {selectedMenuItem && <MenuDrawer menuItem={selectedMenuItem}  setIsMenuDrawerOpen={setIsMenuDrawerOpen} setSelectedMenuItem={setSelectedMenuItem} />}
                 </div>
                 {/* Side Menu */}
                 <div

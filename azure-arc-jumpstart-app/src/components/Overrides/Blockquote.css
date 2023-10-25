@@ -1,16 +1,20 @@
 .custom-blockquote p {
-  display: flex;
-  /* width: 976.138px; */
-  padding: 22.64px 61.825px;
-  justify-content: center;
-  align-items: center;
-  gap: 8.708px;
-  border-radius: var(--None, 0px);
-  background: rgba(0, 63, 90, 0.80);
+  background: #07394F;
+  color: #63D0FF;
 }
 
-.custom-blockquote p strong {
-  color: #11B3FB;
+.custom-blockquote p.custom-paragraph strong.custom-bold {
+  color: #63D0FF;
+  font-family: Segoe UI;
+  font-size: 16.697px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.49px;
+  letter-spacing: -0.167px;
+}
+
+.custom-blockquote p.custom-paragraph strong.custom-bold a {
+  color: #63D0FF;
   font-family: Segoe UI;
   font-size: 16.697px;
   font-style: normal;
