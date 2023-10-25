@@ -38,7 +38,7 @@ function App() {
 
     useEffect(() => {
         sortNodeTree(pathNode);
-        setCurrentPathNode(pathNode.children[1]);
+        setCurrentPathNode(pathNode);
         setDynamicRoutes(extractRoutes(pathNode));
     }, []);
 
@@ -121,6 +121,21 @@ function App() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
+        console.log(locatation.pathname);
+        // is the path for the link internal or external?
+        if (locatation.pathname.startsWith('/')) {
+            // internal
+            console.log('internal');
+            const pathParts = locatation.pathname.split('/');
+            console.log(pathParts);
+            let currentNode = pathNode;
+            // find child of currentNode with a path that matches the first part of the path
+        } else {
+            // external
+            console.log('external');
+        }
+
+        // console.log(findNode(pathNode, locatation.pathname));
     }, [locatation]);
 
     return (
@@ -187,6 +202,10 @@ function App() {
                         height: 'calc(100vh - 100px)',
                         zIndex: 1,
                         transition: 'all 0.5s',
+                        overflow: 'auto',
+                        scrollbarWidth: 'none',
+                        msOverflowStyle: 'none',
+                        
                     }}
                 >
                     <SideMenu pathNode={currentPathNode}></SideMenu>

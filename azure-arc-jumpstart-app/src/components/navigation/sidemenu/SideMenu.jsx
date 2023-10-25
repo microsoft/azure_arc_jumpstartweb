@@ -2,6 +2,13 @@ import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import "./SideMenu.css";
 
+const hideNode = (pathNode) => {
+  // if pathNode has a frontMatter property with a toc_hide property set to true, then filter it out
+  if (pathNode.frontMatter && pathNode.frontMatter.toc_hide) {
+    return true;
+  }
+}
+
 const SideMenu = ({ pathNode }) => {
   return (
     <div
@@ -12,9 +19,14 @@ const SideMenu = ({ pathNode }) => {
     >
       <div className="side-menu-contents">
         {
-          pathNode.children && pathNode.children.map((childNode) => {
-            return <SideMenuHeader node={childNode} />;
-          })
+          pathNode.children && pathNode.children
+            .slice(1, 5)
+            .filter((pn) => {
+              return !pn.path.includes('\\img') && !hideNode(pn);
+            })
+            .map((childNode) => {
+              return <SideMenuHeader node={childNode} />;
+            })
         }
       </div>
     </div>
@@ -69,9 +81,13 @@ const SideMenuHeader = ({ node, margin = 0 }) => {
         )
       }
       {
-        showChildren && hasChildren && node.children.map((childNode) => {
-          return <SideMenuItem node={childNode} margin={10} />;
-        })
+        showChildren && hasChildren && node.children
+          .filter((np) => {
+            return !np.path.includes('\\img') && !hideNode(np);
+          })
+          .map((childNode) => {
+            return <SideMenuItem node={childNode} margin={10} />;
+          })
       }
     </div>
   );
@@ -142,7 +158,11 @@ const SideMenuItem = ({ node, margin = 0 }) => {
         )
       }
       {
-        showChildren && hasChildren && node.children.map((childNode) => {
+        showChildren && hasChildren && node.children
+        .filter((np) => {
+          return !np.path.includes('\\img') && !hideNode(np);
+        })
+        .map((childNode) => {
           return <SideMenuItem node={childNode} margin={margin + 10} />;
         })
       }
