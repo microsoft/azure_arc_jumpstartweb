@@ -109,7 +109,7 @@ export function MarkdownPage({ node, path, updateBreadcrumbs, updateSections }) 
     return (
         <div className='markdown-page-container'>
             <div className='markdown-page'>
-                <div>
+                <div className='github-links'>
                     <EditInGitHub href={editInGitHub}>Edit in GitHub</EditInGitHub>
                     <EditInGitHub href={createChildPage}>Create child page</EditInGitHub>
                     <EditInGitHub href={createAnIssue}>Create an issue</EditInGitHub>
