@@ -1,7 +1,12 @@
-.custom-image {
-  min-width: 100px;
-  max-width: 75%;
-  /* temp for debug */
-  /* border: 1px solid white; */
+.custom-image-container {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center;     /* Center the image vertically */
+  margin: 62px;            /* Add a margin around the image */
+  border: 1px solid #ccc;  /* Optional: Add a border to the container */
 }
 
+.custom-image {
+  max-width: 100%;        /* Ensure the image doesn't exceed the container's width */
+  max-height: 100%;       /* Ensure the image doesn't exceed the container's height */
+}

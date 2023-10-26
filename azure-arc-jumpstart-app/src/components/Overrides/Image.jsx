@@ -22,7 +22,7 @@ export const Image = (props) => {
     const altText = covertSrcToAltText(src);
 
     return (
-        <div align="center">
+        <div align="center" className='custome-image-container'>
             <img src={imagePath} className="custom-image" alt={altText} title={altText} />
         </div>
     )

@@ -1,12 +1,17 @@
-.custom-list-item { 
-    .frame,
-    .frame * {
-      box-sizing: border-box;
-    }
-    .frame {
-      flex-shrink: 0;
-      position: relative;
-      overflow: visible;
-    }
-    
-}                                               
+.custom-list-item {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: start;
+  justify-content: start;
+}
+
+.frame,
+.frame * {
+  box-sizing: border-box;
+}
+
+.frame {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}

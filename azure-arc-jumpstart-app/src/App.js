@@ -270,7 +270,7 @@ function App() {
                         >
                             <div
                                 style={{
-                                    margin: '0 20px',
+                                    margin: '0 20px'
                                 }}
                             >
                                 <Routes>
