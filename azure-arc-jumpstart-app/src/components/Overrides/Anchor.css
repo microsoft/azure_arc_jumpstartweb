@@ -1,7 +1,20 @@
 .custom-anchor {
-  
+    color: var(--neutral-text-text-cta, #50e6ff);
+    font: 400 16px/24px "Segoe UI", sans-serif;
 }
 
-strong a.custom-anchor {
-  
+.custom-anchor:hover {
+    border-style: solid;
+    border-color: #50e6ff;
+    border-width: 0px 0px 1px 0px;
 }
+
+.custom-anchor:focus {
+    border-radius: 4px;
+    border-style: dashed;
+    border-color: #50e6ff;
+    border-width: 1px;
+    outline: none;
+}
+
+strong a.custom-anchor {}

@@ -2,6 +2,7 @@
 
 body {
   background-color: var(--neutral-background-4-rest);
+  font: 400 16px/24px "Segoe UI", sans-serif;
 }
 
 /* Hide the scrollbar track */

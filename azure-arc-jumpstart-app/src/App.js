@@ -203,7 +203,7 @@ function App() {
                         top: 100,
                         left: sideMenuLeft,
                         width: 300,
-                        height: 'calc(100vh - 100px)',
+                        height: 500,
                         zIndex: 1,
                         transition: 'all 0.5s',
                         overflow: 'auto',
