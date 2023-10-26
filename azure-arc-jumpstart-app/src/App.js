@@ -270,14 +270,12 @@ function App() {
                         >
                             <div
                                 style={{
-                                    margin: '0 20px'
+                                    margin: '0 20px',
+                                    height: '100vh',
                                 }}
                             >
                                 <Routes>
-                                    <Route path="/" element={() => {
-                                        setCurrentPathNode({});
-                                        return <Home updateSections={updateSections} />
-                                    }} />
+                                    <Route path="/" element={<Home/>}/>
                                     {dynamicRoutes.map(route => (
                                         <Route
                                             key={route.path}

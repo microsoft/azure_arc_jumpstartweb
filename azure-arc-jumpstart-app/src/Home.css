@@ -1,0 +1,3358 @@
+/* @import './components/Vars.css'; */
+
+.home-v-3,
+.home-v-3 * {
+    box-sizing: border-box;
+}
+
+.home-v-3 {
+    background: #000000;
+    border-radius: 10px;
+    width: 1440px;
+    height: 934px;
+    position: relative;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    z-index: 100;
+}
+
+.frame {
+    width: 1440px;
+    height: 1074px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.frame-2018775814 {
+    background: #000000;
+    border-radius: 10px;
+    padding: 0px 0px 87px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.hero-images {
+    flex-shrink: 0;
+    width: 1440px;
+    height: 933px;
+    position: relative;
+}
+
+.group-1010107217 {
+    position: absolute;
+    inset: 0;
+}
+
+.frame-2018776031 {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 130px;
+    top: 417px;
+}
+
+.frame-2018776030 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-2018776029 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.discover {
+    color: #50e6ff;
+    text-align: left;
+    font: 400 15px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 113px;
+    height: 23.13px;
+}
+
+.arc-jumpstart {
+    color: #ffffff;
+    text-align: left;
+    font: 700 32px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 421px;
+    height: 48.28px;
+}
+
+.get-an-azure-arc-environment-up-and-running-in-no-time-on-premises-edge-and-multi-cloud {
+    color: #ffffff;
+    text-align: left;
+    font: 400 20px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 421px;
+}
+
+.frame-2018775982 {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-2018775983 {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.primary-button {
+    background: linear-gradient(90deg,
+            rgba(31, 81, 119, 1) 0%,
+            rgba(0, 120, 212, 1) 100%);
+    border-radius: 4px;
+    padding: 6px 35px 6px 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.primary {
+    color: #ffffff;
+    text-align: center;
+    font: 600 14px/24px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondary-button {
+    background: var(--neutral-background-4-rest, #0a0a0a);
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #666666;
+    border-width: 1px;
+    padding: 6px 35px 6px 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.secondary {
+    color: #ffffff;
+    text-align: center;
+    font: 600 14px/24px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.why-jumpstart {
+    margin: -1px 0 0 0;
+    flex-shrink: 0;
+    width: 1440px;
+    height: 686px;
+    position: relative;
+}
+
+.frame-2018775808 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 310px;
+    position: absolute;
+    left: 130px;
+    top: 190px;
+}
+
+.frame-44 {
+    display: flex;
+    flex-direction: row;
+    gap: 31px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.our-mission {
+    color: #50e6ff;
+    text-align: left;
+    font: 600 16px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 421px;
+}
+
+.community-driven-and-committed-to-open-source {
+    color: #ffffff;
+    text-align: left;
+    font: 700 25px/115% "Segoe UI", sans-serif;
+    position: relative;
+    width: 738px;
+}
+
+.frame-20187759832 {
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 738px;
+    position: relative;
+}
+
+.our-mission-to-support-the-open-source-community-where-we-can-all-build-on-the-amazing-work-of-others-we-do-this-by-providing-detailed-guides-automation-code-samples-everything-you-need-to-get-going-quickly-we-also-have-extensive-code-reviews-and-testing-to-ensure-our-code-is-reusable-comprehensive-and-reliable-currently-we-re-committed-to-supporting-over-30-open-source-jumpstart-projects {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 639px;
+}
+
+.group-1321317031 {
+    position: absolute;
+    inset: 0;
+}
+
+.square-illusion-4 {
+    position: absolute;
+    left: 1259.88px;
+    top: 671.4px;
+    transform: translate(-515.88px, -734.4px);
+    overflow: visible;
+}
+
+.glow {
+    background: conic-gradient(from 169.65deg at 50% 50%,
+            rgba(192, 59, 196, 1) 0%,
+            rgba(255, 227, 153, 1) 25%,
+            rgba(80, 230, 255, 1) 46.35416567325592%,
+            rgba(73, 197, 177, 1) 70.3125%,
+            rgba(0, 120, 212, 1) 92.70833134651184%);
+    border-radius: 50%;
+    width: 423.27px;
+    height: 423.27px;
+    position: absolute;
+    left: 851.38px;
+    top: 177.99px;
+    filter: blur(289.63px);
+}
+
+.illustration-get-started-cost-003 {
+    width: 392px;
+    height: 381.92px;
+    position: absolute;
+    left: 863.52px;
+    top: 181.17px;
+    overflow: hidden;
+}
+
+.vector {
+    position: absolute;
+    left: 244.53px;
+    top: 151.25px;
+    transform: translate(-122.26px, -88.23px);
+    overflow: visible;
+}
+
+.vector2 {
+    position: absolute;
+    left: -113.44px;
+    top: 0px;
+    overflow: visible;
+}
+
+.vector3 {
+    position: absolute;
+    left: 286.48px;
+    top: 143.78px;
+    overflow: visible;
+}
+
+.vector4 {
+    position: absolute;
+    left: 116.92px;
+    top: 78.85px;
+    overflow: visible;
+}
+
+.vector5 {
+    position: absolute;
+    left: 312.07px;
+    top: 158.67px;
+    overflow: visible;
+}
+
+.vector6 {
+    position: absolute;
+    left: 117.24px;
+    top: 55.73px;
+    overflow: visible;
+}
+
+.vector7 {
+    position: absolute;
+    left: 312.4px;
+    top: 153.92px;
+    overflow: visible;
+}
+
+.vector8 {
+    position: absolute;
+    left: 117.24px;
+    top: 42.44px;
+    overflow: visible;
+}
+
+.vector9 {
+    position: absolute;
+    left: 50.86px;
+    top: 265.33px;
+    overflow: visible;
+}
+
+.vector10 {
+    position: absolute;
+    left: 51.21px;
+    top: 86.7px;
+    overflow: visible;
+}
+
+.vector11 {
+    position: absolute;
+    left: 122.3px;
+    top: 123.39px;
+    overflow: visible;
+}
+
+.vector12 {
+    position: absolute;
+    left: 51.45px;
+    top: 83.92px;
+    overflow: visible;
+}
+
+.vector13 {
+    position: absolute;
+    left: 64.86px;
+    top: 113.01px;
+    overflow: visible;
+}
+
+.vector14 {
+    position: absolute;
+    left: 281.3px;
+    top: 152.11px;
+    overflow: visible;
+}
+
+.vector15 {
+    position: absolute;
+    left: 266.47px;
+    top: 121.03px;
+    overflow: visible;
+}
+
+.group {
+    position: absolute;
+    left: 305.06px;
+    top: 163.3px;
+    overflow: visible;
+}
+
+.group2 {
+    position: absolute;
+    left: 257.35px;
+    top: 121.03px;
+    overflow: visible;
+}
+
+.vector22 {
+    position: absolute;
+    left: 257.34px;
+    top: 129.55px;
+    overflow: visible;
+}
+
+.vector23 {
+    position: absolute;
+    left: 167.64px;
+    top: 171.42px;
+    overflow: visible;
+}
+
+.vector24 {
+    position: absolute;
+    left: 198.96px;
+    top: 192.8px;
+    overflow: visible;
+}
+
+.vector25 {
+    position: absolute;
+    left: 232px;
+    top: 200px;
+    overflow: visible;
+}
+
+.frame-20187759822 {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 130px;
+    top: 500px;
+}
+
+.explore-jumpstart {
+    margin: -1px 0 0 0;
+    flex-shrink: 0;
+    width: 1440px;
+    height: 663px;
+    position: relative;
+}
+
+.frame-442 {
+    display: flex;
+    flex-direction: row;
+    gap: 51px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 130px;
+    bottom: 539px;
+}
+
+.explore {
+    color: #50e6ff;
+    text-align: left;
+    font: 600 16px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 421px;
+}
+
+.the-arc-jumpstart-universe {
+    color: #ffffff;
+    text-align: left;
+    font: 700 25px/115% "Segoe UI", sans-serif;
+    position: relative;
+    width: 738px;
+}
+
+.frame-2018776043 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 130px;
+    top: 174px;
+}
+
+.frame-2018776040 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-2018775820 {
+    border-radius: 8.06px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 0.81px;
+    display: flex;
+    flex-direction: row;
+    gap: 113.57px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-2018775816 {
+    flex-shrink: 0;
+    width: 283px;
+    height: 421px;
+    position: relative;
+}
+
+.rectangle-36724 {
+    background: #000000;
+    border-radius: 8.06px;
+    width: 282.86px;
+    height: 390px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.frame-20187760402 {
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 19px;
+    top: 55px;
+}
+
+.frame-2018776041 {
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.group-1321317035 {
+    flex-shrink: 0;
+    width: 224.64px;
+    height: 81.15px;
+    position: static;
+}
+
+.group-1321316995 {
+    width: 146.33px;
+    height: 70px;
+    position: static;
+}
+
+.jumpstart {
+    color: #ffffff;
+    text-align: left;
+    font: 600 32px "Segoe UI", sans-serif;
+    position: absolute;
+    left: 9.67px;
+    top: 0px;
+}
+
+.scenarios {
+    color: #ffa38b;
+    text-align: right;
+    font: 400 20px "Segoe UI Variable", sans-serif;
+    position: absolute;
+    left: 68px;
+    top: 43px;
+}
+
+.vector26 {
+    position: absolute;
+    left: 181.04px;
+    top: 0px;
+    overflow: visible;
+}
+
+.vector27 {
+    position: absolute;
+    left: 181.04px;
+    top: 0px;
+    overflow: visible;
+}
+
+.group-1321316999 {
+    position: absolute;
+    left: 181.04px;
+    top: 0px;
+    overflow: visible;
+}
+
+.frame-443 {
+    display: flex;
+    flex-direction: row;
+    gap: 37.38px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.general-object-detection {
+    flex-shrink: 0;
+    width: 243.98px;
+    height: 110.45px;
+    position: static;
+}
+
+.frame-2018775799 {
+    display: flex;
+    flex-direction: column;
+    gap: 22.72px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.frame-2018775798 {
+    display: flex;
+    flex-direction: column;
+    gap: 7.33px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.provide-automated-zero-to-hero-scenarios-for-multiple-environments-and-deployment-types-including-arc-enabled-servers-arc-enabled-kubernetes-and-more {
+    color: #ffffff;
+    text-align: left;
+    font: 400 13.64px/21.83px "Segoe UI", sans-serif;
+    position: relative;
+    width: 243.78px;
+    transform-origin: 0 0;
+    transform: rotate(0.107deg) scale(1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-2018775810 {
+    display: flex;
+    flex-direction: row;
+    gap: 4.55px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 19px;
+    top: 356px;
+}
+
+.browse-scenarios {
+    color: #50e6ff;
+    text-align: left;
+    font: 600 16.37px/18.19px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.chevron-close {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.frame-2018775823 {
+    border-radius: 8.06px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 0.81px;
+    display: flex;
+    flex-direction: row;
+    gap: 113.57px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.group-1321317034 {
+    flex-shrink: 0;
+    width: 224.64px;
+    height: 83.58px;
+    position: static;
+}
+
+.group-1321316994 {
+    width: 146.29px;
+    height: 70px;
+    position: static;
+}
+
+.jumpstart2 {
+    color: #ffffff;
+    text-align: left;
+    font: 600 32px "Segoe UI", sans-serif;
+    position: absolute;
+    left: 9.71px;
+    top: 0px;
+}
+
+.agora {
+    color: #49c5b1;
+    text-align: right;
+    font: 400 20px "Segoe UI Variable", sans-serif;
+    position: absolute;
+    left: 100px;
+    top: 43px;
+}
+
+.vector31 {
+    position: absolute;
+    left: 181.08px;
+    top: 2.42px;
+    overflow: visible;
+}
+
+.vector32 {
+    position: absolute;
+    left: 181.08px;
+    top: 2.42px;
+    overflow: visible;
+}
+
+.group-1321316998 {
+    position: absolute;
+    left: 181.08px;
+    top: 2.42px;
+    overflow: visible;
+}
+
+.general-object-detection2 {
+    flex-shrink: 0;
+    width: 244.06px;
+    height: 153.45px;
+    position: static;
+}
+
+.a-marketplace-of-various-cloud-to-edge-industry-scenarios-designed-to-provide-an-end-to-end-user-experience-each-agora-scenario-is-a-full-stack-deployment-with-dedicated-guides-to-walk-you-through-the-process {
+    color: #ffffff;
+    text-align: left;
+    font: 400 13.64px/21.83px "Segoe UI", sans-serif;
+    position: relative;
+    width: 243.78px;
+    transform-origin: 0 0;
+    transform: rotate(0.107deg) scale(1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.browse-solutions {
+    color: #50e6ff;
+    text-align: left;
+    font: 600 16.37px/18.19px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.chevron-close2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.frame-2018775824 {
+    border-radius: 8.06px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 0.81px;
+    display: flex;
+    flex-direction: row;
+    gap: 113.57px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.group-1321317032 {
+    flex-shrink: 0;
+    width: 224.64px;
+    height: 81.15px;
+    position: static;
+}
+
+.group-1321316992 {
+    width: 146.31px;
+    height: 70px;
+    position: static;
+}
+
+.jumpstart3 {
+    color: #ffffff;
+    text-align: left;
+    font: 600 32px "Segoe UI", sans-serif;
+    position: absolute;
+    left: 9.69px;
+    top: 5.58px;
+}
+
+.arc-box {
+    color: #c03bc4;
+    text-align: right;
+    font: 600 20px "Segoe UI", sans-serif;
+    position: absolute;
+    left: 92px;
+    top: 48.58px;
+}
+
+.vector36 {
+    position: absolute;
+    left: 181.06px;
+    top: 0px;
+    overflow: visible;
+}
+
+.vector37 {
+    position: absolute;
+    left: 181.06px;
+    top: 0px;
+    overflow: visible;
+}
+
+.group-1321316989 {
+    position: absolute;
+    left: 181.06px;
+    top: 0px;
+    overflow: visible;
+}
+
+.general-object-detection3 {
+    flex-shrink: 0;
+    width: 244.02px;
+    height: 131.45px;
+    position: static;
+}
+
+.get-a-complete-azure-arc-environment-with-just-one-click-all-you-need-is-an-azure-subscription-to-get-started-once-you-re-in-this-virtual-hybrid-sandbox-let-s-you-explore-all-the-major-capabilities-of-azure-arc {
+    color: #ffffff;
+    text-align: left;
+    font: 400 13.64px/21.83px "Segoe UI", sans-serif;
+    position: relative;
+    width: 243.78px;
+    transform-origin: 0 0;
+    transform: rotate(0.107deg) scale(1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.view-arc-box-capabilities {
+    color: #50e6ff;
+    text-align: left;
+    font: 600 16.37px/18.19px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.chevron-close3 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.frame-2018775825 {
+    border-radius: 8.06px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 0.81px;
+    display: flex;
+    flex-direction: row;
+    gap: 113.57px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.group-1321317033 {
+    flex-shrink: 0;
+    width: 224.64px;
+    height: 81.15px;
+    position: static;
+}
+
+.group-1321316993 {
+    width: 146.31px;
+    height: 70px;
+    position: static;
+}
+
+.hci-box {
+    color: #0078d4;
+    text-align: right;
+    font: 600 20px "Segoe UI", sans-serif;
+    position: absolute;
+    left: 89px;
+    top: 48.58px;
+}
+
+.vector41 {
+    position: absolute;
+    left: 181.06px;
+    top: 0px;
+    overflow: visible;
+}
+
+.vector42 {
+    position: absolute;
+    left: 181.06px;
+    top: 0px;
+    overflow: visible;
+}
+
+.group-1321316997 {
+    position: absolute;
+    left: 181.06px;
+    top: 0px;
+    overflow: visible;
+}
+
+.want-to-try-azure-stack-hci-but-don-t-have-physical-hardware-this-is-the-tool-for-you-get-a-dedicated-azure-stack-hci-sandbox-in-one-click-the-only-prerequisite-is-to-have-an-azure-subscription {
+    color: #ffffff;
+    text-align: left;
+    font: 400 13.64px/21.83px "Segoe UI", sans-serif;
+    position: relative;
+    width: 243.78px;
+    transform-origin: 0 0;
+    transform: rotate(0.107deg) scale(1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.view-hci-box-capabilities {
+    color: #50e6ff;
+    text-align: left;
+    font: 600 16.37px/18.19px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.chevron-close4 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.frame-2018775846 {
+    margin: -1px 0 0 0;
+    background: #000000;
+    flex-shrink: 0;
+    width: 1440px;
+    height: 935px;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame-2018776033 {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 130px;
+    top: 360px;
+}
+
+.the-power-security-of-azure-arc {
+    color: #50e6ff;
+    text-align: left;
+    font: 600 16px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 421px;
+}
+
+.deploy-quickly-test-easily-evaluate-confidently {
+    color: #ffffff;
+    text-align: left;
+    font: 700 32px/115% "Segoe UI", sans-serif;
+    position: relative;
+    width: 596px;
+}
+
+.frame-20187759833 {
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.icon {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.frame-2018776038 {
+    width: 714px;
+    height: 726px;
+    position: absolute;
+    left: 703px;
+    top: 164px;
+}
+
+.group-13213170322 {
+    position: absolute;
+    inset: 0;
+}
+
+.square-illusion-3 {
+    position: absolute;
+    left: -322px;
+    top: 366.31px;
+    transform: translate(0px, -530.31px);
+    overflow: visible;
+}
+
+.glow2 {
+    background: linear-gradient(45.19deg,
+            rgba(255, 227, 153, 1) 0%,
+            rgba(192, 59, 196, 1) 27.60416567325592%,
+            rgba(0, 120, 212, 1) 48.95833432674408%,
+            rgba(73, 197, 177, 1) 72.39583134651184%,
+            rgba(212, 236, 142, 1) 100%);
+    border-radius: 50%;
+    width: 384.18px;
+    height: 384.18px;
+    position: absolute;
+    left: 127.21px;
+    top: 180.16px;
+    filter: blur(234.26px);
+}
+
+.illustration-get-started-security-001 {
+    width: 496.33px;
+    height: 297.8px;
+    position: absolute;
+    left: 58.12px;
+    top: 197.45px;
+    overflow: hidden;
+}
+
+.vector46 {
+    position: absolute;
+    left: -3.67px;
+    top: -1.65px;
+    overflow: visible;
+}
+
+.box {
+    position: absolute;
+    left: 326.61px;
+    top: 167.36px;
+    overflow: visible;
+}
+
+.box2 {
+    position: absolute;
+    left: 326.03px;
+    top: 106.88px;
+    overflow: visible;
+}
+
+.shield {
+    position: absolute;
+    inset: 0;
+}
+
+.vector59 {
+    position: absolute;
+    left: 169.89px;
+    top: 36.22px;
+    overflow: visible;
+}
+
+.mask-group {
+    position: absolute;
+    left: 183.87px;
+    top: 57.1px;
+    overflow: visible;
+}
+
+.vector62 {
+    position: absolute;
+    left: 171.53px;
+    top: 31.83px;
+    overflow: visible;
+}
+
+.lock {
+    position: absolute;
+    inset: 0;
+}
+
+.vector63 {
+    position: absolute;
+    left: 73.96px;
+    top: 176.01px;
+    overflow: visible;
+}
+
+.vector64 {
+    position: absolute;
+    left: 111.82px;
+    top: 203.27px;
+    overflow: visible;
+}
+
+.vector65 {
+    position: absolute;
+    left: 125.9px;
+    top: 197.31px;
+    overflow: visible;
+}
+
+.group3 {
+    position: absolute;
+    left: 183.03px;
+    top: 213.54px;
+    overflow: visible;
+}
+
+.vector67 {
+    position: absolute;
+    left: 74px;
+    top: 202.59px;
+    overflow: visible;
+}
+
+.union {
+    position: absolute;
+    left: 137.32px;
+    top: 172.93px;
+    overflow: visible;
+}
+
+.frame-2018775847 {
+    margin: -1px 0 0 0;
+    flex-shrink: 0;
+    width: 1440px;
+    height: 976px;
+    position: relative;
+}
+
+.design2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 714px;
+    top: 397px;
+}
+
+.demos {
+    color: #50e6ff;
+    text-align: left;
+    font: 600 16px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 421px;
+}
+
+.see-arc-jumpstart-in-action {
+    color: #ffffff;
+    text-align: left;
+    font: 700 32px/115% "Segoe UI", sans-serif;
+    position: relative;
+    width: 596px;
+}
+
+.get-inspired-by-game-changing-solutions-built-on-arc-jumpstart-see-every-scenario-in-a-bite-sized-demo-want-to-see-your-azure-arc-demo-featured-here-fill-out-this-submission-form-for-jumpstart-lighting {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 596px;
+}
+
+.get-inspired-by-game-changing-solutions-built-on-arc-jumpstart-see-every-scenario-in-a-bite-sized-demo-want-to-see-your-azure-arc-demo-featured-here-fill-out-this-submission-form-for-jumpstart-lighting-span {
+    color: #ffffff;
+    font: 400 16px/150% "Segoe UI", sans-serif;
+}
+
+.get-inspired-by-game-changing-solutions-built-on-arc-jumpstart-see-every-scenario-in-a-bite-sized-demo-want-to-see-your-azure-arc-demo-featured-here-fill-out-this-submission-form-for-jumpstart-lighting-span2 {
+    color: #ffffff;
+    font: 400 16px/150% "Segoe UI", sans-serif;
+    text-decoration: underline;
+}
+
+.get-inspired-by-game-changing-solutions-built-on-arc-jumpstart-see-every-scenario-in-a-bite-sized-demo-want-to-see-your-azure-arc-demo-featured-here-fill-out-this-submission-form-for-jumpstart-lighting-span3 {
+    color: #ffffff;
+    font: 400 16px/150% "Segoe UI", sans-serif;
+}
+
+.frame-20187759823 {
+    padding: 19px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.icon2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.icon3 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.frame-2018776039 {
+    width: 737px;
+    height: 841px;
+    position: absolute;
+    left: -8px;
+    top: 125px;
+}
+
+.group-13213170332 {
+    position: absolute;
+    inset: 0;
+}
+
+.square-illusion-2 {
+    position: absolute;
+    left: 1023px;
+    top: 283.58px;
+    transform: translate(-1015px, -528.11px);
+    overflow: visible;
+}
+
+.glow3 {
+    background: linear-gradient(213.06deg,
+            rgba(255, 227, 153, 1) 0%,
+            rgba(212, 236, 142, 1) 23.95833283662796%,
+            rgba(192, 59, 196, 1) 43.22916567325592%,
+            rgba(0, 120, 212, 1) 57.29166865348816%,
+            rgba(141, 200, 232, 1) 83.33333134651184%,
+            rgba(73, 197, 177, 1) 100%);
+    border-radius: 50%;
+    width: 475px;
+    height: 475px;
+    position: absolute;
+    left: 144px;
+    top: 263.65px;
+    filter: blur(289.63px);
+}
+
+.illustration-get-started-cost-005 {
+    position: absolute;
+    left: 683.34px;
+    top: 297.53px;
+    transform: translate(-618.79px, 0px);
+    overflow: visible;
+}
+
+.power-of-edge {
+    margin: -1px 0 0 0;
+    flex-shrink: 0;
+    width: 1440px;
+    height: 657px;
+    position: relative;
+}
+
+.glow4 {
+    background: linear-gradient(180deg,
+            rgba(80, 230, 255, 1) 0%,
+            rgba(0, 120, 212, 1) 100%);
+    border-radius: 50%;
+    opacity: 0.30000001192092896;
+    width: 813px;
+    height: 475px;
+    position: absolute;
+    left: 313px;
+    top: 91px;
+    filter: blur(289.63px);
+}
+
+.frame-2018776036 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 308px;
+    top: 156px;
+}
+
+.frame-2018776017 {
+    flex-shrink: 0;
+    width: 824px;
+    height: 284px;
+    position: relative;
+}
+
+.design3 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 474px;
+    position: absolute;
+    left: 175px;
+    top: 0px;
+}
+
+.azure-edge-computing {
+    color: #50e6ff;
+    text-align: center;
+    font: 600 16px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 474px;
+}
+
+.the-power-of-azure-edge {
+    color: #ffffff;
+    text-align: center;
+    font: 700 25px/115% "Segoe UI", sans-serif;
+    position: relative;
+    width: 474px;
+}
+
+.frame-20187759834 {
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 474px;
+    position: relative;
+}
+
+.to-make-real-time-functionality-possible-for-smart-apps-and-io-t-sensors-edge-computing-solves-three-interrelated-challenges {
+    color: #ffffff;
+    text-align: center;
+    font: 400 16px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 474px;
+}
+
+.frame-2018776016 {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 8px;
+    top: 160px;
+}
+
+.frame-2018776014 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-2018776035 {
+    flex-shrink: 0;
+    width: 66px;
+    height: 66px;
+    position: relative;
+}
+
+.frame2 {
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    overflow: visible;
+}
+
+.ellipse-6129 {
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(180deg,
+            rgba(80, 230, 255, 1) 0%,
+            rgba(0, 120, 212, 1) 100%);
+    border-image-slice: 1;
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.connecting-a-device-to-a-network-from-a-remote-location {
+    color: #ffffff;
+    text-align: center;
+    font: 400 16px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 246px;
+}
+
+.frame-2018776013 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame3 {
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    overflow: visible;
+}
+
+.slow-data-processing-due-to-network-or-computing-limitations {
+    color: #ffffff;
+    text-align: center;
+    font: 400 16px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 246px;
+}
+
+.frame-2018776015 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame4 {
+    position: absolute;
+    left: 13px;
+    top: 10px;
+    overflow: visible;
+}
+
+.edge-devices-causing-network-bandwidth-issues {
+    color: #ffffff;
+    text-align: center;
+    font: 400 16px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 246px;
+}
+
+.case-studies {
+    margin: -1px 0 0 0;
+    flex-shrink: 0;
+    width: 1440px;
+    height: 1070px;
+    position: relative;
+    overflow: hidden;
+}
+
+.text {
+    padding: 5px 2px 7px 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 126px;
+    position: absolute;
+    left: 609px;
+    top: 327px;
+    overflow: hidden;
+}
+
+.related-case-studies {
+    position: absolute;
+    inset: 0;
+}
+
+.group-1962 {
+    width: 1064px;
+    height: 538px;
+    position: static;
+}
+
+.frame-49 {
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1064px;
+    height: 538px;
+    position: absolute;
+    left: 188px;
+    top: 386px;
+}
+
+.group-1890 {
+    flex-shrink: 0;
+    width: 312px;
+    height: 538px;
+    position: relative;
+}
+
+.card-with-pic {
+    background: #000000;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+    width: 312px;
+    height: 538px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.may-2-2021 {
+    color: #dfdfdf;
+    text-align: right;
+    font: 600 11px/24px "Segoe UI", sans-serif;
+    position: absolute;
+    left: 25px;
+    top: 16px;
+    width: 262px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rectangle-36729 {
+    background: linear-gradient(114.29deg,
+            rgba(80, 230, 255, 0.3) 0%,
+            rgba(0, 120, 212, 0.3) 100%),
+        linear-gradient(to left, #000000, #000000);
+    border-radius: 5px;
+    width: 262px;
+    height: 175px;
+    position: absolute;
+    left: 25px;
+    top: 45px;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 222px;
+    position: absolute;
+    left: 24px;
+    top: 235px;
+}
+
+.title-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 260px;
+    position: relative;
+}
+
+.title {
+    padding: 2px 10px 5px 0px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.the-pandemic-changed-american-education {
+    color: #ffffff;
+    text-align: left;
+    font: 600 21px/24px "Segoe UI", sans-serif;
+    position: relative;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.vertical-ai-model {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 260px;
+    position: relative;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.education {
+    color: #50e6ff;
+    text-align: left;
+    font: 600 12px/24px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.body-arrow {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 260px;
+    position: relative;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 260px;
+    position: relative;
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et {
+    color: #ffffff;
+    text-align: left;
+    font: 400 12px/24px "Segoe UI", sans-serif;
+    position: relative;
+    width: 259px;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.group-1891 {
+    flex-shrink: 0;
+    width: 312px;
+    height: 538px;
+    position: relative;
+}
+
+.rectangle-367292 {
+    background: linear-gradient(114.29deg,
+            rgba(80, 230, 255, 0.3) 0%,
+            rgba(0, 120, 212, 0.3) 100%);
+    border-radius: 5px;
+    width: 262px;
+    height: 175px;
+    position: absolute;
+    left: 25px;
+    top: 45px;
+}
+
+.arrows2 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.industry-application-cards-text-visual {
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+    flex-shrink: 0;
+    width: 312px;
+    height: 538px;
+    position: relative;
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-span3 {
+    color: #ffffff;
+    font: 400 12px/24px "Segoe UI", sans-serif;
+    text-decoration: underline;
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-span4 {
+    color: #ffffff;
+    font: 400 12px/24px "Segoe UI", sans-serif;
+}
+
+.arrows3 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.frame-2018776018 {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 483px;
+    top: 165px;
+}
+
+.design4 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 474px;
+    position: relative;
+}
+
+.blogs {
+    color: #50e6ff;
+    text-align: center;
+    font: 600 16px/150% "Segoe UI", sans-serif;
+    position: relative;
+    width: 474px;
+}
+
+.read-our-latest-stories {
+    color: #ffffff;
+    text-align: center;
+    font: 700 25px/115% "Segoe UI", sans-serif;
+    position: relative;
+    width: 474px;
+}
+
+.dropdown-body {
+    border-radius: 4px;
+    width: 234px;
+    height: 48px;
+    position: absolute;
+    right: 213px;
+    top: 303px;
+}
+
+.main-menu {
+    background: var(--neutral-background-4-rest, #0a0a0a);
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    padding: 14px 10px 14px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 167px;
+    height: 36px;
+    position: absolute;
+    left: 67px;
+    top: 0px;
+}
+
+.edge {
+    color: var(--neutral-foreground-1-rest, #ffffff);
+    text-align: right;
+    font: 400 13px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.chevron {
+    position: absolute;
+    left: 1200px;
+    top: 314px;
+    overflow: visible;
+}
+
+.footer {
+    margin: -1px 0 0 0;
+    background: var(--neutral-background-5-rest, #000000);
+    flex-shrink: 0;
+    width: 1440px;
+    height: 522px;
+    position: relative;
+    overflow: hidden;
+}
+
+.frame-59877 {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 77px;
+    top: 55px;
+}
+
+.group-1797 {
+    flex-shrink: 0;
+    width: 175px;
+    height: 259px;
+    position: static;
+}
+
+.frame-59879 {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.what-s-new {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 600 12px/24px "Segoe UI", sans-serif;
+    position: relative;
+    width: 175px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.jumpstart-v-next-jumpstart-agora-edge-strategy {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+    width: 123.72px;
+    height: 229px;
+}
+
+.group-1796 {
+    flex-shrink: 0;
+    width: 193px;
+    height: 259px;
+    position: static;
+}
+
+.frame-59880 {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 230px;
+    top: 0px;
+}
+
+.products-and-pricing {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 600 12px/24px "Segoe UI", sans-serif;
+    position: relative;
+    width: 193px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.products-pricing-free-azure-services-optimize-your-costs-roi-estimator {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+    width: 125.37px;
+    height: 229px;
+}
+
+.group-1795 {
+    flex-shrink: 0;
+    width: 175px;
+    height: 202px;
+    position: static;
+}
+
+.frame-59881 {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 478px;
+    top: 0px;
+}
+
+.solutions-and-support {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 600 12px/24px "Segoe UI", sans-serif;
+    position: relative;
+    width: 175px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cloud-to-edge-solutions-solution-architectures-account-profile-support-feedback {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.frame-59882 {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.partners {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 600 12px/24px "Segoe UI", sans-serif;
+    position: relative;
+    width: 175px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.jumpstart-community-azure-marketplace-find-a-partner {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+    width: 123.72px;
+}
+
+.frame-59883 {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.resources {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 600 12px/24px "Segoe UI", sans-serif;
+    position: relative;
+    width: 175px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.documentation-training-and-certifications-blogs-you-tube-microsoft-tech-community-git-hub {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+    width: 175px;
+    height: 229px;
+}
+
+.group-1793 {
+    flex-shrink: 0;
+    width: 175px;
+    height: 259px;
+    position: static;
+}
+
+.frame-59878 {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 259px;
+    position: absolute;
+    left: 1168px;
+    top: 0px;
+}
+
+.company {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 600 12px/24px "Segoe UI", sans-serif;
+    position: relative;
+    width: 175px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.microsoft-about-us-careers-contact-us-privacy-at-microsoft-accessibility-sustainability {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+    width: 124px;
+}
+
+.frame-2018776011 {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 152px;
+    position: absolute;
+    left: 77px;
+    top: 432px;
+}
+
+.frame5 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.english-united-states {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.frame-2018776009 {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 473px;
+    top: 432px;
+}
+
+.diversity-and-inclusion {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.privacy-cookies {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.data-protection-notice {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.trademarks {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.terms-of-use {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.privacy-data-management {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.sitemap {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.frame-2018776010 {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.microsoft-2023 {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.frame-2018776012 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    left: 251px;
+    top: 432px;
+}
+
+.group-1010107237 {
+    flex-shrink: 0;
+    width: 34px;
+    height: 16px;
+    position: static;
+}
+
+.rectangle-34656644 {
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #50e6ff;
+    border-width: 1px;
+    width: 34px;
+    height: 16px;
+    position: absolute;
+    left: 0px;
+    top: 4px;
+}
+
+.frame6 {
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    overflow: visible;
+}
+
+.frame7 {
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    overflow: visible;
+}
+
+.vector-3764 {
+    border-radius: 0px;
+    position: absolute;
+    left: 15.5px;
+    top: 5px;
+    overflow: visible;
+}
+
+.frame8 {
+    position: absolute;
+    left: 20px;
+    top: 7px;
+    overflow: visible;
+}
+
+.your-privacy-choices {
+    color: var(--neutral-text-text-white, #ffffff);
+    text-align: left;
+    font: 400 11px/24px "Segoe UI", sans-serif;
+    position: relative;
+}
+
+.group-1321317051 {
+    position: absolute;
+    inset: 0;
+}
+
+.group-1321317011 {
+    position: absolute;
+    left: 654px;
+    top: 460.38px;
+    overflow: visible;
+}
+
+.union2 {
+    position: absolute;
+    left: 847.86px;
+    top: 230.22px;
+    overflow: visible;
+}
+
+.union3 {
+    position: absolute;
+    left: 847.86px;
+    top: 230.22px;
+    overflow: visible;
+}
+
+.union4 {
+    position: absolute;
+    left: 847.86px;
+    top: 230.22px;
+    overflow: visible;
+}
+
+.group-1321317029 {
+    position: absolute;
+    left: 847.86px;
+    top: 230.22px;
+    overflow: visible;
+}
+
+.vector125 {
+    position: absolute;
+    left: 798.45px;
+    top: 273.47px;
+    overflow: visible;
+}
+
+.nav-bar-prepurchase-exp {
+    border-radius: 10px 10px 0px 0px;
+    width: 1440px;
+    height: 121px;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 4px 20px 0px rgba(111, 111, 111, 0.25);
+}
+
+.community {
+    opacity: 0;
+    width: 1440px;
+    height: 265px;
+    position: absolute;
+    left: 0px;
+    top: -144px;
+}
+
+.frame-2018775984 {
+    background: #292929;
+    border-radius: 0px 0px 5px 5px;
+    padding: 20px 32px 50px 27px;
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.sub-menu {
+    flex-shrink: 0;
+    width: 179px;
+    height: 129px;
+    position: static;
+}
+
+.tab-line {
+    border-style: solid;
+    border-color: #50e6ff;
+    border-width: 2px 0 0 0;
+    width: 17px;
+    height: 0px;
+    position: absolute;
+    left: 27px;
+    top: 27px;
+    transform-origin: 0 0;
+    transform: rotate(90deg) scale(1, 1);
+}
+
+.sub-menu-body {
+    background: #292929;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 29px;
+    top: 20px;
+}
+
+.sub-menu-items {
+    background: #292929;
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 177px;
+    position: relative;
+}
+
+.overview {
+    color: linear-gradient(to left, #50e6ff, #50e6ff);
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.overview2 {
+    color: linear-gradient(to left, #ffffff, #ffffff),
+        linear-gradient(to left, #50e6ff, #50e6ff);
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-2018775955 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-2018775954 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-20187759552 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-59895 {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 28px;
+    position: relative;
+}
+
+.blogs2 {
+    color: #ffffff;
+    text-align: left;
+    font: 600 14px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.view-all {
+    color: #50e6ff;
+    text-align: left;
+    font: 600 14px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.description {
+    color: #ffffff;
+    text-align: left;
+    font: 400 14px/20px "Segoe UI", sans-serif;
+    position: relative;
+    width: 1181px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-2018775956 {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.nav-bar-cards-dark-mode {
+    flex-shrink: 0;
+    width: 221px;
+    height: 81px;
+    position: relative;
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.2);
+}
+
+.card {
+    background: #131313;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0.5px;
+    padding: 8px 10px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 221px;
+    position: absolute;
+    left: 0px;
+    top: calc(50% - 40.5px);
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 199px;
+    position: relative;
+}
+
+.text3 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.object-counting {
+    color: #ffffff;
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.detect-and-count-objects-or-people {
+    color: #ffffff;
+    text-align: left;
+    font: 400 12px/18px "Segoe UI", sans-serif;
+    position: relative;
+    width: 199px;
+}
+
+.resources-topics {
+    background: #252525;
+    opacity: 0;
+    width: 1440px;
+    height: 569px;
+    position: absolute;
+    left: 0px;
+    top: -549px;
+    overflow: hidden;
+}
+
+.rectangle-36770 {
+    background: #252525;
+    border-radius: 0px 0px 5px 5px;
+    width: 1440px;
+    height: 661px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.frame-68 {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+
+.topics {
+    color: linear-gradient(to left, #50e6ff, #50e6ff);
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    width: 103px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.articles {
+    color: linear-gradient(to left, #ffffff, #ffffff);
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    width: 127px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.conferences {
+    color: linear-gradient(to left, #ffffff, #ffffff),
+        linear-gradient(90deg,
+            rgba(240, 148, 187, 1) 0%,
+            rgba(160, 128, 229, 1) 50.52083134651184%,
+            rgba(0, 120, 212, 1) 100%);
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    width: 137px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.certifications {
+    color: linear-gradient(to left, #ffffff, #ffffff),
+        linear-gradient(90deg,
+            rgba(240, 148, 187, 1) 0%,
+            rgba(160, 128, 229, 1) 50.52083134651184%,
+            rgba(0, 120, 212, 1) 100%);
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    width: 137px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.podcasts {
+    color: linear-gradient(to left, #ffffff, #ffffff),
+        linear-gradient(90deg,
+            rgba(240, 148, 187, 1) 0%,
+            rgba(160, 128, 229, 1) 50.52083134651184%,
+            rgba(0, 120, 212, 1) 100%);
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    width: 137px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.community2 {
+    color: linear-gradient(to left, #ffffff, #ffffff),
+        linear-gradient(90deg,
+            rgba(240, 148, 187, 1) 0%,
+            rgba(160, 128, 229, 1) 50.52083134651184%,
+            rgba(0, 120, 212, 1) 100%);
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    width: 137px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tab-line2 {
+    border-style: solid;
+    border-color: #50e6ff;
+    border-width: 2px 0 0 0;
+    width: 17px;
+    height: 0px;
+    position: absolute;
+    left: 29px;
+    top: 26px;
+    transform-origin: 0 0;
+    transform: rotate(90deg) scale(1, 1);
+}
+
+.frame-20187759553 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 229px;
+    top: 18px;
+}
+
+.solution-type {
+    color: #ffffff;
+    text-align: left;
+    font: 600 14px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.row-6 {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.row-7 {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.row-8 {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.row-9 {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.row-10 {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.community-demos {
+    background: #252525;
+    opacity: 0;
+    width: 1440px;
+    height: 230px;
+    position: absolute;
+    left: 0px;
+    top: -109px;
+    overflow: hidden;
+}
+
+.rectangle-367702 {
+    background: #252525;
+    border-radius: 0px 0px 5px 5px;
+    width: 1440px;
+    height: 372px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.solution-type2 {
+    color: linear-gradient(to left, #50e6ff, #50e6ff);
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    width: 103px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.blogs3 {
+    color: linear-gradient(to left, #ffffff, #ffffff);
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    width: 127px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.forums {
+    color: linear-gradient(to left, #ffffff, #ffffff),
+        linear-gradient(90deg,
+            rgba(240, 148, 187, 1) 0%,
+            rgba(160, 128, 229, 1) 50.52083134651184%,
+            rgba(0, 120, 212, 1) 100%);
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    width: 137px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.solutions {
+    color: linear-gradient(to left, #ffffff, #ffffff),
+        linear-gradient(90deg,
+            rgba(240, 148, 187, 1) 0%,
+            rgba(160, 128, 229, 1) 50.52083134651184%,
+            rgba(0, 120, 212, 1) 100%);
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    width: 137px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contribute {
+    color: linear-gradient(to left, #ffffff, #ffffff),
+        linear-gradient(90deg,
+            rgba(240, 148, 187, 1) 0%,
+            rgba(160, 128, 229, 1) 50.52083134651184%,
+            rgba(0, 120, 212, 1) 100%);
+    text-align: left;
+    font: 600 12px/20px "Segoe UI", sans-serif;
+    position: relative;
+    width: 137px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-59653 {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.icon-redirect {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.icon-redirect2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.solution {
+    opacity: 0;
+    width: 1440px;
+    height: 468px;
+    position: absolute;
+    left: 0px;
+    top: -209px;
+}
+
+.frame-20187759842 {
+    background: #252525;
+    border-radius: 0px 0px 5px 5px;
+    padding: 20px 32px 50px 27px;
+    display: flex;
+    flex-direction: row;
+    gap: 21px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.sub-menu2 {
+    flex-shrink: 0;
+    width: 179px;
+    height: 96px;
+    position: static;
+}
+
+.sub-tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 29px;
+    top: 20px;
+}
+
+.sub-menu-items2 {
+    background: var(--sub-menu-items-rest, #252525);
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 177px;
+    position: relative;
+}
+
+.industry-scenarios-agora {
+    color: #ffffff;
+    text-align: left;
+    font: 600 14px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-bar-cards-dark-mode2 {
+    flex-shrink: 0;
+    width: 221px;
+    height: 99px;
+    position: relative;
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.2);
+}
+
+.card2 {
+    background: #131313;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0.5px;
+    padding: 8px 10px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    justify-content: center;
+    width: 221px;
+    position: absolute;
+    left: 0px;
+    top: calc(50% - 49.5px);
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.row-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.getting-started {
+    opacity: 0;
+    width: 1440px;
+    height: 234px;
+    position: absolute;
+    left: 0px;
+    top: -109px;
+}
+
+.sub-menu3 {
+    flex-shrink: 0;
+    width: 179px;
+    height: 195px;
+    position: static;
+}
+
+.overview3 {
+    color: #ffffff;
+    text-align: left;
+    font: 600 14px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.image-269 {
+    background: linear-gradient(to left, #3b3b3b, #3b3b3b);
+    border-radius: 10px 10px 0px 0px;
+    width: 1440px;
+    height: 73px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.rectangle-36917 {
+    background: #3b3b3b;
+    width: 81px;
+    height: 20px;
+    position: absolute;
+    left: 135px;
+    top: 8px;
+}
+
+.f-769-be-16-7-e-89-44-e-1-a-0-e-5-0096347044-a-7 {
+    position: absolute;
+    inset: 0;
+}
+
+.group-427319957 {
+    position: absolute;
+    left: 139px;
+    top: 14px;
+    overflow: visible;
+}
+
+.arc-jumpstart2 {
+    color: #ffffff;
+    text-align: left;
+    font: 400 13px/20px "Segoe UI", sans-serif;
+    position: absolute;
+    left: 158px;
+    top: 15px;
+    width: 169px;
+    height: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-bar {
+    position: absolute;
+    inset: 0;
+}
+
+.rectangle-148 {
+    background: #000000;
+    width: 1440px;
+    height: 48px;
+    position: absolute;
+    left: 0px;
+    top: 73px;
+}
+
+.frame-67 {
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 1329px;
+    top: 86px;
+}
+
+.frame-2018775957 {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.git-hub {
+    color: #ffffff;
+    text-align: left;
+    font: 400 13px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.git-hub-1 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.frame-65 {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    position: absolute;
+    left: 324px;
+    top: 73px;
+}
+
+.main-menu-dropdown {
+    background: var(--nav-bar-rest, #000000);
+    padding: 14px 10px 14px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.frame-59941 {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.getting-started2 {
+    color: var(--text-text-white, #ffffff);
+    text-align: center;
+    font: 400 13px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chevron2 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.solutions2 {
+    color: var(--text-text-white, #ffffff);
+    text-align: center;
+    font: 400 13px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chevron3 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.community3 {
+    color: var(--text-text-white, #ffffff);
+    text-align: center;
+    font: 400 13px/20px "Segoe UI", sans-serif;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chevron4 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.search-bar {
+    width: 188px;
+    height: 30px;
+    position: static;
+}
+
+.search {
+    color: #ffffff;
+    text-align: left;
+    font: 400 13px/20px "Segoe UI", sans-serif;
+    position: absolute;
+    left: 1115px;
+    top: 86px;
+    width: 42px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.rectangle-36769 {
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 1px;
+    width: 188px;
+    height: 30px;
+    position: absolute;
+    left: 1102px;
+    top: 82px;
+}
+
+.icon-search {
+    position: absolute;
+    left: 1261.36px;
+    top: 90.82px;
+    transform: translate(0px, -1.57px);
+    overflow: visible;
+}
+
+.deprecated-t-2-w-avatar-teams {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 6px;
+    top: 7px;
+}
+
+.avatar {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.subtract {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.mb {
+    color: #ffffff;
+    text-align: center;
+    font: 700 10.83px/15.17px "Segoe UI", sans-serif;
+    position: absolute;
+    left: 0px;
+    top: 5.42px;
+    width: 26px;
+}
+
+.rectangle-36947 {
+    background: #2b2b2b;
+    width: 251px;
+    height: 24px;
+    position: absolute;
+    left: 146px;
+    top: 43px;
+}
+
+.aka-ms-arcjumpstart {
+    color: #ffffff;
+    text-align: left;
+    font: 400 12px/20px "Segoe UI", sans-serif;
+    position: absolute;
+    left: 144px;
+    top: 44px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.jumpstart4 {
+    position: absolute;
+    inset: 0;
+}
+
+.clip-path-group {
+    width: 20.54px;
+    height: 18.83px;
+    position: static;
+}
+
+.clip-2 {
+    position: absolute;
+    left: 167px;
+    top: 152.97px;
+    overflow: visible;
+}
+
+.microsoft-azure-jumpstart {
+    width: 249px;
+    height: 23px;
+    position: absolute;
+    left: 46px;
+    top: 86px;
+}
+
+.jumpstart-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 149px;
+    top: 3px;
+}
+
+.arc-jumpstart3 {
+    color: #ffffff;
+    text-align: left;
+    font: 600 14px/20px "Segoe UI", sans-serif;
+    position: relative;
+    width: 94px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ms-azure-logo-horizontal-c-white-rgb {
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    overflow: visible;
+}
+
+.line-123 {
+    position: absolute;
+    left: 131px;
+    top: 0px;
+    transform: translate(-0.5px, -0.5px);
+    overflow: visible;
+}
