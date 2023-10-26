@@ -2,6 +2,7 @@ import React from 'react';
 import Menu from './menu/Menu';
 import Logo from './logo/Logo';
 import Searchbar from './searchbar/Searchbar';
+import ReleaseNotes from './buttons/ReleaseNotes';
 import GitHub from './buttons/GitHub';
 import './NavBar.css';
 
@@ -46,6 +47,7 @@ const NavBar = ({ menuItems, selectedMenuItem, setSelectedMenuItem }) => {
                 }}
             >
                 <Searchbar />
+                <ReleaseNotes />
                 <GitHub />
             </div>
         </span>

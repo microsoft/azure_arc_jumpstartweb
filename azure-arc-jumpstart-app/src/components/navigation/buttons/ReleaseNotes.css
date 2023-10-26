@@ -1,4 +1,4 @@
-.git-hub-button {
+.release-notes-button {
     display: flex;
     flex-direction: row;
     gap: 5px;
@@ -8,7 +8,7 @@
     font: 400 13px/20px "Segoe UI", sans-serif;
 }
 
-.git-hub-frame {
+.release-notes-frame {
     flex-shrink: 0;
     position: relative;
     overflow: visible;

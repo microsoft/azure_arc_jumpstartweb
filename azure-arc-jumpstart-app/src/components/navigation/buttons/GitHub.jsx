@@ -16,7 +16,7 @@ const GitHub = () => {
         >
             GitHub
             <svg
-                className="git-hub-svg"
+                className="git-hub-frame"
                 width="17"
                 height="17"
                 viewBox="0 0 17 17"
