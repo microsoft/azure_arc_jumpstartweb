@@ -1,16 +1,4 @@
 .custom-list-item {
-  
-  align-items: start;
-  justify-content: start;
+  /* list-style-type: disc; */
 }
 
-.frame,
-.frame * {
-  box-sizing: border-box;
-}
-
-.frame {
-  flex-shrink: 0;
-  position: relative;
-  overflow: visible;
-}
