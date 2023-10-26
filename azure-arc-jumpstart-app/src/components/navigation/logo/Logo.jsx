@@ -19,6 +19,8 @@ const Logo = (props) => {
                 viewBox="0 0 114 17"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                onClick={()=>{window.open('https://azure.microsoft.com', '_blank')}}
+                style={{cursor: 'pointer'}}
             >
                 <path
                     fillRule="evenodd"
@@ -91,7 +93,13 @@ const Logo = (props) => {
             >
                 <path d="M0 0L0 23" stroke="white" strokeLinecap="round" />
             </svg>
-            <div className="arc-jumpstart-logo">Arc Jumpstart</div>
+            <div 
+                className="arc-jumpstart-logo" 
+                onClick={()=> window.location.href = '/'}
+                style={{cursor: 'pointer'}}
+            >
+                Arc Jumpstart
+            </div>
         </div>
     )
 }
