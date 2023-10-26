@@ -83,7 +83,7 @@ const SideMenuHeader = ({ node, margin = 0 }) => {
       {
         showChildren && hasChildren && node.children
           .filter((np) => {
-            return !np.path.includes('\\img') && !hideNode(np);
+            return !np.path.includes('\\img') && !np.path.includes('/img') && !hideNode(np);
           })
           .map((childNode) => {
             return <SideMenuItem node={childNode} margin={10} />;
