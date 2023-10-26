@@ -1,9 +1,12 @@
 import React from "react";
 import './ReleaseNotes.css';
+import { Link } from "react-router-dom";
 
 const GitHub = () => {
+    const currentHost = window.location.hostname;
     return (
-        <a
+        <Link to={'release_notes'}>
+        <span
             className="release-notes-button"
             style={{
                 cursor: 'pointer',
@@ -11,7 +14,6 @@ const GitHub = () => {
                 textDecoration: 'none'
             }}
             tabIndex={6}
-            href='release_notes'
         >
             Release Notes
             <svg
@@ -27,7 +29,8 @@ const GitHub = () => {
                     fill="white"
                 />
             </svg>
-        </a>
+        </span>
+        </Link>
     )
 }
 

@@ -2,6 +2,8 @@ import React from "react";
 import './Logo.css';
 
 const Logo = (props) => {
+    // get website current on
+    const currentHost = window.location.hostname;
     return (
         <div
             style={{
@@ -95,7 +97,7 @@ const Logo = (props) => {
             </svg>
             <div 
                 className="arc-jumpstart-logo" 
-                onClick={()=> window.location.href = '/'}
+                onClick={()=> window.location.href = `${currentHost}`}
                 style={{cursor: 'pointer'}}
             >
                 Arc Jumpstart

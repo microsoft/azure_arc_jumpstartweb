@@ -43,7 +43,8 @@ const NavBar = ({ menuItems, selectedMenuItem, setSelectedMenuItem }) => {
             <div
                 style={{
                     display: 'flex',
-                    gap: 10
+                    gap: 10,
+                    alignItems: 'center'
                 }}
             >
                 <Searchbar />
