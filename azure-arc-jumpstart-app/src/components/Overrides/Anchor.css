@@ -4,6 +4,18 @@
     text-decoration: none;
 }
 
+a {
+    color: var(--neutral-text-text-cta, #50e6ff);
+    font: 400 16px/24px "Segoe UI", sans-serif;
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--neutral-text-text-cta, #50e6ff);
+    font: 400 16px/24px "Segoe UI", sans-serif;
+    text-decoration: none;
+}
+
 .custom-anchor:hover {
     border-style: solid;
     border-color: #50e6ff;
